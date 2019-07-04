@@ -1,0 +1,670 @@
+﻿북마크 노멀엔딩
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202 텅빈.txt 첫줄
+키처리 112
+키처리 65
+키처리 90
+게임상태
+//배경음악 1 Sad _Lucy's dead4_demo.mp3
+//배경음악 1 the.mp3
+//딜레이 1000
+
+CG credit_fade credit_fade.png 0 0 아니 -131
+//CG credit_long credit_long.png 0 500 아니 -130
+//쓰레드 credit_long이동
+//이동 credit_long 0 -5600 60 0
+//딜레이 1500
+//페이드아웃 credit_long 4000
+//쓰레드
+//쓰레드시작
+
+CG credit_long credit_long.png 640 700 아니 -130
+쓰레드 credit_long이동
+이동 credit_long 640 -2500 58 0
+페이드아웃 credit_long
+쓰레드
+CG credit_long_2 credit_long_2.png 640 700 아니 -130
+쓰레드 credit_long_2이동
+딜레이 28700
+이동 credit_long_2 640 -2500 58 0
+페이드아웃 credit_long_2
+쓰레드
+CG credit_long_3 credit_long_3.png 640 700 아니 -130
+쓰레드 credit_long_3이동
+딜레이 50050
+이동 credit_long_3 640 -2500 58 0
+페이드아웃 credit_long_3
+쓰레드
+쓰레드시작
+
+//딜레이 24000
+딜레이 3000
+CG credit_thumb00 credit_thumb00.jpg 70 145 아니 -129
+페이드인 credit_thumb00 4700
+딜레이 5500
+페이드아웃 credit_thumb00 4700
+딜레이 3000
+
+CG credit_thumb01 credit_thumb01.jpg 70 145 아니 -129
+페이드인 credit_thumb01 4700
+딜레이 5500
+페이드아웃 credit_thumb01 4700
+딜레이 3000
+
+CG credit_thumb02 credit_thumb02.jpg 70 145 아니 -129
+페이드인 credit_thumb02 4700
+딜레이 5500
+페이드아웃 credit_thumb02 4700
+딜레이 3000
+
+CG credit_thumb03 credit_thumb03.jpg 70 145 아니 -129
+페이드인 credit_thumb03 4700
+딜레이 5500
+페이드아웃 credit_thumb03 4700
+딜레이 3000
+
+CG credit_thumb04 credit_thumb04.jpg 70 145 아니 -129
+페이드인 credit_thumb04 5000
+딜레이 6000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 10000
+쓰레드
+쓰레드시작
+페이드아웃 credit_thumb04 6000
+
+딜레이 3500
+페이드아웃 credit_fade
+
+딜레이 5000
+변수 로고봤음 = 1
+점프 chapter20.txt 첫줄
+
+
+
+
+북마크 10월12일
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202 텅빈.txt 첫줄
+키처리 112
+키처리 65
+키처리 90
+게임상태
+CG credit_1012_1 credit_1012_1.jpg 0 0 아니 -200
+페이드인 credit_1012_1 3000
+딜레이 3000
+페이드아웃 credit_1012_1 3000
+딜레이 500
+CG credit_1012_2 credit_1012_2.jpg 0 0 아니 -200
+페이드인 credit_1012_2 3000
+딜레이 3000
+페이드아웃 credit_1012_2 3000
+딜레이 500
+CG credit_1012_3 credit_1012_3.jpg 0 0 아니 -200
+페이드인 credit_1012_3 3000
+딜레이 3000
+페이드아웃 credit_1012_3 3000
+딜레이 1000
+CG credit_true_5 credit_true_5.jpg 0 0 아니 -200
+페이드인 credit_true_5 3000
+딜레이 4000
+페이드아웃 credit_true_5 3000
+
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 6000
+쓰레드
+쓰레드시작
+
+딜레이 1000
+CG bg_black bg_black.jpg 0 0 아니 -200
+페이드인 bg_black 3000
+화면색깔 0 0 0
+페이드아웃 bg_black
+
+딜레이 6000
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+조건 $CG갤러리 = 1 여기 초로의기억
+효과음 decide11 decide11.mp3
+CG message_box_info message_box_info.png 159 24 아니 -130
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 478 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "CG 갤러리"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 601 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "가 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 469 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 687 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "CG Gallery"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 466 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "CGギャラリー"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 627 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $CG갤러리 = 1
+딜레이 1000
+
+북마크 초로의기억
+조건 $초로의기억해금 = 1 타이틀.txt 첫줄
+효과음 decide11 decide11.mp3
+CG message_box_info message_box_info.png 159 24 아니 -130
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 474 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "초로의 기억"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 605 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "이 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 416 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 634 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "An Old Man's Wish"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 481 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "初老の記憶"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 612 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $초로의기억해금 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 3000
+
+점프 타이틀.txt 첫줄
+
+
+
+
+
+
+북마크 트루엔딩
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202 텅빈.txt 첫줄
+키처리 112
+키처리 65
+키처리 90
+게임상태
+//배경음악 1 vocal _Lucy's theme_ demo.mp3
+배경음악 1 True_Eternity.mp3
+페이드인 배경음악 1500
+CG credit_fade credit_fade_true.png 0 0 아니 -131
+
+쓰레드 페이드인
+딜레이 10500
+CG lyrics_00 lyrics_00.png 0 620 아니 -132
+페이드인 lyrics_00 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 21500
+페이드아웃 lyrics_00 1000
+쓰레드
+쓰레드 페이드인
+딜레이 23000
+CG lyrics_01 lyrics_01.png 0 620 아니 -132
+페이드인 lyrics_01 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 31500
+페이드아웃 lyrics_01 1000
+쓰레드
+쓰레드 페이드인
+딜레이 33050
+CG lyrics_02 lyrics_02.png 0 620 아니 -132
+페이드인 lyrics_02 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 43500
+페이드아웃 lyrics_02 1000
+쓰레드
+쓰레드 페이드인
+딜레이 44800
+CG lyrics_03 lyrics_03.png 0 620 아니 -132
+페이드인 lyrics_03 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 57300
+페이드아웃 lyrics_03 1000
+쓰레드
+쓰레드 페이드인
+딜레이 58300
+CG lyrics_04 lyrics_04.png 0 620 아니 -132
+페이드인 lyrics_04 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 68800
+페이드아웃 lyrics_04 1000
+쓰레드
+쓰레드 페이드인
+딜레이 69800
+CG lyrics_05 lyrics_05.png 0 620 아니 -132
+페이드인 lyrics_05 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 75000
+페이드아웃 lyrics_05 1000
+쓰레드
+쓰레드 페이드인
+딜레이 76000
+CG lyrics_06 lyrics_06.png 0 620 아니 -132
+페이드인 lyrics_06 1000
+쓰레드
+쓰레드 페이드아웃
+딜레이 86400
+페이드아웃 lyrics_06 1000
+쓰레드
+쓰레드시작
+
+딜레이 5000
+CG credit_true_1 credit_true_1.jpg 0 0 아니 -131
+페이드인 credit_true_1 3000
+딜레이 2500
+페이드아웃 credit_true_1 3000
+딜레이 500
+CG credit_true_2 credit_true_2.jpg 0 0 아니 -131
+페이드인 credit_true_2 3000
+딜레이 2500
+페이드아웃 credit_true_2 3000
+딜레이 500
+CG credit_true_3 credit_true_3.jpg 0 0 아니 -131
+페이드인 credit_true_3 3000
+딜레이 2500
+페이드아웃 credit_true_3 3000
+
+딜레이 2000
+
+
+CG credit_long_true credit_long_true.png 640 700 아니 -130
+쓰레드 credit_long_true이동
+이동 credit_long_true 640 -2800 87 0
+페이드아웃 credit_long_true
+쓰레드
+CG credit_long_true_2 credit_long_true_2.png 640 700 아니 -130
+쓰레드 credit_long_true_2이동
+딜레이 19000
+이동 credit_long_true_2 640 -2800 87 0
+페이드아웃 credit_long_true_2
+쓰레드
+CG credit_long_true_3 credit_long_true_3.png 640 700 아니 -130
+쓰레드 credit_long_true_3이동
+딜레이 37000
+이동 credit_long_true_3 640 -2800 87 0
+페이드아웃 credit_long_true_3
+쓰레드
+쓰레드시작
+
+딜레이 1000
+
+CG credit_thumb05 credit_thumb05.jpg 0 130 아니 -129
+크기 credit_thumb05 1.2 1.2 0
+쓰레드 페이드인
+페이드인 credit_thumb05 4000
+쓰레드
+쓰레드 줌인
+크기 credit_thumb05 1 1 20000
+쓰레드
+쓰레드 페이드아웃
+딜레이 11000
+페이드아웃 credit_thumb05 4000
+쓰레드
+쓰레드시작
+딜레이 12000
+
+CG credit_thumb06 credit_thumb06.jpg 0 130 아니 -129
+크기 credit_thumb06 1.2 1.2 0
+쓰레드 페이드인
+페이드인 credit_thumb06 4000
+쓰레드
+쓰레드 줌인
+크기 credit_thumb06 1 1 20000
+쓰레드
+쓰레드 페이드아웃
+딜레이 11000
+페이드아웃 credit_thumb06 4000
+쓰레드
+쓰레드시작
+딜레이 12000
+
+CG credit_thumb07 credit_thumb07.jpg 0 130 아니 -129
+크기 credit_thumb07 1.2 1.2 0
+쓰레드 페이드인
+페이드인 credit_thumb07 4000
+쓰레드
+쓰레드 줌인
+크기 credit_thumb07 1 1 20000
+쓰레드
+쓰레드 페이드아웃
+딜레이 11000
+페이드아웃 credit_thumb07 4000
+쓰레드
+쓰레드시작
+딜레이 12000
+
+CG credit_thumb08 credit_thumb08.jpg 0 130 아니 -129
+크기 credit_thumb08 1.2 1.2 0
+쓰레드 페이드인
+페이드인 credit_thumb08 4000
+쓰레드
+쓰레드 줌인
+크기 credit_thumb08 1 1 20000
+쓰레드
+쓰레드 페이드아웃
+딜레이 11000
+페이드아웃 credit_thumb08 4000
+쓰레드
+쓰레드시작
+딜레이 12000
+
+CG credit_thumb09 credit_thumb09.jpg 0 130 아니 -129
+크기 credit_thumb09 1.2 1.2 0
+쓰레드 페이드인
+페이드인 credit_thumb09 4000
+쓰레드
+쓰레드 줌인
+크기 credit_thumb09 1 1 20000
+쓰레드
+쓰레드 페이드아웃
+딜레이 11000
+페이드아웃 credit_thumb09 4000
+쓰레드
+쓰레드시작
+딜레이 12000
+
+딜레이 4000
+
+페이드아웃 credit_fade
+
+CG credit_true_5 credit_true_5.jpg 0 0 아니 -200
+페이드인 credit_true_5 2500
+딜레이 2000
+페이드아웃 credit_true_5 2500
+
+딜레이 1000
+
+CG FIN FIN.jpg 0 0 아니 -200
+페이드인 FIN 3000
+딜레이 4000
+페이드아웃 FIN 4000
+딜레이 1000
+
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+
+CG bg_black bg_black.jpg 0 0 아니 -200
+페이드인 bg_black 3000
+화면색깔 0 0 0
+페이드아웃 bg_black
+딜레이 2000
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+조건 $진정한영원트로피 = 1 여기 영원
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 446 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "진정한 영원"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 583 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 414 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 709 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Unto Eternity"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 453 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "真の永遠"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 560 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드시작
+변수 $진정한영원트로피 = 1
+딜레이 1000
+
+북마크 영원
+조건 $REUNION버튼처음생성 = 1 여기 타이틀로
+효과음 decide11 decide11.mp3
+CG message_box_info message_box_info.png 159 24 아니 -130
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 481 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "REUNION"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 600 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "이 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 475 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 693 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "REUNION"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 482 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "リユニオン"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 612 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $REUNION버튼처음생성 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+
+딜레이 3000
+
+북마크 타이틀로
+변수 로고봤음 = 1
+점프 타이틀.txt 첫줄
+
+
+
+

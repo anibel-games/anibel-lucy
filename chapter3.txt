@@ -1,0 +1,966 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+효과음 door_bell door_bell.mp3
+배경룰페이드인 룰_29.png 500
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 1000
+스크립트 대화창함수.txt
+스크립트 이름.txt 가게주인
+대사 “ What… a customer already?!
+대기
+대사잇기  Hold on a second. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Talk about a grumpy demeanor…
+대기
+대사 After a while, a man emerges from the back, scratching his head.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+변수 가게주인 = "s23"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 2000
+쓰레드 배경음악페이드인
+배경음악 반복 free0257.mp3
+페이드인 배경음악 2000
+쓰레드
+쓰레드시작
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 And judging from that none-too-pleasant expression,
+대기
+대사 I’m pretty sure the guy’s not an early riser…
+대기
+대사 Stifling a yawn he asks,
+대기
+스크립트 가게주인.txt 24
+스크립트 이름.txt 가게주인
+대사 “ So, what can I do for ya so early in the morning? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Unable to move my arms, I gesture at the android draped over my back with my
+대사새줄
+대사잇기 chin.
+대기
+스크립트 이름.txt 주인공
+대사 “ Can you fix this? ”
+대기
+스크립트 가게주인.txt 21
+스크립트 이름.txt 가게주인
+대사 “ Is that… an android? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Wiping his tired eyes, he gazes intently at the robot.
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ Let me see here.
+대기
+대사잇기  Hmm…
+대기
+스크립트 가게주인.txt 21 1
+대사잇기  I don’t think I’ve ever seen this model before. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I spot a glint of curiosity in those sleepy, half-closed eyes of his.
+대기
+대사 He walks over to take a closer look.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 가게주인.txt 지우기
+딜레이 300
+변수 가게주인 = "s23"
+CG {{가게주인}} {{가게주인}}.png -152 -30
+크기 {{가게주인}} 1.4 1.4 0
+페이드인 {{가게주인}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Hmm…
+대기
+변수 가게주인 = "s19"
+CG {{가게주인}} {{가게주인}}.png -152 -30
+크기 {{가게주인}} 1.4 1.4 0
+쓰레드 s19 big
+페이드인 {{가게주인}} 300
+페이드아웃 s23 300
+쓰레드
+쓰레드시작
+딜레이 300
+대사잇기  Hmm…
+대기
+변수 가게주인 = "s17"
+CG {{가게주인}} {{가게주인}}.png -152 -30
+크기 {{가게주인}} 1.4 1.4 0
+쓰레드 s17 big
+페이드인 {{가게주인}} 300
+페이드아웃 s19 300
+쓰레드
+쓰레드시작
+딜레이 300
+대사잇기  Hmm… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 가게주인.txt 지우기
+딜레이 300
+변수 가게주인 = "s22"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Well, I’m stumped! Can't make it out the model… ”
+대기
+스크립트 가게주인.txt 06 1
+대사 “ It’s probably some obscure model from an unknown company or it’s never
+대사새줄
+대사잇기 actually been released to public. ”
+대기
+대사 “ Where'd you get this, kid? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 How should I play this…
+대기
+대사 He might call the cops on me,
+대기
+대사 As what I did was clearly illegal.
+대기
+대사새줄
+대사잇기 So…
+대기
+대사 What should I say?
+대기
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_언제구매
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline3_1 whiteline.png -1280 73 아니 0
+쓰레드 whiteline3_1페이드
+페이드인 whiteline3_1 500 
+쓰레드
+쓰레드 whiteline3_1 이동
+이동 whiteline3_1 0 73 3000 1000
+쓰레드
+쓰레드 whiteline3_2페이드
+딜레이 200
+CG whiteline3_2 whiteline.png 1280 127 아니 0
+페이드인 whiteline3_2 500 
+쓰레드
+쓰레드 whiteline3_2 이동
+딜레이 200
+이동 whiteline3_2 0 127 3000 1000
+쓰레드
+쓰레드 choice_bar3_1cg페이드인
+딜레이 500
+CG choice_bar3_1cg choice_bar.png 0 73 아니 3
+페이드인 choice_bar3_1cg 500
+쓰레드
+쓰레드 whiteline3_3페이드
+딜레이 400
+CG whiteline3_3 whiteline.png -1280 212 아니 0
+페이드인 whiteline3_3 500 
+쓰레드
+쓰레드 whiteline3_3 이동
+딜레이 400
+이동 whiteline3_3 0 212 3000 1000
+쓰레드
+쓰레드 whiteline3_4페이드
+딜레이 600
+CG whiteline3_4 whiteline.png 1280 266 아니 0
+페이드인 whiteline3_4 500 
+쓰레드
+쓰레드 whiteline3_4 이동
+딜레이 600
+이동 whiteline3_4 0 266 3000 1000
+쓰레드
+쓰레드 choice_bar3_2cg페이드인
+딜레이 900
+CG choice_bar3_2cg choice_bar.png 0 212 아니 3
+페이드인 choice_bar3_2cg 500
+쓰레드
+쓰레드 whiteline3_5페이드
+딜레이 800
+CG whiteline3_5 whiteline.png -1280 350 아니 0
+페이드인 whiteline3_5 500 
+쓰레드
+쓰레드 whiteline3_5 이동
+딜레이 800
+이동 whiteline3_5 0 350 3000 1000
+쓰레드
+쓰레드 whiteline3_6페이드
+딜레이 1000
+CG whiteline3_6 whiteline.png 1280 404 아니 0
+페이드인 whiteline3_6 500 
+쓰레드
+쓰레드 whiteline3_6 이동
+딜레이 1000
+이동 whiteline3_6 0 404 3000 1000
+쓰레드
+쓰레드 choice_bar3_3cg페이드인
+딜레이 1300
+CG choice_bar3_3cg choice_bar.png 0 350 아니 3
+페이드인 choice_bar3_3cg 500
+쓰레드
+쓰레드시작
+딜레이 1800
+
+라벨 선택지3_1 386 83 255 255 255 255 {{그냥길가다가주웠어요}}
+출력순서 선택지3_1 2
+라벨속성 선택지3_1 36 응 NanumGothic
+변수 그냥길가다가주웠어요 = "I found it lying somewhere outside." 
+라벨 선택지3_2 506 222 255 255 255 255 {{하늘에서뚝떨어졌어요}}
+출력순서 선택지3_2 2
+라벨속성 선택지3_2 36 응 NanumGothic
+변수 하늘에서뚝떨어졌어요 = "It fell from the sky." 
+라벨 선택지3_3 513 360 255 255 255 255 {{그냥솔직하게말해보자}}
+출력순서 선택지3_3 2
+라벨속성 선택지3_3 36 응 NanumGothic
+변수 그냥솔직하게말해보자 = "Tell him the truth." 
+//라벨 선택지3_1 477 83 255 255 255 255 {{그냥길가다가주웠어요}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 36 응 NanumGothic
+//변수 그냥길가다가주웠어요 = "그냥 길 가다가 주웠어요." 
+//라벨 선택지3_2 481 222 255 255 255 255 {{하늘에서뚝떨어졌어요}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 36 응 NanumGothic
+//변수 하늘에서뚝떨어졌어요 = "하늘에서 뚝 떨어졌어요." 
+//라벨 선택지3_3 447 360 255 255 255 255 {{그냥솔직하게말해보자}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 36 응 NanumGothic
+//변수 그냥솔직하게말해보자 = "……그냥 솔직하게 말해 보자." 
+//라벨 선택지3_1 504 85 255 255 255 255 {{그냥길가다가주웠어요}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 32 아니 Apple osaka_unicode
+//변수 그냥길가다가주웠어요 = "道端で拾いました。" 
+//라벨 선택지3_2 457 224 255 255 255 255 {{하늘에서뚝떨어졌어요}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 32 아니 Apple osaka_unicode
+//변수 하늘에서뚝떨어졌어요 = "空から降ってきたんです。" 
+//라벨 선택지3_3 553 362 255 255 255 255 {{그냥솔직하게말해보자}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 32 아니 Apple osaka_unicode
+//변수 그냥솔직하게말해보자 = "正直に話す。" 
+
+쓰레드 선택지3_1
+페이드인 선택지3_1 500
+쓰레드
+쓰레드 선택지3_2
+페이드인 선택지3_2 500
+쓰레드
+쓰레드 선택지3_3
+페이드인 선택지3_3 500
+쓰레드
+쓰레드 그냥길가다가주웠어요
+시스템버튼 choice_bar3_1 0 73 1280 55 점프 chapter3.txt 그냥길가다가주웠어요 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_1 3
+쓰레드
+쓰레드 하늘에서뚝떨어졌어요
+시스템버튼 choice_bar3_2 0 212 1280 55 점프 chapter3.txt 하늘에서뚝떨어졌어요 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_2 3
+쓰레드
+쓰레드 그냥솔직하게말해보자
+시스템버튼 choice_bar3_3 0 350 1280 55 점프 chapter3.txt 그냥솔직하게말해보자 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_3 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar3_1cg
+페이드아웃 choice_bar3_2cg
+페이드아웃 choice_bar3_3cg
+페이드아웃 whiteline3_1
+페이드아웃 whiteline3_2
+페이드아웃 whiteline3_3
+페이드아웃 whiteline3_4
+페이드아웃 whiteline3_5
+페이드아웃 whiteline3_6
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_언제구매
+
+북마크 그냥길가다가주웠어요
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_1 light.png -456 48 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice3_1 1280 48 3000 2000
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_1cg choice_bar_push.png 0 73 아니 -130 
+페이드인 choice_bar3_1cg 200
+페이드아웃 선택지3_1
+페이드아웃 choice_bar3_1
+페이드아웃 choice_bar3_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ I found it lying somewhere outside. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It was the first thing that had come to my mind…
+대기
+대사새줄
+대사잇기 and it didn’t seem too believable.
+대기
+대사 What is he going to say?
+대기
+스크립트 가게주인.txt 21
+스크립트 이름.txt 가게주인
+대사 “ You found it somewhere? This thing? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yes. Someone probably just threw it out. ”
+대기
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Hah! Well… Must’a been some rich fella. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Robots are typically quite expensive… Especially the premium models.
+대기
+대사새줄
+대사잇기 Though more common nowadays, it’s still a luxury to own one.
+대기
+대사 You don’t just throw them away like you would with old toys.
+대기
+대사 It’s like saving up to buy a top-of-the-line television.
+대기
+대사 On top of that, if this android really is a high-class model… Hmm…
+대기
+대사 The repairman views the robot from multiple angles.
+대기
+북마크 K로보틱스
+스크립트 가게주인.txt 28
+페이드아웃 s18 300
+페이드아웃 s26 300
+스크립트 이름.txt 가게주인
+대사 “ Now, I don’t know where this thing is exactly from… but it’s definitely not from the S Company.
+대기
+대사잇기  Mind if I take a closer look? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Go right ahead. ”
+대기
+스크립트 이름.txt 이름지우기
+페이드아웃 {{가게주인}} 500
+효과음 thud1 thud1.mp3 0
+대사 I set down the robot.
+대기
+스크립트 이름.txt 가게주인
+대사 “ Hmm… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The repairman examines it meticulously from head to toe.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+변수 루시 = "l04"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The android's like a statue,
+대기
+대사 Its eyes staring right at me.
+대기
+대사 Good thing I’d told it to stay quiet before we got here.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 루시.txt 지우기1000
+딜레이 800
+변수 가게주인 = "s04"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Number on its belly here… P-I-M… ”
+대기
+스크립트 가게주인.txt 15 1
+대사 “ Ah, must be from K-Robotics. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I suddenly grow a bit nervous.
+대기
+대사 This guy’s sharper than he looks…
+대기
+대사 Well, no choice but to ride this,
+대기
+대사새줄
+대사잇기 I play dumb.
+대기
+스크립트 이름.txt 주인공
+대사 “ K-Robotics, you said? ”
+대기
+스크립트 가게주인.txt 02
+스크립트 이름.txt 가게주인
+대사 “ That's right.
+대기
+대사잇기  They're close by. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ And how can you… ”
+대기
+스크립트 가게주인.txt 01
+스크립트 이름.txt 가게주인
+대사 “ I recognize the build. ”
+대기
+대사 “ This make… KR’re the only ones that can produce this level of quality ”
+대기
+스크립트 가게주인.txt 04 1
+대사 “ But something’s not right… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He stares at the android.
+대기
+스크립트 이름.txt 가게주인
+대사 “ I’ve seen my fair-share but this model’s a complete unknown… ”
+대기
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Are you like, the only child of that company’s president or something…? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Uh, no. ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ Then I guess you really did find it somewhere. ”
+대기
+스크립트 가게주인.txt 24
+스크립트 이름.txt 가게주인
+대사 “ Consider yourself damn lucky.
+대기
+대사잇기  Not a single bit of information has been released
+대사새줄
+대사잇기 about this model yet. That’s how new it is. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Looks like I’ve hit the jackpot.
+대기
+대사 Sure doesn’t feel like it though…
+대기
+점프 그런데이게뭐야
+
+북마크 하늘에서뚝떨어졌어요
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_2 light.png -456 187 아니 -130
+쓰레드 light_choice2 이동 
+이동 light_choice3_2 1280 187 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_2cg choice_bar_push.png 0 212 아니 -130 
+페이드인 choice_bar3_2cg 200
+페이드아웃 선택지3_2
+페이드아웃 choice_bar3_2
+페이드아웃 choice_bar3_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Back in middle school, I confessed to my first love.
+대기
+대사 The tension. The drama.
+대기
+대사새줄
+대사잇기 It’s something I won’t be able to forget as long as I live.
+대기
+대사 Capturing those emotions within my lips, I say the following words with utmost
+대사새줄
+대사잇기 sincerity.
+대기
+스크립트 이름.txt 주인공
+대사 “ It fell from the sky. ”
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ Right… Sure it did. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He’s sharper than I thought. I like that.
+대기
+스크립트 가게주인.txt 26
+스크립트 이름.txt 가게주인
+대사 “ Hey, you don’t wanna tell me, that’s fine. ”
+대기
+대사 “ Not my business to pry. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 After flashing a charming grin,
+대기
+대사 He resumed examining the android.
+대기
+
+점프 K로보틱스
+
+북마크 그냥솔직하게말해보자
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_3 light.png -456 325 아니 -130
+쓰레드 light_choice3 이동 
+이동 light_choice3_3 1280 325 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_3cg choice_bar_push.png 0 350 아니 -130 
+페이드인 choice_bar3_3cg 200
+페이드아웃 선택지3_3
+페이드아웃 choice_bar3_3
+페이드아웃 choice_bar3_3cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_3
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ I found it in the junkyard. ”
+대기
+스크립트 가게주인.txt 21
+스크립트 이름.txt 가게주인
+대사 “ Junkyard?
+대기
+대사잇기  You don’t mean ‘ that ’ company’s junkyard? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He tosses his thumb over his shoulder.
+대기
+대사새줄
+대사잇기 I’m not exactly sure where he’s referring to.
+대기
+대사 But I haven’t seen any other junkyards around here, so…
+대기
+스크립트 이름.txt 주인공
+대사 “ Yes, That’s probably the one. ”
+대기
+스크립트 가게주인.txt 24
+스크립트 이름.txt 가게주인
+대사 “ You’ve got some guts, kid.
+대기
+대사잇기  I hope you know how much the fines are? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I know that anything in the world is free as long as you don’t get caught. ”
+대기
+스크립트 가게주인.txt 25
+스크립트 이름.txt 가게주인
+대사 “ Hahaha! You’re funny, kid. I like that. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Well,
+대기
+대사 Guess he’s cool with it.
+대기
+점프 그런데이게뭐야
+
+북마크 그런데이게뭐야
+스크립트 가게주인.txt 16
+페이드아웃 s24 300
+페이드아웃 s25 300
+스크립트 이름.txt 가게주인
+대사 “ Waitaminit… What’s this? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A nasty frown forms on his face.
+대기
+스크립트 이름.txt 주인공
+대사 “ Is something wrong? ”
+대기
+스크립트 가게주인.txt 22
+스크립트 이름.txt 가게주인
+대사 “ Yeah… You could say that. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Suddenly, he starts fussing like a little kid.
+대기
+스크립트 가게주인.txt 09
+스크립트 이름.txt 가게주인
+대사 “ What kind of sicko would do this? ”
+대기
+대사 “ Just look at it! The whole frame’s ruined! ”
+대기
+스크립트 가게주인.txt 17
+스크립트 이름.txt 가게주인
+대사 “ It won’t even be able to move around properly on its own! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He was right.
+대기
+대사 Pretty savvy of him to point that out. I guess he's the real deal, after all.
+대기
+스크립트 이름.txt 주인공
+대사 “ So you think you can fix it? ”
+대기
+스크립트 가게주인.txt 04
+스크립트 이름.txt 가게주인
+대사 “ That’s not the main issue here. ”
+대기
+대사 “ There’s something more important. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ And what's that? ”
+대기
+스크립트 가게주인.txt 28
+스크립트 이름.txt 가게주인
+대사 “ Do you have the resolve to take proper care of an android? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ The resolve? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Where’d this come from?
+대기
+스크립트 가게주인.txt 09
+스크립트 이름.txt 가게주인
+대사 “ Listen. ”
+대기
+대사 “ Androids break easily.
+대기
+대사잇기  They’re fragile.
+대기
+대사잇기  They’re sensitive.
+대기
+대사잇기  They’re delicate. ”
+대기
+스크립트 가게주인.txt 12
+스크립트 이름.txt 가게주인
+대사 “ Do you get what I’m saying here? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He emphasizes his point three times.
+대기
+대사새줄
+대사잇기 That’s how passionate he was about it.
+대기
+대사 I can see that he really loves his robots.
+대기
+대사 But at the same time, he’s starting to freak me out.
+대기
+대사 He continues to rant.
+대기
+스크립트 가게주인.txt 17
+스크립트 이름.txt 가게주인
+대사 “ To a lot of people, androids are nothing but fancy toys nowadays. ”
+대기
+대사 “ I mean, those kinds of folks pay for my food and my bills, 
+대기
+대사잇기  but whenever I hear
+대사새줄
+대사잇기  about how they’ve been mistreating their androids, I tend to lose my temper. ”
+대기
+스크립트 가게주인.txt 06 1
+대사 “ They don’t understand how important these creatures really are to us. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I unwittingly take a small step back.
+대기
+대사 Creatures.
+대기
+대사새줄
+대사잇기 This man just referred to androids as creatures.
+대기
+대사 …He’s not right in the head.
+대기
+스크립트 가게주인.txt 지우기
+딜레이 500
+대사 From time to time, there've been people who fall in love with androids.
+대기
+대사 Not just carnal desire,
+대기
+대사 I’m talking about people who are willing to spend the rest of their lives with
+대사새줄
+대사잇기 androids—treating them as equals.
+대기
+대사 It’s a controversial topic that’s getting more discussion.
+대기
+대사 It’s an abnormality spawning from an advancing civilization with constant
+대사새줄
+대사잇기 innovation in technology.
+대기
+대사 As someone who’s never seen it happen firsthand, I’ve always refused to believe it.
+대기
+대사새줄
+대사잇기 I can't believe such people actually exist…
+대기
+대사 An android simply lacks the intellect to be paired up with a human being.
+대기
+대사새줄
+대사잇기 It’s nothing but a glorified hunk of metal that can make our lives a bit easier.
+대기
+대사 I’d rather spend my entire life with a monkey.
+대기
+대사새줄
+대사잇기 At least, monkeys are actual living creatures.
+대기
+대사 And they share many of similarities with humans.
+대기
+대사 This is my first-hand experience with such a case,
+대기
+대사 And I feel more disappointed than shocked.
+대기
+대사 He seemed perfectly normal… Guess you just can’t judge a book by its cover.
+대기
+대사지우기
+변수 가게주인 = "s12"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+스크립트 이름.txt 가게주인
+대사 “ I’ll get it fixed but you’d better treat it right.
+대기
+대사잇기  Got it? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Really? I’m not the one who banged it up in the first place.
+대기
+대사새줄
+대사잇기 Even so, I don’t feel like it’s worth starting an argument over…
+대기
+대사 Let’s just get this over with…
+대기
+스크립트 이름.txt 주인공
+대사 “ Crystal. ”
+대기
+스크립트 가게주인.txt 13
+스크립트 이름.txt 가게주인
+대사 “ Yeah! ”
+대기
+대사 “ What a great kid.
+대기
+대사잇기  At least you listen when someone tells you something. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Since we’re all chummy now, how about lowering your price? ”
+대기
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Hah!
+대기
+대사잇기  Don’t push yer luck, kid. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That was a full 180…
+대기
+대사새줄
+대사잇기 So much for our budding friendship.
+대기
+스크립트 가게주인.txt 26
+스크립트 이름.txt 가게주인
+대사 “ You know what? Fine.
+대기
+대사잇기  Half price. Since yer my first customer of the day. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’m relieved to hear that.
+대기
+대사새줄
+대사잇기 Any discounts are most certainly welcome.
+대기
+//배경음악 반복 free0257.mp3
+스크립트 이름.txt 주인공
+대사 “ Great! Can you have it ready by the end of school? ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ It’s a pretty light day so…
+대기
+대사잇기  Yeah, it’s doable. ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 buttons_calculator buttons_calculator.mp3
+대사 He punches some numbers into his calculator.
+대기
+대사새줄
+대사잇기 Then he shows me the results.
+대기
+페이드아웃 buttons_calculator 200
+스크립트 가게주인.txt 15
+스크립트 이름.txt 가게주인
+대사 “ I was planning on charging you only about this much… What do you think? ”
+대기
+//페이드아웃 배경음악 1000
+효과음 cash_register_purchase cash_register_purchase.mp3
+스크립트 이름.txt 주인공1
+대사 “ ………… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I blank-out for a bit.
+대기
+대사 ……
+딜레이 700
+대사잇기 ……
+딜레이 700
+대사잇기 ………
+대기
+대사 There are a lot of video games that I’ve always wanted to buy…
+대기
+대사새줄
+대사잇기 I also need to save up for new textbooks that I’ll be using next year…
+대기
+대사 This robot had better pay for itself.
+대기
+//쓰레드 배경음악페이드인
+//배경음악 반복 free0257.mp3
+//페이드인 배경음악 1500
+//쓰레드
+//쓰레드시작
+스크립트 이름.txt 주인공
+대사 “ Fine… I'll pay you when I come back. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 가게주인.txt 지우기
+딜레이 500
+대사 Holding out my treasured pocket watch I glance at the time.
+대기
+대사 I’ve wasted way too much time here.
+대기
+대사 An out-dated gear-clocker in this day and age?
+대기
+대사새줄
+대사잇기 I like it.
+대기
+대사 Has a nostalgic charm.
+대기
+대사 I’m well-aware that these types of watches are hard to find.
+대기
+대사 But more importantly, this is my personal way of rebelling against this continuously developing society.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey, you piece of junk. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 안드로이드
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Can't you hear me? ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 No response.
+대기
+대사 I finally decide to address it by name.
+대기
+스크립트 이름.txt 주인공
+대사 “ Lucy. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 04
+딜레이 500
+대사 The robot immediately reacts.
+대기
+대사 What's with this thing?
+대기
+스크립트 이름.txt 주인공
+대사 “ I’ll be back after school. ”
+대기
+대사 “ Behave yourself, all right? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 03
+스크립트 이름.txt 안드로이드
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The android wobbles its head back and forth.
+대기
+대사 I’m hoping it understood me…
+대기
+//배경음악 반복 free0257.mp3
+대사 And with that, I leave the shop.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2500
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_25.png 700
+딜레이 3000
+
+점프 chapter4.txt 첫줄
+

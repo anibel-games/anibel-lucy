@@ -1,0 +1,1477 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 20, You"
+//변수 슬롯씬이름 = "10월 20일 주인공"
+//변수 슬롯씬이름 = "10月20日 主人公"
+
+딜레이 1000
+배경룰페이드인 룰_31.PNG 700
+배경 bg_schoolgate_day bg_schoolgate_day.jpg
+//음악추가했음
+배경음악 반복 free68.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt
+대사 School ended a bit earlier than usual today.
+대기
+대사 I heard they were celebrating something, but I’ve already forgotten what it was
+대사새줄
+대사잇기 about.
+대기
+대사 It’s probably nothing important.
+대기
+대사 I hurry home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+배경룰페이드아웃 룰_20.png 700
+딜레이 1500
+배경룰페이드인 룰_29.png 700
+배경 bg_street01_day bg_street01_day.jpg
+딜레이 1000
+배경룰페이드인 룰_29.png 700
+배경 bg_house_day bg_house_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy wasn’t waiting for me outside.
+대기
+대사새줄
+대사잇기 At this early hour, that’s to be expected.
+대기
+대사 She’s probably doing some housework.
+대기
+대사 She’ll be surprised to know that I’m home already.
+대기
+대사 I’m kind of looking forward to how she’ll react.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_16.png 700
+딜레이 1000
+배경룰페이드인 룰_30.png 700
+배경 bg_house_passage_day bg_house_passage_day.jpg
+딜레이 1500
+배경룰페이드인 룰_15.png 700
+배경 bg_livingroom_day bg_livingroom_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy wasn’t in the living room either.
+대기
+대사 I thought maybe she had gone to help out at the shop, but that doesn’t seem like
+대사새줄
+대사잇기 the case.
+대기
+대사 I hear a faint sound of someone humming.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0453_{{$언어}}.mp3
+대사 “ Hum, hum~ Hum~ ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wonder what she’s doing.
+대기
+대사 I make my way towards the source of the sound.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_20.png 1000
+딜레이 500
+효과음 laundry2 laundry2.mp3 반복
+페이드인 laundry2 1500
+딜레이 2000
+배경룰페이드인 룰_20.png 1000
+배경 ev08_1bg ev08_1.jpg
+//ev08_1 출력
+CG ev08_1 ev08_1.jpg
+페이드아웃 ev08_1bg
+////앨범에 ev08_1 추가
+오마케추가 ev08_1 ev08_1.jpg
+변수 $ev08_1획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I find Lucy there.
+대기
+대사 I couldn’t tell what she was doing at first.
+대기
+대사새줄
+대사잇기 But upon a closer look, I could see that she’s doing some laundry by hand.
+대기
+대사 While silently watching, I think to myself.
+대기
+대사새줄
+대사잇기 The washing machine’s working fine, so why is she doing this?
+대기
+대사 As I’m about to call out to her, I stop myself.
+대기
+대사 I notice a mountain of dress shirts piled up beside her.
+대기
+대사새줄
+대사잇기 And another pile of pants right next to it.
+대기
+대사 I couldn’t tell how much there were just by looking.
+대기
+대사새줄
+대사잇기 But it was probably something into the three digits.
+대기
+대사 I was more perplexed than surprised.
+대기
+스크립트 이름.txt 주인공
+대사 “ What’s going on here? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev08_2 출력
+CG ev08_2 ev08_2.jpg
+페이드인 ev08_2 300
+페이드아웃 ev08_1
+////앨범에 ev08_2 추가
+오마케추가 ev08_2 ev08_2.jpg
+변수 $ev08_2획득 = 1
+대사크기 45
+스크립트 이름.txt 루시
+보이스 lucy0454_{{$언어}}.mp3
+대사 “ Ah!
+딜레이 1000
+대사잇기  Master is back at this hour? ”
+대기
+대사크기 35
+스크립트 이름.txt 주인공1
+대사 “ I’m asking you what is going on here! ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0455_{{$언어}}.mp3
+대사 “ Oh no, Lucy had better hide everything before… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It’s too late for that now. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’m not in the mood to go along with her foolishness.
+대기
+//배경음악 반복 free68.mp3
+대사 I pressure Lucy with a silent stare.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 200
+
+배경룰페이드인
+배경 bg_laundry_day bg_laundry_day.jpg
+페이드아웃 ev08_2 1500
+딜레이 500
+변수 루시 = "l78"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0456_{{$언어}}.mp3
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What exactly is all this? ”
+대기
+스크립트 루시.txt 29
+스크립트 이름.txt 루시
+보이스 lucy0457_{{$언어}}.mp3
+대사 “ A-as master can see, it’s a pile of laundry. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Whose? ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0458_{{$언어}}.mp3
+대사 “ M-master and his father’s… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Lies. ”
+대기
+대사 “ Even with all of our clothes combined, the pile would be much smaller than
+대사새줄
+대사잇기 that. ”
+대기
+대사 “ Just how many do you have here? ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0459_{{$언어}}.mp3
+대사 “ Lucy hasn’t tried counting, so… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Where’s this all from? ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy only returns a nervous glance.
+대기
+대사새줄
+대사잇기 She doesn’t respond.
+대기
+스크립트 이름.txt 주인공
+대사 “ Looks like my father brought home everyone’s clothes from work. ”
+대기
+대사 “ I was wondering what you’ve been doing lately out of my sight, but I guess this is
+대사새줄
+대사잇기 it, huh. ”
+대기
+스크립트 루시.txt 77
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ When are you supposed to be done with this by? ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 60 1
+보이스 lucy0460_{{$언어}}.mp3
+대사 “ Umm… To tell master the truth… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You don’t possibly mean today, right? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 88
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It appears I was correct.
+대기
+대사 It’d be impossible to go through this amount in a single day, though.
+대기
+스크립트 이름.txt 주인공
+대사 “ Does this happen often? ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0461_{{$언어}}.mp3
+대사 “ What does master mean? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m asking if my father toys with you like this all the time. ”
+대기
+스크립트 루시.txt 70
+스크립트 이름.txt 루시
+보이스 lucy0462_{{$언어}}.mp3
+대사 “ Ah, hahaha! ”
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+대사크기 45
+스크립트 이름.txt 주인공1
+대사 “ Quit laughing, you moron!
+딜레이 300
+대사잇기  There’s nothing funny about this. ”
+대기
+대사크기 35
+변수 루시 = "l56"
+CG {{루시}} {{루시}}.png
+페이드아웃 l70
+진동 {{루시}} 0 3 300 1500 
+스크립트 이름.txt 루시1
+보이스 lucy0463_{{$언어}}.mp3
+대사 “ Y-yes, master! ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 78
+딜레이 500
+대사 I wonder why my father would do something like this.
+대기
+대사 It’s probably because he wanted a reason to talk down to Lucy.
+대기
+대사 Or… maybe he’s confusing this place with a dry cleaning facility?
+대기
+대사 Even so, the way he’s going on about this puts me at a loss for words.
+대기
+대사새줄
+대사잇기 It’s so childish that it makes me laugh.
+대기
+대사 Is he trying to make a modern Cinderella film?
+대기
+페이드아웃 laundry2 1000
+//음악선정?
+//배경음악 반복 free60.mp3
+배경음악 반복 Community.mp3
+페이드인 배경음악 1000
+스크립트 이름.txt 주인공
+대사 “ Just… don’t. ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0464_{{$언어}}.mp3
+대사 “ Sorry? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You don’t have to do this. ”
+대기
+대사 “ Why would you be doing laundry for complete strangers?
+대기
+대사잇기  Just leave it. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0465_{{$언어}}.mp3
+대사 “ Lucy can’t do that. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why not? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0466_{{$언어}}.mp3
+대사 “ Because father has entrusted Lucy with this task. ”
+대기
+보이스 lucy0467_{{$언어}}.mp3
+대사 “ Lucy needs to do a good job because she does not want to disappoint father. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …Are you an idiot?
+대기
+대사잇기  Just look at how much there is! ”
+대기
+대사 “ He’s obviously asking for the impossible. ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0468_{{$언어}}.mp3
+대사 “ Even so, Lucy will see this to the end. ”
+대기
+보이스 lucy0469_{{$언어}}.mp3
+대사 “ If Lucy continues working hard, she believes that father will eventually come to 
+대사새줄
+대사잇기 acknowledge what Lucy can do. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0470_1_{{$언어}}.mp3
+대사 “ And furthermore, Lucy doesn’t think that father would ask for something
+대사새줄
+대사잇기 unfeasible on purpose. ”
+대기
+보이스 lucy0470_2_{{$언어}}.mp3
+대사 “ Maybe he just believes in Lucy’s abilities! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 All right. This certainly is different from Cinderella.
+대기
+대사새줄
+대사잇기 Here is a girl who is completely oblivious to a person’s ill intent.
+대기
+대사 Lucy doesn’t feel that she’s unfortunate.
+대기
+대사새줄
+대사잇기 She doesn’t feel that my father’s demands are unfair.
+대기
+대사 Ridiculousness.
+대기
+대사잇기  Absurdity.
+대기
+대사새줄
+대사잇기 It’s likely that these types of words don’t even exist in her vocabulary at all.
+대기
+대사 Since all I can do is point out her flaws from afar, it’s frustrating for me.
+대기
+대사 It’s like watching over an autistic child.
+대기
+대사새줄
+대사잇기 It causes pain for the person looking after her.
+대기
+대사 While the child herself doesn’t have a care in the world.
+대기
+대사 A Cinderella that does not wish to be saved.
+대기
+대사 The mice that turn into horses,
+대기
+대사잇기  lizards that turn into footmen,
+대기
+대사잇기  the pumpkin that
+대사새줄
+대사잇기 turns into a carriage.
+대기
+대사 And the prince waiting for Cinderella…
+대기
+대사 She doesn’t need any of those in the first place.
+대기
+대사 However…
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_신데렐라
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 522 152 255 255 255 255 {{내버려둔다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 내버려둔다 = "Leave her alone." 
+라벨 선택지2_2 544 290 255 255 255 255 {{도와준다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 도와준다 = "Help her out."
+//라벨 선택지2_1 558 152 255 255 255 255 {{내버려둔다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 내버려둔다 = "내버려 둔다." 
+//라벨 선택지2_2 579 290 255 255 255 255 {{도와준다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 도와준다 = "도와준다." 
+//라벨 선택지2_1 554 154 255 255 255 255 {{내버려둔다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 내버려둔다 = "放っておく。" 
+//라벨 선택지2_2 586 292 255 255 255 255 {{도와준다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 도와준다 = "手伝う。"
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 내버려둔다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter13.txt 내버려둔다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 도와준다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter13.txt 도와준다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_신데렐라
+
+
+북마크 내버려둔다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Maybe it’d be better to just leave her alone.
+대기
+//배경음악 반복 Community.mp3
+대사 I leave Lucy to her own devices and silently head towards my room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+딜레이 500
+배경룰페이드아웃 룰_34.PNG 500
+
+딜레이 4500
+배경룰페이드인 룰_33.PNG 400
+배경 bg_livingroom_evening bg_livingroom_evening.jpg
+효과음 e74029_door-01-02 e74029_door-01-02.mp3
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I hear some bustling coming from the front door.
+대기
+대사 It appears that my father has returned.
+대기
+대사 Lucy sets down her iron and hops over to the front door to greet him.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0481_{{$언어}}.mp3
+대사 “ Welcome home, father. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I could hear their voices all the way from here.
+대기
+대사지우기
+딜레이 500
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+스크립트 이름.txt 아버지
+대사 “ I’m back. Have you finished the laundry I left you with? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l74"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0490_{{$언어}}.mp3
+대사 “ Umm, not yet… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 In the end, Lucy didn’t manage to get all the laundry done.
+대기
+대사 Nothing would’ve changed even if I’d helped her.
+대기
+스크립트 아버지.txt 05
+스크립트 이름.txt 아버지
+대사 “ It’s just as I expected. ”
+대기
+대사 “ Robots truly are useless. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Now I know for certain.
+대기
+대사새줄
+대사잇기 That he really did ask Lucy for what he thought would be impossible.
+대기
+대사 And he was planning to scold her when she failed to finish it.
+대기
+대사새줄
+대사잇기 Just like now.
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0483_{{$언어}}.mp3
+대사 “ F-father, Lucy is… ”
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ I don’t want to hear any excuses! ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 아버지.txt 지우기
+효과음 door_slam door_slam.mp3
+딜레이 500
+대사 My father ignores Lucy’s words and stomps off towards his room.
+대기
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 11
+딜레이 500
+대사 I figured it would turn out this way, but it still is irritating to see it actually happen
+대사새줄
+대사잇기 before me.
+대기
+대사 Leaving behind the depressed Lucy in the living room, I also make my way towards my room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+
+딜레이 500
+페이드아웃 bg_livingroom_evening 2000
+게임상태
+점프 종료
+
+
+북마크 도와준다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I shouldn’t leave her alone.
+대기
+대사새줄
+대사잇기 Knowing the situation, I no longer can.
+대기
+대사 Reluctantly, I extend my hand.
+대기
+스크립트 이름.txt 주인공
+대사 “ I’ll help you. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0471_{{$언어}}.mp3
+대사 “ …Master?
+딜레이 1500
+대사잇기  Lucy is… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I know, I know.
+대기
+대사잇기  You don’t need my help, right? ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ But it doesn’t matter. ”
+대기
+대사 “ I’m not doing this for your sake, so it doesn’t matter what you think. ”
+대기
+대사 “ Yeah…
+대기
+대사잇기  This is actually for my sake. ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0472_{{$언어}}.mp3
+대사 “ For master’s… sake? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s right. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0473_{{$언어}}.mp3
+대사 “ Master is helping Lucy… for his own sake? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 루시.txt 58
+스크립트 이름.txt 루시
+보이스 lucy0474_{{$언어}}.mp3
+대사 “ …Lucy doesn’t understand. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It doesn’t matter if you don’t understand.
+대기
+대사잇기  Just take it as you will. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0475_{{$언어}}.mp3
+대사 “ Well, if master insists… ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0476_{{$언어}}.mp3
+대사 “ Thank you for helping Lucy. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Looks like she finally caved in.
+대기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 But even with that said, I wonder if there’s really anything I can do to help out.
+대기
+대사 The only washing machine we have is already going at full throttle.
+대기
+대사 There’s only so much this tiny thing can manage.
+대기
+대사 There won’t be enough time.
+대기
+대사새줄
+대사잇기 Looks like I’ll have to join Lucy in doing the laundry by hand.
+대기
+대사 It’d be more efficient to cram the clothes into a single large bucket and wash them
+대사새줄
+대사잇기 all at the same time.
+대기
+대사 But it might leave behind something that my father can nitpick about.
+대기
+대사 There’s no choice.
+대기
+대사새줄
+대사잇기 I roll up my sleeves and get to work alongside Lucy.
+대기
+대사 What am I doing in this day and age…
+대기
+//배경음악 반복 Community.mp3
+대사 It’s like choosing to make fire with sticks and stones when you already have a
+대사새줄
+대사잇기 working stove.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_6.png 700
+딜레이 4000
+배경룰페이드인 룰_7.png 700
+배경 bg_laundry_day bg_laundry_day.jpg
+//배경음 없었던 부분. 너무 심심해서 넣어보았음
+배경음악 반복 free0539.mp3
+페이드인 배경음악 1500
+효과음 laundry2 laundry2.mp3 반복
+페이드인 laundry2 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 The results aren’t looking too bad.
+대기
+대사 Lucy and I, and the washing machine are all hard at work.
+대기
+대사 We’re making a lot of progress.
+대기
+대사 Even so, the end is nowhere to be seen.
+대기
+대사 The towering pile of dress shirts hasn’t gotten that much smaller.
+대기
+대사새줄
+대사잇기 Just the mere sight of it causes me to sigh.
+대기
+스크립트 이름.txt 주인공
+대사 “ All right, bring it on. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I motivate myself once more.
+대기
+스크립트 이름.txt 주인공
+대사 “ Now that I’ve already become a part of this, I’ll definitely have you finished by
+대사새줄
+대사잇기 tonight no matter what. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+페이드아웃 laundry2 1000
+배경룰페이드아웃 룰_27.png 700
+딜레이 2500
+배경룰페이드인 룰_27.png 700
+배경 bg_laundry_evening bg_laundry_evening.jpg
+효과음 laundry2 laundry2.mp3 반복
+페이드인 laundry2 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 At that moment, Lucy returns from hanging out the washed clothes to dry.
+대기
+대사 It’s getting chilly lately.
+대기
+대사새줄
+대사잇기 Still, they would dry in about three or four hours under direct sunlight even in
+대사새줄
+대사잇기 winter.
+대기
+대사 But that’s probably too much to hope for.
+대기
+대사 This house only contains two male residents.
+대기
+대사새줄
+대사잇기 Who would’ve thought a clothes dryer would ever come in handy...
+대기
+대사 It seems like we’ll have to iron the clothes after they’ve dried a little bit.
+대기
+대사 We still have a long way to go.
+대기
+대사 My hands never stop moving.
+대기
+대사 After a while, a thought suddenly comes to mind.
+대기
+스크립트 이름.txt 주인공
+대사 “ Is there anything else? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l17"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0477_{{$언어}}.mp3
+대사 “ Anything else…? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What my father asked you to do. Is there anything else? ”
+대기
+스크립트 루시.txt 34
+스크립트 이름.txt 루시
+보이스 lucy0478_{{$언어}}.mp3
+대사 “ Umm… ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0479_{{$언어}}.mp3
+대사 “ He told Lucy to go clean the storage room in her spare time. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ The storage? We haven’t even touched anything in there for over at least six
+대사새줄
+대사잇기 years! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s a place submerged in cobwebs and dust.
+대기
+대사새줄
+대사잇기 It won’t be so easy to take the gunk off everything.
+대기
+대사 And it’s not like there’s anything inside that we can use.
+대기
+대사 It’s simply unnecessary.
+대기
+대사새줄
+대사잇기 It’s just more redundant work that my father chose to dump on Lucy.
+대기
+스크립트 이름.txt 주인공
+대사 “ Come on… seriously? ”
+대기
+스크립트 루시.txt 34
+스크립트 이름.txt 루시
+보이스 lucy0480_{{$언어}}.mp3
+대사 “ Is there something wrong, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …It’s nothing. ”
+대기
+대사 “ Let’s just get this done first. ”
+대기
+스크립트 이름.txt 이름지우기
+//배경음악 반복 free0539.mp3
+대사 I found myself putting more strength into my fingers.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_10.png 700
+페이드아웃 laundry2 1000
+딜레이 3000
+배경룰페이드인 룰_27.png 500
+배경 bg_laundry_light bg_laundry_light.jpg
+효과음 laundry2 laundry2.mp3 반복
+페이드인 laundry2 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 Quite a long time has passed.
+대기
+대사 It’s already dark outside.
+대기
+대사 As if we had done an equivalent exchange with time, the mountain of dress shirts
+대사새줄
+대사잇기 has nearly disappeared.
+대기
+대사 I never expected to be able to finish it when I started.
+대기
+대사새줄
+대사잇기 But the end was finally drawing near.
+대기
+대사 It looks like we’ll somehow manage to get it done by today.
+대기
+효과음 e74029_door-01-02 e74029_door-01-02.mp3
+딜레이 1000
+대사 I hear some bustling coming from the front door.
+대기
+대사 It appears that my father has returned.
+대기
+대사 Lucy sets down her iron and hops over to the front door to greet him.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+페이드아웃 laundry2 1000
+배경룰페이드아웃 룰_11.png 700
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0481_{{$언어}}.mp3
+대사 “ Welcome home, father. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I could hear their voices all the way from here.
+대기
+스크립트 이름.txt 아버지
+대사 “ I’m back. Have you finished the laundry I left you with? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 His voice had an unusually cheerful tone to it.
+대기
+대사 You’d better be finished. Or there will be consequences.
+대기
+대사새줄
+대사잇기 It was that kind of voice.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0482_{{$언어}}.mp3
+대사 “ It’s almost done. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ Almost… done? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He sounds surprised.
+대기
+대사새줄
+대사잇기 He probably wasn’t expecting that kind of answer.
+대기
+대사 Now I know for certain.
+대기
+대사새줄
+대사잇기 That he really did ask Lucy for something he thought would be impossible.
+대기
+대사 And he was planning to scold her when she failed to finish it.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드인 룰_12.png 700
+배경 bg_laundry_light bg_laundry_light.jpg
+효과음 StepC11 StepC11.mp3
+페이드인 StepC11 1500
+딜레이 1000
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+//배경음악 반복 Community.mp3
+//배경음악 반복 free40.mp3
+//배경음악 반복 free54.mp3
+//페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Before I knew it, my father had already entered the room.
+대기
+대사새줄
+대사잇기 He was standing at the door, staring at me.
+대기
+스크립트 이름.txt 아버지
+대사 “ You… What do you think you’re doing. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ As you can see, I’m doing the laundry. ”
+대기
+스크립트 아버지.txt 02
+스크립트 이름.txt 아버지
+대사 “ I don’t remember asking you to do such a thing. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m just helping her out a little because there was a lot to be done. ”
+대기
+대사 “ It clearly wasn’t something Lucy could handle by herself. ”
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 For a while, my father doesn’t say a word.
+대기
+대사새줄
+대사잇기 He silently holds back his anger.
+대기
+스크립트 이름.txt 아버지
+대사 “ How despicable. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Appearing frustrated, my father continues.
+대기
+스크립트 이름.txt 아버지
+대사 “ So you forced someone to help because you thought you wouldn’t be able to
+대사새줄
+대사잇기 finish it by yourself? ”
+대기
+대사 “ I can’t believe such a disgraceful robot exists. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l33"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0483_{{$언어}}.mp3
+대사 “ F-father, Lucy is… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 After finally catching up to him, Lucy tries to explain the situation.
+대기
+대사 But my father isn’t in the mood to listen.
+대기
+스크립트 아버지.txt 12
+대사크기 55
+스크립트 이름.txt 아버지
+대사 “ I don’t want to hear any excuses! ”
+대기
+효과음 slap slap.mp3
+변수 루시 = "l80"
+CG {{루시}} {{루시}}.png
+페이드아웃 l33
+진동 {{루시}} 5 1 300 1500
+스크립트 이름.txt 루시1
+보이스 lucy0484_{{$언어}}.mp3
+대사 “ Ah…! ”
+페이드아웃 {{루시}} 500
+대사크기 35
+효과음 udangtang udangtang.mp3
+진동 bg_laundry_light 5 1 300 1500
+대기
+스크립트 이름.txt 이름지우기
+대사 My father violently pushes Lucy aside.
+대기
+대사새줄
+대사잇기 Her thin, fragile body slams against the wall.
+대기
+//배경음악 여기로 위치 변경했음. 아버지 때리는 씬과 맞춰서 플레이
+배경음악 반복 free40.mp3
+//배경음악 반복 free54.mp3
+효과음 poweroff poweroff.mp3
+대사 Her arms and legs lose their strength and sprawl across the floor.
+대기
+스크립트 이름.txt 주인공
+대사 “ What… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I couldn’t immediately process what had just happened.
+대기
+대사 Because of that, my reaction was delayed.
+대기
+대사크기 50
+스크립트 이름.txt 주인공
+대사 “ What are you doing! ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+스크립트 아버지.txt 지우기
+대사 I run over to Lucy and help her up.
+대기
+효과음 thud1 thud1.mp3 0
+변수 루시 = "l12"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+대사 I hurriedly check her condition.
+대기
+대사 I don’t know much about machines.
+대기
+대사 But it doesn’t seem like there’s any significant damage.
+대기
+대사 I quietly breathe a sigh of relief.
+대기
+대사지우기
+딜레이 300
+스크립트 루시.txt 지우기
+대사 I turn around and glare at my father.
+대기
+변수 아버지 = "d08"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 500
+딜레이 500
+스크립트 이름.txt 주인공
+대사 “ You… You knew that I was the one who had offered to help her. ”
+대기
+대사 “ So why are you taking it out on Lucy? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ It’s because that robot didn’t do its job properly. ”
+대기
+대사 “ Such an unreliable robot is worthless. ”
+대기
+대사 “ It should be disposed of. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Isn’t it your fault in the first place, you old fart!?
+대기
+대사잇기  You were forcing her to do the
+대사새줄
+대사잇기 impossible! ”
+대기
+스크립트 아버지.txt 10
+스크립트 이름.txt 아버지
+대사 “ Old fart? You dare call me an old fart! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Do the laundry for all of my coworkers, clean the storage room that we haven’t
+대사새줄
+대사잇기 touched in years… ”
+대기
+대사 “ Why are you making her do all this meaningless crap? ”
+대기
+스크립트 아버지.txt 09
+스크립트 이름.txt 아버지
+대사 “ What exactly do you have against that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What do you mean, what do I have against it? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ You turn on a machine to use it. You don’t keep it powered on without a
+대사새줄
+대사잇기 purpose. ”
+대기
+대사 “ Robots were created to work. ”
+대기
+대사 “ They were created to handle all the tedious chores in place of us humans. ”
+대기
+대사 “ What’s wrong with making a machine do some work when the purpose of its
+대사새줄
+대사잇기 entire existence is to serve people? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ But this isn’t something she needs to do! ”
+대기
+스크립트 아버지.txt 08
+스크립트 이름.txt 아버지
+대사 “ Are you talking about cleaning out the storage room? ”
+대기
+대사 “ I’ve always been meaning to do that myself.
+대기
+대사잇기  I’ve just been postponing it. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Even so, there’s no need to force it onto her all at once. ”
+대기
+대사 “ Since it’s not even important. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ It doesn’t matter whether it’s important or not. ”
+대기
+대사 “ It’s better to put the robot to use in some productive way than to keep it sitting in the back. ”
+대기
+스크립트 아버지.txt 04 1
+대사 “ To me, you’re the one that’s being strange. ”
+대기
+대사 “ Aren’t you being too obsessed with the robot? ”
+대기
+대사 “ You’re not… confusing this robot with a real person, are you? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 His words are putting me on the defensive.
+대기
+대사 For some reason, I begin to well up with anger.
+대기
+스크립트 이름.txt 주인공
+대사 “ Look at her. Just come take a look at her. ”
+대기
+대사 “ She talks and acts exactly like a real person! ”
+대기
+대사 “ And do you still believe that she has no feelings of her own? ”
+대기
+대사 “ Can you really say that without any doubts? ”
+대기
+스크립트 아버지.txt 01
+스크립트 이름.txt 아버지
+대사 “ Yeah, I can. ”
+대기
+대사 “ You’re the one who’s being delusional. ”
+대기
+스크립트 아버지.txt 10 1
+대사 “ No matter how close to a person that robot may be, it’s not real! ”
+대기
+대사 “ It’s nothing but a toy imitating a person! ”
+대기
+대사 “ It may act just like a real human being, but in the end, it’s only a robot. It’s a
+대사새줄
+대사잇기 fake! ”
+대기
+대사 “ Do not be fooled by its appearance.
+대기
+대사잇기  Why is it that you cannot tell apart what is
+대사새줄
+대사잇기 real and what is not? ”
+대기
+대사 “ You’re no different from those people who’ve lost their souls to these wretched
+대사새줄
+대사잇기 imitations. ”
+대기
+스크립트 아버지.txt 09 1
+대사 “ And can I really call you my own son? Get a hold of yourself! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I bite down hard on my lips.
+대기
+대사새줄
+대사잇기 I can taste the saltiness of the blood.
+대기
+대사 I open my mouth in an attempt to say something back.
+대기
+대사 But I’m stopped by Lucy.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0485_{{$언어}}.mp3
+대사 “ M-master… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy grabs onto me.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+변수 루시 = "l73"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0486_{{$언어}}.mp3
+대사 “ Master,
+딜레이 1500
+대사잇기  please.
+딜레이 1000
+대사잇기  Please stop this. ”
+대기
+스크립트 루시.txt 30 1
+보이스 lucy0487_{{$언어}}.mp3
+대사 “ Don’t worry about Lucy. Look, she’s completely fine! Ahaha! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 26
+스크립트 이름.txt 루시
+보이스 lucy0488_{{$언어}}.mp3
+대사 “ Lucy is being serious. There is nothing wrong with her. ”
+대기
+스크립트 루시.txt 95 1
+보이스 lucy0489_{{$언어}}.mp3
+대사 “ Please take a look. Lucy is much tougher than she seems. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy is smiling.
+대기
+대사새줄
+대사잇기 Lucy is smiling like a total fool.
+대기
+대사 Lucy is smiling as if nothing’s happened… like everything is fine.
+대기
+대사 And I know she’s not putting on a fake smile.
+대기
+대사 That’s why, for a split second, it made me see her as nothing but an ordinary robot.
+대기
+대사 Her lack of self-will…
+대기
+대사새줄
+대사잇기 Her blind obedience to father made me see her as a robot.
+대기
+대사 And it was frustrating.
+대기
+대사 It was frustrating that I saw her that way.
+대기
+대사 I was mad at Lucy for smiling away like a fool.
+대기
+대사 I was mad at my father for being so stubborn.
+대기
+대사 And I was mad at myself the most for having trouble finding the words to say back
+대사새줄
+대사잇기 to him.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 루시페이드아웃
+페이드아웃 {{루시}} 500
+쓰레드
+쓰레드 아버지페이드아웃
+페이드아웃 {{아버지}} 500
+쓰레드
+쓰레드시작
+딜레이 700
+효과음 StepB11 StepB11.mp3
+배경룰페이드아웃 룰_9.png 1000
+딜레이 2000
+효과음 door_slam door_slam.mp3
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 And just like that, I return to my room.
+대기
+대사 I lock the door and jump under the blankets.
+대기
+대사 I wonder while staring at the ceiling lights.
+대기
+대사 What am I expecting from Lucy?
+대기
+대사 How am I supposed to treat Lucy?
+대기
+//배경음악 반복 free40.mp3
+대사 I mull over the same questions even though it feels as if I’d never be able to reach a conclusion.
+대기
+변수 트루엔딩조건2 = 1
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+
+페이드아웃 배경음악 3000
+조건 $상드리용트로피 = 1 여기 종료
+딜레이 1500
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 461 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "상드리용"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 568 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 433 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 728 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Cendrillon"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 425 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "サンドリヨン"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 585 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $상드리용트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+
+북마크 종료
+딜레이 2500
+
+변수 chapter = 13
+
+점프 로봇3원칙.txt 첫줄
+
+

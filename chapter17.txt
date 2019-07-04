@@ -1,0 +1,1796 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 29, You"
+//변수 슬롯씬이름 = "10월 29일 주인공"
+//변수 슬롯씬이름 = "10月29日 主人公"
+
+딜레이 1000
+배경룰페이드인 룰_27.png 500
+배경 bg_room01_evening bg_room01_evening.jpg
+딜레이 500
+효과음 knockknock knockknock.mp3 2
+딜레이 1500
+
+스크립트 대화창함수.txt
+딜레이 500
+대사 I hear someone banging on my door.
+대기
+대사새줄
+대사잇기 I know that it can’t be Lucy.
+대기
+스크립트 이름.txt 아버지
+대사 “ Open the door this instant! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I reluctantly oblige.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+효과음 door_open door_open.mp3
+딜레이 2000
+변수 아버지 = "d03"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1500
+배경음악 반복 free64.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 My father is standing there with a displeased look on his face.
+대기
+대사 It’s clear that he’s holding back his temper.
+대기
+스크립트 아버지.txt 10
+효과음 papers_flying papers_flying.mp3
+대사 Next thing I know, my father has thrown something in my face.
+대기
+대사 A sheet of paper flutters onto the ground.
+대기
+스크립트 이름.txt 주인공
+대사 “ This is… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I pick it up.
+대기
+대사새줄
+대사잇기 It’s the result from the mock exam I’d taken a while back.
+대기
+스크립트 이름.txt 아버지
+대사 “ Explain yourself. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+대사크기 45
+스크립트 아버지.txt 12
+스크립트 이름.txt 아버지
+대사 “ I’m asking how you managed to bring home these atrocious
+대사새줄
+대사잇기 marks! ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 My grades had plummeted quite considerably.
+대기
+대사 Considering how I’ve always done in school, these results were bordering on the
+대사새줄
+대사잇기 impossible.
+대기
+대사 It was very strange.
+대기
+대사 I’d felt pretty confident while writing the exam.
+대기
+대사새줄
+대사잇기 There was no way my grades would be this horrible.
+대기
+대사 After checking each and every corner of the report, I finally realize.
+대기
+스크립트 이름.txt 주인공
+대사 “ Crap… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Some of the test questions and my answers were off by one line.
+대기
+대사 The pattern of the corrections matched my answers.
+대기
+대사새줄
+대사잇기 It was a fatal mistake, but what was done was done.
+대기
+대사 I’d been thinking about a lot of things, and my mind was a mess back then.
+대기
+대사 I had scribbled all over the test without checking it over.
+대기
+대사 I try to explain it to my father.
+대기
+스크립트 이름.txt 주인공
+대사 “ …I was careless and put my answers on the wrong lines. ”
+대기
+스크립트 아버지.txt 04
+스크립트 이름.txt 아버지
+대사 “ Do you honestly think you can fool me with such a feeble lie? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m not lying. I really did make a mistake. ”
+대기
+대사 “ I was having a hard time concentrating on the test. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 At that moment, I felt a sudden surge of anger.
+대기
+대사 I didn’t know why I was explaining this to him in the first place.
+대기
+대사 I tell him the following, sounding annoyed.
+대기
+스크립트 이름.txt 주인공
+대사 “ It’s just a mock exam, so it doesn’t really matter, right? ”
+대기
+대사 “ It’s for practice, anyway. ”
+대기
+대사 “ I just need to do well on the real thing. ”
+대기
+//배경음악 반복 free64.mp3
+스크립트 아버지.txt 05
+스크립트 이름.txt 아버지
+대사 “ You have the audacity to tell me that it doesn’t matter after showing me these
+대사새줄
+대사잇기 results? ”
+대기
+대사 “ Do you honestly expect me to believe that you’ll do well on the real exam? ”
+대기
+스크립트 아버지.txt 03 1
+대사 “ I wasn’t like this when I was your age. ”
+대기
+대사 “ I have never once brought home grades as poor as these. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It can’t be helped…
+대기
+대사잇기  I’m not you, after all. ”
+대기
+스크립트 아버지.txt 01
+스크립트 이름.txt 아버지
+대사 “ You’re right. ”
+대기
+대사 “ It appears that you don’t bear any resemblance to me. ”
+대기
+대사 “ Exactly…
+대기
+대사잇기  This never would have happened if you were like me. ”
+대기
+대사 “ If you were like me, you wouldn’t have turned out so inferior. ”
+대기
+대사 “ You seem to have taken after your mother… nothing good about her, that is. ”
+대기
+효과음 heartbeat heartbeat.mp3
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기
+대사 …How dare he.
+대기
+대사새줄
+대사잇기 With a crack, something inside me snaps.
+대기
+스크립트 이름.txt 주인공
+대사 “ You’re… ”
+쓰레드 배경음악페이드인
+배경음악 반복 free0515.mp3
+페이드인 배경음악 1000
+쓰레드
+쓰레드시작
+대기
+대사 “ You’re always like this. ”
+대기
+대사 “ You’re always being so stubborn and judging people by your own selfish
+대사새줄
+대사잇기 standards. ”
+대기
+대사 “ What’s so great about you, huh? ”
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ Am I just supposed to watch my son become a failure in life, then? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Whatever happens, this has nothing to do with you! ”
+대기
+대사 “ You’ve never once taken good care of me anyway. ”
+대기
+대사 “ Aren’t you only thinking about yourself all the time? ”
+대기
+스크립트 아버지.txt 06
+스크립트 이름.txt 아버지
+대사 “ What kind of nonsense are you talking about? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Even if you never decide to bring it up, I’m gonna take care of you for the rest of
+대사새줄
+대사잇기 your life, so you can rest assured. ”
+대기
+대사 “ Because even a person like you is still my father. ”
+대기
+대사 “ I’ll be sure to repay my gratitude for raising me. ”
+대기
+대사 “ Even if I move out of this place, I’ll make sure to send you money every month. ”
+대기
+대사 “ I’ll make sure that you’ll live a pleasant life! ”
+대기
+대사 “ Then that’s settled, right? No objections? ”
+대기
+대사 “ In exchange, once I find a job, don’t even think about talking to me ever again. ”
+대기
+대사크기 54
+대사 “ Don’t even think about seeing my face ever again! ”
+대기
+대사크기 60
+스크립트 아버지.txt 12
+스크립트 이름.txt 아버지
+대사 “ Why, you brat—! ”
+대기
+CG bg_white bg_white.jpg 0 0 아니 -130
+페이드인 bg_white 100
+효과음 slap slap.mp3
+쓰레드 아버지진동
+진동 {{아버지}} 100 1 200 1000
+쓰레드
+쓰레드 배경진동
+진동 bg_room01_evening 100 1 200 1000
+쓰레드
+쓰레드시작
+페이드아웃 bg_white 1000
+효과음 thud2 thud2.mp3
+딜레이 1000
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 I was slapped in the face.
+대기
+대사새줄
+대사잇기 A light flashed before my eyes before I could even feel the pain.
+대기
+대사 My pounding heart feels like it’s crushing my insides.
+대기
+대사 In my crumpled state, I look up.
+대기
+대사 Without losing any strength in my gaze, I glare at my father.
+대기
+스크립트 아버지.txt 지우기
+대사 It was at that moment.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+딜레이 1000
+변수 루시 = "l17"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+스크립트 루시.txt 56
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy entered the room.
+대기
+//대사새줄
+대사 After looking around wondering what’d happened, she jumps in shock as she spots me.
+대기
+스크립트 루시.txt 지우기
+효과음 thud1 thud1.mp3
+대사 She approaches me and helps me up.
+대기
+대사지우기
+변수 루시 = "l36"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0650_{{$언어}}.mp3
+대사 “ W-what happened, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Nothing at all. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0651_{{$언어}}.mp3
+대사 “ But master’s cheeks are red. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I said it’s nothing. Move aside. ”
+대기
+대사 “ It’s not something you should be concerned about. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0652_{{$언어}}.mp3
+대사 “ But… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I said move aside. ”
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 After a short pause, she takes a tiny step back.
+대기
+대사 At that moment, my father’s gaze passes onto her.
+대기
+대사지우기
+딜레이 300
+변수 아버지 = "d10"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+스크립트 이름.txt 아버지
+대사 “ Is it… because of that robot? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 His voice is quivering with rage.
+대기
+스크립트 이름.txt 아버지
+대사 “ It must be. ”
+대기
+스크립트 아버지.txt 09 1
+대사 “ Ever since you brought that thing home, you began to turn strange. ”
+대기
+대사 “ You used to be a good boy who would never talk back to his father. ”
+대기
+대사 “ Someone who would never stare at his father with such hatred in his eyes. ”
+대기
+스크립트 아버지.txt 13 1
+대사 “ All of this is the robot’s fault… ”
+대기
+대사 “ That robot is tearing you apart from the inside. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What nonsense are you talking ab— ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I open my mouth to protest, but I immediately swallow my words back down.
+대기
+대사 I flinch after noticing my father’s gaze.
+대기
+대사 He had the look of a maniac who was about to do something horrible.
+대기
+대사새줄
+대사잇기 His fists were shaking uncontrollably.
+대기
+스크립트 이름.txt 아버지
+대사 “ You started becoming twisted ever since that robot set foot in this house. ”
+대기
+대사 “ That robot is leading you astray. ”
+대기
+스크립트 아버지.txt 14 1
+대사크기 60
+대사 “ Get away from my son, you filthy machine! ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+변수 루시 = "l56"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+대사 Lucy looks troubled.
+대기
+대사 My father slowly approaches her.
+대기
+대사 Clearly intending to do something terrible to her.
+대기
+대사지우기
+스크립트 루시.txt 57
+대사 But it seemed like Lucy never once thought about resisting in the first place.
+대기
+대사 She continued to stand there even while quivering in fear.
+대기
+대사새줄
+대사잇기 Not intending to move no matter what horrible things my father might do to her.
+대기
+//배경음악 반복 free0515.mp3
+스크립트 루시.txt 지우기
+//페이드아웃 l57 500
+효과음 slap slap.mp3
+대사 In desperation, I grabbed hold of Lucy’s hand.
+대기
+대사 Then I dashed out of the house with her.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 아버지.txt 지우기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_9.png 700
+딜레이 4000
+효과음 RunA11 RunA11.mp3
+배경룰페이드인 룰_34.png 700
+배경 bg_street01_evening bg_street01_evening.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Pant… Gasp… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There’s a lot of sweat trickling down my forehead.
+대기
+대사 Lucy gives me a worried look as she wipes it off.
+대기
+대사지우기
+딜레이 300
+변수 루시 = "l57"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0653_{{$언어}}.mp3
+대사 “ Is master all right? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah, I’m fine. ”
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0654_{{$언어}}.mp3
+대사 “ Father appears to be very angry. ”
+대기
+보이스 lucy0655_{{$언어}}.mp3
+대사 “ …Also, master’s heart rate is quite high. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Let’s… take a short walk. ”
+대기
+대사 “ I think both of us need some time to cool our heads. ”
+대기
+//대사 “ My father and I. ”
+//대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0656_{{$언어}}.mp3
+대사 “ Understood, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Good. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0657_{{$언어}}.mp3
+대사 “ If master is all right with it… ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0658_{{$언어}}.mp3
+대사 “ Lucy would like to visit that place again. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That place? ”
+대기
+스크립트 이름.txt 이름지우기
+조건 트루엔딩조건3 = 1 여기 루시의안식처 아니면 여기 루시의안식처2
+북마크 루시의안식처
+대사 I didn’t even need to ask.
+대기
+대사 If there was a single place that Lucy wanted to visit, it could only be there.
+대기
+북마크 루시의안식처2
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+//쓰레드 배경음악페이드아웃
+//페이드아웃 배경음악 2000
+//쓰레드
+//쓰레드시작
+배경룰페이드아웃 룰_25.png 500
+딜레이 3000
+배경룰페이드인 룰_11.png 500
+배경 bg_dump01 bg_dump01.jpg
+//음악선정?
+//배경음악 반복 free0627.mp3
+//배경음악 반복 fountain.mp3
+배경음악 반복 grove.mp3
+페이드인 배경음악 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Some time has passed since our arrival at the junkyard.
+대기
+대사새줄
+대사잇기 For a place to take a walk in, it isn’t very romantic.
+대기
+대사 But this is where Lucy wanted to be.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+//ev09_8 출력
+CG ev09_8 ev09_8.jpg
+페이드인 ev09_8 2500
+//페이드아웃 bg_dump01
+////앨범에 ev09_8 추가
+오마케추가 ev09_8 ev09_8.jpg
+변수 $ev09_8획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 Lucy’s been standing silently with a blank stare.
+대기
+대사새줄
+대사잇기 Ever since we came here…
+대기
+대사 She’s been staring at a certain spot along the ground.
+대기
+대사 For some reason, she seems a little sad.
+대기
+스크립트 이름.txt 주인공
+대사 “ …Are you worrying about that again? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+//ev09_2 출력
+CG ev09_2 ev09_2.jpg
+페이드인 ev09_2 1000
+페이드아웃 ev09_8
+////앨범에 ev09_2 추가
+오마케추가 ev09_2 ev09_2.jpg
+변수 $ev09_2획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0659_{{$언어}}.mp3
+대사 “ Worrying about what, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What my father said. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+//ev09_8 출력
+CG ev09_8 ev09_8.jpg
+페이드인 ev09_8 1500
+페이드아웃 ev09_2
+////앨범에 ev09_8 추가
+오마케추가 ev09_8 ev09_8.jpg
+변수 $ev09_8획득 = 1
+딜레이 1000
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+보이스 lucy0660_{{$언어}}.mp3
+대사 “ Is Lucy truly a useless robot? ”
+대기
+보이스 lucy0661_{{$언어}}.mp3
+대사 “ Is she not of any help to father? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I can’t bring myself to answer that question.
+대기
+대사 As long as she remains a robot, there’s no way my father will ever find her helpful.
+대기
+대사 I suddenly remember the look my father had in his eyes.
+대기
+대사 I shudder as a chill runs down my spine.
+대기
+대사 Expecting something like this to happen again in the future, I decide to tell Lucy the following.
+대기
+스크립트 이름.txt 주인공
+대사 “ If my father ever tries to do something to you… ”
+대기
+대사 “ Then just run away. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_2 출력
+CG ev09_2 ev09_2.jpg
+페이드인 ev09_2 1000
+페이드아웃 ev09_8
+////앨범에 ev09_2 추가
+오마케추가 ev09_2 ev09_2.jpg
+변수 $ev09_2획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0662_{{$언어}}.mp3
+대사 “ Run away? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s right. I’m telling you to protect yourself. ”
+대기
+대사 “ Don’t just stand there like you did back then and run away. Got it? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0663_{{$언어}}.mp3
+대사 “ Is that an order? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It’s an order. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0664_{{$언어}}.mp3
+대사 “ Then Lucy will do so. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I begin to feel at ease.
+대기
+대사 There’s only so much the Three Laws of Robotics can do to protect Lucy.
+대기
+대사 With such an order given, I can finally relax.
+대기
+스크립트 이름.txt 주인공
+대사 “ And… quit worrying about it so much. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0665_{{$언어}}.mp3
+대사 “ Worrying about what, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ My father may not need you… ”
+대기
+대사 “ But at the very least, I'd like you to stay by my side. ”
+대기
+대사 “ So try to be satisfied with just that. ”
+대기
+대사 “ No matter what my father says, you can stay with me like this for all eternity. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It was an embarrassing line that I’d put in a lot of effort to say.
+대기
+대사 But for some reason, Lucy changed the subject.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0666_{{$언어}}.mp3
+대사 “ Eternity. ”
+대기
+보이스 lucy0667_{{$언어}}.mp3
+대사 “ How long is an eternity to master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How long, you ask…? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I couldn’t guess what kind of answer she was expecting.
+대기
+스크립트 이름.txt 주인공
+대사 “ An eternity is an eternity…
+대기
+대사잇기  It means forever. There’s no end. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0668_{{$언어}}.mp3
+대사 “ What is the meaning of forever? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Huh? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_9 출력
+CG ev09_9 ev09_9.jpg
+페이드인 ev09_9 1000
+페이드아웃 ev09_2
+////앨범에 ev09_9 추가
+오마케추가 ev09_9 ev09_9.jpg
+변수 $ev09_9획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0669_{{$언어}}.mp3
+대사 “ Realistically speaking, it would be impossible for Lucy to stay with master for
+대사새줄
+대사잇기 eternity. ”
+대기
+보이스 lucy0670_{{$언어}}.mp3
+대사 “ Because people age. Everyone grows old and dies one day. ”
+대기
+보이스 lucy0671_{{$언어}}.mp3
+대사 “ Lucy doesn’t want to think about it, but master will also grow old. ”
+대기
+보이스 lucy0672_{{$언어}}.mp3
+대사 “ Master will grow old, and pass away one day. ”
+대기
+보이스 lucy0673_{{$언어}}.mp3
+대사 “ There is a limit to how long people can live. ”
+대기
+보이스 lucy0674_{{$언어}}.mp3
+대사 “ They’re different from Lucy who can live on as long as there’s electricity. ”
+대기
+보이스 lucy0675_{{$언어}}.mp3
+대사 “ If master passes on, Lucy will be left all alone. ”
+대기
+보이스 lucy0676_{{$언어}}.mp3
+대사 “ She won’t be able to stay with master for all eternity. ”
+대기
+보이스 lucy0677_{{$언어}}.mp3
+대사 “ So… how long is an eternity to master? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I ponder for a bit.
+대기
+스크립트 이름.txt 주인공
+대사 “ If you want me to be realistic, it’s until I die. ”
+대기
+대사 “ That’s right. The eternity I wish for is until my death. ”
+대기
+대사 “ Most people live to a hundred nowadays, so that’s a lot of time left. ”
+대기
+대사 “ It means there’s at least eighty years ahead of us. ”
+대기
+대사 “ That’s how long you need to stay by my side for. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0678_{{$언어}}.mp3
+대사 “ Eighty years. Is that what master meant by eternity? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. It’s quite a long time. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_8 출력
+CG ev09_8 ev09_8.jpg
+페이드인 ev09_8 1000
+페이드아웃 ev09_9
+////앨범에 ev09_8 추가
+오마케추가 ev09_8 ev09_8.jpg
+변수 $ev09_8획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0679_{{$언어}}.mp3
+대사 “ Will Lucy really be able to remain with master for all those years, though? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What makes you say that? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy sounded anxious.
+대기
+대사새줄
+대사잇기 As if she was imagining something that could only happen in dreams.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0680_{{$언어}}.mp3
+대사 “ Lucy is afraid. ”
+대기
+보이스 lucy0681_{{$언어}}.mp3
+대사 “ Lucy is afraid that she will be left behind by master, just like how she was
+대사새줄
+대사잇기 abandoned by the lab. ”
+대기
+대사크기 42
+스크립트 이름.txt 주인공1
+대사 “ I told you I would never do that. ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 I realize I’m raising my voice a little.
+대기
+스크립트 이름.txt 주인공
+대사 “ I won’t abandon you. ”
+대기
+대사 “ I won’t leave you behind like those irresponsible people at the lab did. ”
+대기
+대사 “ So stop saying things like that. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0682_{{$언어}}.mp3
+대사 “ Master might say that now… but no one knows what the future might bring. ”
+대기
+보이스 lucy0683_{{$언어}}.mp3
+대사 “ Technology is constantly evolving… as do people’s expectations. ”
+대기
+보이스 lucy0684_{{$언어}}.mp3
+대사 “ Presently, Lucy is undeniably the finest model of android out there. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Hey, no need to show off. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_10 출력
+CG ev09_10 ev09_10.jpg
+페이드인 ev09_10 500
+페이드아웃 ev09_8
+////앨범에 ev09_10 추가
+오마케추가 ev09_10 ev09_10.jpg
+변수 $ev09_10획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0685_{{$언어}}.mp3
+대사 “ Master, Lucy is simply stating the fact. ”
+대기
+보이스 lucy0686_{{$언어}}.mp3
+대사 “ All android models currently available are inferior to Lucy. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Well, that’s probably true.
+대기
+스크립트 이름.txt 이름지우기
+//ev09_1 출력
+CG ev09_1 ev09_1.jpg
+페이드인 ev09_1 1000
+페이드아웃 ev09_10
+////앨범에 ev09_1 추가
+오마케추가 ev09_1 ev09_1.jpg
+변수 $ev09_1획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0687_{{$언어}}.mp3
+대사 “ But such a status will not last forever. ”
+대기
+보이스 lucy0688_{{$언어}}.mp3
+대사 “ Technological progress will inexorably proceed. ”
+대기
+보이스 lucy0689_{{$언어}}.mp3
+대사 “ Subsequent models will be superior in both technology and features. ”
+대기
+보이스 lucy0690_{{$언어}}.mp3
+대사 “ They will have fewer bugs and malfunctions. ”
+대기
+보이스 lucy0691_{{$언어}}.mp3
+대사 “ And the designs will be a lot of more pleasing to the eye. ”
+대기
+보이스 lucy0692_{{$언어}}.mp3
+대사 “ They will always stay up-to-date with the trends. ”
+대기
+보이스 lucy0693_{{$언어}}.mp3
+대사 “ It’s inevitable that Lucy will become… obsolete. ”
+대기
+//ev09_8 출력
+CG ev09_8 ev09_8.jpg
+페이드인 ev09_8 1000
+페이드아웃 ev09_1
+////앨범에 ev09_8 추가
+오마케추가 ev09_8 ev09_8.jpg
+변수 $ev09_8획득 = 1
+보이스 lucy0694_{{$언어}}.mp3
+대사 “ She will eventually become worthless. ”
+대기
+보이스 lucy0695_{{$언어}}.mp3
+대사 “ She will be cast aside for being too outdated. ”
+대기
+보이스 lucy0696_{{$언어}}.mp3
+대사 “ In such a future, will master still allow Lucy to remain by his side? ”
+대기
+보이스 lucy0697_{{$언어}}.mp3
+대사 “ Instead of a new, state-of-the-art android, will master continue to be happy with
+대사새줄
+대사잇기 an old model like Lucy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …Yeah. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0698_{{$언어}}.mp3
+대사 “ Even after ten years. After twenty years. After thirty years
+딜레이 1000
+대사잇기  and beyond. ”
+대기
+보이스 lucy0699_{{$언어}}.mp3
+대사 “ Will master stand by his words to never let go of Lucy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah… I will. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0700_{{$언어}}.mp3
+대사 “ Lucy is still uncertain. ”
+대기
+보이스 lucy0701_{{$언어}}.mp3
+대사 “ The present master won’t be the same as the master in the future. ”
+대기
+보이스 lucy0702_{{$언어}}.mp3
+대사 “ His love for Lucy may disappear one day. ”
+대기
+보이스 lucy0703_{{$언어}}.mp3
+대사 “ Because people change… ”
+대기
+보이스 lucy0704_{{$언어}}.mp3
+대사 “ From experiencing new things, meeting new people… and making new
+대사새줄
+대사잇기 memories. ”
+대기
+보이스 lucy0705_{{$언어}}.mp3
+대사 “ It’s possible that master may lead a tragic life and lose faith in himself. ”
+대기
+보이스 lucy0706_{{$언어}}.mp3
+대사 “ That is why Lucy is uncertain whether master’s current self will remain the same in the future… ”
+대기
+보이스 lucy0707_{{$언어}}.mp3
+대사 “ Whether master’s feelings will remain the same… Lucy is uncertain. ”
+대기
+보이스 lucy0708_{{$언어}}.mp3
+대사 “ That is why Lucy is afraid. ”
+대기
+보이스 lucy0709_{{$언어}}.mp3
+대사 “ The eternity that master speaks of seems distant and vague… like a dream. ”
+대기
+보이스 lucy0710_{{$언어}}.mp3
+대사 “ That is why…
+딜레이 1500
+대사잇기  Lucy is afraid. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I become silent for a moment.
+대기
+대사 There is a possibility…
+대기
+대사 That my future self might look down on the current me.
+대기
+대사 I speak up once more.
+대기
+스크립트 이름.txt 주인공
+대사 “ It’s just as you say. I can’t guarantee anything. ”
+대기
+대사 “ Who knows what might happen until the actual time comes. ”
+대기
+대사 “ But still…
+대기
+대사잇기  I’m confident. ”
+대기
+대사 “ Confident that I won’t change. ”
+대기
+대사 “ Because it’s not like I want just any decent android. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That’s right.
+대기
+대사 I wasn’t keeping Lucy around just for the sake of convenience.
+대기
+대사새줄
+대사잇기 Nor for her features.
+대기
+스크립트 이름.txt 주인공
+대사 “ I want you for who you are, Lucy. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy doesn’t reply immediately.
+대기
+대사지우기
+딜레이 500
+//ev09_3 출력
+CG ev09_3 ev09_3.jpg
+페이드인 ev09_3 1000
+페이드아웃 ev09_8
+////앨범에 ev09_3 추가
+오마케추가 ev09_3 ev09_3.jpg
+변수 $ev09_3획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0711_{{$언어}}.mp3
+대사 “ Then… who is that Lucy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What do you mean? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0712_{{$언어}}.mp3
+대사 “ Who is the Lucy that master is looking at? ”
+대기
+보이스 lucy0713_{{$언어}}.mp3
+대사 “ Who is the Lucy that master wishes to be with? ”
+대기
+보이스 lucy0714_{{$언어}}.mp3
+대사 “ What part of Lucy does master desire the most? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I don’t understand… ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+//ev11_2 출력
+CG ev11_2 ev11_2.jpg
+페이드인 ev11_2 2500
+페이드아웃 ev09_3
+////앨범에 ev11_2 추가
+오마케추가 ev11_2 ev11_2.jpg
+변수 $ev11_2획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+스크립트 이름.txt 루시
+보이스 lucy0715_{{$언어}}.mp3
+대사 “ It’s impossible that Lucy will continue to operate eighty years into the future and
+대사새줄
+대사잇기 still remain the same. ”
+대기
+보이스 lucy0716_{{$언어}}.mp3
+대사 “ Many issues will begin to arise only a few years in. ”
+대기
+보이스 lucy0717_{{$언어}}.mp3
+대사 “ From deterioration, some of Lucy’s important components may fail. ”
+대기
+보이스 lucy0718_{{$언어}}.mp3
+대사 “ Meaning, Lucy will require frequent repairs and replacements for the affected
+대사새줄
+대사잇기 parts. ”
+대기
+보이스 lucy0719_{{$언어}}.mp3
+대사 “ The arms,
+딜레이 500
+대사잇기  the legs,
+딜레이 500
+대사잇기  and even Lucy’s face will eventually need to be replaced. ”
+대기
+보이스 lucy0720_{{$언어}}.mp3
+대사 “ And as various parts are switched out, there might not be anything left
+대사새줄
+대사잇기 resembling the current Lucy. ”
+대기
+보이스 lucy0721_{{$언어}}.mp3
+대사 “ The original Lucy may never return. ”
+대기
+보이스 lucy0722_{{$언어}}.mp3
+대사 “ Even with such change, will master still appreciate her? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ The appearance doesn’t matter. ”
+대기
+대사 “ People get plastic surgery all the time. ”
+대기
+대사 “ But that doesn’t change who they really are on the inside. ”
+대기
+대사 “ And that also applies to you. ”
+대기
+대사 “ Because you’ll still have your memories. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0723_{{$언어}}.mp3
+대사 “ Does master really think so? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy sounded uncertain.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0724_{{$언어}}.mp3
+대사 “ People define themselves through their memories. ”
+대기
+보이스 lucy0725_{{$언어}}.mp3
+대사 “ They’re able to recognize their existence through special events that happen in
+대사새줄
+대사잇기 their lives. ”
+대기
+보이스 lucy0726_{{$언어}}.mp3
+대사 “ But this is not the case for Lucy. ”
+대기
+보이스 lucy0727_{{$언어}}.mp3
+대사 “ It’s true that Lucy recognizes herself through the data saved in her memory
+대사새줄
+대사잇기 chip. ”
+대기
+보이스 lucy0728_{{$언어}}.mp3
+대사 “ But it’s not permanent in the same manner. ”
+대기
+보이스 lucy0729_{{$언어}}.mp3
+대사 “ Something like Lucy’s personality can easily be switched through a quick, simple
+대사새줄
+대사잇기 change in her program. ”
+대기
+보이스 lucy0730_1_{{$언어}}.mp3
+대사 “ Likewise, Lucy’s memories can be written over. ”
+대기
+보이스 lucy0730_2_{{$언어}}.mp3
+대사 “ They can be altered with minimal effort. ”
+대기
+보이스 lucy0731_{{$언어}}.mp3
+대사 “ From only a simple error, all of Lucy’s memories of master can disappear in an
+대사새줄
+대사잇기 instant. ”
+대기
+보이스 lucy0732_{{$언어}}.mp3
+대사 “ On the other hand, they can easily be duplicated. ”
+대기
+보이스 lucy0733_{{$언어}}.mp3
+대사 “ For Lucy, her memories are something that can be easily replaced, just like her
+대사새줄
+대사잇기 body parts. ”
+대기
+보이스 lucy0734_{{$언어}}.mp3
+대사 “ Unlike a human’s, Lucy’s memories are not unique. ”
+대기
+보이스 lucy0735_{{$언어}}.mp3
+대사 “ From everything that comprises Lucy, there isn’t a single part that is truly one-of-
+대사새줄
+대사잇기 a-kind. ”
+대기
+보이스 lucy0736_{{$언어}}.mp3
+대사 “ Lucy is nothing but an object. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0737_{{$언어}}.mp3
+대사 “ Here’s a fun question. ”
+대기
+보이스 lucy0738_{{$언어}}.mp3
+대사 “ On one side, there’s Lucy A. ”
+대기
+보이스 lucy0739_{{$언어}}.mp3
+대사 “ She possesses Lucy’s original body, but not her memories. ”
+대기
+보이스 lucy0740_{{$언어}}.mp3
+대사 “ On the other side, there’s Lucy B. ”
+대기
+보이스 lucy0741_{{$언어}}.mp3
+대사 “ Her appearance differs completely, but instead, she contains Lucy’s memories. ”
+대기
+보이스 lucy0742_{{$언어}}.mp3
+대사 “ Which Lucy is the one that master truly desires? ”
+대기
+보이스 lucy0743_{{$언어}}.mp3
+대사 “ Which Lucy would master consider to be the real one? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It was a question based off of the ship of Theseus.
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_테세우스의배
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline3_1 whiteline.png -1280 73 아니 0
+쓰레드 whiteline3_1페이드
+페이드인 whiteline3_1 500 
+쓰레드
+쓰레드 whiteline3_1 이동
+이동 whiteline3_1 0 73 3000 1000
+쓰레드
+쓰레드 whiteline3_2페이드
+딜레이 200
+CG whiteline3_2 whiteline.png 1280 127 아니 0
+페이드인 whiteline3_2 500 
+쓰레드
+쓰레드 whiteline3_2 이동
+딜레이 200
+이동 whiteline3_2 0 127 3000 1000
+쓰레드
+쓰레드 choice_bar3_1cg페이드인
+딜레이 500
+CG choice_bar3_1cg choice_bar.png 0 73 아니 3
+페이드인 choice_bar3_1cg 500
+쓰레드
+쓰레드 whiteline3_3페이드
+딜레이 400
+CG whiteline3_3 whiteline.png -1280 212 아니 0
+페이드인 whiteline3_3 500 
+쓰레드
+쓰레드 whiteline3_3 이동
+딜레이 400
+이동 whiteline3_3 0 212 3000 1000
+쓰레드
+쓰레드 whiteline3_4페이드
+딜레이 600
+CG whiteline3_4 whiteline.png 1280 266 아니 0
+페이드인 whiteline3_4 500 
+쓰레드
+쓰레드 whiteline3_4 이동
+딜레이 600
+이동 whiteline3_4 0 266 3000 1000
+쓰레드
+쓰레드 choice_bar3_2cg페이드인
+딜레이 900
+CG choice_bar3_2cg choice_bar.png 0 212 아니 3
+페이드인 choice_bar3_2cg 500
+쓰레드
+쓰레드 whiteline3_5페이드
+딜레이 800
+CG whiteline3_5 whiteline.png -1280 350 아니 0
+페이드인 whiteline3_5 500 
+쓰레드
+쓰레드 whiteline3_5 이동
+딜레이 800
+이동 whiteline3_5 0 350 3000 1000
+쓰레드
+쓰레드 whiteline3_6페이드
+딜레이 1000
+CG whiteline3_6 whiteline.png 1280 404 아니 0
+페이드인 whiteline3_6 500 
+쓰레드
+쓰레드 whiteline3_6 이동
+딜레이 1000
+이동 whiteline3_6 0 404 3000 1000
+쓰레드
+쓰레드 choice_bar3_3cg페이드인
+딜레이 1300
+CG choice_bar3_3cg choice_bar.png 0 350 아니 3
+페이드인 choice_bar3_3cg 500
+쓰레드
+쓰레드시작
+딜레이 1800
+
+라벨 선택지3_1 354 83 255 255 255 255 {{원래의몸을가지고있는루시를택한다}}
+출력순서 선택지3_1 2
+라벨속성 선택지3_1 36 응 NanumGothic
+변수 원래의몸을가지고있는루시를택한다 = "Choose the Lucy with her original body." 
+라벨 선택지3_2 319 222 255 255 255 255 {{원래의기억을가지고있는루시를택한다}}
+출력순서 선택지3_2 2
+라벨속성 선택지3_2 36 응 NanumGothic
+변수 원래의기억을가지고있는루시를택한다 = "Choose the Lucy with her original memories."
+라벨 선택지3_3 542 358 255 255 255 255 {{두명다선택한다}}
+출력순서 선택지3_3 2
+라벨속성 선택지3_3 36 응 NanumGothic
+변수 두명다선택한다 = "Choose both."
+//라벨 선택지3_1 381 83 255 255 255 255 {{원래의몸을가지고있는루시를택한다}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 36 응 NanumGothic
+//변수 원래의몸을가지고있는루시를택한다 = "원래의 몸을 가지고 있는 루시를 택한다." 
+//라벨 선택지3_2 367 222 255 255 255 255 {{원래의기억을가지고있는루시를택한다}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 36 응 NanumGothic
+//변수 원래의기억을가지고있는루시를택한다 = "원래의 기억을 가지고 있는 루시를 택한다." 
+//라벨 선택지3_3 521 358 255 255 255 255 {{두명다선택한다}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 36 응 NanumGothic
+//변수 두명다선택한다 = "두 명 다 선택한다."
+//라벨 선택지3_1 361 85 255 255 255 255 {{원래의몸을가지고있는루시를택한다}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 32 아니 Apple osaka_unicode
+//변수 원래의몸을가지고있는루시를택한다 = "本来の体を持ったルーシィを選択する。" 
+//라벨 선택지3_2 346 224 255 255 255 255 {{원래의기억을가지고있는루시를택한다}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 32 아니 Apple osaka_unicode
+//변수 원래의기억을가지고있는루시를택한다 = "本来の記憶を持ったルーシィを選択する。" 
+//라벨 선택지3_3 504 362 255 255 255 255 {{두명다선택한다}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 32 아니 Apple osaka_unicode
+//변수 두명다선택한다 = "どちらも選択する。" 
+쓰레드 선택지3_1
+페이드인 선택지3_1 500
+쓰레드
+쓰레드 선택지3_2
+페이드인 선택지3_2 500
+쓰레드
+쓰레드 선택지3_3
+페이드인 선택지3_3 500
+쓰레드
+쓰레드 원래의몸을가지고있는루시를택한다
+시스템버튼 choice_bar3_1 0 73 1280 55 점프 chapter17.txt 원래의몸을가지고있는루시를택한다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_1 3
+쓰레드
+쓰레드 원래의기억을가지고있는루시를택한다
+시스템버튼 choice_bar3_2 0 212 1280 55 점프 chapter17.txt 원래의기억을가지고있는루시를택한다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_2 3
+쓰레드
+쓰레드 두명다선택한다
+시스템버튼 choice_bar3_3 0 350 1280 55 점프 chapter17.txt 두명다선택한다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_3 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar3_1cg
+페이드아웃 choice_bar3_2cg
+페이드아웃 choice_bar3_3cg
+페이드아웃 whiteline3_1
+페이드아웃 whiteline3_2
+페이드아웃 whiteline3_3
+페이드아웃 whiteline3_4
+페이드아웃 whiteline3_5
+페이드아웃 whiteline3_6
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+
+점프 선택지_테세우스의배
+
+
+북마크 원래의몸을가지고있는루시를택한다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_1 light.png -456 48 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice3_1 1280 48 3000 2000
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar3_1cg choice_bar_push.png 0 73 아니 -130 
+페이드인 choice_bar3_1cg 200
+페이드아웃 선택지3_1
+페이드아웃 choice_bar3_1
+페이드아웃 choice_bar3_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ The real Lucy is the one with her original body. ”
+대기
+대사 “ I would choose that Lucy. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0744_{{$언어}}.mp3
+대사 “ Why is that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Because… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I remember your delicate touch across my forehead.
+대기
+대사 The feeling of carrying you on my back for the first time, the sensation of holding in you in my arms…
+대기
+대사 I remember all of it.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0745_{{$언어}}.mp3
+대사 “ But that Lucy doesn’t have any of her memories. ”
+대기
+보이스 lucy0746_{{$언어}}.mp3
+대사 “ She doesn’t remember all the time she’s shared with master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Even so, there must be something left inside her. ”
+대기
+대사 “ Some intangible proof that could reveal the connection between us. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0747_{{$언어}}.mp3
+대사 “ Does master really think so? ”
+대기
+보이스 lucy0748_{{$언어}}.mp3
+대사 “ Lucy… isn’t so sure. ”
+대기
+점프 루시에게자신이없어요
+
+북마크 원래의기억을가지고있는루시를택한다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_2 light.png -456 187 아니 -130
+쓰레드 light_choice2 이동 
+이동 light_choice3_2 1280 187 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar3_2cg choice_bar_push.png 0 212 아니 -130 
+페이드인 choice_bar3_2cg 200
+페이드아웃 선택지3_2
+페이드아웃 choice_bar3_2
+페이드아웃 choice_bar3_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ I would choose the Lucy with all her memories. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0749_{{$언어}}.mp3
+대사 “ Why is that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Because those memories are something we share together. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0750_{{$언어}}.mp3
+대사 “ But Lucy just won’t be the same anymore. ”
+대기
+보이스 lucy0751_{{$언어}}.mp3
+대사 “ The way Lucy looks at master. Her gaze, her laugh. ”
+대기
+보이스 lucy0752_{{$언어}}.mp3
+대사 “ They will all be different from what master is used to. ”
+대기
+보이스 lucy0753_{{$언어}}.mp3
+대사 “ Master will definitely feel something’s out of place every time he looks at Lucy. ”
+대기
+보이스 lucy0754_{{$언어}}.mp3
+대사 “ Lucy will feel foreign to master. ”
+대기
+보이스 lucy0755_{{$언어}}.mp3
+대사 “ Even with those feelings, will master really be able to accept the new Lucy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s irrelevant as long as we share the same memories. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0756_{{$언어}}.mp3
+대사 “ Even though Lucy won’t be able to say for sure that they’re her own true
+대사새줄
+대사잇기 memories? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It doesn’t matter. ”
+대기
+대사 “ Even if your memories become altered, I’m sure something will remain inside of
+대사새줄
+대사잇기 you that could reveal your true identity. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0757_{{$언어}}.mp3
+대사 “ Lucy… is not so sure. ”
+대기
+점프 루시에게자신이없어요
+
+북마크 두명다선택한다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_3 light.png -456 325 아니 -130
+쓰레드 light_choice3 이동 
+이동 light_choice3_3 1280 325 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar3_3cg choice_bar_push.png 0 350 아니 -130 
+페이드인 choice_bar3_3cg 200
+페이드아웃 선택지3_3
+페이드아웃 choice_bar3_3
+페이드아웃 choice_bar3_3cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_3
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ I would choose both. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0758_{{$언어}}.mp3
+대사 “ …Lucy doesn’t understand. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well, I know both Lucys very well, right? ”
+대기
+대사 “ So I would choose both of them. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0759_{{$언어}}.mp3
+대사 “ Would it really be all right to choose so carelessly? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m not being careless. ”
+대기
+대사 “ It’s an excellent choice that I came up with after giving it a lot of thought. ”
+대기
+대사 “ When you look at games or manga, harem endings are always the best, right? ”
+대기
+대사 “ It’s the only solution that satisfies everyone. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0760_{{$언어}}.mp3
+대사 “ Is that really the case? ”
+대기
+보이스 lucy0761_{{$언어}}.mp3
+대사 “ It sounds like no one will end up happy in the end, though. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Shut up. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy smiled calmly.
+대기
+대사 As if she was a parent bearing with her child’s immature outburst.
+대기
+대사 It bothered me a little.
+대기
+
+북마크 루시에게자신이없어요
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+//ev09_8 출력
+CG ev09_8 ev09_8.jpg
+페이드인 ev09_8 2000
+페이드아웃 ev11_2
+////앨범에 ev09_8 추가
+오마케추가 ev09_8 ev09_8.jpg
+변수 $ev09_8획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0762_{{$언어}}.mp3
+대사 “ Lucy… Lucy doesn’t have any confidence in herself. ”
+대기
+보이스 lucy0763_{{$언어}}.mp3
+대사 “ There’s nothing unique about Lucy, so she doesn’t know whether there’s any
+대사새줄
+대사잇기 meaning to her existence. ”
+대기
+보이스 lucy0764_{{$언어}}.mp3
+대사 “ Has master ever heard of the saying… ”
+대기
+보이스 lucy0765_{{$언어}}.mp3
+대사 “ That people leave behind their names when they die… ”
+대기
+보이스 lucy0766_{{$언어}}.mp3
+대사 “ And animals leave behind their skin and fur when they die. ”
+대기
+보이스 lucy0767_{{$언어}}.mp3
+대사 “ In that case, what can robots leave behind? ”
+대기
+보이스 lucy0768_{{$언어}}.mp3
+대사 “ Until the moment everything rusts to the point that it’s no longer possible to
+대사새줄
+대사잇기 move, what can a robot leave behind to make a mark on this world? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I… don’t know. ”
+대기
+대사 “ I guess you can leave behind your body parts. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_3 출력
+CG ev09_3 ev09_3.jpg
+페이드인 ev09_3 700
+페이드아웃 ev09_8
+////앨범에 ev09_3 추가
+오마케추가 ev09_3 ev09_3.jpg
+변수 $ev09_3획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0769_{{$언어}}.mp3
+대사 “ Eeh… That sounds too cruel. ”
+대기
+//ev09_4 출력
+CG ev09_4 ev09_4.jpg
+페이드인 ev09_4 700
+페이드아웃 ev09_3
+////앨범에 ev09_4 추가
+오마케추가 ev09_4 ev09_4.jpg
+변수 $ev09_4획득 = 1
+딜레이 500
+보이스 lucy0770_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+보이스 lucy0771_{{$언어}}.mp3
+대사 “ Lucy would like to leave behind something more meaningful. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Like what? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0772_{{$언어}}.mp3
+대사 “ Mm… For example… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+//ev09_5 출력
+CG ev09_5 ev09_5.jpg
+페이드인 ev09_5 500
+페이드아웃 ev09_4
+////앨범에 ev09_5 추가
+오마케추가 ev09_5 ev09_5.jpg
+변수 $ev09_5획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0773_{{$언어}}.mp3
+대사 “ Memories…
+딜레이 2000
+대사잇기  Yes, what Lucy would like to leave behind are memories. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Memories? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0774_{{$언어}}.mp3
+대사 “ Yes. ”
+대기
+보이스 lucy0775_{{$언어}}.mp3
+대사 “ Since Lucy cannot find any value in her life on her own… ”
+대기
+보이스 lucy0776_{{$언어}}.mp3
+대사 “ She would at least like to find it by existing in master’s memories. ”
+대기
+보이스 lucy0777_{{$언어}}.mp3
+대사 “ Lucy will work hard… Very hard… ”
+대기
+보이스 lucy0778_{{$언어}}.mp3
+대사 “ In order to leave behind a favorable impression on master. ”
+대기
+보이스 lucy0779_{{$언어}}.mp3
+대사 “ In order to engrave Lucy Valentine’s existence into his heart. ”
+대기
+보이스 lucy0780_{{$언어}}.mp3
+대사 “ That’s why… Lucy hopes that master will always remember her. ”
+대기
+보이스 lucy0781_{{$언어}}.mp3
+대사 “ Being able to live on in master’s memories for all eternity. ”
+대기
+보이스 lucy0782_{{$언어}}.mp3
+대사 “ That is the eternity Lucy wishes for. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I nod at her words.
+대기
+대사새줄
+대사잇기 I understand what she’s saying.
+대기
+대사 But that’s not what I want.
+대기
+대사 Something like that… isn’t what I desire.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, now that I’ve calmed down a bit, let’s head back. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_2 출력
+CG ev09_2 ev09_2.jpg
+페이드인 ev09_2 500
+페이드아웃 ev09_5
+////앨범에 ev09_2 추가
+오마케추가 ev09_2 ev09_2.jpg
+변수 $ev09_2획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0783_{{$언어}}.mp3
+대사 “ Father couldn’t possibly still be angry… right, master? ”
+대기
+//배경음악 반복 grove.mp3
+스크립트 이름.txt 주인공1
+대사 “ I don’t know… We’ll find out once we get there. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+페이드아웃 ev09_2 2000 
+딜레이 1000
+쓰레드 배경페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+페이드아웃 bg_dump01 2500
+
+딜레이 4000
+배경룰페이드인 룰_25.png 500
+배경 bg_street01_night bg_street01_night.jpg
+딜레이 1000
+배경룰페이드인 룰_25.png 500
+배경 bg_house_night bg_house_night.jpg
+딜레이 1500
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+배경룰페이드인 룰_48.png 400
+배경 bg_house_passage_night bg_house_passage_night.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I enter the house.
+대기
+대사 I don’t hear anyone, but I see my father’s shoes.
+대기
+대사 Could he be taking a nap?
+대기
+대사 It’d be a blessing if we didn’t run into each other.
+대기
+대사 Carefully, without making any sound, I enter my room.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_house_passage_night 2500
+딜레이 2000
+
+조건 $전기양의꿈트로피 = 1 여기 방안으로
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 446 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "전기양의 꿈"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 583 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 352 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 647 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Dream of Electric Sheep"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 440 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "電気羊の夢"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 573 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $전기양의꿈트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 2000
+
+북마크 방안으로
+
+변수 chapter = 17
+
+점프 로봇3원칙.txt 첫줄

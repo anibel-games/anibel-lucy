@@ -1,0 +1,732 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+
+배경룰페이드인 룰_16.png 700
+배경 bg_schoolgate_day bg_schoolgate_day.jpg
+배경음악 반복 Spring_city.mp3
+//배경음악 반복 i72002_slow_time.mp3
+//배경음악 반복 cafe.mp3
+페이드인 배경음악 1500
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+스크립트 대화창함수.txt
+대사 I high-tail it towards my high school. I'm in second year.
+대기
+대사 While running, a movie I saw recently springs to mind,
+대기
+대사 An old sci-fi flick set in the year 2050.
+대기
+대사 All these oldies seem to be lacking in one thing,
+대기
+대사새줄
+대사잇기 Creativity.
+대기
+대사 A few showcase large-scale space battles,
+대기
+대사새줄
+대사잇기 Others would have flying vehicles soaring through the sky.
+대기
+대사 Well, guess what:
+대기
+대사 It's 2050,
+대기
+대사새줄
+대사잇기 And we don't have moon-sized starships,
+대기
+대사 Or flying cars zipping around.
+대기
+대사새줄
+대사잇기 People still walk to school.
+대기
+대사 People still drive normal vehicles.
+대기
+대사새줄
+대사잇기 People still ride bicycles and skateboards.
+대기
+대사 Some people still use old fountain pens or pocket watches like me.
+대기
+대사 But there exists a single piece of technology that’s become more prominent in our
+대사새줄
+대사잇기 lives:
+대기
+대사 Androids.
+대기
+대사 They're being used everywhere around the world.
+대기
+대사새줄
+대사잇기 That's one thing these aged films got right…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+배경룰페이드아웃 룰_41.png 1000
+딜레이 1000
+쓰레드 종소리페이드인
+딜레이 200
+효과음 schoolbell schoolbell.mp3
+쓰레드
+쓰레드시작
+배경룰페이드인 룰_29.png 700
+배경 bg_schoolhallway_day bg_schoolhallway_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The morning bells snaps me from my reverie,
+대기
+효과음 running_hallway running_hallway.mp3
+대사 And I dash straight to my classroom.
+대기
+효과음 error error.mp3
+스크립트 이름.txt 안드로이드
+대사 “ Please refrain from running in the hallways. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A janitor android scolds me as I rush past it,
+대기
+대사 This type has facial recognition software to report any transgressor,
+대기
+대사 Like me…
+대기
+대사 Except I simply cover my face,
+대기
+대사 And there's no record. You gotta know how to exploit the system.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_9.png 1000
+딜레이 1000
+효과음 door_slide door_slide.mp3
+배경룰페이드인 룰_20.png 1000
+배경 bg_classroom_day bg_classroom_day.jpg
+효과음 thud2 thud2.mp3
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사크기 56
+쓰레드 진동
+진동 bg_classroom_day 7 0 300 1500
+쓰레드
+쓰레드시작
+대사 Safe!
+대기
+대사크기 35
+대사 Bolstered by my recent victory, I strut towards my desk with a confident swagger.
+대기
+대사 I notice that the teacher’s not in yet.
+대기
+대사 I plunk down in my seat while still huffing.
+대기
+스크립트 이름.txt 목소리
+대사 “ That was pretty close. Did you sleep in again? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That concern-filled voice,
+대기
+대사 Is coming from the guy sitting next to me.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 1000
+쓰레드
+쓰레드시작
+변수 기박사 = "f48"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 1000
+배경음악 반복 free0342.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 A clever-looking fellow.
+대기
+대사 People usually refer to him by his nickname,
+대기
+대사새줄
+대사잇기 Dr. Gears.
+대기
+대사 That’s because he’s a real geek with a burning passion for robots.
+대기
+대사 I, on the other hand, despise robots.
+대기
+//대사새줄
+//대사잇기 기계류를 사랑하는 이 녀석.
+//대기
+대사 And while I’d label myself an introvert, he’s very approachable and outgoing.
+대기
+//대사새줄
+//대사잇기 그리고 매사에 긍정적인 이 녀석.
+//대기
+대사 Moreover, our tastes and hobbies differ quite a lot.
+대기
+대사 You'd think we'd have nothing to do with each other,
+대기
+대사 But, as they say, opposites attract.
+대기
+대사 I know… weird, right?
+대기
+스크립트 이름.txt 주인공
+대사 “ No… I just had some business to take care of. ”
+대기
+스크립트 기박사.txt 49
+스크립트 이름.txt 기박사
+대사 “ Really? This early in the morning? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Mmm… It’s a long story— ”
+대기
+효과음 door_slide door_slide.mp3
+딜레이 500
+스크립트 이름.txt 이름지우기
+대사 I'm cut short,
+대기
+대사 By a middle-aged man making his entry,
+대기
+대사 Our teacher.
+대기
+대사 A female assistant android trails behind.
+대기
+대사 ‘ Let’s talk about this later. ’
+대기
+대사 I send him a signal.
+대기
+//배경음악 반복 Spring_city.mp3
+스크립트 기박사.txt 31
+대사 He returns a thumbs-up.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+페이드아웃 {{기박사}} 500
+페이드아웃 배경음악 1500
+배경룰페이드아웃 룰_15.png 700
+딜레이 2000
+배경룰페이드인 룰_27.png 500
+배경 bg_classroom_day bg_classroom_day.jpg
+배경음악 반복 free0342.mp3
+//배경음악 반복 free0554.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 Lunchtime rolls by,
+대기
+대사 I take out my freshly-bought pieces of bread.
+대기
+변수 기박사 = "f48"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 500
+대사 Dr. Gears does likewise, with a very appealing lunchbox.
+대기
+대사 Two desks have been joined together.
+대기
+대사 On mine, there are a couple of pieces of fried croquettes with a carton of chocolate
+대사새줄
+대사잇기 milk.
+대기
+대사 My friend, on the other hand, has quite a tasty spread on his,
+대기
+대사 Which he seems to be enjoying immensely…
+대기
+대사 I’ve heard that his maid android makes it for him every morning.
+대기
+대사 And the food doesn't look half-bad.
+대기
+대사잇기  Hmm…
+대기
+대사새줄
+대사잇기 Then again,
+대기
+대사 Anything looks better to a poor schmuck like me who eats bread everyday…
+대기
+
+스크립트 기박사.txt 49
+스크립트 이름.txt 기박사
+대사 “ Problem with your food or…? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Nevermind… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Problem indeed…
+대기
+페이드아웃 {{기박사}} 500
+대사 I bite down on the croquette.
+효과음 eating_a_toastie eating_a_toastie.mp3
+페이드아웃 배경음악 1000
+대기
+스크립트 스킵메뉴창.txt 봉인
+배경룰페이드인 룰_7.png 2000
+배경 bg_classroom_day_invert bg_classroom_day_invert.jpg
+효과음 mysterious_guitar mysterious_guitar.mp3
+스크립트 스킵메뉴창.txt 해제
+스크립트 이름.txt 주인공
+대사크기 50
+대사 “ ……!? ”
+딜레이 1000
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 Delicately piercing its golden crisply-warm surface, a savory scent wafts forth.
+대기
+대사 The sweet flavour of the dough mingles with the tantalizing aroma, creating a
+대사새줄
+대사잇기 heavenly mixture.
+대기
+대사 But that’s not all,
+대기
+대사 The crème inside unleashes its softness as it slowly melts upon my tongue,
+대기
+대사새줄
+대사잇기 For the vegetables in the mixture provide a strong, rich flavour.
+대기
+대사 The eggs and mashed potatoes join the fray by pleasantly blending-in with the
+대사새줄
+대사잇기 other ingredients.
+대기
+대사 This… This refined taste…
+대기
+대사크기 50
+대사새줄
+대사잇기 It must be—!
+대기
+대사지우기
+대사크기 35
+스크립트 스킵메뉴창.txt 봉인
+배경룰페이드인 룰_6.png 2000
+배경 bg_classroom_day bg_classroom_day.jpg
+스크립트 스킵메뉴창.txt 해제
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+쓰레드 배경음악페이드인
+배경음악 반복 free0342.mp3
+//배경음악 반복 free0554.mp3
+페이드인 배경음악 1500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기
+대사 Had you going there, didn't I?
+대기
+대사 Setting aside the sad excuse for a rubber-substitute, I pose a question to Dr. Gears,
+대기
+스크립트 이름.txt 주인공
+대사 “ By the way, didn’t you once tell me that you have a lot of androids at home? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+
+변수 기박사 = "f05"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 700
+
+스크립트 이름.txt 기박사
+대사 “ Huh?
+딜레이 700
+쓰레드 f08
+변수 기박사 = "f08"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 300
+페이드아웃 f05 300
+쓰레드
+쓰레드시작
+대사잇기  Yeah, around six, I think. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That's a high number.
+대기
+대사새줄
+대사잇기 A typical household can't afford that many.
+대기
+대사 Rumor's that Gears is from a well-to-do family.
+대기
+스크립트 기박사.txt 19
+스크립트 이름.txt 기박사
+대사 “ Why the sudden interest? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Uh… It’s nothing… ”
+대기
+스크립트 기박사.txt 17
+스크립트 이름.txt 기박사
+대사 “ Oh! Wait a minute… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He starts grinning like an idiot.
+대기
+대사새줄
+대사잇기 Hey, your food’s falling out of your mouth, you know.
+대기
+스크립트 기박사.txt 15
+스크립트 이름.txt 기박사
+대사 “ You’ve taken a liking to androids, haven’t you? ”
+대기
+대사 “ So you're calling-off this little war of ours? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ More like a temporary truce… ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Good enough. ”
+대기
+스크립트 기박사.txt 37 1
+대사 “ Androids are simply amazing, you know.
+대기
+대사잇기  They’re truly the greatest invention that
+대사새줄
+대사잇기 science has delivered since the beginning of mankind! ”
+대기
+스크립트 기박사.txt 51 1
+대사 “ There’re quite a few types.
+대기
+대사잇기  My favorite’s the maid models. ”
+대기
+스크립트 기박사.txt 15 1
+대사 “ They take care of all the chores and really know how to cook! ”
+대기
+대사 “ On top of that, the female ones are all pretty cute. Sometimes I find myself
+대사새줄
+대사잇기 admiring their beauty. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’ve got one sick twisted mind, Gears. ”
+대기
+//대사 “ 그런 거 감상할 시간이 있으면 네 발가락 사이에 낀 때나 감상해. ”
+//대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ Tsk, tsk. Don’t you know that people can achieve inner peace with beauty? ”
+대기
+스크립트 기박사.txt 35 1
+대사 “ It’s been proven by science, you know. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I shake my head wearily.
+대기
+대사새줄
+대사잇기 I do admire his enthusiasm over something so petty, though. Really.
+대기
+스크립트 이름.txt 주인공
+대사 “ Look, it's what's on the inside that counts. ”
+대기
+스크립트 기박사.txt 52
+스크립트 이름.txt 기박사
+대사 “ What're you talking about? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Appearance don’t matter. It’s still a crummy, stupid robot. ”
+대기
+스크립트 이름.txt 이름지우기
+페이드아웃 {{기박사}} 500
+대사 Here’s an example using people.
+대기
+대사 Let’s say there’s a person with a pretty face, but he’s a man.
+대기
+대사새줄
+대사잇기 Does the fact that he’s got a woman’s face change anything?
+대기
+대사 No, he’s ultimately a man.
+대기
+대사 Likewise, even if I see a beautiful android, since it’s ultimately a robot, its aesthetics don’t matter anymore.
+대기
+대사잇기  It just becomes an illusion.
+대기
+대사 What I’m trying to say is that even if a robot acts like a person, it’s not.
+대기
+대사새줄
+대사잇기 Therefore, all robots are the same to me, and I dislike them all.
+대기
+대사지우기
+딜레이 300
+변수 기박사 = "f18"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 500
+스크립트 이름.txt 기박사
+대사 “ I guess you still haven’t changed your mind. ”
+대기
+스크립트 기박사.txt 52 1
+대사 “ But there has to be a reason why you brought it up, right? ”
+대기
+대사 “ Normally, you wouldn’t ever talk about it. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well… yeah… ”
+대기
+스크립트 기박사.txt 37
+스크립트 이름.txt 기박사
+대사 “ If you’re looking to buy one, I’m here for you, man. ”
+대기
+대사 “ I’ll make sure to fill you in on everything you need to know. ”
+대기
+스크립트 기박사.txt 62 1
+대사 “ I’m telling you—you’ll be making the greatest purchase of your life! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 In response, I rub my cheeks in embarrassment.
+대기
+스크립트 이름.txt 주인공
+대사 “ Umm, I’m not exactly looking to buy one… ”
+대기
+스크립트 기박사.txt 17
+스크립트 이름.txt 기박사
+대사 “ Could it be that you’re worried about the price, my friend? ”
+대기
+스크립트 기박사.txt 16 1
+대사 “ Don’t worry.
+대기
+대사잇기  I have some connections that’ll let you have one dirt cheap. ”
+대기
+스크립트 기박사.txt 81 1
+대사 “ As long as I’m with you, there won’t be any problems. ”
+대기
+//대사 “ 내가 같이 가면 거의 거저 먹는 수준으로 구입할 수가 있지. 암. ”
+//대기
+스크립트 이름.txt 주인공1
+대사 “ No, it’s not that…
+대기
+대사잇기  There’s no need to buy one. ”
+대기
+스크립트 기박사.txt 33
+스크립트 이름.txt 기박사
+대사 “ Now, just what do you mean by that? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Fidgeting awkwardly, I wonder if I should tell everything.
+대기
+스크립트 이름.txt 주인공
+대사 “ I found one somewhere. ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Found what? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ An android. ”
+대기
+스크립트 기박사.txt 05
+스크립트 이름.txt 기박사
+대사 “ You found…
+대기
+대사잇기  an android? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Where? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ At the junkyard. ”
+대기
+스크립트 기박사.txt 12
+스크립트 이름.txt 기박사
+대사 “ Holy… You lucky bastard! ”
+대기
+스크립트 기박사.txt 11 1
+대사 “ Is it something like an IDX-358?
+대기
+대사잇기  Or 455? ”
+대기
+스크립트 기박사.txt 53 1
+대사 “ What model is it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Something that starts with a P… I can’t remember. ”
+대기
+대사 “ Someone told me it’s a pretty recent model, but I haven’t seen anything
+대사새줄
+대사잇기 impressive yet. ”
+대기
+대사 “ Might as well give it some time though. It was free, after all. ”
+대기
+스크립트 기박사.txt 14
+스크립트 이름.txt 기박사
+대사 “ Hmm… Now you’ve made me curious.
+대기
+대사잇기  I’ll be sure to pay you a visit soon. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He pauses for a moment before continuing, as if he’s trying to change the subject.
+대기
+스크립트 기박사.txt 15
+스크립트 이름.txt 기박사
+대사 “ Well, I’m certainly happy that you’ve taken interest in androids. But… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ But what? ”
+대기
+스크립트 기박사.txt 03
+스크립트 이름.txt 기박사
+대사 “ But you should be careful. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ About what? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ You’ve seen them on TV, right?
+대기
+대사잇기  People who're obsessed with androids. ”
+대기
+대사 “ They say it gets really tough to deal with as time goes on. ”
+대기
+스크립트 기박사.txt 08 1
+대사 “ Robots are robots.
+대기
+대사잇기  Humans are humans. ”
+대기
+대사 “ You should never forget this boundary between them. ”
+대기
+스크립트 기박사.txt 53 1
+대사 “ Robots are mere tools designed to make our lives easier.
+대기
+대사잇기  Nothing more, nothing
+대사새줄
+대사잇기 less. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Me being struck by lightning is more likely… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Fall in love with a robot? That's just crazy.
+대기
+스크립트 기박사.txt 19
+스크립트 이름.txt 기박사
+대사 “ I know, I know. Of course, I don’t expect that to happen to you, of all people. ”
+대기
+스크립트 기박사.txt 18 1
+대사 “ But you know… better safe than sorry. ”
+대기
+스크립트 기박사.txt 35 1
+대사 “ Better safe than sorry. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Alright already, I'll keep it in mind. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He nods in response.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 기박사.txt 지우기
+페이드아웃 배경음악 1500
+배경룰페이드아웃 룰_32.png 1000
+딜레이 500
+효과음 schoolbell schoolbell.mp3
+딜레이 3000
+배경룰페이드인 룰_31.png 700
+배경 bg_classroom_day bg_classroom_day.jpg
+딜레이 2000
+배경음악 반복 free14.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Before I knew it, the day's last class finally came.
+대기
+대사 At last, another monotonous day of school was coming to a close.
+대기
+//대사 마지막 강의 시간.
+//대기
+대사 But it feels like this lecture's lasting all eternity,
+대기
+대사 It's like I'm stuck in molasses.
+대기
+대사 The chalkboard is filled with scribbles that are barely decipherable.
+대기
+대사 Making it very hard to understand the lesson, which is painful enough already.
+대기
+//대사 가뜩이나 난해한 내용을 더욱 알아듣기 힘들게 한다.
+//대기
+스크립트 이름.txt 주인공
+대사 “ Ugh… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I can’t take it anymore!
+대기
+대사 The teacher is also awful at explaining things.
+대기
+대사새줄
+대사잇기 His words go through one ear and right out the other.
+대기
+대사 Unable to hold back the incoming fatigue, I let out a small yawn.
+대기
+대사 And glancing around, it looks like no one's doing much better.
+대기
+대사 All these mediocre teachers have one thing in common,
+대기
+대사 Their teaching method,
+대기
+대사새줄
+대사잇기 Is way too convoluted.
+대기
+대사 A bunch of rotten snobs… that’s what they are.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_32.png 700
+딜레이 1000
+배경룰페이드인 룰_27.png 500
+배경 bg_classroom_day bg_classroom_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 And yet time marches on…
+대기
+대사 The teacher’s dreadful onslaught of words ultimately comes to an end.
+대기
+대사 Watching a politician's speech is more riveting in comparison…
+대기
+대사 All that’s left now, is to go home.
+대기
+대사새줄
+대사잇기 Time to get out of this place.
+대기
+효과음 rustle rustle.mp3
+대사 I pack my belongings hurriedly,
+대기
+대사 Waving goodbye to Dr. Gears as I start to head home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 200
+배경룰페이드아웃 룰_11.png 700
+딜레이 1500
+배경룰페이드인 룰_12.png 700
+배경 bg_downtown_day bg_downtown_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 On the way, I suddenly realize something…
+대기
+대사 I'd nearly forgot about the android!
+대기
+대사 And almost ended up heading straight home.
+대기
+대사 I double-back towards the repair shop.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 300
+배경룰페이드아웃 룰_16.png 700
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Arriving,
+대기
+대사 I peek through the windows.
+대기
+대사새줄
+대사잇기 Place is not too busy.
+대기
+대사 But no sign of the repairman.
+대기
+//배경음악 반복 free14.mp3
+대사 Wasting no more time, I head in.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+페이드아웃 배경음악 2000
+딜레이 1000
+
+
+점프 chapter5.txt 첫줄
+
+

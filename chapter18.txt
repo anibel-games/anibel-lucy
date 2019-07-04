@@ -1,0 +1,795 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 30, Lucy"
+//변수 슬롯씬이름 = "10월 30일 루시"
+//변수 슬롯씬이름 = "10月30日 ルーシィ"
+
+딜레이 1000
+배경룰페이드인 룰_26.png 500
+배경 bg_room01_day bg_room01_day.jpg
+//음악선정?
+//배경음악 반복 town.mp3
+//배경음악 반복 spring_city.mp3
+배경음악 반복 free68.mp3
+페이드인 배경음악 1000
+효과음 broom_sweep broom_sweep.mp3 반복
+딜레이 2000
+
+변수 루시 = "l103"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 1000
+스크립트 대화창함수.txt
+스크립트 이름.txt 루시
+보이스 lucy0784_{{$언어}}.mp3
+대사 “ Hum, hum~ Hum~ ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy is cleaning a room.
+대기
+대사 She appears to be in a good mood today.
+대기
+대사 The room isn’t very messy.
+대기
+대사 But that’s only because Lucy has been working diligently.
+대기
+대사 And even though the room isn’t messy, Lucy continues to clean as usual.
+대기
+대사 It’s already become a part of her daily routine.
+대기
+대사 Without allowing a single speck of dust to fall onto the floor, Lucy proceeds with
+대사새줄
+대사잇기 clinical efficiency.
+대기
+페이드아웃 broom_sweep 1000
+스크립트 루시.txt 67
+효과음 rustle rustle.mp3
+스크립트 이름.txt 루시
+보이스 lucy0785_{{$언어}}.mp3
+대사 “ Here, and there… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 vacuum_cleaner_01 vacuum_cleaner_01.mp3
+딜레이 1000
+대사 Lucy glides across the floor with the vacuum cleaner.
+대기
+대사 She dusts each and every corner, and organizes the pile of books on the desk.
+대기
+대사 She hangs up the jackets inside the closet and places the folded underwear inside
+대사새줄
+대사잇기 various drawers.
+대기
+대사 She repeats this process.
+대기
+페이드아웃 vacuum_cleaner_01 1000
+대사 Not too long after, she finally stretches her back.
+대기
+대사 Then she wipes her forehead with the back of her hand.
+대기
+스크립트 루시.txt 121
+스크립트 이름.txt 루시
+보이스 lucy0786_{{$언어}}.mp3
+대사 “ Whew, it’s finally done. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The way she massages her waist while letting out a deep breath is no doubt the
+대사새줄
+대사잇기 appearance of a typical woman.
+대기
+대사 She stares at the sky through a window.
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0787_{{$언어}}.mp3
+대사 “ It sure is a lovely day today. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’d been a while since she’d seen such warm, sunny weather.
+대기
+대사 Compared to the chilly weather she’d been seeing lately, this was quite rare.
+대기
+대사 The sunlight is faintly shining down from the sky.
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0788_{{$언어}}.mp3
+대사 “ Hopefully it’ll stay this warm. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s almost time for her master to return home from school.
+대기
+//배경음악 반복 free68.mp3
+대사 She makes her way towards the living room to finish up the rest of her chores.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+배경룰페이드아웃 룰_16.png 700
+딜레이 1500
+배경룰페이드인 룰_16.png 700
+배경 bg_livingroom_day bg_livingroom_day.jpg
+페이드아웃 배경음악 2000
+딜레이 500
+변수 루시 = "l34"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0789_{{$언어}}.mp3
+대사 “ Hmm? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 When Lucy arrived in the living room, she tilted her head in confusion.
+대기
+대사새줄
+대사잇기 It was because she had heard something.
+대기
+대사 It’s father’s voice.
+대기
+대사 She can’t make out what he’s saying.
+대기
+대사새줄
+대사잇기 But he’s speaking quite loudly.
+대기
+대사 It doesn’t seem like he’s just talking to himself.
+대기
+대사 Soon enough, Lucy hears the voice of another person.
+대기
+대사 It’s a woman.
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0790_{{$언어}}.mp3
+대사 “ Perhaps father has brought a guest home? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With careful steps, Lucy makes her way towards his room.
+대기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 But she suddenly stops to think.
+대기
+대사 She’s reminded of father’s frightening demeanor.
+대기
+대사 She might get scolded again if she runs into him.
+대기
+대사 Feeling a little scared, Lucy stops at the base of the door.
+대기
+대사 From there, she cautiously peers into the room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+배경룰페이드아웃 룰_25.png 500
+딜레이 2000
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+배경룰페이드인 룰_25.png 300
+배경 bg_room02_day_peek bg_room02_day_peek.jpg
+//음악선정? 후반에 신비로운 분위기 안맞음
+쓰레드 배경음악페이드인
+//배경음악 반복 Fountain.mp3
+배경음악 반복 free64.mp3
+페이드인 배경음악 1000
+쓰레드
+쓰레드시작
+변수 아버지 = "d03"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 She sees father.
+대기
+대사 He’s talking to a lady that Lucy’s unfamiliar with.
+대기
+대사 She looks like she’s in her early thirties.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 아버지.txt 지우기
+페이드아웃 bg_room02_day_peek 1000
+딜레이 500
+배경룰페이드인
+배경 bg_livingroom_day bg_livingroom_day.jpg
+페이드인 bg_livingroom_day 1500
+딜레이 500
+변수 루시 = "l34"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy quietly mutters to herself.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0791_{{$언어}}.mp3
+대사 “ Who could that be? It’s Lucy’s first time seeing her. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Being careful not to get caught, she listens in while keeping her distance.
+대기
+대사 Her sensitive ears begin to pick up their voices clearly.
+대기
+스크립트 이름.txt 아버지
+대사 “ I blame everything on the robot. ”
+대기
+대사 “ Nothing’s been going well ever since that thing came along. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 33
+스크립트 이름.txt 루시
+보이스 lucy0792_{{$언어}}.mp3
+대사 “ C-could they be talking about Lucy? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 Lucy knows that eavesdropping is bad.
+대기
+대사 But overcome by her curiosity, she continues to listen.
+대기
+스크립트 이름.txt 아버지
+대사 “ My son has started acting strange. ”
+대기
+대사 “ He was never like this before. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Are you sure? I’ve always felt that he was the rebellious type. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ Yes, I’m sure! He might’ve been a little on the quiet side but he still used to be a
+대사새줄
+대사잇기 good kid. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Well, if you say so, dear. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l17"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0793_{{$언어}}.mp3
+대사 “ She must be master’s mother. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 Lucy came to that conclusion from the way that woman was talking to father.
+대기
+대사 She had heard once from master that father had remarried with a young secretary.
+대기
+대사 But it seems that she doesn’t stop by this place very often.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+배경룰페이드아웃 룰_20.png 700
+딜레이 1000
+배경룰페이드인 룰_25.png 300
+배경 bg_room02_day_peek bg_room02_day_peek.JPG
+변수 아버지 = "d03"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 아버지
+대사 “ I’d been thinking something was up. ”
+대기
+대사 “ But I never thought his condition would be so severe. ”
+대기
+스크립트 아버지.txt 10 1
+대사 “ He’s completely out of it. ”
+대기
+대사 “ To think that he’s confusing a robot with a human being! ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Ah, that’s just like what’s been on the news lately… ”
+대기
+대사 “ Tsk, tsk. How could a young boy like him lack such common sense? ”
+대기
+대사 “ Confusing a machine with a person. ”
+대기
+스크립트 아버지.txt 05
+스크립트 이름.txt 아버지
+대사 “ That robot is strange. ”
+대기
+대사 “ It’s… eerily realistic. ”
+대기
+대사 “ It’s far better at copying people than other models. ”
+대기
+대사 “ I’ve seen that sly contraption laugh and cry. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Didn’t you say once that she has quite the looks, too? ”
+대기
+대사 “ Since she’s just like a person and listens to his every command… ”
+대기
+대사 “ I can see how it could be problematic for a boy his age. ”
+대기
+대사 “ But still, she’s just a robot… ”
+대기
+대사 “ Perhaps… he’s having trouble at school? ”
+대기
+스크립트 아버지.txt 02
+스크립트 이름.txt 아버지
+대사 “ Trouble? ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Don’t they say this often? ”
+대기
+대사 “ That unsociable children are usually the ones that get attached to androids? ”
+대기
+대사 “ Since they have trouble getting along with people, they grow close with androids
+대사새줄
+대사잇기 instead. ”
+대기
+대사 “ Robots are always willing to listen to them, unlike people. ”
+대기
+대사 “ It’s clear that he’s having trouble with his school life. ”
+대기
+스크립트 아버지.txt 01
+스크립트 이름.txt 아버지
+대사 “ I wouldn’t know…
+대기
+대사잇기  Since he rarely ever talks about what happens at school… ”
+대기
+스크립트 아버지.txt 10 1
+대사 “ Anyway, it’s certain that the robot is the cause of all these problems. ”
+대기
+대사 “ There’s no doubt. ”
+대기
+대사 “ But I don’t know what I’m supposed to do. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Isn’t it obvious? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ What do you mean? ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Why don’t you just go destroy it? ”
+대기
+//쓰레드 배경음악페이드아웃
+//페이드아웃 배경음악 1500
+//쓰레드
+//쓰레드시작
+스크립트 아버지.txt 06
+스크립트 이름.txt 아버지
+대사 “ What…? ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Go dispose of it. The robot’s the reason behind all this, right? ”
+대기
+스크립트 아버지.txt 01
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her words were followed by a moment of silence.
+대기
+스크립트 이름.txt 아버지
+대사 “ …But then he’ll be really upset about it. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Isn’t it just like a toy, anyway? ”
+대기
+대사 “ When his condition improves, we can always buy him a new one. ”
+대기
+스크립트 아버지.txt 02
+스크립트 이름.txt 아버지
+대사 “ It’s not as simple as that…
+대기
+대사잇기  The robot looked a bit special. ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Then are you planning to leave things the way they are? ”
+대기
+스크립트 아버지.txt 01
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 여성1
+대사 “ You think his feelings are more important than his future? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Something must be done about this, right? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ Yeah… ”
+대기
+스크립트 이름.txt 여성1
+대사 “ Then just get rid of it. ”
+대기
+대사 “ Go smash it into pieces or set it on fire, whatever. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Father appeared to be mulling it over.
+대기
+스크립트 이름.txt 아버지
+대사 “ You’re right… ”
+대기
+스크립트 아버지.txt 10 1
+대사 “ That robot is the cause of all this. ”
+대기
+대사 “ If that robot disappears… ”
+대기
+//배경음악 반복 free64.mp3
+대사 “ If that robot gets out of our way, everything will soon return to normal. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 아버지.txt 지우기
+배경룰페이드아웃 룰_25.png 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+딜레이 2000
+배경룰페이드인
+배경 bg_livingroom_day bg_livingroom_day.jpg
+페이드인 bg_livingroom_day 2000
+딜레이 500
+변수 루시 = "l77"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That was as far as Lucy could listen.
+대기
+대사 She couldn’t bring herself to stay any longer.
+대기
+스크립트 루시.txt 78
+대사 She started to walk away from them, looking sullen.
+대기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 Correction, she tried to get away.
+대기
+효과음 THUDSmooth01 THUDSmooth01.mp3
+스크립트 이름.txt 루시
+보이스 lucy0794_{{$언어}}.mp3
+대사 “ Ow! ”
+효과음 glass_vase glass_vase.mp3
+진동 bg_livingroom_day 4 1 300 2000
+대기
+스크립트 이름.txt 이름지우기
+대사 While scrambling to leave, Lucy bumped into a nearby display containing a jar.
+대기
+대사 She managed to catch it just in time to prevent it from crashing onto the floor.
+대기
+대사 But she made a lot of noise in the process.
+대기
+스크립트 이름.txt 아버지
+대사 “ Who’s there? ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 FootStepD11_custom FootStepD11_custom.mp3
+효과음 StepD11 StepD11.mp3
+페이드인 StepD11 1500
+대사 Father and the woman rush out of the room.
+대기
+대사지우기
+딜레이 300
+변수 루시 = "l57"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0795_{{$언어}}.mp3
+대사 “ Ah, umm… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+딜레이 500
+스크립트 이름.txt 아버지
+대사 “ It’s you… ”
+대기
+대사 “ Were you listening? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy makes an excuse while putting the jar back in its place.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0796_{{$언어}}.mp3
+대사 “ L-Lucy is very sorry… She did not mean to eavesdrop on purpose. ”
+대기
+페이드아웃 보이스 100
+스크립트 이름.txt 아버지1
+대사 “ That’s enough.
+대기
+대사잇기  It makes everything a lot easier then. ”
+대기
+대사 “ I order you to leave this house. ”
+배경음악 반복 free40.mp3
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ We have no use for you. ”
+대기
+대사 “ There’s nothing we need from you in this household. ”
+대기
+대사 “ So leave. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0797_{{$언어}}.mp3
+대사 “ B-but master is… ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ My son doesn’t need you either. ”
+대기
+대사 “ He’s only confused because he’s young. ”
+대기
+대사 “ You’re not being of any help to my son. ”
+대기
+대사 “ You’re only causing him to suffer. ”
+대기
+대사 “ So run along. ”
+대기
+대사 “ Forever disappear from our sights. ”
+대기
+스크립트 루시.txt 37
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+보이스 lucy0798_{{$언어}}.mp3
+대사 “ L-Lucy… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy stood in a timid posture.
+대기
+대사 But her voice was as firm as ever.
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0799_{{$언어}}.mp3
+대사 “ With all due respect, Lucy does not agree with father. ”
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ What? ”
+대기
+스크립트 루시.txt 77
+스크립트 이름.txt 루시
+보이스 lucy0800_{{$언어}}.mp3
+대사 “ Lucy believes… ”
+대기
+스크립트 루시.txt 57 1
+보이스 lucy0801_{{$언어}}.mp3
+대사 “ Lucy believes that she’s being a great help to master... ”
+대기
+스크립트 이름.txt 이름지우기
+대사 In the past, she wouldn’t have been able to say for sure.
+대기
+대사 But now, it’s different.
+대기
+대사새줄
+대사잇기 She continues to speak with great confidence.
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0802_{{$언어}}.mp3
+대사 “ Master has told Lucy… ”
+대기
+보이스 lucy0803_{{$언어}}.mp3
+대사 “ Master has told Lucy that he needs her. ”
+대기
+스크립트 루시.txt 73 1
+보이스 lucy0804_{{$언어}}.mp3
+대사 “ That is why… Lucy does not wish to leave. ”
+대기
+보이스 lucy0805_{{$언어}}.mp3
+대사 “ She would like to continue to help master. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ ……… ”
+대기
+대사 “ All right. ”
+대기
+대사 “ It doesn’t seem like we’ll get anywhere by talking. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 아버지.txt 지우기
+대사 Father disappears off somewhere.
+대기
+대사 A moment later, he returns with a container filled with gasoline in his hand.
+효과음 plastic_folley plastic_folley.mp3
+대기
+스크립트 루시.txt 지우기
+효과음 wet wet.mp3
+딜레이 1000
+대사 He pours the gasoline onto Lucy.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0806_{{$언어}}.mp3
+대사 “ ……! ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 water_pour water_pour.mp3
+효과음 wet2 wet2.mp3
+대사 The gasoline makes a loud splash as it makes contact with Lucy.
+대기
+대사 She soon becomes drenched from top to bottom.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+변수 루시 = "l150"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy stands in silence with the gasoline covering her body.
+대기
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 lighter lighter.mp3
+딜레이 1000
+대사 Father takes out a lighter and flicks it on.
+대기
+대사 He holds the lighter threateningly close.
+대기
+대사지우기
+변수 아버지 = "d11"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 500
+스크립트 이름.txt 아버지
+대사 “ This is my last warning. ”
+대기
+대사 “ Leave if you do not wish to be turned into a pile of ashes. ”
+대기
+스크립트 아버지.txt 12 1
+대사 “ And don’t you dare come back. ”
+대기
+대사 “ Stay out of my son’s life forever. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy silently observes her slimy body.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0807_{{$언어}}.mp3
+대사 “ What should… ”
+대기
+스크립트 루시.txt 151
+딜레이 500
+대사 What should Lucy do?
+대기
+대사새줄
+대사잇기 Lucy tries asking herself.
+대기
+대사 But there isn’t anyone that could give her an answer.
+대기
+대사 Without knowing what to do, Lucy remains standing still for quite a long time.
+대기
+대사 Her body is designed to be able to withstand intense heat for a short while.
+대기
+대사새줄
+대사잇기 But it won’t be long before she begins to melt.
+대기
+대사 Lucy suddenly remembers master’s order.
+대기
+대사 ‘ Run away if she’s in danger. ’
+대기
+대사새줄
+대사잇기 That was the order.
+대기
+스크립트 루시.txt 150
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy didn’t know what to do.
+대기
+대사 She didn’t know what to do but she decided to leave the scene first.
+대기
+대사 Staying here would be going against the Second and Third Law of Robotics.
+대기
+대사 In order to prevent that, Lucy begins to move.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0808_{{$언어}}.mp3
+대사 “ Please take care. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기1500
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 With a sad look, Lucy leaves.
+대기
+스크립트 아버지.txt 08
+스크립트 이름.txt 아버지
+대사 “ Don’t even think about showing up here ever again. ”
+대기
+대사 “ If you do, you’d better be prepared to pay the price. ”
+대기
+스크립트 아버지.txt 10 1
+대사 “ I’m in no way exaggerating. ”
+대기
+대사 “ Keep that in mind. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 아버지.txt 지우기1000
+딜레이 500
+배경룰페이드아웃 룰_20.png 500
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 All Lucy did was to give the ground a lonely stare.
+대기
+//배경음악 반복 free40.mp3
+대사 Did she really have to part with master like this…
+대기
+대사 With a heavy heart, she made her way outside, leaving behind a slimy trail of
+대사새줄
+대사잇기 gasoline.
+대기
+대사 Father followed after to make sure she left.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 배경음악 2500
+효과음 e74030_door-02-01 e74030_door-02-01.mp3
+딜레이 2000
+CG bg_white bg_white.jpg
+페이드인 bg_white 2000
+배경룰페이드인
+배경 bg_sky_day bg_sky_day.jpg
+딜레이 500
+페이드아웃 bg_white 2500
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Once outside, Lucy found herself staring at the sky absent-mindedly.
+대기
+대사새줄
+대사잇기 It was bright and sunny out, which had been a rare sight in the recent weeks.
+대기
+대사 Lucy stopped in her tracks momentarily as she stared into the sky.
+대기
+대사 Then she smiled brightly.
+대기
+대사 It was a refreshing smile free of all cares in the world.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0809_{{$언어}}.mp3
+대사 “ It sure is… a lovely day today. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She thought it would be good weather to go for a picnic.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 500
+페이드아웃 bg_sky_day 3000
+
+딜레이 3000
+
+변수 chapter = 18
+
+점프 로봇3원칙.txt 첫줄
+
+
+
+
+
+
+
+

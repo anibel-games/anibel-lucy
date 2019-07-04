@@ -1,0 +1,3268 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+// 모두 지웁니다. 굳이 아무것도 없는데 모두 지우는 것은
+// '메뉴'에서 '타이틀로' 선택시에 화면에 있는 모든 것을 지워줘야 하기 때문입니다.
+모두지우기
+회상초기화
+// ESC 키를 누르면 나타날 메뉴를 초기화 해줍니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 12, You"
+//변수 슬롯씬이름 = "10월 12일 주인공"
+//변수 슬롯씬이름 = "10月12日 主人公"
+
+딜레이 1500
+CG credit_start_1 credit_start_1.png 0 0 아니 -198
+페이드인 credit_start_1 2000
+딜레이 1500
+페이드아웃 credit_start_1 2000
+효과음 crowd crowd.mp3 반복
+CG credit_start_2 credit_start_2.png 0 0 아니 -199
+페이드인 credit_start_2 2000
+딜레이 1500
+페이드아웃 credit_start_2 2000
+딜레이 1500
+
+CG bg_neon01 bg_neon01.jpg
+페이드인 bg_neon01 2500
+딜레이 1000
+스크립트 대화창함수.txt
+대사 As I turn onto the main street,
+대기
+대사 I reflexively cover my eyes.
+대기
+대사지우기
+CG bg_neon02 bg_neon02.jpg
+페이드인 bg_neon02 2000
+페이드아웃 bg_neon01
+대사 Neon signs are as blindingly-bright as ever.
+대기
+대사 And those animated holoverts are even worse…
+대기
+CG bg_downtown_neon bg_downtown_neon.jpg
+페이드인 bg_downtown_neon 2000
+페이드아웃 bg_neon02
+대사새줄
+대사잇기 …whoever came up with the idea to add sound to those holos should be shot…
+대기
+대사 They’re all giving me a headache.
+대기
+대사 This place's really changed in the last few years.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+페이드아웃 bg_downtown_neon 2000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Korea's really come up in the world.
+대기
+대사새줄
+대사잇기 All around, you can see signs of progress.
+대기
+대사 Maybe a bit too fast…
+대기
+대사새줄
+대사잇기 Too soon…
+대기
+대사 Maybe if I just close my eyes…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 1500
+배경룰페이드인 룰_47.png 500
+배경 bg_downtown_evening bg_downtown_evening.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Nope. Nothing's changed.
+대기
+대사 In fact, those signs look even brighter…
+대기
+대사 Maybe I'm just feeling a bit out of it.
+대기
+대사새줄
+대사잇기 Could be the weather.
+대기
+대사 Change of scenery's in order…
+대기
+대사 I'll take a shortcut home.
+대기
+대사 Get away from this visual-audio assault.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 FOOTSTEPSWalkTrainersAsphaltSlow페이드아웃
+효과음 FOOTSTEPSWalkTrainersAsphaltSlow FOOTSTEPSWalkTrainersAsphaltSlow.mp3
+페이드아웃 FOOTSTEPSWalkTrainersAsphaltSlow 3000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_20.png 500
+페이드아웃 crowd 2000
+배경음악 반복 kyoumei.mp3 
+//배경음악 반복 test.mp3 
+페이드인 배경음악 1000
+CG credit_start_3 credit_start_3.png 0 0 아니 -198
+페이드인 credit_start_3 2000
+딜레이 1500
+페이드아웃 credit_start_3 2000
+딜레이 1500
+
+배경룰페이드인 룰_25.png 500
+배경 bg_krobotics_evening bg_krobotics_evening.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Whew… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That's better. Just what the doctor ordered.
+대기
+대사 I can still hear the noise in the distance but at least it's faint now.
+대기
+대사 Gotta admit, this place has a spooky vibe…
+대기
+대사 No one's around… Plus, the area looks pretty run-down.
+대기
+대사 Half-expect a ghost to pop out as I walk along.
+대기
+대사새줄
+대사잇기 Still, my eyes sure appreciate the break.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A massive building on the side catches my attention.
+대기
+대사 K Robotics Co., Ltd.
+대기
+대사 Bet that's what it says on the main gates.
+대기
+대사 One of the biggest robotic manufacturers,
+대기
+대사 They're world renowned.
+대기
+대사새줄
+대사잇기 Even I've heard of them.
+대기
+대사 They get a lot of news coverage, being a frequent topic around school, as well.
+대기
+대사새줄
+대사잇기 The company's claim-to-frame are their advanced android series.
+대기
+대사 Not that I would know,
+대기
+대사 Despite being bombarded by marketing everywhere…
+대기
+대사 For me…
+대기
+대사 I’m the kind of person who prefers analogue clocks over digital.
+대기
+대사새줄
+대사잇기 Pianos over synthesizers.
+대기
+대사새줄
+대사잇기 Acoustic guitars over electric.
+대기
+대사 And finally, real people over androids.
+대기
+대사 I spot what appears to be crumpled hills of metal in the distance.
+대기
+대사새줄
+대사잇기 Yep, their junkyard is my shortcut home.
+대기
+대사 Totally illegal, of course…
+대기
+대사 …So I don't intend to get caught…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+페이드아웃 bg_krobotics_evening 2000
+CG credit_start_4 credit_start_4.png 0 0 아니 -198
+페이드인 credit_start_4 2000
+딜레이 1500
+페이드아웃 credit_start_4 2000
+딜레이 500
+효과음 scrapyard scrapyard.mp3 반복
+딜레이 2000
+
+CG bg_dump01big bg_dump01.jpg 0 -60
+크기 bg_dump01big 2 2 0
+쓰레드 페기장시퀀스페이드인
+페이드인 bg_dump01big 2500
+쓰레드
+쓰레드 페기장시퀀스이동
+이동 bg_dump01big 0 -150 20 0
+쓰레드
+쓰레드 페기장시퀀스페이드아웃
+딜레이 3500
+페이드아웃 bg_dump01big 3000
+쓰레드
+쓰레드시작
+
+딜레이 3000
+
+CG bg_dump01big2 bg_dump01.jpg -800 -200
+크기 bg_dump01big2 1.8 1.8 0
+
+쓰레드 페기장시퀀스페이드인
+페이드인 bg_dump01big2 2000
+쓰레드
+쓰레드 페기장시퀀스이동
+이동 bg_dump01big2 -900 -200 20 0
+쓰레드
+쓰레드 페기장시퀀스페이드아웃
+딜레이 3000
+페이드아웃 bg_dump01big2 1500
+쓰레드
+쓰레드시작
+딜레이 2000
+배경룰페이드인
+배경 bg_dump01 bg_dump01.jpg
+//배경룰페이드인 룰_29.png 400
+//배경 bg_dump01 bg_dump01.jpg
+//페이드인 bg_dump01 1500
+딜레이 3000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 Here we are.
+대기
+대사 The scrapyard for all lost hopes and dreams.
+대기
+대사 Everything here's automated.
+대기
+대사 No one's watching the place.
+대기
+대사 Well… there are these tin can like bots that scurry around like spiders.
+대기
+대사 Probably sort through all these junk for any good stuff.
+대기
+대사 And then there's a lone sentry bot.
+대기
+대사새줄
+대사잇기 As long as I don't let it spot me, no alarm goes off.
+대기
+대사 It's worked for me so far.
+대기
+대사 After all, robots are fundamentally stupid.
+대기
+대사 Like my class-mate told me:
+대기
+대사 ‘ That company's dumping ground. I heard you can find some
+대사새줄
+대사잇기 real goodies from time to time… ’
+대기
+대사 ‘ …if you’re lucky, that is. ’
+대기
+대사 Sadly, I’ve scoped this place out on previous trips.
+대기
+대사 And so far I've come up empty…
+대기
+대사 Guess lady luck's just not with me.
+대기
+대사새줄
+대사잇기 Or I can't tell what’s useful, as I'm not really a robophile.
+대기
+대사 Knowing me, it's probably both…
+대기
+대사 Whatever.
+대기
+대사잇기  Didn’t come here for a treasure-hunt, anyway.
+대기
+대사 Forget about the scrap. This is only a shortcut home.
+대기
+대사 Cutting through this place, I can shave off almost ten minutes.
+대기
+대사 Risky but worth it.
+대기
+대사 I intentionally ignore the ‘ No Trespassing ’ signs scattered all over the place.
+대기
+대사 However, today was different.
+대기
+//배경음악 반복 kyoumei.mp3
+//효과음 scrapyard scrapyard.mp3 반복
+대사 As I started making my way through, something caught my eye…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+//딜레이 1000
+//배경룰페이드아웃 룰_15.png 500
+//딜레이 1000
+//페이드아웃 배경음악 1000
+//페이드아웃 폐기장 1000
+//배경룰페이드인 룰_15.png 500
+//배경 bg_dump02 bg_dump02.jpg
+//딜레이 1000
+
+쓰레드 scrapyard페이드아웃
+페이드아웃 scrapyard 3000
+쓰레드
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+
+딜레이 2000
+
+효과음 FOOTSTEPSWalkTrainersCompactGravelSlow FOOTSTEPSWalkTrainersCompactGravelSlow.mp3
+딜레이 2000
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Is that…? ”
+페이드아웃 FOOTSTEPSWalkTrainersCompactGravelSlow 100
+대기
+스크립트 이름.txt 이름지우기
+대사 Ahead of me,
+대기
+대사 Can barely make it out…
+대기
+대사 Squinting, I come closer…
+대기
+대사 It looks like…
+대기
+효과음 e73010_se-g01 e73010_se-g01.mp3
+스크립트 이름.txt 주인공
+대사 “ Wait… a person? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A woman, lying on the ground.
+대기
+대사 She's not moving.
+대기
+대사 Unconscious?
+대기
+대사 Maybe she’s hurt?
+대기
+대사새줄
+대사잇기 Or something worse…?
+대기
+대사 Growing a bit concerned, I forget all about the sentry.
+대기
+대사 Had I just stumbled upon a crime scene that might end up on tomorrow morning’s headline news?
+대기
+대사 She needs help.
+대기
+대사새줄
+대사잇기 And since I'm the only one around…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+배경룰페이드아웃 룰_9.png 1000
+딜레이 500
+배경룰페이드인 룰_9.png 1000
+배경 bg_dump02 bg_dump02.jpg
+딜레이 1000
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I dash towards the fallen maiden to lend assistance.
+대기
+대사 But as I get close, I stop in my tracks.
+대기
+대사 I had to do a double-take.
+대기
+대사새줄
+대사잇기 That's no woman,
+대기
+스크립트 이름.txt 주인공
+대사 “ You gotta be kidding me… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+//ev01_1 출력
+CG ev01_1 ev01_1.jpg
+페이드인 ev01_1 2000
+배경음악 반복 c5.mp3
+페이드인 배경음악 1500
+페이드아웃 bg_dump02
+////앨범에 ev01_1 추가
+오마케추가 ev01_1 ev01_1.jpg
+변수 $ev01_1획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 It's so close to the real deal:
+대기
+대사 Two eyes closed tightly shut.
+대기
+대사새줄
+대사잇기 Platinum-hued hair that seemed to almost sparkle.
+대기
+대사 From afar it looks like a person.
+대기
+대사새줄
+대사잇기 But up close, there's no mistaking it,
+대기
+대사 An android.
+대기
+조건 $버려진로봇트로피 = 1 여기 깜짝놀랐잖아
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+ 
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 447 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "버려진 로봇"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 582 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 390 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 685 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Abandoned Robot"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 389 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "捨てられたロボット"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 626 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $버려진로봇트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1
+딜레이 1000
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+북마크 깜짝놀랐잖아
+스크립트 이름.txt 주인공
+대사 “ Useless piece of junk. ”
+대기
+대사 “ Don’t scare me like that. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Although I’ve never owned an android,
+대기
+대사새줄
+대사잇기 I’ve seen quite a few around me.
+대기
+대사 The newest models look like the real McCoy, at least from a distance…
+대기
+대사 That’s pretty advanced tech… Scary advanced…
+대기
+대사 To prevent confusion, androids are imprinted with serial codes.
+대기
+대사 Each model has its own unique number.
+대기
+대사 I spot the android’s code near its belly.
+대기
+대사 I blow off the dust to get a better look. It reads…
+대기
+대사잇기  P… I…
+대기
+대사새줄
+대사잇기 PIM-001.
+대기
+대사 Number 1,
+대기
+대사잇기  with a design that I’ve never seen before.
+대기
+대사 Maybe it's a prototype. It looks brand new…
+대기
+대사 If so, then what’s it doing here?
+대기
+대사 A failed experiment?
+대기
+대사 It’s caked with dust from head to toe.
+대기
+대사새줄
+대사잇기 All-in-all, it’s a pretty sad sight.
+대기
+대사 It also hasn’t moved a single inch.
+대기
+대사새줄
+대사잇기 Looks like it's out cold.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey… Wake up. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Curiosity gets the better of me. I decide to test it out.
+대기
+대사 Voice recognition is a standard feature for all androids nowadays.
+대기
+대사 Let's see if it responds to my voice.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Nope.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey! Say something! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Still nothing.
+대기
+스크립트 이름.txt 주인공
+대사 “ Come on! They’re gonna cut you open at this rate. ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 THUDBright02 THUDBright02.mp3 2
+대사 I deliver a light kick to the robot’s leg.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+
+페이드아웃 ev01_1 500
+딜레이 1000
+//시스템버튼 protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+스크립트 스킵메뉴창.txt 봉인
+효과음 UIBeepTribleDirtyDark UIBeepTribleDirtyDark.mp3
+//동영상 본편이펙트_glitch 0 0 1280 720 loading_glitch.avi -1 
+CG loading_glitch_00 loading_glitch_00.jpg 0 0 아니 -150
+딜레이 25
+CG loading_glitch_01 loading_glitch_01.jpg 0 0 아니 -150
+CG loading_glitch_00
+딜레이 25
+CG loading_glitch_02 loading_glitch_02.jpg 0 0 아니 -150
+CG loading_glitch_01
+딜레이 25
+CG loading_glitch_03 loading_glitch_03.jpg 0 0 아니 -150
+CG loading_glitch_02
+딜레이 25
+CG loading_glitch_04 loading_glitch_04.jpg 0 0 아니 -150
+CG loading_glitch_03
+딜레이 25
+CG loading_glitch_05 loading_glitch_05.jpg 0 0 아니 -150
+CG loading_glitch_04
+딜레이 25
+CG loading_glitch_06 loading_glitch_06.jpg 0 0 아니 -150
+CG loading_glitch_05
+딜레이 25
+CG loading_glitch_07 loading_glitch_07.jpg 0 0 아니 -150
+CG loading_glitch_06
+딜레이 25
+CG loading_glitch_08 loading_glitch_08.jpg 0 0 아니 -150
+CG loading_glitch_07
+딜레이 25
+CG loading_glitch_09 loading_glitch_09.jpg 0 0 아니 -150
+CG loading_glitch_08
+딜레이 25
+CG loading_glitch_10 loading_glitch_10.jpg 0 0 아니 -150
+CG loading_glitch_09
+딜레이 25
+CG loading_glitch_11 loading_glitch_11.jpg 0 0 아니 -150
+CG loading_glitch_10
+딜레이 25
+CG loading_glitch_12 loading_glitch_12.jpg 0 0 아니 -150
+CG loading_glitch_11
+딜레이 25
+CG loading_glitch_13 loading_glitch_13.jpg 0 0 아니 -150
+CG loading_glitch_12
+딜레이 25
+CG loading_glitch_14 loading_glitch_14.jpg 0 0 아니 -150
+CG loading_glitch_13
+딜레이 25
+CG loading_glitch_15 loading_glitch_15.jpg 0 0 아니 -150
+CG loading_glitch_14
+딜레이 25
+CG loading_glitch_16 loading_glitch_16.jpg 0 0 아니 -150
+CG loading_glitch_15
+딜레이 25
+CG loading_glitch_17 loading_glitch_17.jpg 0 0 아니 -150
+CG loading_glitch_16
+딜레이 25
+CG loading_glitch_18 loading_glitch_18.jpg 0 0 아니 -150
+CG loading_glitch_17
+딜레이 25
+CG loading_glitch_19 loading_glitch_19.jpg 0 0 아니 -150
+CG loading_glitch_18
+딜레이 25
+CG loading_glitch_20 loading_glitch_20.jpg 0 0 아니 -150
+CG loading_glitch_19
+딜레이 25
+CG loading_glitch_21 loading_glitch_21.jpg 0 0 아니 -150
+CG loading_glitch_20
+딜레이 25
+CG loading_glitch_22 loading_glitch_22.jpg 0 0 아니 -150
+CG loading_glitch_21
+딜레이 25
+CG loading_glitch_23 loading_glitch_23.jpg 0 0 아니 -150
+CG loading_glitch_22
+딜레이 25
+CG loading_glitch_24 loading_glitch_24.jpg 0 0 아니 -150
+CG loading_glitch_23
+딜레이 25
+CG loading_glitch_25 loading_glitch_25.jpg 0 0 아니 -150
+CG loading_glitch_24
+딜레이 25
+CG loading_glitch_26 loading_glitch_26.jpg 0 0 아니 -150
+CG loading_glitch_25
+딜레이 25
+CG loading_glitch_27 loading_glitch_27.jpg 0 0 아니 -150
+CG loading_glitch_26
+딜레이 25
+CG loading_glitch_28 loading_glitch_28.jpg 0 0 아니 -150
+CG loading_glitch_27
+딜레이 25
+CG loading_glitch_29 loading_glitch_29.jpg 0 0 아니 -150
+CG loading_glitch_28
+딜레이 25
+CG loading_glitch_30 loading_glitch_30.jpg 0 0 아니 -150
+CG loading_glitch_29
+딜레이 25
+CG loading_glitch_31 loading_glitch_31.jpg 0 0 아니 -150
+CG loading_glitch_30
+딜레이 25
+CG loading_glitch_32 loading_glitch_32.jpg 0 0 아니 -150
+CG loading_glitch_31
+딜레이 25
+CG loading_glitch_33 loading_glitch_33.jpg 0 0 아니 -150
+CG loading_glitch_32
+딜레이 25
+CG loading_glitch_34 loading_glitch_34.jpg 0 0 아니 -150
+CG loading_glitch_33
+딜레이 25
+CG loading_glitch_35 loading_glitch_35.jpg 0 0 아니 -150
+CG loading_glitch_34
+딜레이 25
+CG loading_glitch_36 loading_glitch_36.jpg 0 0 아니 -150
+CG loading_glitch_35
+딜레이 25
+CG loading_glitch_37 loading_glitch_37.jpg 0 0 아니 -150
+CG loading_glitch_36
+딜레이 25
+CG loading_glitch_38 loading_glitch_38.jpg 0 0 아니 -150
+CG loading_glitch_37
+딜레이 25
+CG loading_glitch_39 loading_glitch_39.jpg 0 0 아니 -150
+CG loading_glitch_38
+딜레이 25
+CG loading_glitch_40 loading_glitch_40.jpg 0 0 아니 -150
+CG loading_glitch_39
+딜레이 25
+CG loading_glitch_41 loading_glitch_41.jpg 0 0 아니 -150
+CG loading_glitch_40
+딜레이 25
+CG loading_glitch_42 loading_glitch_42.jpg 0 0 아니 -150
+CG loading_glitch_41
+딜레이 25
+CG loading_glitch_43 loading_glitch_43.jpg 0 0 아니 -150
+CG loading_glitch_42
+딜레이 25
+CG loading_glitch_44 loading_glitch_44.jpg 0 0 아니 -150
+CG loading_glitch_43
+딜레이 25
+CG loading_glitch_45 loading_glitch_45.jpg 0 0 아니 -150
+CG loading_glitch_44
+딜레이 25
+CG loading_glitch_46 loading_glitch_46.jpg 0 0 아니 -150
+CG loading_glitch_45
+딜레이 25
+CG loading_glitch_47 loading_glitch_47.jpg 0 0 아니 -150
+CG loading_glitch_46
+딜레이 25
+CG loading_glitch_48 loading_glitch_48.jpg 0 0 아니 -150
+CG loading_glitch_47
+딜레이 25
+CG loading_glitch_49 loading_glitch_49.jpg 0 0 아니 -150
+CG loading_glitch_48
+딜레이 25
+CG loading_glitch_50 loading_glitch_50.jpg 0 0 아니 -150
+CG loading_glitch_49
+딜레이 25
+CG loading_glitch_51 loading_glitch_51.jpg 0 0 아니 -150
+CG loading_glitch_50
+딜레이 25
+CG loading_glitch_52 loading_glitch_52.jpg 0 0 아니 -150
+CG loading_glitch_51
+딜레이 25
+CG loading_glitch_53 loading_glitch_53.jpg 0 0 아니 -150
+CG loading_glitch_52
+딜레이 25
+CG loading_glitch_54 loading_glitch_54.jpg 0 0 아니 -150
+CG loading_glitch_53
+딜레이 25
+CG loading_glitch_55 loading_glitch_55.jpg 0 0 아니 -150
+CG loading_glitch_54
+딜레이 25
+CG loading_glitch_56 loading_glitch_56.jpg 0 0 아니 -150
+CG loading_glitch_55
+딜레이 25
+CG loading_glitch_57 loading_glitch_57.jpg 0 0 아니 -150
+CG loading_glitch_56
+딜레이 25
+CG loading_glitch_58 loading_glitch_58.jpg 0 0 아니 -150
+CG loading_glitch_57
+딜레이 25
+CG lt03 lt03.png 0 258 아니 -130
+CG loading_glitch_58
+딜레이 25
+CG lt04 lt04.png 0 258 아니 -130
+CG lt03
+딜레이 25
+CG lt05 lt05.png 0 258 아니 -130
+CG lt04
+딜레이 25
+CG lt06 lt06.png 0 258 아니 -130
+CG lt05
+딜레이 25
+CG lt07 lt07.png 0 258 아니 -130
+CG lt06
+딜레이 25
+CG lt07
+스크립트 스킵메뉴창.txt 해제
+//페이드아웃 protect
+CG ev01_1 ev01_1.jpg
+페이드인 ev01_1 1000
+효과음 robot2 robot2.mp3
+//ev01_2 출력
+CG ev01_2 ev01_2.jpg
+페이드인 ev01_2 1000
+페이드아웃 ev01_1
+////앨범에 ev01_2 추가
+오마케추가 ev01_2 ev01_2.jpg
+변수 $ev01_2획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 Upon contact, it starts to show a sign of life.
+대기
+대사 Its arms spasm as the thing chortles out beeping sounds.
+대기
+대사 Still pretty rigid…
+대기
+대사 The scene looks like it was plucked straight out of an old sci-fi film.
+대기
+대사 Looks like it’s running on reserves… power.
+대기
+스크립트 이름.txt 주인공
+대사 “ I guess it’s still got a bit of juice left. ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! ”
+효과음 robot1 robot1.mp3
+대기
+스크립트 이름.txt 이름지우기
+대사 Those jittery movements are making me feel a bit nervous…
+대기
+대사 The light in its eyes have yet to return.
+대기
+효과음 robot robot2.mp3
+대사 I begin to spot a pattern in its actions.
+대기
+대사 It looks as if it’s greeting me with a wave…
+대기
+대사 Trying desperately to keep my attention.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+CG bg_dump01 bg_dump01.jpg
+페이드인 bg_dump01 1500
+페이드아웃 ev01_2
+딜레이 500
+쓰레드 scrapyard페이드인
+효과음 scrapyard scrapyard.mp3 반복
+페이드인 scrapyard 3000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I glance around.
+대기
+대사 I hear a screeching sound nearby.
+대기
+대사 The sound of metal being crushed.
+대기
+대사 It’s probably those little robots doing their jobs.
+대기
+대사 I can tell that they’re close.
+대기
+대사 They’ll probably reach this place in less than ten minutes…
+대기
+쓰레드 scrapyard페이드아웃
+페이드아웃 scrapyard 3000
+쓰레드
+쓰레드시작
+//ev01_2 출력
+CG ev01_2 ev01_2.jpg
+페이드인 ev01_2 1000
+페이드아웃 bg_dump01
+////앨범에 ev01_2 추가
+오마케추가 ev01_2 ev01_2.jpg
+변수 $ev01_2획득 = 1
+딜레이 500
+대사 And shred this android into a million pieces.
+대기
+대사 Its existence will soon come to an end.
+대기
+스크립트 이름.txt 주인공
+대사 “ I kinda feel sorry for this thing… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I began to sympathize with the robot.
+대기
+대사 Because I realized just how much trouble it was in.
+대기
+대사 Despite being dusty, it’s still in a pretty good shape.
+대기
+대사 With some polish, it'd look pretty decent…
+대기
+대사 Even in its current condition, the thing’d still be in service.
+대기
+대사 If so, why was it chucked? What happened to its product launch?
+대기
+대사 Looking at it like that, it’d be a waste…
+대기
+대사새줄
+대사잇기 All of that hard work down the drain.
+대기
+대사 Maybe with a bit of tinkering, I might be able to get it up-and-running again…
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Part of me was starting to pity the robot…
+대기
+대사새줄
+대사잇기 …But the other part was calling me an idiot.
+대기
+대사 I don’t need an android in the first place…
+대기
+대사 Plus, I don't like them.
+대기
+대사 To use one around the house…
+대기
+대사잇기  it's unthinkable.
+대기
+대사 And my father’ll be none-too-happy about it.
+대기
+대사 I prefer classical music over rock,
+대기
+대사새줄
+대사잇기 Classic literature over pulp fiction,
+대기
+대사새줄
+대사잇기 And finally… humans over androids.
+대기
+대사 Let’s face it.
+대기
+대사 I have no use for an android.
+대기
+대사 Eventually, this robot will be scrapped,
+대기
+대사 With the old parts recycled,
+대기
+//배경음악 반복 c5.mp3
+대사 With the whole cycle starting anew.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 200
+CG bg_dump01 bg_dump01.jpg
+페이드인 bg_dump01 1500
+페이드아웃 ev01_2
+
+딜레이 500
+
+효과음 ROBOTICTransformationInsect01ServosClicksDigital ROBOTICTransformationInsect01ServosClicksDigital.mp3
+
+변수 앤드류 = "a01"
+CG {{앤드류}} {{앤드류}}.png
+페이드인 {{앤드류}} 1000
+딜레이 200
+효과음 robot_alarm robot_alarm.mp3 반복
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사크기 50
+스크립트 이름.txt 경비로봇
+대사 “ Alert!
+대기
+대사잇기  Intruder detected! ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+대사크기 35
+딜레이 300
+
+쓰레드 경보음페이드아웃
+페이드아웃 robot_alarm 5000
+쓰레드
+쓰레드시작
+
+//ev01_2 출력
+CG ev01_2 ev01_2.jpg
+페이드인 ev01_2 1500
+페이드아웃 bg_dump01
+////앨범에 ev01_2 추가
+오마케추가 ev01_2 ev01_2.jpg
+변수 $ev01_2획득 = 1
+
+페이드아웃 a01
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 Dammit, I’ve been spotted by that guard robot… the most troublesome one.
+대기
+대사 If I don't make a run for it, I'm screwed.
+대기
+대사 Leaving it would be the smart thing to do…
+대기
+스크립트 이름.txt 주인공
+대사 “ I gotta go. See ya. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+페이드아웃 ev01_2 2500
+
+딜레이 5500
+
+배경룰페이드인 룰_27.png 400
+배경 bg_room01_light bg_room01_light.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+대사 “ There's gotta… be something wrong with me… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+변수 루시 = "l02"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 2000
+딜레이 500
+배경음악 반복 c2.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 But smart's never been my strong suite…
+대기
+대사 Now I'm lugging this thing home…
+대기
+대사 …and I’m already starting to regret it.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Back in my room, I try to scrub some of the filth off its chassis.
+대기
+대사 I do the best I can with a rag soaked in water. 
+대기
+대사 Hmmm…
+대기
+대사새줄
+대사잇기 Not too shabby…
+대기
+대사 If I do say so myself.
+대기
+대사 That'll have to do for now.
+대기
+대사 Guess it makes sense the thing'd be water-proof,
+대기
+대사 So no harm done.
+대기
+대사 Now for the next issue,
+대기
+대사 How do I interact with this thing?
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey, you. ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! ”
+효과음 robot1 robot1.mp3
+대기
+스크립트 이름.txt 이름지우기
+대사 Its arms begin to flail.
+대기
+스크립트 이름.txt 주인공
+대사 “ Respond! ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! ”
+효과음 robot1 robot1.mp3
+대기
+스크립트 이름.txt 주인공1
+대사 “ Sigh… ”
+대기
+대사 “ If you don’t want to be thrown away again, just show me something! ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! ”
+효과음 robot1 robot1.mp3
+대기
+스크립트 이름.txt 주인공1
+대사 “ Anything besides flailing your arms? ”
+대기
+대사 “ I take it that's a no… ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! ”
+효과음 robot1 robot1.mp3
+대기
+스크립트 이름.txt 주인공1
+대사 “ …should've left you in the junkyard… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 This is somewhat aggravating…
+대기
+대사 Like talking to a brick wall…
+대기
+대사 This is why I hate machines.
+대기
+대사잇기  They’re stupid.
+대기
+대사 And this hunk of junk seems a few transistors short of a motherboard.
+대기
+대사 I’m starting to get a little ticked off.
+대기
+스크립트 이름.txt 주인공
+대사 “ Why do I even bother… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Don’t do something you might regret.
+대기
+대사 This old saying has never been wrong.
+대기
+스크립트 이름.txt 주인공
+대사 “ Okay… deep breath… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Let's consider all possibilities…
+대기
+대사 Maybe it's on reserve power.
+대기
+대사 A recharge might do the trick.
+대기
+대사 I grab a power cord and…
+대기
+대사 Wait a minute…
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey, where am I supposed to plug this in? ”
+대기
+스크립트 이름.txt 안드로이드1
+효과음 robot1 robot1.mp3
+대사 “ Whirr-! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’ve never used an android before, so obviously I wouldn’t know.
+대기
+//대사 평소에는 어떤 식으로 전력을 공급 받는 것일까.
+//대기
+스크립트 이름.txt 주인공
+대사 “ Maybe your nose? ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ Whirr-! Whirr-! ”
+효과음 robot2 robot2.mp3
+진동 {{루시}} 3 1 1500 800
+대기
+스크립트 이름.txt 이름지우기
+대사 Maybe it's just my imagination, but I don't think it likes that prospect.
+대기
+대사 Perhaps it’s trying to tell me that I’m wrong.
+대기
+대사 I imagine the android with an electric cord up its nose.
+대기
+대사 Hmm…
+대기
+대사 It’d be quite a sight.
+대기
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+
+북마크 선택지_코에콘센트
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+//선택지 등장시마다 봉인 안하면 빠른 스킵 때 메뉴창 열 수 있는 버그 생김
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 514 152 255 255 255 255 {{꽂아본다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 꽂아본다 = "Try plugging it in." 
+라벨 선택지2_2 471 290 255 255 255 255 {{그냥둔다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 그냥둔다 = "Don’t try plugging it in." 
+//라벨 선택지2_1 578 152 255 255 255 255 {{꽂아본다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 꽂아본다 = "꽂아본다." 
+//라벨 선택지2_2 578 290 255 255 255 255 {{그냥둔다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 그냥둔다 = "그냥둔다." 
+//라벨 선택지2_1 554 154 255 255 255 255 {{꽂아본다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 꽂아본다 = "差してみる。" 
+//라벨 선택지2_2 569 293 255 255 255 255 {{그냥둔다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 그냥둔다 = "差さない。" 
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 꽂아본다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter1.txt 꽂아본다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 그냥둔다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter1.txt 그냥둔다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+//선택지 나와있는 와중 메뉴창 열기 위해 한번 해재해줘야함
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+
+점프 선택지_코에콘센트
+
+북마크 꽂아본다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 choice_bar2_1
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ All right, come here, you. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I approach the robot with a 220V plug in my hand.
+대기
+효과음 robot2 robot2.mp3
+진동 {{루시}} 4 1 1500 1000
+스크립트 이름.txt 이름지우기
+대사 Now I could definitely tell that it was panicking.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Out of pity, I decide not to push it further.
+대기
+점프 그냥둔다2
+
+북마크 그냥둔다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 choice_bar2_2
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+북마크 그냥둔다2
+키처리 32 텅빈.txt 첫줄
+대사 Then how should I power this thing?
+대기
+대사 I examine the robot carefully.
+대기
+대사 Maybe I’ve missed something…
+대기
+쓰레드 1
+효과음 robot2 robot2.mp3
+진동 {{루시}} 2 1 1500 600
+쓰레드
+쓰레드시작
+딜레이 2000
+스크립트 이름.txt 주인공
+대사 “ Huh? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s starting to jerk its body from side to side.
+대기
+대사 It seems like it wants to turn around.
+대기
+스크립트 이름.txt 주인공
+대사 “ Something on your back? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기1000
+효과음 rustle rustle.mp3
+딜레이 500
+대사 Taking the hint, I check the back of its head.
+대기
+대사 Let's see…
+대기
+스크립트 이름.txt 주인공
+대사 “ What've we here… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There's a small compartment at the base of its neck.
+대기
+효과음 BUTTONCleanTap BUTTONCleanTap.mp3
+대사 I remove its protective lid.
+대기
+대사 These look like input ports.
+대기
+대사 Bingo.
+대기
+스크립트 이름.txt 주인공
+대사 “ Let's give it a go… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Looping the power cable around,
+대기
+효과음 usb_plug usb_plug.mp3
+대사 I plug it in.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+페이드아웃 배경음악 1500
+딜레이 1000
+변수 루시 = "l02"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+쓰레드 효과음페이드인
+효과음 system_boot system_boot.mp3
+효과음 boot boot.mp3
+페이드인 boot 4000
+쓰레드
+쓰레드시작
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+페이드아웃 l02 300
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 안드로이드
+보이스 lucy0001_{{$언어}}.mp3
+대사 “ Activating primary systems.
+딜레이 500
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 500
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기  Success. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Finally!
+대기
+대사 We've got lift-off!
+대기
+효과음 computer_startup computer_startup.mp3
+스크립트 이름.txt 안드로이드
+보이스 lucy0002_{{$언어}}.mp3
+대사 “ Initiating application start-up.
+딜레이 500
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 500
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.MP3
+대사잇기  Attempt failed. ”
+대기
+스크립트 이름.txt 이름지우기
+쓰레드 배경음악페이드인
+배경음악 반복 n37.mp3
+//배경음악 반복 c17.mp3
+페이드인 배경음악 500
+쓰레드
+쓰레드시작
+대사 Huh…?
+대기
+스크립트 이름.txt 안드로이드
+보이스 lucy0003_{{$언어}}.mp3
+대사 “ Insufficient power supply.
+딜레이 1000
+대사잇기  System protection activated.
+딜레이 1000
+대사잇기  Application start-up
+대사새줄
+대사잇기 process has failed.
+딜레이 1000
+대사잇기  Entering power saving mode. ”
+대기
+보이스 lucy0004_{{$언어}}.mp3
+대사 “ Warning.
+딜레이 1000
+대사잇기  No ownership records have been found. ”
+대기
+보이스 lucy0005_{{$언어}}.mp3
+대사 “ Initiating set-up in.
+딜레이 4000
+대사잇기  .
+대사잇기  .
+대사잇기  five
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  four
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  three
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  two
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  one. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What the heck is going on? ”
+대기
+//스크립트 이름.txt 이름지우기대사창
+//스크립트 대화창함수.txt 페이드아웃 대사창 500
+//CG black_background_40 black_background_40.png 0 0 아니 -149
+//페이드인 black_background_40 500
+//쓰레드 UI효과음
+효과음 Beep01022 Beep01022.mp3
+//쓰레드
+//쓰레드시작
+//CG voiceprint_00 voiceprint_00.png 0 0 아니 -150
+//딜레이 15
+//CG voiceprint_01 voiceprint_01.png 0 0 아니 -150
+//CG voiceprint_00
+//딜레이 15
+//CG voiceprint_02 voiceprint_02.png 0 0 아니 -150
+//CG voiceprint_01
+//딜레이 15
+//CG voiceprint_03 voiceprint_03.png 0 0 아니 -150
+//CG voiceprint_02
+//딜레이 15
+//CG voiceprint_04 voiceprint_04.png 0 0 아니 -150
+//CG voiceprint_03
+//딜레이 15
+//CG voiceprint_05 voiceprint_05.png 0 0 아니 -150
+//CG voiceprint_04
+//딜레이 15
+//CG voiceprint_06 voiceprint_06.png 0 0 아니 -150
+//CG voiceprint_05
+//딜레이 15
+//CG voiceprint_07 voiceprint_07.png 0 0 아니 -150
+//CG voiceprint_06
+//딜레이 15
+//CG voiceprint_08 voiceprint_08.png 0 0 아니 -150
+//CG voiceprint_07
+//딜레이 15
+//CG voiceprint_09 voiceprint_09.png 0 0 아니 -150
+//CG voiceprint_08
+//딜레이 15
+//CG voiceprint_10 voiceprint_10.png 0 0 아니 -150
+//CG voiceprint_09
+//딜레이 15
+//CG voiceprint_11 voiceprint_11.png 0 0 아니 -150
+//CG voiceprint_10
+//딜레이 15
+//CG voiceprint_12 voiceprint_12.png 0 0 아니 -150
+//CG voiceprint_11
+//딜레이 15
+//CG voiceprint_13 voiceprint_13.png 0 0 아니 -150
+//CG voiceprint_12
+//딜레이 15
+//CG voiceprint_14 voiceprint_14.png 0 0 아니 -150
+//CG voiceprint_13
+//딜레이 15
+//CG voiceprint_15 voiceprint_15.png 0 0 아니 -150
+//CG voiceprint_14
+//딜레이 15
+//CG voiceprint_16 voiceprint_16.png 0 0 아니 -150
+//CG voiceprint_15
+//딜레이 15
+//CG voiceprint_17 voiceprint_17.png 0 0 아니 -150
+//CG voiceprint_16
+//딜레이 15
+//CG voiceprint_18 voiceprint_18.png 0 0 아니 -150
+//CG voiceprint_17
+//딜레이 15
+//CG voiceprint_19 voiceprint_19.png 0 0 아니 -150
+//CG voiceprint_18
+//딜레이 15
+//CG voiceprint_20 voiceprint_20.png 0 0 아니 -150
+//CG voiceprint_19
+//딜레이 15
+//CG voiceprint_21 voiceprint_21.png 0 0 아니 -150
+//CG voiceprint_20
+//딜레이 15
+//CG voiceprint_22 voiceprint_22.png 0 0 아니 -150
+//CG voiceprint_21
+//딜레이 15
+//CG voiceprint_23 voiceprint_23.png 0 0 아니 -150
+//CG voiceprint_22
+//딜레이 15
+//CG voiceprint_24 voiceprint_24.png 0 0 아니 -150
+//CG voiceprint_23
+//딜레이 15
+//CG voiceprint_25 voiceprint_25.png 0 0 아니 -150
+//CG voiceprint_24
+//딜레이 15
+//CG voiceprint_26 voiceprint_26.png 0 0 아니 -150
+//CG voiceprint_25
+//딜레이 15
+//CG voiceprint_27 voiceprint_27.png 0 0 아니 -150
+//CG voiceprint_26
+//딜레이 15
+//CG voiceprint_28 voiceprint_28.png 0 0 아니 -150
+//CG voiceprint_27
+//딜레이 15
+//CG voiceprint_29 voiceprint_29.png 0 0 아니 -150
+//CG voiceprint_28
+//딜레이 15
+//CG voiceprint_30 voiceprint_30.png 0 0 아니 -150
+//CG voiceprint_29
+//딜레이 15
+//CG voiceprint_31 voiceprint_31.png 0 0 아니 -150
+//CG voiceprint_30
+//딜레이 15
+//CG voiceprint_32 voiceprint_32.png 0 0 아니 -150
+//CG voiceprint_31
+//딜레이 15
+//CG voiceprint_33 voiceprint_33.png 0 0 아니 -150
+//CG voiceprint_32
+//딜레이 15
+//CG voiceprint_34 voiceprint_34.png 0 0 아니 -150
+//CG voiceprint_33
+//딜레이 15
+//CG voiceprint_35 voiceprint_35.png 0 0 아니 -150
+//CG voiceprint_34
+//딜레이 15
+//CG voiceprint_36 voiceprint_36.png 0 0 아니 -150
+//CG voiceprint_35
+//딜레이 15
+//CG voiceprint_37 voiceprint_37.png 0 0 아니 -150
+//CG voiceprint_36
+//딜레이 15
+//CG voiceprint_38 voiceprint_38.png 0 0 아니 -150
+//CG voiceprint_37
+//딜레이 15
+//CG voiceprint_39 voiceprint_39.png 0 0 아니 -150
+//CG voiceprint_38
+//딜레이 15
+//CG voiceprint_40 voiceprint_40.png 0 0 아니 -150
+//CG voiceprint_39
+//딜레이 15
+//CG voiceprint_41 voiceprint_41.png 0 0 아니 -150
+//CG voiceprint_40
+//딜레이 15
+//CG voiceprint_42 voiceprint_42.png 0 0 아니 -150
+//CG voiceprint_41
+//딜레이 15
+//CG voiceprint_43 voiceprint_43.png 0 0 아니 -150
+//CG voiceprint_42
+//딜레이 15
+//CG voiceprint_44 voiceprint_44.png 0 0 아니 -150
+//CG voiceprint_43
+//딜레이 15
+//CG voiceprint_45 voiceprint_45.png 0 0 아니 -150
+//CG voiceprint_44
+//딜레이 15
+//CG voiceprint_46 voiceprint_46.png 0 0 아니 -150
+//CG voiceprint_45
+//딜레이 15
+//CG voiceprint_47 voiceprint_47.png 0 0 아니 -150
+//CG voiceprint_46
+//딜레이 15
+//CG voiceprint_48 voiceprint_48.png 0 0 아니 -150
+//CG voiceprint_47
+//딜레이 15
+//CG voiceprint_49 voiceprint_49.png 0 0 아니 -150
+//CG voiceprint_48
+//딜레이 15
+//CG voiceprint_49
+//페이드아웃 black_background_40 500
+
+//스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 안드로이드1
+보이스 lucy0006_{{$언어}}.mp3
+대사 “ Confirming voice recording,
+딜레이 2000
+대사잇기  ‘ What the heck is going on? ’
+딜레이 1500
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기  Save complete. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What? Hold on a second! ”
+대기
+효과음 thud1 thud1.mp3
+스크립트 이름.txt 이름지우기
+대사 I frantically latch onto the robot.
+대기
+//스크립트 대화창함수.txt 페이드아웃 대사창 500
+//CG black_background_40 black_background_40.png 0 0 아니 -149
+//페이드인 black_background_40 500
+//쓰레드 UI효과음
+효과음 UIBeepTripleDirty UIBeepTripleDirty.mp3
+딜레이 500
+효과음 option_open option_open.mp3
+//쓰레드
+//쓰레드시작
+//CG heartbeat_00 heartbeat_00.png 0 0 아니 -150
+//딜레이 20
+//CG heartbeat_01 heartbeat_01.png 0 0 아니 -150
+//CG heartbeat_00
+//딜레이 20
+//CG heartbeat_02 heartbeat_02.png 0 0 아니 -150
+//CG heartbeat_01
+//딜레이 20
+//CG heartbeat_03 heartbeat_03.png 0 0 아니 -150
+//CG heartbeat_02
+//딜레이 20
+//CG heartbeat_04 heartbeat_04.png 0 0 아니 -150
+//CG heartbeat_03
+//딜레이 20
+//CG heartbeat_05 heartbeat_05.png 0 0 아니 -150
+//CG heartbeat_04
+//딜레이 20
+//CG heartbeat_06 heartbeat_06.png 0 0 아니 -150
+//CG heartbeat_05
+//딜레이 20
+//CG heartbeat_07 heartbeat_07.png 0 0 아니 -150
+//CG heartbeat_06
+//딜레이 20
+//CG heartbeat_08 heartbeat_08.png 0 0 아니 -150
+//CG heartbeat_07
+//딜레이 20
+//CG heartbeat_09 heartbeat_09.png 0 0 아니 -150
+//CG heartbeat_08
+//딜레이 20
+//CG heartbeat_10 heartbeat_10.png 0 0 아니 -150
+//CG heartbeat_09
+//딜레이 20
+//CG heartbeat_11 heartbeat_11.png 0 0 아니 -150
+//CG heartbeat_10
+//딜레이 20
+//CG heartbeat_12 heartbeat_12.png 0 0 아니 -150
+//CG heartbeat_11
+//딜레이 20
+//CG heartbeat_13 heartbeat_13.png 0 0 아니 -150
+//CG heartbeat_12
+//딜레이 20
+//CG heartbeat_14 heartbeat_14.png 0 0 아니 -150
+//CG heartbeat_13
+//딜레이 20
+//CG heartbeat_15 heartbeat_15.png 0 0 아니 -150
+//CG heartbeat_14
+//딜레이 20
+//CG heartbeat_16 heartbeat_16.png 0 0 아니 -150
+//CG heartbeat_15
+//딜레이 20
+//CG heartbeat_17 heartbeat_17.png 0 0 아니 -150
+//CG heartbeat_16
+//딜레이 20
+//CG heartbeat_18 heartbeat_18.png 0 0 아니 -150
+//CG heartbeat_17
+//딜레이 20
+//CG heartbeat_19 heartbeat_19.png 0 0 아니 -150
+//CG heartbeat_18
+//딜레이 20
+//CG heartbeat_20 heartbeat_20.png 0 0 아니 -150
+//CG heartbeat_19
+//딜레이 20
+//CG heartbeat_21 heartbeat_21.png 0 0 아니 -150
+//CG heartbeat_20
+//딜레이 20
+//CG heartbeat_22 heartbeat_22.png 0 0 아니 -150
+//CG heartbeat_21
+//딜레이 20
+//CG heartbeat_23 heartbeat_23.png 0 0 아니 -150
+//CG heartbeat_22
+//딜레이 20
+//CG heartbeat_24 heartbeat_24.png 0 0 아니 -150
+//CG heartbeat_23
+//딜레이 20
+//CG heartbeat_25 heartbeat_25.png 0 0 아니 -150
+//CG heartbeat_24
+//딜레이 20
+//CG heartbeat_26 heartbeat_26.png 0 0 아니 -150
+//CG heartbeat_25
+//딜레이 20
+//CG heartbeat_27 heartbeat_27.png 0 0 아니 -150
+//CG heartbeat_26
+//딜레이 20
+//CG heartbeat_28 heartbeat_28.png 0 0 아니 -150
+//CG heartbeat_27
+//딜레이 20
+//CG heartbeat_29 heartbeat_29.png 0 0 아니 -150
+//CG heartbeat_28
+//딜레이 20
+//CG heartbeat_30 heartbeat_30.png 0 0 아니 -150
+//CG heartbeat_29
+//딜레이 20
+//CG heartbeat_31 heartbeat_31.png 0 0 아니 -150
+//CG heartbeat_30
+//딜레이 20
+//CG heartbeat_32 heartbeat_32.png 0 0 아니 -150
+//CG heartbeat_31
+//딜레이 20
+//CG heartbeat_33 heartbeat_33.png 0 0 아니 -150
+//CG heartbeat_32
+//딜레이 20
+//CG heartbeat_34 heartbeat_34.png 0 0 아니 -150
+//CG heartbeat_33
+//딜레이 20
+//CG heartbeat_35 heartbeat_35.png 0 0 아니 -150
+//CG heartbeat_34
+//딜레이 20
+//CG heartbeat_36 heartbeat_36.png 0 0 아니 -150
+//CG heartbeat_35
+//딜레이 20
+//CG heartbeat_37 heartbeat_37.png 0 0 아니 -150
+//CG heartbeat_36
+//딜레이 20
+//CG heartbeat_38 heartbeat_38.png 0 0 아니 -150
+//CG heartbeat_37
+//딜레이 20
+//CG heartbeat_39 heartbeat_39.png 0 0 아니 -150
+//CG heartbeat_38
+//딜레이 20
+//CG heartbeat_40 heartbeat_40.png 0 0 아니 -150
+//CG heartbeat_39
+//딜레이 20
+//CG heartbeat_41 heartbeat_41.png 0 0 아니 -150
+//CG heartbeat_40
+//딜레이 20
+//CG heartbeat_42 heartbeat_42.png 0 0 아니 -150
+//CG heartbeat_41
+//딜레이 20
+//CG heartbeat_43 heartbeat_43.png 0 0 아니 -150
+//CG heartbeat_42
+//딜레이 20
+//CG heartbeat_44 heartbeat_44.png 0 0 아니 -150
+//CG heartbeat_43
+//딜레이 20
+//CG heartbeat_04 heartbeat_04.png 0 0 아니 -150
+//CG heartbeat_44
+//딜레이 20
+//CG heartbeat_03 heartbeat_03.png 0 0 아니 -150
+//CG heartbeat_04
+//딜레이 20
+//CG heartbeat_02 heartbeat_02.png 0 0 아니 -150
+//CG heartbeat_03
+//딜레이 20
+//CG heartbeat_01 heartbeat_01.png 0 0 아니 -150
+//CG heartbeat_02
+//딜레이 20
+//CG heartbeat_00 heartbeat_00.png 0 0 아니 -150
+//CG heartbeat_01
+//딜레이 20
+//CG heartbeat_00
+//페이드아웃 black_background_40 500
+
+//스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 안드로이드
+보이스 lucy0007_{{$언어}}.mp3
+대사 “ Scanning fingerprints . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 1000
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기 Pulse: normal
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 1000
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기 Temperature: normal
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 1300
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+딜레이 200
+대사잇기 Save:
+대사새줄
+대사잇기 complete. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Say what now? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I let go of the robot immediately.
+대기
+//스크립트 대화창함수.txt 페이드아웃 대사창 500
+//CG black_background_40 black_background_40.png 0 0 아니 -149
+//페이드인 black_background_40 500
+//쓰레드 UI효과음
+효과음 UIBeepTripleDirty UIBeepTripleDirty.mp3
+딜레이 300
+효과음 camera_focusing_shutter camera_focusing_shutter.mp3
+//쓰레드
+//쓰레드시작
+//CG retinascan_00 retinascan_00.png 0 0 아니 -150
+//딜레이 10
+//CG retinascan_01 retinascan_01.png 0 0 아니 -150
+//CG retinascan_00
+//딜레이 10
+//CG retinascan_02 retinascan_02.png 0 0 아니 -150
+//CG retinascan_01
+//딜레이 10
+//CG retinascan_03 retinascan_03.png 0 0 아니 -150
+//CG retinascan_02
+//딜레이 10
+//CG retinascan_04 retinascan_04.png 0 0 아니 -150
+//CG retinascan_03
+//딜레이 10
+//CG retinascan_05 retinascan_05.png 0 0 아니 -150
+//CG retinascan_04
+//딜레이 10
+//CG retinascan_06 retinascan_06.png 0 0 아니 -150
+//CG retinascan_05
+//딜레이 10
+//CG retinascan_07 retinascan_07.png 0 0 아니 -150
+//CG retinascan_06
+//딜레이 10
+//CG retinascan_08 retinascan_08.png 0 0 아니 -150
+//CG retinascan_07
+//딜레이 10
+//CG retinascan_09 retinascan_09.png 0 0 아니 -150
+//CG retinascan_08
+//딜레이 10
+//CG retinascan_10 retinascan_10.png 0 0 아니 -150
+//CG retinascan_09
+//딜레이 10
+//CG retinascan_11 retinascan_11.png 0 0 아니 -150
+//CG retinascan_10
+//딜레이 10
+//CG retinascan_12 retinascan_12.png 0 0 아니 -150
+//CG retinascan_11
+//딜레이 10
+//CG retinascan_13 retinascan_13.png 0 0 아니 -150
+//CG retinascan_12
+//딜레이 10
+//CG retinascan_14 retinascan_14.png 0 0 아니 -150
+//CG retinascan_13
+//딜레이 10
+//CG retinascan_15 retinascan_15.png 0 0 아니 -150
+//CG retinascan_14
+//딜레이 10
+//CG retinascan_16 retinascan_16.png 0 0 아니 -150
+//CG retinascan_15
+//딜레이 10
+//CG retinascan_17 retinascan_17.png 0 0 아니 -150
+//CG retinascan_16
+//딜레이 10
+//CG retinascan_18 retinascan_18.png 0 0 아니 -150
+//CG retinascan_17
+//딜레이 10
+//CG retinascan_19 retinascan_19.png 0 0 아니 -150
+//CG retinascan_18
+//딜레이 10
+//CG retinascan_20 retinascan_20.png 0 0 아니 -150
+//CG retinascan_19
+//딜레이 10
+//CG retinascan_21 retinascan_21.png 0 0 아니 -150
+//CG retinascan_20
+//딜레이 10
+//CG retinascan_22 retinascan_22.png 0 0 아니 -150
+//CG retinascan_21
+//딜레이 10
+//CG retinascan_23 retinascan_23.png 0 0 아니 -150
+//CG retinascan_22
+//딜레이 10
+//CG retinascan_24 retinascan_24.png 0 0 아니 -150
+//CG retinascan_23
+//딜레이 10
+//CG retinascan_25 retinascan_25.png 0 0 아니 -150
+//CG retinascan_24
+//딜레이 10
+//CG retinascan_26 retinascan_26.png 0 0 아니 -150
+//CG retinascan_25
+//딜레이 10
+//CG retinascan_27 retinascan_27.png 0 0 아니 -150
+//CG retinascan_26
+//딜레이 10
+//CG retinascan_28 retinascan_28.png 0 0 아니 -150
+//CG retinascan_27
+//딜레이 10
+//CG retinascan_29 retinascan_29.png 0 0 아니 -150
+//CG retinascan_28
+//딜레이 10
+//CG retinascan_30 retinascan_30.png 0 0 아니 -150
+//CG retinascan_29
+//딜레이 10
+//CG retinascan_31 retinascan_31.png 0 0 아니 -150
+//CG retinascan_30
+//딜레이 10
+//CG retinascan_32 retinascan_32.png 0 0 아니 -150
+//CG retinascan_31
+//딜레이 10
+//CG retinascan_33 retinascan_33.png 0 0 아니 -150
+//CG retinascan_32
+//딜레이 10
+//CG retinascan_34 retinascan_34.png 0 0 아니 -150
+//CG retinascan_33
+//딜레이 10
+//CG retinascan_35 retinascan_35.png 0 0 아니 -150
+//CG retinascan_34
+//딜레이 10
+//CG retinascan_36 retinascan_36.png 0 0 아니 -150
+//CG retinascan_35
+//딜레이 10
+//CG retinascan_37 retinascan_37.png 0 0 아니 -150
+//CG retinascan_36
+//딜레이 10
+//CG retinascan_38 retinascan_38.png 0 0 아니 -150
+//CG retinascan_37
+//딜레이 10
+//CG retinascan_39 retinascan_39.png 0 0 아니 -150
+//CG retinascan_38
+//딜레이 10
+//CG retinascan_40 retinascan_40.png 0 0 아니 -150
+//CG retinascan_39
+//딜레이 10
+//CG retinascan_41 retinascan_41.png 0 0 아니 -150
+//CG retinascan_40
+//딜레이 10
+//CG retinascan_42 retinascan_42.png 0 0 아니 -150
+//CG retinascan_41
+//딜레이 10
+//CG retinascan_43 retinascan_43.png 0 0 아니 -150
+//CG retinascan_42
+//딜레이 10
+//CG retinascan_44 retinascan_44.png 0 0 아니 -150
+//CG retinascan_43
+//딜레이 10
+//CG retinascan_21 retinascan_21.png 0 0 아니 -150
+//CG retinascan_44
+//딜레이 10
+//CG retinascan_20 retinascan_20.png 0 0 아니 -150
+//CG retinascan_21
+//딜레이 10
+//CG retinascan_19 retinascan_19.png 0 0 아니 -150
+//CG retinascan_20
+//딜레이 10
+//CG retinascan_18 retinascan_18.png 0 0 아니 -150
+//CG retinascan_19
+//딜레이 10
+//CG retinascan_17 retinascan_17.png 0 0 아니 -150
+//CG retinascan_18
+//딜레이 10
+//CG retinascan_16 retinascan_16.png 0 0 아니 -150
+//CG retinascan_17
+//딜레이 10
+//CG retinascan_15 retinascan_15.png 0 0 아니 -150
+//CG retinascan_16
+//딜레이 10
+//CG retinascan_14 retinascan_14.png 0 0 아니 -150
+//CG retinascan_15
+//딜레이 10
+//CG retinascan_13 retinascan_13.png 0 0 아니 -150
+//CG retinascan_14
+//딜레이 10
+//CG retinascan_12 retinascan_12.png 0 0 아니 -150
+//CG retinascan_13
+//딜레이 10
+//CG retinascan_11 retinascan_11.png 0 0 아니 -150
+//CG retinascan_12
+//딜레이 10
+//CG retinascan_10 retinascan_10.png 0 0 아니 -150
+//CG retinascan_11
+//딜레이 10
+//CG retinascan_09 retinascan_09.png 0 0 아니 -150
+//CG retinascan_10
+//딜레이 10
+//CG retinascan_08 retinascan_08.png 0 0 아니 -150
+//CG retinascan_09
+//딜레이 10
+//CG retinascan_07 retinascan_07.png 0 0 아니 -150
+//CG retinascan_08
+//딜레이 10
+//CG retinascan_06 retinascan_06.png 0 0 아니 -150
+//CG retinascan_07
+//딜레이 10
+//CG retinascan_05 retinascan_05.png 0 0 아니 -150
+//CG retinascan_06
+//딜레이 10
+//CG retinascan_04 retinascan_04.png 0 0 아니 -150
+//CG retinascan_05
+//딜레이 10
+//CG retinascan_03 retinascan_03.png 0 0 아니 -150
+//CG retinascan_04
+//딜레이 10
+//CG retinascan_02 retinascan_02.png 0 0 아니 -150
+//CG retinascan_03
+//딜레이 10
+//CG retinascan_01 retinascan_01.png 0 0 아니 -150
+//CG retinascan_02
+//딜레이 10
+//CG retinascan_00 retinascan_00.png 0 0 아니 -150
+//CG retinascan_01
+//딜레이 10
+//CG retinascan_00
+//페이드아웃 black_background_40 500
+
+//스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 안드로이드
+보이스 lucy0008_{{$언어}}.mp3
+대사 “ Retina scan in progress .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 500
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기  Confirming .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 200
+대사잇기  .
+딜레이 400
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+딜레이 100
+대사잇기  Save: complete. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s on a roll…
+대기
+대사 And I don’t think it’s about to stop any time soon.
+대기
+스크립트 이름.txt 안드로이드
+보이스 lucy0009_1_{{$언어}}.mp3
+대사 “ Registering client ID… ”
+대기
+보이스 lucy0009_2_{{$언어}}.mp3
+대사 “ Please state your name. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is happening… ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0010_1_{{$언어}}.mp3
+대사 “ Verifying your name… ”
+대기
+보이스 lucy0010_2_{{$언어}}.mp3
+대사 “ Is ‘ WHAT IS HAPPENING ’ your correct name? ”
+대기
+스크립트 이름.txt 주인공1
+대사크기 46
+대사 “ What do you think?! ”
+대기
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.MP3
+스크립트 이름.txt 안드로이드1
+대사크기 35
+보이스 lucy0011_1_{{$언어}}.mp3
+대사 “ Name verification failed. ”
+대기
+보이스 lucy0011_2_{{$언어}}.mp3
+대사 “ Re-registering client ID… ”
+대기
+보이스 lucy0011_3_{{$언어}}.mp3
+대사 “ Please state your name. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.MP3
+스크립트 이름.txt 안드로이드1
+보이스 lucy0012_1_{{$언어}}.mp3
+대사 “ Name verification failed . 
+딜레이 1000
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기 Verification on hold 
+딜레이 1000
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+딜레이 200
+대사잇기  . 
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+딜레이 200
+대사잇기  Save: complete. ”
+대기
+보이스 lucy0012_2_{{$언어}}.mp3
+대사 “ Registration complete. ”
+대기
+보이스
+효과음 robot1 robot1.mp3
+딜레이 1000
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+페이드아웃 배경음악 1500
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Abruptly, silence.
+대기
+대사 It felt as if a tornado had just ripped through the scene.
+대기
+대사 I grip my head in frustration.
+대기
+스크립트 이름.txt 주인공
+대사 “ Ugh, I really shouldn’t have brought this thing home after all. ”
+배경음악 반복 c2.mp3
+//배경음악 반복 test.mp3
+페이드인 배경음악 1000
+대기
+스크립트 이름.txt 이름지우기
+대사 This is already the third time regretting it today.
+대기
+대사 Why do I keep punishing myself?
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The robot's facing me.
+대기
+대사새줄
+대사잇기 Its eyes still have that vacant look.
+대기
+대사 Like having a porcelain doll on the shelf…
+대기
+대사 At least the creep factor has gone down a notch since it moved.
+대기
+대사 I decide to throw a few questions at it.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hey, I’m gonna ask you something, so listen up and try to answer.
+대기
+대사잇기  You can do
+대사새줄
+대사잇기 that, right? ”
+대기
+스크립트 이름.txt 안드로이드1
+효과음 robot robot1.mp3
+대사 “ Whirr-! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Its head tilts slightly to the side.
+대기
+대사새줄
+대사잇기 I'll take that as a yes.
+대기
+대사 Better than I expected, given our track record.
+대기
+대사 Moving on…
+대기
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_대화를시도해보자
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+//선택지 등장시마다 봉인 안하면 빠른 스킵 때 메뉴창 열 수 있는 버그 생김
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 500 152 255 255 255 255 {{안드로이드와대화한다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 안드로이드와대화한다 = "Talk to the android." 
+라벨 선택지2_2 537 290 255 255 255 255 {{자신과대화한다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 자신과대화한다 = "Talk to myself." 
+//라벨 선택지2_1 486 152 255 255 255 255 {{안드로이드와대화한다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 안드로이드와대화한다 = "안드로이드와 대화한다." 
+//라벨 선택지2_2 529 290 255 255 255 255 {{자신과대화한다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 자신과대화한다 = "자신과 대화한다." 
+//라벨 선택지2_1 459 154 255 255 255 255 {{안드로이드와대화한다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 안드로이드와대화한다 = "アンドロイドと会話する。" 
+//라벨 선택지2_2 520 292 255 255 255 255 {{자신과대화한다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 자신과대화한다 = "自分と会話する。 " 
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 안드로이드와대화한다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter1.txt 안드로이드와대화한다처음선택시 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 자신과대화한다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter1.txt 자신과대화한다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+//선택지 나와있는 와중 메뉴창 열기 위해 한번 해재해줘야함
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+
+점프 선택지_대화를시도해보자
+
+
+북마크 선택지_안드로이드와대화한다_single
+키처리 32 텅빈.txt 첫줄
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_안드로이드와대화한다_single_dark
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline1_1 whiteline.png -1280 212 아니 0
+쓰레드 whiteline1_1페이드
+페이드인 whiteline1_1 500 
+쓰레드
+쓰레드 whiteline1_1 이동
+이동 whiteline1_1 0 212 3000 1000
+쓰레드
+쓰레드 whiteline1_2페이드
+딜레이 200
+CG whiteline1_2 whiteline.png 1280 266 아니 0
+페이드인 whiteline1_2 500 
+쓰레드
+쓰레드 whiteline1_2 이동
+딜레이 200
+이동 whiteline1_2 0 266 3000 1000
+쓰레드
+쓰레드 choice_bar1_1cg페이드인
+딜레이 500
+CG choice_bar1_1cg choice_bar.png 0 212 아니 3
+페이드인 choice_bar1_1cg 500
+쓰레드
+쓰레드시작
+딜레이 1000
+
+
+라벨 선택지1_1 500 222 255 255 255 255 {{안드로이드와대화한다_single}}
+출력순서 선택지1_1 2
+라벨속성 선택지1_1 36 응 NanumGothic
+변수 안드로이드와대화한다_single = "Talk to the android." 
+//라벨 선택지1_1 486 222 255 255 255 255 {{안드로이드와대화한다_single}}
+//출력순서 선택지1_1 2
+//라벨속성 선택지1_1 36 응 NanumGothic
+//변수 안드로이드와대화한다_single = "안드로이드와 대화한다." 
+//라벨 선택지1_1 459 224 255 255 255 255 {{안드로이드와대화한다_single}}
+//출력순서 선택지1_1 2
+//라벨속성 선택지1_1 32 아니 Apple osaka_unicode
+//변수 안드로이드와대화한다_single = "アンドロイドと会話する。" 
+쓰레드 선택지1_1
+페이드인 선택지1_1 500
+쓰레드
+쓰레드 안드로이드와대화한다_single
+시스템버튼 안드로이드와대화한다_single 0 212 1280 55 점프 여기 안드로이드와대화한다두번째선택시 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 안드로이드와대화한다_single 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar1_1cg
+페이드아웃 whiteline1_1
+페이드아웃 whiteline1_2
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_안드로이드와대화한다_single_dark
+
+
+
+
+
+
+북마크 안드로이드와대화한다처음선택시
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+
+점프 안드로이드와대화한다_내용
+
+
+북마크 안드로이드와대화한다두번째선택시
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice1_1 light.png -456 187 아니 -130
+쓰레드 light_choice1_1 이동 
+이동 light_choice1_1 1280 187 3000 2000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar1_1cg choice_bar_push.png 0 212 아니 -130 
+페이드인 choice_bar1_1cg 200
+페이드아웃 선택지1_1
+페이드아웃 안드로이드와대화한다_single
+페이드아웃 choice_bar1_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice1_1
+딜레이 500
+
+
+북마크 안드로이드와대화한다_내용
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+스크립트 이름.txt 주인공
+대사 “ So, what exactly are you? ”
+대기
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.mp3
+스크립트 이름.txt 안드로이드1
+보이스 lucy0013_{{$언어}}.mp3
+대사 “ Error. Does not compute. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You don't have a name? ”
+대기
+효과음 option_open option_open.mp3
+스크립트 이름.txt 안드로이드1
+보이스 lucy0014_{{$언어}}.mp3
+대사 “ Model name, Lucy Valentine. PIM-001. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Okay…
+대기
+대사잇기  and what's the PIM stand for? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0015_1_{{$언어}}.mp3
+대사 “ Precision Instrument for Multi-purposing, PIM-001. ”
+대기
+보이스 lucy0015_2_{{$언어}}.mp3
+대사 “ Lucy is a futuristic, first-class model, designed to be versatile in any scenario. ”
+대기
+보이스 lucy0015_3_{{$언어}}.mp3
+대사 “ Lucy is equipped with all the latest features. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That's a mouthful… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Versatile.
+대기
+대사새줄
+대사잇기 Latest features.
+대기
+대사 I wasn’t expecting those words from a piece of junk that could only move its arms
+대사새줄
+대사잇기 up and down a moment ago.
+대기
+스크립트 이름.txt 주인공
+대사 “ In short, your name is Lucy Valentine. ”
+대기
+//대사 “ 요컨대 그게 네 이름이라 이거군. ”
+//대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The android named Lucy is waiting for my next words.
+대기
+점프 한번살펴보자
+
+
+북마크 자신과대화한다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+점프 자신과대화한다_내용
+
+
+
+
+북마크 자신과대화한다_내용
+키처리 32 텅빈.txt 첫줄
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 Talk to myself?
+대기
+대사새줄
+대사잇기 How?
+대기
+대사 Last time I checked, no one else was in my head besides me.
+대기
+대사새줄
+대사잇기 I’m not quite that far gone yet.
+대기
+대사 Next idea…
+대기
+//조건 $내안에너있다트로피 = 1 여기 안드로이드와대화한다single
+//스크립트 대화창함수.txt 페이드아웃 대사창 500
+//
+// 
+//키처리 32 텅빈.txt 첫줄
+//키처리 27
+//키처리 201
+//쓰레드 black_background_40페이드인
+//CG black_background_40 black_background_40.png
+//페이드인 black_background_40 500
+//쓰레드
+//CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+//크기 message_box_achievement 0 0
+//쓰레드 message_box_achievement 크기확대
+//크기 message_box_achievement 1 1 200 
+//쓰레드
+//쓰레드 message_box_achievement 페이드인
+//페이드인 message_box_achievement 300
+//쓰레드
+//쓰레드시작
+//딜레이 200
+//라벨 CG갤러리해금 427 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "내 안에 너 있다"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 600 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+//라벨 CG갤러리해금 392 46 255 255 255 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "Achievement Unlocked:"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 685 46 255 215 0 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "How do am I do?"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+//쓰레드시작
+//딜레이 3000
+//쓰레드 message_box_achievement 페이드아웃
+//페이드아웃 message_box_achievement 500
+//쓰레드
+//쓰레드 CG갤러리해금 페이드아웃
+//페이드아웃 CG갤러리해금 500
+//쓰레드
+//쓰레드 CG갤러리해금2 페이드아웃
+//페이드아웃 CG갤러리해금2 500
+//쓰레드
+//쓰레드 black_background_40페이드아웃
+//페이드아웃 black_background_40 500
+//쓰레드
+//쓰레드시작
+//변수 $내안에너있다트로피 = 1
+//키처리 32 텅빈.txt 첫줄
+//키처리 27 기본셋팅.txt 메뉴시작1
+//키처리 201 기본셋팅.txt 메뉴시작1
+//딜레이 1000
+//북마크 안드로이드와대화한다single
+조건 안드로이드와대화한다_내용 >= 1 여기 한번살펴보자
+점프 선택지_안드로이드와대화한다_single
+
+
+
+북마크 한번살펴보자
+키처리 32 텅빈.txt 첫줄
+대사 Let’s try taking a closer look.
+대기
+북마크 안드로이드관찰
+키처리 32 텅빈.txt 첫줄
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+//CG black_background_40 black_background_40.png 0 0 아니 -149
+//페이드인 black_background_40 500
+//쓰레드 UI효과음
+//효과음 UIBeepTripleDirty UIBeepTripleDirty.mp3
+//쓰레드
+//쓰레드시작
+//CG examine_00 examine_00.png 0 0 아니 -150
+//딜레이 20
+//CG examine_01 examine_01.png 0 0 아니 -150
+//CG examine_00
+//딜레이 20
+//CG examine_02 examine_02.png 0 0 아니 -150
+//CG examine_01
+//딜레이 20
+//CG examine_03 examine_03.png 0 0 아니 -150
+//CG examine_02
+//딜레이 20
+//CG examine_04 examine_04.png 0 0 아니 -150
+//CG examine_03
+//딜레이 20
+//CG examine_05 examine_05.png 0 0 아니 -150
+//CG examine_04
+//딜레이 20
+//CG examine_06 examine_06.png 0 0 아니 -150
+//CG examine_05
+//딜레이 20
+//CG examine_07 examine_07.png 0 0 아니 -150
+//CG examine_06
+//딜레이 20
+//CG examine_08 examine_08.png 0 0 아니 -150
+//CG examine_07
+//딜레이 20
+//CG examine_09 examine_09.png 0 0 아니 -150
+//CG examine_08
+//딜레이 20
+//CG examine_10 examine_10.png 0 0 아니 -150
+//CG examine_09
+//딜레이 20
+//CG examine_11 examine_11.png 0 0 아니 -150
+//CG examine_10
+//딜레이 20
+//CG examine_12 examine_12.png 0 0 아니 -150
+//CG examine_11
+//딜레이 20
+//CG examine_13 examine_13.png 0 0 아니 -150
+//CG examine_12
+//딜레이 20
+//CG examine_14 examine_14.png 0 0 아니 -150
+//CG examine_13
+//딜레이 20
+//CG examine_15 examine_15.png 0 0 아니 -150
+//CG examine_14
+//딜레이 20
+//CG examine_16 examine_16.png 0 0 아니 -150
+//CG examine_15
+//딜레이 20
+//CG examine_17 examine_17.png 0 0 아니 -150
+//CG examine_16
+//딜레이 20
+//CG examine_18 examine_18.png 0 0 아니 -150
+//CG examine_17
+//딜레이 20
+//CG examine_19 examine_19.png 0 0 아니 -150
+//CG examine_18
+//딜레이 20
+//CG examine_20 examine_20.png 0 0 아니 -150
+//CG examine_19
+//딜레이 20
+//CG examine_21 examine_21.png 0 0 아니 -150
+//CG examine_20
+//딜레이 20
+//CG examine_22 examine_22.png 0 0 아니 -150
+//CG examine_21
+//딜레이 20
+//CG examine_23 examine_23.png 0 0 아니 -150
+//CG examine_22
+//딜레이 20
+//CG examine_24 examine_24.png 0 0 아니 -150
+//CG examine_23
+//딜레이 20
+//CG examine_25 examine_25.png 0 0 아니 -150
+//CG examine_24
+//딜레이 20
+//CG examine_26 examine_26.png 0 0 아니 -150
+//CG examine_25
+//딜레이 20
+//CG examine_27 examine_27.png 0 0 아니 -150
+//CG examine_26
+//딜레이 20
+//CG examine_28 examine_28.png 0 0 아니 -150
+//CG examine_27
+//딜레이 20
+//CG examine_29 examine_29.png 0 0 아니 -150
+//CG examine_28
+//딜레이 200
+//CG examine_10 examine_10.png 0 0 아니 -150
+//CG examine_29
+//딜레이 20
+//CG examine_09 examine_09.png 0 0 아니 -150
+//CG examine_10
+//딜레이 20
+//CG examine_08 examine_08.png 0 0 아니 -150
+//CG examine_09
+//딜레이 20
+//CG examine_07 examine_07.png 0 0 아니 -150
+//CG examine_08
+//딜레이 20
+//CG examine_06 examine_06.png 0 0 아니 -150
+//CG examine_07
+//딜레이 20
+//CG examine_05 examine_05.png 0 0 아니 -150
+//CG examine_06
+//딜레이 20
+//CG examine_04 examine_04.png 0 0 아니 -150
+//CG examine_05
+//딜레이 20
+//CG examine_03 examine_03.png 0 0 아니 -150
+//CG examine_04
+//딜레이 20
+//CG examine_02 examine_02.png 0 0 아니 -150
+//CG examine_03
+//딜레이 20
+//CG examine_01 examine_01.png 0 0 아니 -150
+//CG examine_02
+//딜레이 20
+//CG examine_00 examine_00.png 0 0 아니 -150
+//CG examine_01
+//딜레이 20
+//CG examine_00
+//페이드아웃 black_background_40 500
+
+CG l03_button l03_button.png 765 84 아니 100
+페이드인 l03_button 500
+딜레이 300
+페이드아웃 l03_button 500
+시스템버튼 room_examine 0 0 1280 720 스크립트 room_examine.txt 없음 없음 없음
+//출력순서 room_examine 101
+시스템버튼 lucy_examine 765 84 354 636 점프 여기 안드로이드를본다 없음 l03_button.png 없음 UISCI-FIToneBrightWet27.mp3 없음
+//출력순서 lucy_examine 100
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 한번살펴보자
+
+
+북마크 안드로이드를본다
+키처리 32 텅빈.txt 첫줄
+페이드아웃 room_examine
+페이드아웃 lucy_examine
+조건 안드로이드를본다 >= 1 여기 눈
+스크립트 대화창함수.txt 페이드인 대사창 500
+변수 안드로이드를본다 = 1
+대사 It looks as good as new after the wiping I gave it.
+대기
+대사 It possesses an alluring visage and a slender figure.
+대기
+대사새줄
+대사잇기 Regardless of gender, I have to admit that it truly is a beautiful design.
+대기
+대사 I spot something on its left ear.
+대기
+대사잇기  A receiver?
+대기
+대사 The robot looks like a teenage girl…
+대기
+대사새줄
+대사잇기 Guess that's what they were aiming for.
+대기
+대사 I can tell that a lot of effort had been put into creating this android.
+대기
+대사새줄
+대사잇기 And even I can tell it's a premium model.
+대기
+대사 It’d be a waste to throw it away.
+대기
+점프 안드로이드관찰
+
+
+북마크 눈
+키처리 32 텅빈.txt 첫줄
+조건 눈 >= 1 여기 입술
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+변수 눈 = 1
+대사 I take a closer look at the android’s eyes.
+대기
+대사 They’re blue, and strikingly realistic.
+대기
+대사새줄
+대사잇기 As expected from technology one whole generation ahead of LED lights.
+대기
+스크립트 이름.txt 주인공
+대사 “ Those eyes do look quite real… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 04
+딜레이 500
+대사 Suddenly, those peepers shift over to me.
+대기
+대사 Naturally, I meet their gaze.
+대기
+스크립트 이름.txt 안드로이드
+보이스 lucy0016_1_{{$언어}}.mp3
+대사 “ The ocular compartment contains two high-performance cameras… ”
+대기
+보이스 lucy0016_2_{{$언어}}.mp3
+대사 “ …allowing object detection similar to human eyes. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Is that so… ”
+대기
+보이스
+스크립트 이름.txt 이름지우기
+딜레이 300
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 03
+딜레이 1000
+대사 I take it back.
+대기
+대사새줄
+대사잇기 Creepy factor's still there.
+대기
+대사 I decide not to look at them again.
+대기
+대사 They make me feel uncomfortable.
+대기
+점프 안드로이드관찰
+
+
+
+북마크 입술
+조건 입술 >= 1 여기 귀
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+변수 입술 = 1
+대사 I take a gander at the robot’s moist, glossy lips.
+대기
+대사 Hard to believe those belong to the same robo-clunky voice.
+대기
+//대사새줄
+//대사잇기 듣기만 해도 로봇이라는 느낌이다.
+//대기
+대사 Let's see if we can change that…
+대기
+스크립트 이름.txt 주인공
+대사 “ What’s the deal with your voice? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0017_{{$언어}}.mp3
+대사 “ Unable to utilize vocal unit. ”
+대기
+보이스 lucy0018_{{$언어}}.mp3
+대사 “ Lucy Valentine comes with ten unique presets by default, each with a different
+대사새줄
+대사잇기 voice and a distinct personality. Using the pre-installed equalizers, Lucy is able to
+대사새줄
+대사잇기 project all kinds of various sounds with ease. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ So I've got 10 choices? ”
+대기
+스크립트 이름.txt 이름지우기
+보이스
+대사 No reply.
+대기
+//대사새줄
+//대사잇기 무언은 곧 긍정이다.
+//대기
+스크립트 이름.txt 주인공
+대사 “ Why can’t you use them right now? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0019_1_{{$언어}}.mp3
+대사 “ Most features can only be activated during normal operation. ”
+대기
+보이스 lucy0019_2_{{$언어}}.mp3
+대사 “ During power saving mode, Lucy is only able to utilize 5% of her total features. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ And the solution is…? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0020_{{$언어}}.mp3
+대사 “ Lucy requires more than 20% of remaining battery life for normal operation. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How long does it take for a full recharge? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0021_{{$언어}}.mp3
+대사 “ From 0%, approximately eight hours in power saving mode and sixteen hours
+대사새줄
+대사잇기 normally. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I hope the electricity bill doesn’t go through the roof… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 …Can’t believe I’m acting like a skinflint in front of a robot.
+대기
+대사 That’s just silly.
+대기
+스크립트 이름.txt 주인공
+대사 “ Forget about power saving mode. What’s system protection mode? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0022_1_{{$언어}}.mp3
+대사 “ During system protection mode, virtually none of the included features are
+대사새줄
+대사잇기 usable. ”
+대기
+보이스 lucy0022_2_{{$언어}}.mp3
+대사 “ It is essential to disable system protection mode to allow for normal operation. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ And how do we get to that? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0023_{{$언어}}.mp3
+대사 “ Unknown. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Come again? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0024_1_{{$언어}}.mp3
+대사 “ Unknown. ”
+대기
+보이스 lucy0024_2_{{$언어}}.mp3
+대사 “ The system protection mode only activates under certain circumstances. ”
+대기
+보이스 lucy0024_3_{{$언어}}.mp3
+대사 “ Further action is not recommend. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Listen, you talking toaster! ”
+대기
+대사 “ I'm this close to throwing you out! Well? ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’ll have to take it to a repair shop first thing tomorrow.
+대기
+대사 When does that place open again…?
+대기
+점프 안드로이드관찰
+
+
+
+북마크 귀
+조건 귀 >= 1 여기 상체
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+변수 귀 = 1
+대사 I decide to take a look at the robot’s ears.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hmm… ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0025_{{$언어}}.mp3
+대사 “ Through voice recognition technology, Lucy is able to analyze the volume and
+대사새줄
+대사잇기 tone of speech to process one’s emotions. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …I haven’t asked you anything yet. ”
+대기
+스크립트 이름.txt 이름지우기
+보이스
+점프 안드로이드관찰
+
+
+북마크 상체
+조건 상체 >= 1 여기 하체
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+변수 상체 = 1
+대사 I take a look at the body itself.
+대기
+대사 The shirt's that midriff fashion.
+대기
+대사새줄
+대사잇기 It’s quite exposed overall.
+대기
+대사 For a male clientele?
+대기
+대사 The chest area seems a little…
+대기
+대사 ……………
+대기
+대사 Not that I care or anything.
+대기
+점프 안드로이드관찰
+
+
+북마크 하체
+조건 하체 >= 1 여기 관찰끝
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+변수 하체 = 1
+스크립트 이름.txt 주인공
+대사 “ Can you move properly now? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0026_{{$언어}}.mp3
+대사 “ Full locomotion is imparted. Certain body components are malfunctioning. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Which ones are you talking about? ”
+대기
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+스크립트 이름.txt 안드로이드1
+보이스 lucy0027_{{$언어}}.mp3
+대사 “ deltoid-anteriort,
+딜레이 1000
+대사잇기  deltoid-middlet,
+딜레이 1000
+대사잇기  deltoid-posteriort,
+딜레이 1000
+대사잇기  pectoralis 
+대사새줄
+대사잇기 major-clavicular,
+딜레이 1000
+대사잇기  pectoralis major-lateral,
+딜레이 1000
+대사잇기  biceps-medial,
+딜레이 1000
+대사잇기  biceps-lateral,
+딜레이 1000
+대사잇기  bic…… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Okay, that’s enough. ”
+보이스
+대기
+스크립트 이름.txt 이름지우기
+대사 What planet did this thing come from?
+대기
+스크립트 이름.txt 주인공
+대사 “ From now on, try to keep things simple. ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Can you walk? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0028_{{$언어}}.mp3
+대사 “ Negative. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Keeps getting better… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Fixing it is the only option, it seems.
+대기
+북마크 관찰끝
+키처리 32 텅빈.txt 첫줄
+스크립트 이름.txt 주인공
+대사 “ …I think I’m starting to get the picture now. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Let’s do a little recap.
+대기
+대사 First, this android's name is ‘ Lucy Valentine. ’
+대기
+//대사새줄
+대사 Second, it's supposedly a top-of-the-line model.
+대기
+//대사새줄
+대사 Third, as of now, it’s no better than a talking tin can.
+대기
+대사 And there you have it.
+대기
+대사 No choice, guess I'll take it in for repairs.
+대기
+대사 I'm not exactly rolling in greenbacks.
+대기
+대사 But if worse comes to worse,
+대기
+대사 Maybe I can still pawn it for a little bit of change.
+대기
+대사 It’s not like I’ll feel guilty about it or anything.
+대기
+스크립트 이름.txt 주인공
+대사 “ Now, who'll actually fix you? ”
+대기
+스크립트 이름.txt 안드로이드1
+효과음 robot1 robot1.mp3
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Heard of this antique shop.
+대기
+대사 That's close to my school.
+대기
+대사 And they do robot repairs on the side.
+대기
+대사 Looks like they're my best bet.
+대기
+대사 I’ll pay them a visit tomorrow.
+대기
+대사 But at what time?
+대기
+대사 I guess morning's the best option.
+대기
+대사 I’ll leave the robot with them and pick it up on my way home from school.
+대기
+스크립트 이름.txt 주인공
+대사 “ That's it for now. ”
+대기
+대사 “ Try to save up some energy for tomorrow. ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0029_{{$언어}}.mp3
+대사 “ Entering sleep mode in .
+딜레이 4000
+대사잇기  .
+대사잇기  .
+대사잇기  five
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  four
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  three
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  two
+딜레이 500
+대사잇기  .
+대사잇기  .
+대사잇기  one. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+보이스
+효과음 poweroff poweroff.mp3
+페이드아웃 {{루시}} 1000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 That was pretty fast shut down…
+대기
+페이드아웃 l02 1000
+효과음 thud1 thud1.mp3
+대사 I groan as I reach out to catch its falling body.
+대기
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+
+대사 I carefully place it against the wall and straighten out its clothes.
+대기
+스크립트 이름.txt 주인공
+대사 “ Whew. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 What a day. I’m totally drained.
+대기
+//배경음악 반복 c2.mp3
+대사 I hope tomorrow will be more peaceful…
+대기
+게임상태
+
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+배경룰페이드인
+배경 bg_room01_night bg_room01_night.jpg
+페이드인 bg_room01_night 500
+배경 bg_room01_light
+딜레이 1000
+
+페이드아웃 bg_room01_night 2500
+딜레이 2000
+
+변수 chapter = 01
+
+점프 로봇3원칙.txt 첫줄

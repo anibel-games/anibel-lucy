@@ -1,0 +1,300 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+
+변수 슬롯씬이름 = "Dr. Baek's Log"
+//변수 슬롯씬이름 = "백정필 박사의 일기"
+//변수 슬롯씬이름 = "十時光一郎博士の日記"
+
+
+대사출력영역 132 80 1030 640
+대사창영역 0 0 1280 720
+
+대사크기 35
+대사속도 30
+대사그림자 1
+대사줄간격 7
+대사굵게 아니
+대사페이드 응
+대사정렬 왼쪽
+대사그림자색깔 0 0 0 255
+대사색깔 255 255 255 255
+대사폰트 Open Sans
+대사창스킨 black_background_40.png
+
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 - Dr. Baek’s Log -
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1500
+
+배경룰페이드인 룰_34.png 400
+배경 bg_diary bg_diary.jpg
+딜레이 500
+배경음악 반복 fountain.mp3
+//배경음악 반복 free0455.mp3
+//배경음악 반복 free0701.mp3
+
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+
+대사 Lucy Valentine…
+대기
+대사새줄
+대사잇기 She was quite the exceptional one.
+대기
+대사 The greatest invention I’ve ever conceived…
+대기
+대사새줄
+대사잇기 No… it wouldn’t be so far-fetched to say that it was the greatest invention in all of
+대사새줄
+대사잇기 mankind.
+대기
+대사 The perfect human replica that no one has ever been able to create.
+대기
+대사 I had succeeded in producing something that incredible!
+대기
+대사 An existence capable of thinking and acting like a human.
+대기
+대사 An existence capable of replacing any human in any industry.
+대기
+대사 It was the perfect robot that everyone had only been dreaming about since the past.
+대기
+대사 Indeed…
+대기
+대사새줄
+대사잇기 That was why it was a problem.
+대기
+대사 That was why we could not release it into the world.
+대기
+대사 Human beings are not yet capable of comprehending such an existence.
+대기
+대사 Humans have always shunned other beings with superior intellect.
+대기
+대사 Some even question how androids are better than us…
+대기
+대사새줄
+대사잇기 Citing that they're artificially-created beings, being unnatural by design.
+대기
+대사새줄
+대사잇기 Therefore, their conclusion is that androids are inferior to humans.
+대기
+대사 However, our sense of worth is in constant flux.
+대기
+대사 Take how certain cyber currencies that used to be near worthless in the past are now more valuable than real money.
+대기
+대사 Take how sports, which used to be played purely for fun, have now become a
+대사새줄
+대사잇기 multi-billion dollar business.
+대기
+대사 It’s fascinating how rapidly one’s views can change.
+대기
+대사 Life may be something that holds an inexplicable value today, but that may very well
+대사새줄
+대사잇기 change with time.
+대기
+대사 Androids possess a near-infinite life span.
+대기
+대사새줄
+대사잇기 Unlike humans, they don’t die, per se.
+대기
+대사 They are immune to diseases and can be easily repaired when damaged.
+대기
+대사 And there are many other advantages.
+대기
+대사새줄
+대사잇기 Advantages that we humans do not possess.
+대기
+대사 They may be artificial…
+대기
+대사 But the truth may be that they’re far superior to us.
+대기
+대사 In a future world full of androids…
+대기
+대사새줄
+대사잇기 It may be humans who become obsolete.
+대기
+대사 People are just recognizing this danger and reacting accordingly.
+대기
+대사 Truthfully speaking,
+대기
+대사잇기  I am also afraid.
+대기
+대사 If androids like her were operating in our society by the millions…
+대기
+대사 I wonder if there really will be any place left on this planet for humans?
+대기
+대사 Will humans still be able to retain their prominent dominance?
+대기
+대사새줄
+대사잇기 I have no confidence in that.
+대기
+대사 That is why, I understand.
+대기
+대사새줄
+대사잇기 I understand why they’re choosing to get rid of her.
+대기
+대사 I am part of the human race, after all.
+대기
+대사새줄
+대사잇기 And I have a son whose entire life is still ahead of him.
+대기
+대사 But I could not bear to witness her destruction.
+대기
+대사 My life-long masterpiece… To be erased at a whim…
+대기
+대사새줄
+대사잇기 It would be no different than being sentenced to death.
+대기
+대사 That is why I decided to secretly conceal Lucy within the junkyard.
+대기
+대사 It wouldn’t have been possible without the aid of a man named Zerial, who was a lab official at the time.
+대기
+대사새줄
+대사잇기 Even though I was the one who had put myself into this mess, he did not hesitate to
+대사새줄
+대사잇기 lend me a hand.
+대기
+대사 I owe him a great deal.
+대기
+대사 I re-coded the interior of the junkyard robots so they wouldn’t touch her.
+대기
+대사 I implemented a command to restrict most of her advanced features.
+대기
+대사새줄
+대사잇기 It was a necessary precaution, so that she would be kept safe and hidden.
+대기
+대사 If a normal person takes her away, he wouldn’t be able to unlock her full potential.
+대기
+대사 However, someone familiar with androids may possibly uncover what she’s truly
+대사새줄
+대사잇기 capable of.
+대기
+대사 I was able to suppress my stubbornness this way.
+대기
+대사 After that, I left Lucy behind at the junkyard.
+대기
+대사 Then I waited for someone to appear.
+대기
+대사새줄
+대사잇기 I waited for someone to appear and find a use for the android.
+대기
+대사 I don’t know when that day will come.
+대기
+대사새줄
+대사잇기 It could be tomorrow. It could be months away.
+대기
+대사 It may even take years.
+대기
+대사 No one knows what the future will bring.
+대기
+대사 But at the very least, I wanted Lucy to be accepted by someone.
+대기
+//배경음악 반복 fountain.mp3
+대사 Because if she disappeared without ever seeing the light of day, it would mean that
+대사새줄
+대사잇기 my entire life had gone to waste.
+대기
+게임상태
+페이드아웃 bg_diary 2000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+
+딜레이 3000
+
+조건 $숨겨진일기트로피 = 1 타이틀.txt 첫줄
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 447 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "숨겨진 일기"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 583 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 416 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 711 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Hidden Diary"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 427 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "隠された日記"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 585 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "業績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 2000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $숨겨진일기트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1
+딜레이 3000
+
+점프 타이틀.txt 첫줄

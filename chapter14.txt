@@ -1,0 +1,1532 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 21, You"
+//변수 슬롯씬이름 = "10월 21일 주인공"
+//변수 슬롯씬이름 = "10月21日 主人公"
+
+효과음 schoolbell schoolbell.mp3
+딜레이 3000
+효과음 theater_chatter theater_chatter.mp3 반복
+배경룰페이드인 룰_22.png 700
+배경 bg_classroom_day bg_classroom_day.jpg
+딜레이 500
+
+스크립트 대화창함수.txt
+딜레이 500
+대사 The school bell rings in the distance.
+대기
+효과음 thud1 thud1.mp3
+대사 I instinctively sling my bag over my shoulder.
+대기
+대사 I exchange my farewells with Dr. Gears and head home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드아웃 룰_3.png 700
+페이드아웃 theater_chatter 500
+딜레이 2000
+배경룰페이드인
+배경 bg_street02_cloudy bg_street02_cloudy.jpg
+페이드인 bg_street02_cloudy 2500
+딜레이 1000
+효과음 FOOTSTEPSWalkTrainersAsphaltSlower FOOTSTEPSWalkTrainersAsphaltSlower.mp3 반복
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 It’s a little chilly outside.
+대기
+대사새줄
+대사잇기 I zip up my jacket.
+대기
+대사 Can’t believe it’s winter already, I think to myself.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+배경룰페이드아웃 룰_7.png 700
+페이드아웃 FOOTSTEPSWalkTrainersAsphaltSlower 1000
+딜레이 2000
+배경룰페이드인 룰_11.png 700
+배경 bg_house_cloudy bg_house_cloudy.jpg
+
+배경음악 반복 free64.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I arrive in front of my house.
+대기
+대사 I can feel something’s off right away.
+대기
+대사 I start wondering why… then it hits me.
+대기
+대사 Lucy isn’t outside waiting for me.
+대기
+대사 Lucy has always made sure to greet me on my way home.
+대기
+대사새줄
+대사잇기 But she isn’t standing at her usual spot today.
+대기
+대사 It feels out of the ordinary.
+대기
+대사새줄
+대사잇기 Could she still be inside the house?
+대기
+대사 My father might’ve asked her to do something weird again.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_7.png 700
+딜레이 500
+효과음 e74030_door-02-01 e74030_door-02-01.mp3
+딜레이 2500
+배경룰페이드인 룰_12.png 500
+배경 bg_livingroom_dark bg_livingroom_dark.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I pass through the front door and head towards the living room.
+대기
+대사 I don’t sense anyone’s presence inside the house.
+대기
+스크립트 이름.txt 주인공
+대사 “ Lucy, are you here? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I don’t hear anything back.
+대기
+대사 She doesn’t seem to be in the living room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_20.png 800
+딜레이 1000
+배경룰페이드인 룰_16.png 800
+배경 bg_laundry_dark bg_laundry_dark.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Lucy, say something if you’re home. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+배경룰페이드아웃 룰_20.png 700
+딜레이 1500
+배경룰페이드인 룰_25.png 700
+배경 bg_livingroom_dark bg_livingroom_dark.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Lucy. Say something. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There’s no response.
+대기
+대사 I search all over the house.
+대기
+대사새줄
+대사잇기 Lucy’s nowhere to be found.
+대기
+대사 I guess she had some business to take care of.
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_어디갔지
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 549 152 255 255 255 255 {{기다린다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 기다린다 = "Wait for her." 
+라벨 선택지2_2 525 290 255 255 255 255 {{찾으러간다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 찾으러간다 = "Go look for her."
+//라벨 선택지2_1 578 152 255 255 255 255 {{기다린다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 기다린다 = "기다린다." 
+//라벨 선택지2_2 559 290 255 255 255 255 {{찾으러간다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 찾으러간다 = "찾으러 간다."
+//라벨 선택지2_1 603 154 255 255 255 255 {{기다린다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 기다린다 = "待つ。" 
+//라벨 선택지2_2 554 292 255 255 255 255 {{찾으러간다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 찾으러간다 = "探しに行く。"
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 기다린다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter14.txt 기다린다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 찾으러간다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter14.txt 찾으러간다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_어디갔지
+
+북마크 기다린다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 It’s not like I need anything from her right now.
+대기
+대사 I decide to give it some time and wait.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드아웃 룰_27.png 700
+딜레이 2000
+배경룰페이드인 룰_27.png 700
+배경 bg_livingroom_dark bg_livingroom_dark.jpg
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500 
+대사 I anxiously wander around the living room.
+대기
+대사 I’ve been circling the same area for a long time already.
+대기
+대사 No matter how much I walk, there is no use.
+대기
+대사새줄
+대사잇기 I can’t get rid of this feeling of anxiety.
+대기
+스크립트 이름.txt 주인공
+대사 “ She’s late… ”
+대기
+스크립트 이름.txt 이름지우기
+점프 기다린다이후
+
+
+북마크 찾으러간다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+변수 찾으러간다 = 1
+스크립트 대화창함수.txt 페이드인 대사창 500
+북마크 기다린다이후
+대사 She’s not the type to leave for a long time without saying anything.
+대기
+대사 It was strange.
+대기
+대사 I’m reminded of the small argument I had with my father a few days back.
+대기
+대사 I can’t ignore the possibility that my father might’ve done something to her.
+대기
+대사 After circling around a few more times, I finally make a decision.
+대기
+대사 With a troubled mind, I prepare to leave the house.
+대기
+대사 Maybe she had gone to help out at the repair shop.
+대기
+대사새줄
+대사잇기 Let’s try that place first.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드아웃 룰_11.png 700
+딜레이 3000
+배경룰페이드인 룰_12.png 700
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 1000
+변수 가게주인 = "s24"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Huh? Lucy? I didn’t see her today. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Is that really true…? ”
+대기
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Yeah. Why would I ever lie about something like that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …All right then. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s not here.
+대기
+대사새줄
+대사잇기 Just where could she have disappeared to?
+대기
+스크립트 이름.txt 가게주인
+대사 “ She’s not at home? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No.
+대기
+대사잇기  Do you have any idea where she might be? ”
+대기
+스크립트 가게주인.txt 17
+스크립트 이름.txt 가게주인
+대사 “ Well, I wouldn’t know. ”
+대기
+대사 “ Are you sure she didn’t run away because you were being too rough on her? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I don’t have time to deal with his nonsense.
+대기
+대사 I leave the repair shop.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기
+딜레이 500
+
+배경룰페이드아웃 룰_16.png 700
+딜레이 2500
+배경룰페이드인 룰_33.png 500
+배경 bg_schoolgate_day bg_schoolgate_day.jpg
+딜레이 1500
+배경룰페이드인 룰_41.png 500
+배경 bg_street01_day bg_street01_day.jpg
+딜레이 1500
+배경룰페이드인 룰_29.png 500
+배경 bg_street03_evening bg_street03_evening.jpg
+딜레이 1500
+배경룰페이드인 룰_41.png 500
+배경 bg_downtown_evening bg_downtown_evening.jpg
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+페이드인 FOOTSTEPSRunTrainersCompactGravel 1000
+딜레이 500
+페이드아웃 FOOTSTEPSRunTrainersCompactGravel 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Huff… Gasp… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I can’t tell how long I’ve been running around for.
+대기
+대사새줄
+대사잇기 My lungs are burning up.
+대기
+대사 I’m getting a metallic taste in my mouth.
+대기
+대사 I just can’t wrap my head around it.
+대기
+대사새줄
+대사잇기 Where could Lucy have run off to?
+대기
+대사 It’s getting pretty late.
+대기
+대사새줄
+대사잇기 Maybe I should check home again.
+대기
+대사 Maybe Lucy’s already made it back.
+대기
+대사 She might be the one worried about me right now.
+대기
+대사 Or, maybe she still hasn’t returned.
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_집에갈까
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 576 152 255 255 255 255 {{돌아간다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 돌아간다 = "Go back." 
+라벨 선택지2_2 497 290 255 255 255 255 {{더찾아본다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 더찾아본다 = "Continue searching."
+//라벨 선택지2_1 579 152 255 255 255 255 {{돌아간다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 돌아간다 = "돌아간다." 
+//라벨 선택지2_2 552 290 255 255 255 255 {{더찾아본다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 더찾아본다 = "더 찾아 본다." 
+//라벨 선택지2_1 603 154 255 255 255 255 {{돌아간다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 돌아간다 = "戻る。" 
+//라벨 선택지2_2 492 292 255 255 255 255 {{더찾아본다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 더찾아본다 = "もう一度探してみる。"
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 돌아간다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter14.txt 돌아간다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 더찾아본다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter14.txt 더찾아본다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_집에갈까
+
+
+북마크 돌아간다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+
+딜레이 500
+
+북마크 돌아간다실패
+딜레이 500
+배경룰페이드아웃 룰_16.png 500
+딜레이 2500
+//배경룰페이드인 룰_16.png 1000
+//배경 bg_house_evening bg_house_evening.jpg
+//딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 In the end, I went back home empty-handed.
+대기
+//스크립트 대화창함수.txt 페이드아웃 대사창 500
+//
+//배경룰페이드아웃 룰_30.png 500
+//딜레이 1000
+//스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy soon returned from her grocery trip after about an hour.
+대기
+점프 종료
+
+
+북마크 더찾아본다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Yeah… Let’s continue searching for a little longer.
+대기
+대사 Without waiting to catch my breath, I break into a run once more.
+대기
+//배경음악 반복 free64.mp3
+대사 I run as hard as I can.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_41.png 700
+딜레이 4500
+조건 찾으러간다 = 1 여기 루시발견 아니면 여기 루시발견실패
+
+
+북마크 루시발견실패
+배경룰페이드인 룰_11.png 400
+배경 bg_dump01 bg_dump01.jpg
+배경음악 반복 free0354.mp3
+페이드인 배경음악 1000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I even ended up coming here while searching for Lucy.
+대기
+스크립트 이름.txt 청년
+대사 “ You’re looking for that female android, right? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+변수 청년 = "z02"
+CG {{청년}} {{청년}}.png
+페이드인 {{청년}} 1000
+딜레이 1000
+대사 It’s the man I’ve met at the repair shop in the past.
+대기
+스크립트 이름.txt 청년
+대사 “ She was just here till a minute ago… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It seems I’ve missed her by a hair.
+대기
+대사 But why was she here in the first place?
+대기
+대사 Anyways…
+대기
+대사새줄
+대사잇기 I found out Lucy isn’t here, so there’s no reason for me to stay any longer.
+대기
+대사 I express my gratitude to the man and turn to leave.
+대기
+스크립트 이름.txt 청년
+대사 “ There’s something going on between you two, isn’t there?  ”
+대기
+대사 “ How about you treat her a little better from now on? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Having no time to respond to the man’s remark, I resume my search.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 청년.txt 지우기1000
+점프 돌아간다실패
+
+
+북마크 루시발견
+배경룰페이드인 룰_12.png 700
+배경 bg_krobotics_evening bg_krobotics_evening.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I was taking some time to catch my breath.
+대기
+대사 When suddenly, someone gave me a tap on the shoulder.
+대기
+대사새줄
+대사잇기 I spin around while shouting in desperation.
+대기
+스크립트 이름.txt 주인공
+대사 “ Lucy? Is that you, Lucy? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 기박사 = "f17"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 1000
+스크립트 이름.txt 기박사
+대사 “ Nope.
+딜레이 500
+대사잇기  It’s just me. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Oh… Just you, huh. ”
+대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ You don’t need to look that disappointed… It hurts, you know. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …And what do you want? ”
+대기
+스크립트 기박사.txt 62
+스크립트 이름.txt 기박사
+대사 “ Oh, I just happened to see you so I decided to come say hello. ”
+대기
+대사 “ What’s up? You busy? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Just leave me alone already.
+대기
+스크립트 이름.txt 주인공
+대사 “ Yeah… I’m busy. ”
+대기
+스크립트 기박사.txt 33
+스크립트 이름.txt 기박사
+대사 “ Are you looking for Lucy by any chance? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah… ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Really? I actually ran into her just a little while ago. ”
+대기
+대사크기 45
+스크립트 이름.txt 주인공1
+대사 “ What? ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 Did I hear him right?
+대기
+대사지우기
+변수 기박사 = "f38"
+CG {{기박사}} {{기박사}}.png
+페이드아웃 f33
+효과음 thud1 thud1.mp3
+진동 {{기박사}} 5 0 1000 500
+스크립트 이름.txt 주인공
+대사 “ Where?
+딜레이 500
+대사잇기  Where did you see her? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Where, you ask…
+대기
+대사잇기  It was probably somewhere over there, but I can’t say for
+대사새줄
+대사잇기 sure… ”
+대기
+대사크기 45
+스크립트 이름.txt 주인공1
+대사 “ Try to remember! Hurry! ”
+대기
+대사크기 35
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Just hang on a second. Where was it… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+변수 청년 = "z01"
+CG {{청년}} {{청년}}.png
+페이드인 {{청년}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 청년
+대사 “ Could it be that you’re looking for the female android you were with before? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s the man I’ve met at the repair shop in the past.
+대기
+스크립트 이름.txt 청년
+대사 “ If it’s her, I saw her at the junkyard a while back. ”
+대기
+//배경음악 town.mp3
+스크립트 기박사.txt 62
+스크립트 이름.txt 기박사
+대사 “ Oh, right! I stopped by to dig around for some parts. ”
+대기
+대사 “ And I saw Lucy just standing there… ”
+대기
+효과음 RunA11 RunA11.mp3
+딜레이 500
+스크립트 기박사.txt 32 1
+대사 “ Hey, where are you going? ”
+대기
+
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 기박사페이드아웃
+페이드아웃 {{기박사}} 500
+쓰레드
+쓰레드 청년페이드아웃
+페이드아웃 {{청년}} 500
+쓰레드
+쓰레드 배경음악페이드아웃
+딜레이 500
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+딜레이 1000
+
+배경룰페이드아웃 룰_41.png 700
+딜레이 6000
+
+배경룰페이드인
+배경 bg_dump01 bg_dump01.jpg
+페이드인 bg_dump01 3500
+//음악선정?
+//배경음악 반복 free0354.mp3
+배경음악 반복 fountain.mp3
+페이드인 배경음악 1500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+스크립트 이름.txt 주인공
+대사 “ Huff… Gasp… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There…
+대기
+대사새줄
+대사잇기 There she is…
+대기
+대사 There’s the Lucy that I’ve been looking all over for.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+//ev011_1 출력
+CG ev11_1 ev11_1.jpg
+페이드인 ev11_1 2500
+페이드아웃 bg_dump01
+////앨범에 ev11_1 추가
+오마케추가 ev11_1 ev11_1.jpg
+변수 $ev11_1획득 = 1
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 Standing by the spot where I had first met her…
+대기
+대사새줄
+대사잇기 Gazing at the spot, frozen in place.
+대기
+대사 She looks… forlorn.
+대기
+대사새줄
+대사잇기 She appears to be reminiscing about something.
+대기
+대사 I quietly watch her for a while.
+대기
+대사 I found it difficult to call her out.
+대기
+대사 Mostly because of how she looked so… lifeless.
+대기
+대사 I couldn’t approach her because it felt as if she might disappear into thin air the
+대사새줄
+대사잇기 moment I call out to her.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+//ev11_2 출력
+CG ev11_2 ev11_2.jpg
+페이드인 ev11_2 1500
+페이드아웃 ev11_1
+////앨범에 ev11_2 추가
+오마케추가 ev11_2 ev11_2.jpg
+변수 $ev11_2획득 = 1
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Only after a few minutes had passed, I could finally open my mouth.
+대기
+스크립트 이름.txt 주인공
+대사 “ …Lucy. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+//ev09_1 출력
+CG ev09_1 ev09_1.jpg
+페이드인 ev09_1 2000
+페이드아웃 ev11_2
+////앨범에 ev09_1 추가
+오마케추가 ev09_1 ev09_1.jpg
+변수 $ev09_1획득 = 1
+딜레이 500
+//ev09_2 출력
+CG ev09_2 ev09_2.jpg
+페이드인 ev09_2 1000
+페이드아웃 ev09_1
+////앨범에 ev09_2 추가
+오마케추가 ev09_2 ev09_2.jpg
+변수 $ev09_2획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0491_{{$언어}}.mp3
+대사 “ Ah… Master. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy finally notices me.
+대기
+대사 She sounds faint.
+대기
+대사새줄
+대사잇기 She looks as if she’s just woken up from a dream.
+대기
+스크립트 이름.txt 주인공
+대사 “ Just where have you been?! ”
+대기
+대사크기 42
+대사 “ Do you even know what time it is right now? ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 I find myself raising my voice involuntarily.
+대기
+대사 Meanwhile, Lucy simply returns a dull stare.
+대기
+대사새줄
+대사잇기 With a hazed look, she responds.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0492_{{$언어}}.mp3
+대사 “ Oh… It’s this late already. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_3 출력
+CG ev09_3 ev09_3.jpg
+페이드인 ev09_3 500
+페이드아웃 ev09_2
+////앨범에 ev09_3 추가
+오마케추가 ev09_3 ev09_3.jpg
+변수 $ev09_3획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0493_{{$언어}}.mp3
+대사 “ It appears that Lucy had master worried sick. ”
+대기
+보이스 lucy0494_{{$언어}}.mp3
+대사 “ Lucy is very sorry. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Who said I was worried? ”
+대기
+대사 “ Stop making things up. I wasn’t worried about you in the slightest. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0495_{{$언어}}.mp3
+대사 “ Is that so. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She flashes a mirthless smile.
+대기
+대사 Then she silently takes my hand.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0496_{{$언어}}.mp3
+대사 “ Master’s hand is freezing. Is master cold? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With those words, she places my hand upon her cheek without hesitation.
+대기
+대사 The pleasant warmth of her skin transfers over to my hand.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It looks like she’s found out that I’ve been outside for quite a while.
+대기
+대사 Feeling a little embarrassed, I quickly pull away from her.
+대기
+스크립트 이름.txt 주인공
+대사 “ What were you doing all this time? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0497_{{$언어}}.mp3
+대사 “ Lucy was doing some grocery shopping for dinner. ”
+대기
+보이스 lucy0498_{{$언어}}.mp3
+대사 “ Since Lucy needs to win over father’s approval, she can’t do a half-hearted job,
+대사새줄
+대사잇기 right? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I switch my glance over to the plastic bag Lucy’s holding.
+대기
+대사 I take a peek inside.
+대기
+대사 I can see some eggs, green onions, garlic, and various types of ground meat.
+대기
+스크립트 이름.txt 주인공
+대사 “ Then you could’ve just come home right after shopping. ”
+대기
+대사 “ Why are you in here? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0499_{{$언어}}.mp3
+대사 “ Lucy found this place on her way home by chance. ”
+대기
+보이스 lucy0500_{{$언어}}.mp3
+대사 “ And Lucy just wanted to stop by. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+//ev09_4 출력
+CG ev09_4 ev09_4.jpg
+페이드인 ev09_4 1500
+페이드아웃 ev09_3
+////앨범에 ev09_4 추가
+오마케추가 ev09_4 ev09_4.jpg
+변수 $ev09_4획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy smoothly turns her gaze.
+대기
+대사 Eyeing the site where I had first found her, she continues.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0501_{{$언어}}.mp3
+대사 “ Lucy must’ve… ”
+대기
+보이스 lucy0502_{{$언어}}.mp3
+대사 “ Lucy must’ve been staring into space for quite a long while. ”
+대기
+보이스 lucy0503_{{$언어}}.mp3
+대사 “ Lucy never even noticed that master had arrived. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy lifts her hand to point…
+대기
+대사지우기
+딜레이 300
+CG bg_dump02 bg_dump02.jpg
+페이드인 bg_dump02 1500
+딜레이 500
+대사 Right at the spot.
+대기
+대사새줄
+대사잇기 The spot where she once lied in a sorry state.
+대기
+스크립트 이름.txt 주인공
+대사 “ This is where I found you, right? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0504_{{$언어}}.mp3
+대사 “ Yes. Lucy was deep in thought while looking at this very spot. ”
+대기
+보이스 lucy0505_{{$언어}}.mp3
+대사 “ Because for Lucy, this is a place of fond memories. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Fond memories?
+대기
+대사새줄
+대사잇기 Am I hearing her right?
+대기
+스크립트 이름.txt 주인공
+대사 “ A place of fond memories? ”
+대기
+대사 “ Isn’t this the place where you were abandoned? ”
+대기
+대사 “ Wouldn’t it be a place of unpleasant memories? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0506_{{$언어}}.mp3
+대사 “ No, absolutely not. ”
+대기
+보이스 lucy0507_{{$언어}}.mp3
+대사 “ It’s a place of fond memories where Lucy was able to meet master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That was quite optimistic of her.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 bg_dump02 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0508_{{$언어}}.mp3
+대사 “ Lucy will never forget this place. ”
+대기
+보이스 lucy0509_{{$언어}}.mp3
+대사 “ Even if Lucy’s memory chips break down from rust… even if Lucy becomes no
+대사새줄
+대사잇기 longer able to think properly… ”
+대기
+보이스 lucy0510_{{$언어}}.mp3
+대사 “ Lucy believes that, at the very least, she will never forget her meeting with
+대사새줄
+대사잇기 master. ”
+대기
+보이스 lucy0511_{{$언어}}.mp3
+대사 “ That’s why… this is a place of fond memories for Lucy. ”
+대기
+보이스 lucy0512_{{$언어}}.mp3
+대사 “ It’s definitely not a place of unpleasant memories. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Like I’ve said before… You’re exaggerating. ”
+대기
+대사 “ I didn’t help you with that kind of consideration in mind. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev09_5 출력
+CG ev09_5 ev09_5.jpg
+페이드인 ev09_5 1000
+페이드아웃 ev09_4
+////앨범에 ev09_5 추가
+오마케추가 ev09_5 ev09_5.jpg
+변수 $ev09_5획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0513_{{$언어}}.mp3
+대사 “ And like Lucy has said before, that does not matter. ”
+대기
+보이스 lucy0514_{{$언어}}.mp3
+대사 “ Because the ultimate truth is that Lucy was saved. ”
+대기
+보이스 lucy0515_{{$언어}}.mp3
+대사 “ By master’s supposedly unintentional gesture of kindness… ”
+대기
+보이스 lucy0516_{{$언어}}.mp3
+대사 “ Lucy was definitely saved. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy is watching me.
+대기
+대사 With nothing to say, I hold out my hand.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+//ev09_6 출력
+CG ev09_6 ev09_6.jpg
+페이드인 ev09_6 1500
+페이드아웃 ev09_5
+////앨범에 ev09_6 추가
+오마케추가 ev09_6 ev09_6.jpg
+변수 $ev09_6획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ It’s about time we headed back. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It feels awkward, even though I’m the one offering my hand.
+대기
+대사 The way Lucy hesitated a little showed that she’s probably feeling the same way.
+대기
+대사 I repeat myself.
+대기
+대사새줄
+대사잇기 This time, with a bit more firmness.
+대기
+스크립트 이름.txt 주인공
+대사 “ Don’t just stand there. Let’s go. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+//ev09_7 출력
+CG ev09_7 ev09_7.jpg
+페이드인 ev09_7 1000
+페이드아웃 ev09_6
+////앨범에 ev09_7 추가
+오마케추가 ev09_7 ev09_7.jpg
+변수 $ev09_7획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0517_1_{{$언어}}.mp3
+대사 “ All right… ”
+대기
+보이스 lucy0517_2_{{$언어}}.mp3
+대사 “ Let’s go home before it gets even colder. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I take hold of Lucy’s reluctant hand.
+대기
+//배경음악 반복 fountain.mp3
+대사 And I begin to lead her along.
+대기
+변수 트루엔딩조건3 = 1
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 ev09_7 2500
+페이드아웃 배경음악 3000
+딜레이 2000
+조건 $추억의장소트로피 = 1 여기 평온한루시
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 446 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "추억의 장소"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 583 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 370 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 665 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Place of Recollection"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 426 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "思い出の場所"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 585 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $추억의장소트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201 
+
+딜레이 2000
+
+북마크 평온한루시
+딜레이 2000
+배경룰페이드인 룰_24.png 500
+배경 bg_street03_evening bg_street01_evening.jpg
+딜레이 1000
+//음악선정?
+
+배경음악 town.mp3
+페이드인 배경음악 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Lucy looks at ease.
+대기
+대사 For some reason, she seems a little happier too.
+대기
+스크립트 이름.txt 주인공
+대사 “ Did you run into any trouble while shopping? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l62"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0518_{{$언어}}.mp3
+대사 “ Mm, no. Lucy was fine. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Did you get the proper change? ”
+대기
+//대사잇기  실수 한 거 없어 거스름돈도 잘 받아왔어? ”
+//대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0519_{{$언어}}.mp3
+대사 “ Of course. Lucy’s bargaining skills were right on the mark too! ”
+대기
+보이스 lucy0520_{{$언어}}.mp3
+대사 “ If Lucy was to score herself, she would give as much as a 98! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That’s a pretty generous scoring system she’s using.
+대기
+스크립트 이름.txt 주인공
+대사 “ …I wonder if you really were all right. ”
+대기
+대사 “ Since it’s such a dangerous world out there. ”
+대기
+스크립트 루시.txt 17
+스크립트 이름.txt 루시
+보이스 lucy0521_{{$언어}}.mp3
+대사 “ Could master explain what he means by dangerous? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I mean that the world is filled with all kinds of scammers and troublemakers. ”
+대기
+대사 “ And just a lot of strange people in general. ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0522_1_{{$언어}}.mp3
+대사 “ That’s not true, master. ”
+대기
+보이스 lucy0522_2_{{$언어}}.mp3
+대사 “ Everywhere Lucy went was full of kind people. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah, sure. By your standards, who wouldn’t be kind? ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0523_{{$언어}}.mp3
+대사 “ Master doesn’t believe Lucy? They really were all kind. ”
+대기
+스크립트 루시.txt 115 1
+보이스 lucy0524_{{$언어}}.mp3
+대사 ‘ Heh-heh, hey girl. That’s one heck of a bod yer rockin’ there. How ’bout ya join us
+대사새줄
+대사잇기 for a wild night? ’
+대기
+스크립트 루시.txt 94 1
+보이스 lucy0525_{{$언어}}.mp3
+대사 “ One of the people who Lucy bargained with said something like this. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He was just trying to pick her up!
+대기
+스크립트 루시.txt 147
+스크립트 이름.txt 루시
+보이스 lucy0526_{{$언어}}.mp3
+대사 ‘ Hey, you. Need some money? How much do ya need? Come chill out at my place
+대사새줄
+대사잇기 for a night, and I can give you a stinkin’ amount. What’d ya say? ’
+대기
+스크립트 루시.txt 25 1
+보이스 lucy0527_{{$언어}}.mp3
+대사 “ There was another generous man who said that while taking out his wallet… ”
+대기
+스크립트 이름.txt 주인공1
+쓰레드 진동
+진동 bg_street03_evening 1 4 600 2000
+쓰레드
+쓰레드시작
+대사크기 55
+대사 “ That’s prostitution! ”
+딜레이 500
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 It was just sad, to say the least.
+대기
+대사 Since when has this world become so rotten…
+대기
+스크립트 이름.txt 주인공
+대사 “ You’re not allowed to go shopping on your own anymore. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l76"
+CG {{루시}} {{루시}}.png
+페이드아웃 l25
+진동 {{루시}} 3 1 300 1500
+스크립트 이름.txt 루시
+보이스 lucy0528_{{$언어}}.mp3
+대사 “ W-why is that? What’s making master say such a thing? ”
+대기
+스크립트 루시.txt 77 1
+보이스 lucy0529_{{$언어}}.mp3
+대사 “ Lucy didn’t cause any problems, nor did she do anything wrong. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It’s already a huge problem that you can’t figure out what’s wrong. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 This is the same as leaving an infant to wander the streets alone.
+대기
+대사새줄
+대사잇기 You’d be worried that something might happen to her.
+대기
+스크립트 루시.txt 86
+보이스 lucy0530_{{$언어}}.mp3
+스크립트 이름.txt 루시
+대사 “ P-please have mercy… ”
+대기
+스크립트 루시.txt 40 1
+보이스 lucy0531_{{$언어}}.mp3
+대사 “ If Lucy can’t go shopping for food, what will she be able to cook for master who’s
+대사새줄
+대사잇기 starving at home… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Being dramatic won’t get you anywhere. ”
+대기
+대사 “ From now on, you’re not allowed to go shopping without me. ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0532_{{$언어}}.mp3
+대사 “ Eh? That means… ”
+대기
+스크립트 루시.txt 94 1
+보이스 lucy0533_{{$언어}}.mp3
+대사 “ It’s all right if Lucy goes with master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …Yeah. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have no choice but to say yes.
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0534_{{$언어}}.mp3
+대사 “ Then Lucy will do so from now on. Hehe. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+배경룰페이드아웃 룰_30.png 400
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 After that, we continued to talk about various nonsensical things on the way home.
+대기
+대사 It was neither a meaningful nor insightful conversation.
+대기
+대사 It was something trivial that I would probably forget all about after a night’s sleep.
+대기
+대사 But I had fun.
+대기
+대사 Leading Lucy along, while having a casual conversation.
+대기
+대사새줄
+대사잇기 Walking home together.
+대기
+//배경음악 반복 free64.mp3
+//배경음악 town.mp3
+대사 It made me feel at ease for some reason.
+대기
+
+북마크 종료
+게임상태
+쓰레드 배경음악페이드인
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+
+딜레이 4500
+
+변수 chapter = 14
+
+점프 로봇3원칙.txt 첫줄

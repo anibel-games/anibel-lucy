@@ -1,0 +1,1327 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+
+배경룰페이드인 룰_27.png 500
+배경 bg_street03_day_day bg_street03_day.jpg
+배경음악 반복 i72002_slow_time.mp3
+//배경음악 반복 free68.mp3
+
+딜레이 1000
+스크립트 대화창함수.txt
+대사 Exiting, we head out to the sidewalk.
+대기
+대사 I stop in my tracks.
+대기
+대사 In silence, I kneel down facing away from Lucy.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hop on. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 300
+변수 루시 = "l61"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 700
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I add an explanation to make sure that she understands.
+대기
+스크립트 이름.txt 주인공
+대사 “ That means you lightly put your arms around my neck and climb onto my back. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 600
+스크립트 루시.txt 74
+딜레이 1200
+스크립트 루시.txt 52
+딜레이 300
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0070_{{$언어}}.mp3
+대사 “ Umm, master… ”
+대기
+보이스 lucy0071_{{$언어}}.mp3
+대사 “ Just a quick question. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it? ”
+대기
+스크립트 루시.txt 60
+스크립트 이름.txt 루시
+보이스 lucy0072_{{$언어}}.mp3
+대사 “ Does master think that…
+딜레이 1500
+스크립트 루시.txt 75 1
+대사잇기  Lucy is dumb? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Hmm… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I guess I no longer have to worry about being choked to death.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+
+배경룰페이드아웃 룰_27.png 700
+딜레이 1500
+배경룰페이드인 룰_27.png 700
+배경 bg_street03_day bg_street03_day.jpg
+딜레이 500
+효과음 thud1 thud1.mp3
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I feel her weight gradually shift onto my back.
+대기
+대사 For a robot, she’s very light. She was probably measured to weigh as a normal girl.
+대기
+스크립트 이름.txt 주인공
+대사 “ Huh? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0073_{{$언어}}.mp3
+대사 “ What is it, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No… It’s nothing. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+//ev02_2 출력
+CG ev02_2 ev02_2.jpg
+페이드인 ev02_2 1000
+페이드아웃 bg_street03_day
+////앨범에 ev02_2 추가
+오마케추가 ev02_2 ev02_2.jpg
+변수 $ev02_2획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 As soon as she climbs onto my back, I can’t help but notice a fragrant aroma rising
+대사새줄
+대사잇기 from her body.
+대기
+대사 It’s neither too intense nor fleeting. It gently spreads evenly along my nose.
+대기
+대사새줄
+대사잇기 It starts with a sweet, fruity scent reminiscent of a youthful girl.
+대기
+대사 Yet there is a hint of spice akin to a mature woman.
+대기
+대사 It doesn’t fail to stimulate the mind of a teenage boy going through puberty.
+대기
+대사 This is bad. I’ve never experienced something like this.
+대기
+대사 It didn’t happen this morning, but why now?
+대기
+대사새줄
+대사잇기 It’s probably because of the smell. It wasn’t there earlier.
+대기
+대사 Feeling a little faint, I desperately try to get a grasp of the situation.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0074_{{$언어}}.mp3
+대사 “ Master’s heart rate is rapidly increasing. Is something the matter? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s measuring my heart rate? That’s not fair…
+대기
+대사새줄
+대사잇기 I feel a little embarrassed for revealing that I’m a nervous wreck right now.
+대기
+대사 Unable to hold back, I decide to be honest to myself.
+대기
+스크립트 이름.txt 주인공
+대사 “ This smell… What is it? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_3 출력
+CG ev02_3 ev02_3.jpg
+페이드인 ev02_3 500
+페이드아웃 ev02_2
+////앨범에 ev02_3 추가
+오마케추가 ev02_3 ev02_3.jpg
+변수 $ev02_3획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0075_{{$언어}}.mp3
+대사 “ Aha, is it because of that? ”
+대기
+보이스 lucy0076_{{$언어}}.mp3
+대사 “ The man at the shop gave Lucy all sorts of gifts. ”
+대기
+보이스 lucy0077_{{$언어}}.mp3
+대사 “ He told Lucy that since she’s a girl, she needs to take good care of herself… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She takes out a bottle of perfume amongst many other makeup accessories.
+대기
+대사 Geez, that guy is scary! Really scary!
+대기
+대사 He’s the type of person who’d spend the whole day forcing his pet dog into
+대사새줄
+대사잇기 different clothing.
+대기
+대사 If you’d consider that as animal abuse, wouldn’t this be some kind of robot
+대사새줄
+대사잇기 harassment?
+대기
+대사 Hmm… Well, I don’t know.
+대기
+스크립트 이름.txt 주인공
+대사 “ All this stuff  just for a robot… What a silly guy… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+//ev02_4 출력
+CG ev02_4 ev02_4.jpg
+페이드인 ev02_4 500
+페이드아웃 ev02_3
+////앨범에 ev02_4 추가
+오마케추가 ev02_4 ev02_4.jpg
+변수 $ev02_4획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0078_{{$언어}}.mp3
+대사 “ Hehe… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why are you laughing? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0079_{{$언어}}.mp3
+대사 “ No reason. Hehe… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 …………
+대기
+대사 Had I just been seduced by a robot?
+대기
+대사새줄
+대사잇기 Well, there goes all of my dignity as a human being.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+스크립트 이름.txt 루시
+보이스 lucy0080_{{$언어}}.mp3
+대사 “ Is it… too heavy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What are you going on about now? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I purposely try to sound irritated.
+대기
+대사 It doesn’t affect her in any way, however.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0081_{{$언어}}.mp3
+대사 “ Lucy’s body. Is Lucy too heavy for master? ”
+대기
+//스크립트 이름.txt 주인공1
+//대사 “ ……… ”
+//대기
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_무겁지않으세요
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 472 152 255 255 255 255 {{당연히무겁지}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 당연히무겁지 = "Of course you’re heavy!" 
+라벨 선택지2_2 410 290 255 255 255 255 {{생각보단가벼워}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 생각보단가벼워 = "You’re lighter than I’d expected."
+//라벨 선택지2_1 540 152 255 255 255 255 {{당연히무겁지}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 당연히무겁지 = "당연히 무겁지." 
+//라벨 선택지2_2 529 290 255 255 255 255 {{생각보단가벼워}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 생각보단가벼워 = "생각보단 가벼워." 
+//라벨 선택지2_1 474 154 255 255 255 255 {{당연히무겁지}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 당연히무겁지 = "重いに決まってるだろ。" 
+//라벨 선택지2_2 508 292 255 255 255 255 {{생각보단가벼워}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 생각보단가벼워 = "思ったより軽いよ。" 
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 당연히무겁지
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter6.txt 당연히무겁지 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 생각보단가벼워
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter6.txt 생각보단가벼워 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 chapter6.txt 선택지_무겁지않으세요
+
+
+북마크 당연히무겁지
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Of course you’re heavy. Why even bother asking? ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+//ev02_5 출력
+CG ev02_5 ev02_5.jpg
+페이드인 ev02_5 500
+페이드아웃 ev02_4
+////앨범에 ev02_5 추가
+오마케추가 ev02_5 ev02_5.jpg
+변수 $ev02_5획득 = 1
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0082_{{$언어}}.mp3
+대사 “ Oh no! What to do… Should Lucy go on a diet to suit master’s tastes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You already know that’s impossible.
+대기
+대사잇기  Unless you’re planning to tear your insides
+대사새줄
+대사잇기 out or something? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_6 출력
+CG ev02_6 ev02_6.jpg
+페이드인 ev02_6 500
+페이드아웃 ev02_5
+////앨범에 ev02_6 추가
+오마케추가 ev02_6 ev02_6.jpg
+변수 $ev02_6획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0083_{{$언어}}.mp3
+대사 “ H-how cruel! Lucy was just trying to cheer master up… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 After that, Lucy started to sulk a little.
+대기
+대사 It was very much a natural, humanlike reaction.
+대기
+대사새줄
+대사잇기 Very womanly, too.
+대기
+대사 I don’t know how I’m supposed to react to this.
+대기
+대사 She’s leading all of my values and beliefs astray.
+대기
+대사 She’s just a robot… Just a robot…
+대기
+//배경음악 반복 i72002_slow_time.mp3
+대사 I repeatedly warn myself.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+
+배경룰페이드인
+배경 ev02_6 ev02_6.jpg
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_29.png 700
+딜레이 1500
+조건 $차가운도시남자트로피 = 1 여기 어부바다음
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 419 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "차가운 도시 남자"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 609 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 433 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 726 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Chivalrous"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 415 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "冷たい都会の男"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 600 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $차가운도시남자트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+북마크 어부바다음
+점프 노을
+
+
+북마크 생각보단가벼워
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Well, you’re lighter than I’d expected. ”
+대기
+//ev02_2 출력
+CG ev02_2 ev02_2.jpg
+페이드인 ev02_2 500
+페이드아웃 ev02_4
+////앨범에 ev02_2 추가
+오마케추가 ev02_2 ev02_2.jpg
+변수 $ev02_2획득 = 1
+스크립트 이름.txt 루시1
+보이스 lucy0084_{{$언어}}.mp3
+대사 “ Is that really true? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah… ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_6 출력
+CG ev02_6 ev02_6.jpg
+페이드인 ev02_6 500
+페이드아웃 ev02_2
+////앨범에 ev02_6 추가
+오마케추가 ev02_6 ev02_6.jpg
+변수 $ev02_6획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0085_{{$언어}}.mp3
+대사 “ Does master really mean it? ”
+대기
+보이스 lucy0086_{{$언어}}.mp3
+대사 “ Master isn’t planning to drop Lucy off a cliff while she’s basking in happiness? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Is that supposed to be funny? Have you been deceived all your life? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Maybe I was being too rough on her.
+대기
+대사새줄
+대사잇기 I didn’t think she’d start being so skeptical…
+대기
+대사 Before I ruin her completely, I decide to treat her a little kinder from now on.
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+//ev02_4 출력
+CG ev02_4 ev02_4.jpg
+페이드인 ev02_4 1000
+페이드아웃 ev02_6
+////앨범에 ev02_4 추가
+오마케추가 ev02_4 ev02_4.jpg
+변수 $ev02_4획득 = 1
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0087_{{$언어}}.mp3
+대사 “ Hehe… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I hear a small giggle coming from my back.
+대기
+대사 Would a robot really feel that flattered to be called light…?
+대기
+대사 I don’t know…
+대기
+//배경음악 반복 slow_time.mp3
+대사 Humans can’t be expected to understand a robot’s heart.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드인
+배경 ev02_4 ev02_4.jpg
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_29.png 700
+
+북마크 노을
+딜레이 3000
+배경룰페이드인 룰_30.png 400
+배경 bg_street01_evening bg_street01_evening.jpg
+배경음악 반복 free0627.mp3
+페이드인 배경음악 1500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Soon enough, the streets became immersed in the orange glow of the evening sun.
+대기
+대사 The scenery was changing more slowly than usual today.
+대기
+대사 Maybe it’s because I’d been carrying Lucy on my back.
+대기
+대사 But it’s not that a lot of time had passed.
+대기
+대사 Winter was just on its way…
+대기
+대사새줄
+대사잇기 As evidenced by these increasingly shorter days.
+대기
+대사 Lucy hasn’t said anything for a while.
+대기
+대사 I steal a glance at her, wondering if she’s asleep… but she’s not.
+대기
+
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+//ev02_7 출력
+CG ev02_7 ev02_7.jpg
+페이드인 ev02_7 1500
+페이드아웃 bg_street01_evening
+////앨범에 ev02_7 추가
+오마케추가 ev02_7 ev02_7.jpg
+변수 $ev02_7획득 = 1
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 She appears to be lost in thought, staring at everything in sight.
+대기
+대사 She looks like a child inside a pleasant dream.
+대기
+대사새줄
+대사잇기 I can see her eyes sparkling.
+대기
+스크립트 이름.txt 주인공
+대사 “ Is it really that fascinating? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0088_{{$언어}}.mp3
+대사 “ What does master mean by that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ This place. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_8 출력
+CG ev02_8 ev02_8.jpg
+페이드인 ev02_8 500
+페이드아웃 ev02_7
+////앨범에 ev02_8 추가
+오마케추가 ev02_8 ev02_8.jpg
+변수 $ev02_8획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0089_{{$언어}}.mp3
+대사 “ Oh… yes. ”
+대기
+보이스 lucy0090_{{$언어}}.mp3
+대사 “ It’s quite marvelous. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I can’t say if I agree with that.
+대기
+대사 Unlike downtown, there aren’t many distractions here to keep us busy.
+대기
+대사새줄
+대사잇기 Nor are we near any beautiful landscapes.
+대기
+대사 We’re just walking down a plain, old street that you can find anywhere.
+대기
+스크립트 이름.txt 주인공
+대사 “ What part of this place do you find marvelous? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0091_{{$언어}}.mp3
+대사 “ Everything. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Everything? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0092_{{$언어}}.mp3
+대사 “ Yes. Absolutely everything. ”
+대기
+보이스 lucy0093_{{$언어}}.mp3
+대사 “ In the past, Lucy always needed permission to go outside. ”
+대기
+보이스 lucy0094_{{$언어}}.mp3
+대사 “ Lucy didn’t have many chances to wander the streets like this. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0095_{{$언어}}.mp3
+대사 “ Yes, so basically… ”
+대기
+보이스 lucy0096_{{$언어}}.mp3
+대사 “ It’s fascinating to see the way everything changes around Lucy as she moves
+대사새줄
+대사잇기 about. ”
+대기
+보이스 lucy0097_{{$언어}}.mp3
+대사 “ A fresh, new sight to behold, one after another. ”
+대기
+보이스 lucy0098_{{$언어}}.mp3
+대사 “ Being able to take in everything at Lucy’s own pace… ”
+대기
+보이스 lucy0099_{{$언어}}.mp3
+대사 “ Lucy finds that delightful. That’s why everything looks so marvelous. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I see… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I couldn’t relate to the sensation she’d just described.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+배경룰페이드인
+배경 ev02_8 ev02_8.jpg
+배경룰페이드아웃 룰_16.png 500
+딜레이 2000
+배경룰페이드인 룰_10.png 500
+배경 bg_street02_evening bg_street02_evening.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0100_{{$언어}}.mp3
+대사 “ Master. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+//ev02_9 출력
+CG ev02_9 ev02_9.jpg
+페이드인 ev02_9 1500
+페이드아웃 bg_street02_evening
+////앨범에 ev02_9 추가
+오마케추가 ev02_9 ev02_9.jpg
+변수 $ev02_9획득 = 1
+딜레이 500 
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ What is it? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0101_{{$언어}}.mp3
+대사 “ Lucy is very sorry. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …What’s with you, all of a sudden? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’m caught off-guard by the unexpected apology.
+대기
+대사새줄
+대사잇기 Had she really done anything wrong?
+대기
+대사지우기
+딜레이 300
+//ev02_10 출력
+CG ev02_10 ev02_10.jpg
+페이드인 ev02_10 1000
+페이드아웃 ev02_9
+////앨범에 ev02_10 추가
+오마케추가 ev02_10 ev02_10.jpg
+변수 $ev02_10획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0102_{{$언어}}.mp3
+대사 “ Lucy was being too chatty and annoying today… She is very sorry. ”
+대기
+보이스 lucy0103_{{$언어}}.mp3
+대사 “ Lucy is supposed to be calm and understanding of others, but… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I found it strange how Lucy was telling me what kind of person she was supposed
+대사새줄
+대사잇기 to be.
+대기
+대사 If anyone other than Lucy had told me the same thing, I’d probably have laughed at them.
+대기
+대사 Anyone by himself will never be able to find out what kind of a person he truly is.
+대기
+대사 Sitting in front of a mirror reveals all the flaws of your body.
+대기
+대사새줄
+대사잇기 Sitting in front of a person reveals all the flaws in your personality.
+대기
+대사 If you ever want to find out something about yourself, it needs to be reflected back to you by something else.
+대기
+대사 That is why attempting to describe your own personality is the same as describing
+대사새줄
+대사잇기 what kind of person you’d actually want to be.
+대기
+대사 It’d just be a bunch of pretentious nonsense.
+대기
+대사새줄
+대사잇기 But this is only the case for humans.
+대기
+대사 Lucy is an android.
+대기
+대사새줄
+대사잇기 She’s not human.
+대기
+대사 That’s why it doesn’t sound strange coming from her.
+대기
+대사지우기
+딜레이 300
+//ev02_9 출력
+CG ev02_9 ev02_9.jpg
+페이드인 ev02_9 500
+페이드아웃 ev02_10
+////앨범에 ev02_9 추가
+오마케추가 ev02_9 ev02_9.jpg
+변수 $ev02_9획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0104_1_{{$언어}}.mp3
+대사 “ Lucy was probably just happy to be able to greet her first master. ”
+대기
+보이스 lucy0104_2_{{$언어}}.mp3
+대사 “ It’s also been a while since Lucy was last activated, so that was a bit exciting too. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It was such a natural explanation about how she felt.
+대기
+대사 She was happy to meet her first master…
+대기
+대사새줄
+대사잇기 And she was happy to be able to finally move around again.
+대기
+스크립트 이름.txt 주인공
+대사 “ You’ve never served anyone else before? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_8 출력
+CG ev02_8 ev02_8.jpg
+페이드인 ev02_8 500
+페이드아웃 ev02_9
+////앨범에 ev02_8 추가
+오마케추가 ev02_8 ev02_8.jpg
+변수 $ev02_8획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0105_{{$언어}}.mp3
+대사 “ No. Master is Lucy’s first. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Is that so. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 So she’s a new model that no one has ever touched.
+대기
+대사 That line of thinking sounds dirty, but that's not what I mean…
+대기
+스크립트 이름.txt 루시
+보이스 lucy0106_1_{{$언어}}.mp3
+대사 “ Lucy really enjoyed her time back at the lab. ”
+대기
+보이스 lucy0106_2_{{$언어}}.mp3
+대사 “ The researchers were all so very kind. ”
+대기
+보이스 lucy0107_{{$언어}}.mp3
+대사 “ Lucy talked about a lot of things with everyone and learned a lot, too! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A lab, did she say?
+대기
+대사새줄
+대사잇기 Oh, I’m sure they treated her well.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0108_{{$언어}}.mp3
+대사 “ Whenever Lucy said something interesting, or whenever Lucy did something as
+대사새줄
+대사잇기 she was told to do, they were very happy. ”
+대기
+보이스 lucy0109_{{$언어}}.mp3
+대사 “ They would say, ‘Lucy is very smart,’ and pat Lucy’s head. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_11 출력
+CG ev02_11 ev02_11.jpg
+페이드인 ev02_11 500
+페이드아웃 ev02_8
+////앨범에 ev02_11 추가
+오마케추가 ev02_11 ev02_11.jpg
+변수 $ev02_11획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0110_1_{{$언어}}.mp3
+대사 “ Lucy liked that very much. That’s why Lucy decided to learn a lot more and do a
+대사새줄
+대사잇기 lot more things. ”
+대기
+보이스 lucy0110_2_{{$언어}}.mp3
+대사 “ And they came to love Lucy even more. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 They were probably just testing her abilities.
+대기
+대사 In my mind, I found the whole scenario unsettling.
+대기
+대사새줄
+대사잇기 To Lucy, however, it’s a treasured memory of her past.
+대기
+대사 But there is an important question yet to be answered.
+대기
+대사 ‘ Then why were you abandoned? ’
+대기
+대사 I’ve always been meaning to ask her, but I can’t easily bring myself to do so.
+대기
+대사 I ask myself why.
+대기
+대사 Maybe it’s because I’m starting to care about this robot’s feelings?
+대기
+대사 I shake my head.
+대기
+대사새줄
+대사잇기 That’s just plain nuts.
+대기
+대사 It’s only because she sounds just like a real person.
+대기
+대사 It’s a dangerous thought.
+대기
+대사새줄 
+대사잇기 Let’s get it out of my head.
+대기
+대사 I blurt out the question.
+대기
+스크립트 이름.txt 주인공
+대사 “ Then why were you abandoned? ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+//ev02_12 출력
+CG ev02_12 ev02_12.jpg
+페이드인 ev02_12 1000
+페이드아웃 ev02_11
+////앨범에 ev02_12 추가
+오마케추가 ev02_12 ev02_12.jpg
+변수 $ev02_12획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy goes silent.
+대기
+대사 Nothing is said for a while.
+대기
+대사새줄
+대사잇기 The quietness stretches into an awkward silence.
+대기
+대사 I start to regret asking the question.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0111_{{$언어}}.mp3
+대사 “ Because no one loved Lucy anymore. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With those words, Lucy finally breaks the silence.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0112_{{$언어}}.mp3
+대사 “ Somewhere along the line… they stopped smiling at Lucy. ”
+대기
+보이스 lucy0113_{{$언어}}.mp3
+대사 “ They stopped praising Lucy. ”
+대기
+보이스 lucy0114_{{$언어}}.mp3
+대사 “ Eventually… they forgot about Lucy. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0115_{{$언어}}.mp3
+대사 “ While running on reserve power, Lucy could only keep track of the passing
+대사새줄
+대사잇기 time. ”
+대기
+보이스 lucy0116_{{$언어}}.mp3
+대사 “ Doing absolutely nothing… It felt like an eternity. Those days went on and on. ”
+대기
+보이스 lucy0117_{{$언어}}.mp3
+대사 “ Then… Then, one day… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy goes silent once more.
+대기
+대사 Then one day, she found herself left in the dust—is what she probably wanted to
+대사새줄
+대사잇기 say.
+대기
+대사 Maybe they didn’t like something about her, or they found a significant flaw within her design.
+대기
+대사 But I don’t like the fact that they had just tossed her aside after giving her so much
+대사새줄
+대사잇기 love and attention.
+대기
+대사 Aren’t they being too inconsiderate?
+대기
+대사 A small rage boils inside of me, directed at those cruel researchers with no sense of responsibility.
+대기
+대사 When I regain my senses after a few seconds, I become surprised at how angry I
+대사새줄
+대사잇기 was.
+대기
+대사 What was I thinking?
+대기
+대사 They were just throwing away a failed experiment.
+대기
+대사 The object on my back is nothing more than an impressive fake.
+대기
+대사새줄
+대사잇기 She’s not real.
+대기
+대사 She’s not a living creature.
+대기
+대사 It’s only natural that useless machinery is thrown away.
+대기
+대사새줄
+대사잇기 There’s no need for me to be so angry.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+//ev02_7 출력
+CG ev02_7 ev02_7.jpg
+페이드인 ev02_7 1000
+페이드아웃 ev02_12
+////앨범에 ev02_7 추가
+오마케추가 ev02_7 ev02_7.jpg
+변수 $ev02_7획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0118_{{$언어}}.mp3
+대사 “ Master’s pulse is rising again. Is something wrong? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It’s nothing…
+대기
+대사잇기  And stop measuring that all the time. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0119_{{$언어}}.mp3
+대사 “ But Lucy is programmed to record master’s temperature automatically. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Then it’s an order. I order you not to measure anything from now on. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0120_{{$언어}}.mp3
+대사 “ An order? Then Lucy has no choice… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There is another silence—but this time, not an unpleasant one.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+
+딜레이 1000
+//ev02_11 출력
+CG ev02_11 ev02_11.jpg
+페이드인 ev02_11 1000
+페이드아웃 ev02_7
+////앨범에 ev02_11 추가
+오마케추가 ev02_11 ev02_11.jpg
+변수 $ev02_11획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+스크립트 이름.txt 루시
+보이스 lucy0121_{{$언어}}.mp3
+대사 “ But… Lucy is very thankful towards master. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I just can’t seem to figure out this robot’s train of thought.
+대기
+스크립트 이름.txt 주인공
+대사 “ What? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_12 출력
+CG ev02_12 ev02_12.jpg
+페이드인 ev02_12 1000
+페이드아웃 ev02_11
+////앨범에 ev02_12 추가
+오마케추가 ev02_12 ev02_12.jpg
+변수 $ev02_12획득 = 1
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0122_{{$언어}}.mp3
+대사 “ Lucy doesn’t know how much time has passed since she was thrown away. ”
+대기
+보이스 lucy0123_{{$언어}}.mp3
+대사 “ But judging by Lucy’s own temperature, it seems that a long time had passed. ”
+대기
+보이스 lucy0124_{{$언어}}.mp3
+대사 “ Lucy was always surrounded by darkness, and she could never sense any human presence… ”
+대기
+보이스 lucy0125_{{$언어}}.mp3
+대사 “ It was very dark. It was very quiet. Lucy was feeling very lonely. ”
+대기
+//ev02_7 출력
+CG ev02_7 ev02_7.jpg
+페이드인 ev02_7 1000
+페이드아웃 ev02_12
+////앨범에 ev02_7 추가
+오마케추가 ev02_7 ev02_7.jpg
+변수 $ev02_7획득 = 1
+보이스 lucy0126_{{$언어}}.mp3
+대사 “ Then suddenly… Lucy heard a gentle voice. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …I don’t remember talking to you like that. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev02_11 출력
+CG ev02_11 ev02_11.jpg
+페이드인 ev02_11 500
+페이드아웃 ev02_7
+////앨범에 ev02_11 추가
+오마케추가 ev02_11 ev02_11.jpg
+변수 $ev02_11획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0127_1_{{$언어}}.mp3
+대사 “ But to Lucy, it was like a soft, tender whisper from an angel. ”
+대기
+보이스 lucy0127_2_{{$언어}}.mp3
+대사 “ At last, in that dark abyss, the light that Lucy had lost so long ago had finally
+대사새줄
+대사잇기 returned! ”
+대기
+보이스 lucy0128_{{$언어}}.mp3
+대사 “ It was master, who found Lucy. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re overreacting… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s definitely going overboard with this.
+대기
+대사 I just happened to notice her while casually passing by.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0129_{{$언어}}.mp3
+대사 “ Lucy tried her hardest to make master notice Lucy. Lucy pushed and pulled her
+대사새줄
+대사잇기 body with all her might! ”
+대기
+보이스 lucy0130_{{$언어}}.mp3
+대사 “ And then, Lucy’s once-frozen hands had miraculously started moving… Hehe… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 They were only a few words which didn’t contain any significant meaning.
+대기
+대사새줄
+대사잇기 And it was only on a moment’s whim that I’d taken her home.
+대기
+대사 But I was surprised those simple actions were such a big help to the robot.
+대기
+대사지우기
+딜레이 300
+//ev02_8 출력
+CG ev02_8 ev02_8.jpg
+페이드인 ev02_8 1000
+페이드아웃 ev02_11
+////앨범에 ev02_8 추가
+오마케추가 ev02_8 ev02_8.jpg
+스크립트 이름.txt 루시
+보이스 lucy0131_{{$언어}}.mp3
+대사 “ Lucy is very thankful that master has taken her in. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Being able to say the most embarrassing things without hesitation…
+대기
+대사새줄
+대사잇기 I guess that’s one of the advantages of being a robot.
+대기
+대사 I can feel my face beginning to flush.
+대기
+대사 I quickly duck in order to hide my embarrassment.
+대기
+스크립트 이름.txt 주인공
+대사 “ Shut up…
+대기
+대사잇기  I’m gonna make you pay for what you’re worth, so you’d better be
+대사새줄
+대사잇기 ready for it. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+//ev02_13 출력
+CG ev02_13 ev02_13.jpg
+페이드인 ev02_13 1500
+페이드아웃 ev02_8
+////앨범에 ev02_13 추가
+오마케추가 ev02_13 ev02_13.jpg
+변수 $ev02_13획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0132_{{$언어}}.mp3
+대사 “ Yes, master. Lucy is prepared. Hehe… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What’s so funny? Why do you keep laughing like that? It’s creeping me out. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0133_{{$언어}}.mp3
+대사 “ Lucy doesn’t know. She cannot contain her laughter. ”
+대기
+보이스 lucy0134_{{$언어}}.mp3
+대사 “ Maybe it’s a malfunction. What should Lucy do? Ahaha… ”
+대기
+//효과음 fabric_lean_soft fabric_lean_soft.mp3
+스크립트 이름.txt 이름지우기
+대사 Lucy quietly rests her cheeks against my shoulder.
+대기
+대사새줄
+대사잇기 The sensation of her soft skin causes me to flinch.
+대기
+대사 She feels very much different compared to this morning.
+대기
+대사 It feels as if I’m carrying a real person on my back, instead of a robot.
+대기
+대사 I start to wonder what could be causing this difference in perception.
+대기
+대사 Was it just a placebo effect?
+대기
+대사새줄
+대사잇기 Or had something really changed since the morning?
+대기
+대사 If something really did change,
+대기
+대사새줄
+대사잇기 Was it me?
+대기
+대사잇기  Or the robot?
+대기
+대사 I continue to ponder over the question on the way home.
+대기
+//배경음악 반복 free0627.mp3
+대사새줄
+대사잇기 I never manage to come up with an answer.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+페이드아웃 ev02_13 3000
+딜레이 3000
+
+변수 chapter = 60
+
+점프 로봇3원칙.txt 첫줄
+

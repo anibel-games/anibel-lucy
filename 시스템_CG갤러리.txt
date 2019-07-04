@@ -1,0 +1,410 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+
+// 로드 화면의 배경을 보여줍니다.
+시스템버튼제거
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_cggallery페이드인
+CG top_cggallery top_cggallery.png 108 0 아니 -130
+페이드인 top_cggallery 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_extra페이드아웃
+페이드아웃 top_extra 300
+쓰레드
+
+쓰레드시작
+딜레이 10
+
+
+북마크 CG리스트
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+조건 $ev01_1획득 = 1 여기 ev01_1_on
+조건 $ev01_2획득 = 1 여기 ev01_1_on 아니면 여기 empty1
+북마크 ev01_1_on
+버튼 thumb_ev01 154 127 192 108 점프 앨범출력.txt ev01_1출력 thumb_ev01.jpg thumb_ev01_select.jpg thumb_ev01_push.jpg
+쓰레드 thumb_ev01
+페이드인 thumb_ev01 500
+쓰레드
+북마크 empty1
+쓰레드 omake_empty
+CG omake_empty1 gallery_slot_empty.png 154 127 아니 0
+페이드인 omake_empty1 500
+쓰레드
+조건 $ev02_1획득 = 1 여기 ev02_1_on
+조건 $ev02_2획득 = 1 여기 ev02_1_on
+조건 $ev02_3획득 = 1 여기 ev02_1_on
+조건 $ev02_4획득 = 1 여기 ev02_1_on
+조건 $ev02_5획득 = 1 여기 ev02_1_on
+조건 $ev02_6획득 = 1 여기 ev02_1_on
+조건 $ev02_7획득 = 1 여기 ev02_1_on
+조건 $ev02_8획득 = 1 여기 ev02_1_on
+조건 $ev02_9획득 = 1 여기 ev02_1_on
+조건 $ev02_10획득 = 1 여기 ev02_1_on
+조건 $ev02_11획득 = 1 여기 ev02_1_on
+조건 $ev02_12획득 = 1 여기 ev02_1_on
+조건 $ev02_13획득 = 1 여기 ev02_1_on 아니면 여기 empty2
+북마크 ev02_1_on
+버튼 thumb_ev02 414 127 192 108 점프 앨범출력.txt ev02_1출력 thumb_ev02.jpg thumb_ev02_select.jpg thumb_ev02_push.jpg
+쓰레드 thumb_ev02
+페이드인 thumb_ev02 500
+쓰레드
+북마크 empty2
+쓰레드 omake_empty
+CG omake_empty2 gallery_slot_empty.png 414 127 아니 0
+페이드인 omake_empty2 500
+쓰레드
+조건 $ev03_1획득 = 1 여기 ev03_1_on
+조건 $ev03_2획득 = 1 여기 ev03_1_on
+조건 $ev03_3획득 = 1 여기 ev03_1_on
+조건 $ev03_4획득 = 1 여기 ev03_1_on 아니면 여기 empty3
+북마크 ev03_1_on
+버튼 thumb_ev03 674 127 192 108 점프 앨범출력.txt ev03_1출력 thumb_ev03.jpg thumb_ev03_select.jpg thumb_ev03_push.jpg
+쓰레드 thumb_ev03
+페이드인 thumb_ev03 500
+쓰레드
+북마크 empty3
+쓰레드 omake_empty
+CG omake_empty3 gallery_slot_empty.png 674 127 아니 0
+페이드인 omake_empty3 500
+쓰레드
+조건 $ev04_1획득 = 1 여기 ev04_1_on
+조건 $ev04_2획득 = 1 여기 ev04_1_on
+조건 $ev04_3획득 = 1 여기 ev04_1_on 아니면 여기 empty4
+북마크 ev04_1_on
+버튼 thumb_ev04 934 127 192 108 점프 앨범출력.txt ev04_1출력 thumb_ev04.jpg thumb_ev04_select.jpg thumb_ev04_push.jpg
+쓰레드 thumb_ev04
+페이드인 thumb_ev04 500
+쓰레드
+북마크 empty4
+쓰레드 omake_empty
+CG omake_empty4 gallery_slot_empty.png 934 127 아니 0
+페이드인 omake_empty4 500
+쓰레드
+조건 $ev05_1획득 = 1 여기 ev05_1_on
+조건 $ev05_2획득 = 1 여기 ev05_1_on
+조건 $ev05_3획득 = 1 여기 ev05_1_on
+조건 $ev05_4획득 = 1 여기 ev05_1_on
+조건 $ev05_5획득 = 1 여기 ev05_1_on 아니면 여기 empty5
+북마크 ev05_1_on
+버튼 thumb_ev05 154 302 192 108 점프 앨범출력.txt ev05_1출력 thumb_ev05.jpg thumb_ev05_select.jpg thumb_ev05_push.jpg
+쓰레드 thumb_ev05
+페이드인 thumb_ev05 500
+쓰레드
+북마크 empty5
+쓰레드 omake_empty
+CG omake_empty5 gallery_slot_empty.png 154 302 아니 0
+페이드인 omake_empty5 500
+쓰레드
+조건 $ev06_1획득 = 1 여기 ev06_1_on
+조건 $ev06_2획득 = 1 여기 ev06_1_on
+조건 $ev06_3획득 = 1 여기 ev06_1_on 아니면 여기 empty6
+북마크 ev06_1_on
+버튼 thumb_ev06 414 302 192 108 점프 앨범출력.txt ev06_1출력 thumb_ev06.jpg thumb_ev06_select.jpg thumb_ev06_push.jpg
+쓰레드 thumb_ev06
+페이드인 thumb_ev06 500
+쓰레드
+북마크 empty6
+쓰레드 omake_empty
+CG omake_empty6 gallery_slot_empty.png 414 302 아니 0
+페이드인 omake_empty6 500
+쓰레드
+조건 $ev07_1획득 = 1 여기 ev07_1_on
+조건 $ev07_2획득 = 1 여기 ev07_1_on 아니면 여기 empty7
+북마크 ev07_1_on
+버튼 thumb_ev07 674 302 192 108 점프 앨범출력.txt ev07_1출력 thumb_ev07.jpg thumb_ev07_select.jpg thumb_ev07_push.jpg
+쓰레드 thumb_ev07
+페이드인 thumb_ev07 500
+쓰레드
+북마크 empty7
+쓰레드 omake_empty
+CG omake_empty7 gallery_slot_empty.png 674 302 아니 0
+페이드인 omake_empty7 500
+쓰레드
+조건 $ev08_1획득 = 1 여기 ev08_1_on
+조건 $ev08_2획득 = 1 여기 ev08_1_on 아니면 여기 empty8
+북마크 ev08_1_on
+버튼 thumb_ev08 934 302 192 108 점프 앨범출력.txt ev08_1출력 thumb_ev08.jpg thumb_ev08_select.jpg thumb_ev08_push.jpg
+쓰레드 thumb_ev08
+페이드인 thumb_ev08 500
+쓰레드
+북마크 empty8
+쓰레드 omake_empty
+CG omake_empty8 gallery_slot_empty.png 934 302 아니 0
+페이드인 omake_empty8 500
+쓰레드
+조건 $ev09_1획득 = 1 여기 ev09_1_on
+조건 $ev09_2획득 = 1 여기 ev09_1_on
+조건 $ev09_3획득 = 1 여기 ev09_1_on
+조건 $ev09_4획득 = 1 여기 ev09_1_on
+조건 $ev09_5획득 = 1 여기 ev09_1_on
+조건 $ev09_6획득 = 1 여기 ev09_1_on
+조건 $ev09_7획득 = 1 여기 ev09_1_on
+조건 $ev09_8획득 = 1 여기 ev09_1_on
+조건 $ev09_9획득 = 1 여기 ev09_1_on
+조건 $ev09_10획득 = 1 여기 ev09_1_on 아니면 여기 empty9
+북마크 ev09_1_on
+버튼 thumb_ev09 154 477 192 108 점프 앨범출력.txt ev09_1출력 thumb_ev09.jpg thumb_ev09_select.jpg thumb_ev09_push.jpg
+쓰레드 thumb_ev09
+페이드인 thumb_ev09 500
+쓰레드
+북마크 empty9
+쓰레드 omake_empty
+CG omake_empty9 gallery_slot_empty.png 154 477 아니 0
+페이드인 omake_empty9 500
+쓰레드
+조건 $ev10_1획득 = 1 여기 ev10_1_on
+조건 $ev10_2획득 = 1 여기 ev10_1_on
+조건 $ev10_3획득 = 1 여기 ev10_1_on
+조건 $ev10_4획득 = 1 여기 ev10_1_on
+조건 $ev10_5획득 = 1 여기 ev10_1_on
+조건 $ev10_6획득 = 1 여기 ev10_1_on 아니면 여기 empty10
+북마크 ev10_1_on
+버튼 thumb_ev10 414 477 192 108 점프 앨범출력.txt ev10_1출력 thumb_ev10.jpg thumb_ev10_select.jpg thumb_ev10_push.jpg
+쓰레드 thumb_ev10
+페이드인 thumb_ev10 500
+쓰레드
+북마크 empty10
+쓰레드 omake_empty
+CG omake_empty10 gallery_slot_empty.png 414 477 아니 0
+페이드인 omake_empty10 500
+쓰레드
+조건 $ev11_1획득 = 1 여기 ev11_1_on
+조건 $ev11_2획득 = 1 여기 ev11_1_on
+조건 $ev11_3획득 = 1 여기 ev11_1_on 아니면 여기 empty11
+북마크 ev11_1_on
+버튼 thumb_ev11 674 477 192 108 점프 앨범출력.txt ev11_1출력 thumb_ev11.jpg thumb_ev11_select.jpg thumb_ev11_push.jpg
+쓰레드 thumb_ev11
+페이드인 thumb_ev11 500
+쓰레드
+북마크 empty11
+쓰레드 omake_empty
+CG omake_empty11 gallery_slot_empty.png 674 477 아니 0
+페이드인 omake_empty11 500
+쓰레드
+조건 $ev12_1획득 = 1 여기 ev12_1_on
+조건 $ev12_2획득 = 1 여기 ev12_1_on
+조건 $ev12_3획득 = 1 여기 ev12_1_on
+조건 $ev12_4획득 = 1 여기 ev12_1_on 아니면 여기 empty12
+북마크 ev12_1_on
+버튼 thumb_ev12 934 477 192 108 점프 앨범출력.txt ev12_1출력 thumb_ev12.jpg thumb_ev12_select.jpg thumb_ev12_push.jpg
+쓰레드 thumb_ev12
+페이드인 thumb_ev12 500
+쓰레드
+북마크 empty12
+쓰레드 omake_empty
+CG omake_empty12 gallery_slot_empty.png 934 477 아니 0
+페이드인 omake_empty12 500
+쓰레드
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+
+// 이전/다음 버튼을 설정합니다.
+시스템버튼 button_previous 1007 639 58 54 이전페이지 button_previous.png button_previous_select.png button_previous_push.png
+시스템버튼 button_next 1078 639 58 54 스크립트 시스템_CG갤러리_2.txt button_next.png button_next_select.png button_next_push.png
+쓰레드 button_previous 
+페이드인 button_previous 500
+쓰레드
+쓰레드 button_next
+페이드인 button_next 500
+쓰레드
+
+// 페이지 번호를 표시합니다.
+라벨 페이지번호 938 658 255 255 255 255 1/2
+라벨속성 페이지번호 20 아니 venera500
+쓰레드 페이지번호
+페이드인 페이지번호 500
+쓰레드
+
+쓰레드시작
+쓰레드대기
+
+
+북마크 오마케안보임
+
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+// 힌트다! 시스템버튼 button_back 1174 3 97 102 점프 시스템_엑스트라.txt 엑스트라 button_back.png button_back_select.png button_back_push.png
+
+// '닫기' 버튼 선택까지 대기합니다.
+버튼대기
+
+
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+// 여기서 다시 버튼 제거를 하는 것은 ESC 키를 누르면 한순간에 북마크 '종료'로 오기 때문입니다.
+// 그래서 '버튼대기' 부분을 지나지 않기 때문에 버튼은 삭제되지 않습니다.
+// 참고) '버튼'은 한번 선택 후에 지워지지만, '시스템버튼'은 '시스템버튼제거' 명령어가 
+// 있을 때 까지 사라지지 않습니다.
+
+// 옵션 배경을 지웁니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_cggallery페이드아웃
+페이드아웃 top_cggallery 300
+쓰레드
+
+쓰레드 thumb_ev01 페이드아웃
+페이드아웃 thumb_ev01
+쓰레드
+쓰레드 thumb_ev02 페이드아웃
+페이드아웃 thumb_ev02
+쓰레드
+쓰레드 thumb_ev03 페이드아웃
+페이드아웃 thumb_ev03
+쓰레드
+쓰레드 thumb_ev04 페이드아웃
+페이드아웃 thumb_ev04
+쓰레드
+쓰레드 thumb_ev05 페이드아웃
+페이드아웃 thumb_ev05
+쓰레드
+쓰레드 thumb_ev06 페이드아웃
+페이드아웃 thumb_ev06
+쓰레드
+쓰레드 thumb_ev07 페이드아웃
+페이드아웃 thumb_ev07
+쓰레드
+쓰레드 thumb_ev08 페이드아웃
+페이드아웃 thumb_ev08
+쓰레드
+쓰레드 thumb_ev09 페이드아웃
+페이드아웃 thumb_ev09
+쓰레드
+쓰레드 thumb_ev10 페이드아웃
+페이드아웃 thumb_ev10
+쓰레드
+쓰레드 thumb_ev11 페이드아웃
+페이드아웃 thumb_ev11
+쓰레드
+쓰레드 thumb_ev12 페이드아웃
+페이드아웃 thumb_ev12
+쓰레드
+
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12 
+쓰레드
+쓰레드시작
+
+라벨 페이지번호
+시스템버튼제거
+버튼제거
+
+점프 시스템_엑스트라.txt 엑스트라
+
+

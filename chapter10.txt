@@ -1,0 +1,469 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 14, You"
+//변수 슬롯씬이름 = "10월 14일 주인공"
+//변수 슬롯씬이름 = "10月14日 主人公"
+
+딜레이 1000
+배경룰페이드인 룰_14.PNG 500
+배경 bg_livingroom_evening bg_livingroom_evening.jpg
+//배경음악 반복 free64.mp3
+배경음악 반복 free31.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt
+딜레이 500
+대사 For whatever reason, my father came home early today.
+대기
+대사 Well, not exactly early, since it’s already past eleven at night.
+대기
+대사 But that’s still early by my standards.
+대기
+대사새줄
+대사잇기 For a guy who usually doesn’t even bother coming home at all, he’s made good
+대사새줄
+대사잇기 time.
+대기
+대사 Lucy meets him at the door.
+대기
+대사 She puts on her usual bright, cheery smile.
+대기
+대사지우기
+변수 루시 = "l95"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0292_{{$언어}}.mp3
+대사 “ Welcome home. How was father’s day? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 아버지 = "d03"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She doesn’t seem to be affected by my father’s ferocious stare at all.
+대기
+대사 I expect her to be able to keep up with his behavior just fine.
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0293_{{$언어}}.mp3
+대사 “ Please let Lucy take father’s coat. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 아버지.txt 지우기
+대사 At first, he seemed like he was going to flat out ignore her and walk away.
+대기
+대사 But he abruptly stops in his tracks as if he’d changed his mind about something.
+대기
+대사지우기
+딜레이 500
+변수 아버지 = "d02"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 500
+스크립트 이름.txt 아버지
+대사 “ I’m hungry… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He murmurs, with an unpleasant look on his face.
+대기
+대사 It’s his first early return in a long time, and that’s what he decides to say.
+대기
+스크립트 루시.txt 32
+딜레이 800
+스크립트 루시.txt 54
+딜레이 400
+대사 Lucy looks puzzled, but only for a brief moment.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0294_{{$언어}}.mp3
+대사 “ Understood. Father is hungry. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her face appears to brighten up a little.
+대기
+대사 It seems that she was happy to receive my father’s first request.
+대기
+대사 She might be thinking that my father has finally accepted her.
+대기
+대사새줄
+대사잇기 Oh, well… One can dream, I guess.
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0295_{{$언어}}.mp3
+대사 “ Lucy will have the food ready soon, so please wait. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+대사 Lucy is about to hurry over to the kitchen.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 아버지.txt 지우기
+스크립트 대화창함수.txt 페이드인 대사창 500
+효과음 thud1 thud1.mp3
+대사 I stop her immediately.
+대기
+대사지우기
+변수 루시 = "l99"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+딜레이 500
+대사 Lucy stares at me in confusion.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0296_{{$언어}}.mp3
+대사 “ Master? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her eyes seemed to be asking why I’d stopped her.
+대기
+대사새줄
+대사잇기 I’m having trouble putting it into words.
+대기
+대사 But I manage to utter the following.
+대기
+스크립트 이름.txt 주인공
+대사 “ I’m also… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0297_{{$언어}}.mp3
+대사 “ Yes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m also hungry. ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0298_{{$언어}}.mp3
+대사 “ But master already ate just a moment ago. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That’s true.
+대기
+대사새줄
+대사잇기 But I continue to insist through a silent stare.
+대기
+대사 I hope that Lucy catches on.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 25 1
+보이스 lucy0299_{{$언어}}.mp3
+대사 “ Understood.
+딜레이 1500
+대사잇기  Dinner for two it is then. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+대사 With that settled, she quickly disappears into the kitchen.
+대기
+대사지우기
+딜레이 1000
+변수 아버지 = "d03"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+대사 And I’m suddenly left alone with my father.
+대기
+대사새줄
+대사잇기 The atmosphere grows very stiff.
+대기
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He passes me a look, but doesn’t say something.
+대기
+대사 I can also sense his discomfort.
+대기
+대사 It’s because of what had happened yesterday.
+대기
+대사 I feel even more anxious after remembering that.
+대기
+대사새줄
+대사잇기 It feels like I’m lying on a bed of needles.
+대기
+대사 If my time at home feels this agonizing, where exactly am I supposed to find my
+대사새줄
+대사잇기 peace and comfort…
+대기
+//배경음악 반복 free31.mp3
+대사 I decide to stay locked up in my room until Lucy finishes preparing our dinner.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 아버지.txt 지우기
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_16.PNG 700
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Later, Lucy summons me to the kitchen.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1500
+배경룰페이드인 룰_44.png 500
+배경 bg_table_night_light bg_table_night_light.jpg
+배경음악 반복 free64.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I take a seat at the table and begin to eat.
+대기
+대사 Beside my father, Lucy is waiting intently for his reaction.
+대기
+대사 Just like when she first cooked for me, her eyes sparkle while awaiting the final
+대사새줄
+대사잇기 verdict.
+대기
+대사지우기
+변수 루시 = "l67"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0300_{{$언어}}.mp3
+대사 “ Does the food taste all right? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s obviously expecting a positive reply.
+대기
+대사새줄
+대사잇기 But there’s no way my father would compliment a robot.
+대기
+스크립트 이름.txt 아버지
+대사 “ As I’d expected… ”
+대기
+대사 “ Machines really are no good. ”
+대기
+스크립트 루시.txt 58
+스크립트 이름.txt 루시
+보이스 lucy0301_{{$언어}}.mp3
+대사 “ No good? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ No matter how refined your recipes may be, you aren’t fooling anyone. ”
+대기
+대사 “ It tastes too bland.
+대기
+대사잇기  This won’t do. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He wipes his mouth with a tissue.
+대기
+대사 I feel a little embarrassed, because that was similar to what I’d told her this morning.
+대기
+스크립트 루시.txt 57
+딜레이 700
+스크립트 루시.txt 77
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0302_{{$언어}}.mp3
+대사 “ Ah, really… That’s a little disappointing. Lucy was hoping that father would enjoy
+대사새줄
+대사잇기 it… ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0303_{{$언어}}.mp3
+대사 “ But that’s all right. ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0304_{{$언어}}.mp3
+대사 “ Lucy will gradually adjust her cooking to better suit father’s tastes. ”
+대기
+보이스 lucy0305_{{$언어}}.mp3
+대사 “ She will definitely make improvements, so please look forward to it. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 No matter what Lucy comes across, there’s nothing in this world that could break
+대사새줄
+대사잇기 her resolute smile.
+대기
+스크립트 이름.txt 아버지
+대사 “ No, that won’t be necessary. ”
+대기
+대사 “ I was just testing you because I thought you might be a little useful, but that was
+대사새줄
+대사잇기 clearly a waste of time. ”
+대기
+대사 “ There’s no reason to continue such an awful meal.
+대기
+대사잇기  Hurry up and take everything
+대사새줄
+대사잇기 away. ”
+대기
+스크립트 루시.txt 33
+스크립트 이름.txt 루시
+보이스 lucy0306_{{$언어}}.mp3
+대사 “ Eh? But father… ”
+대기
+효과음 mug_on_table mug_on_table.mp3
+대사크기 48
+스크립트 아버지.txt 10
+스크립트 이름.txt 아버지
+대사 “ And do not call me ‘father’! You have no reason to address me as such. ”
+변수 루시 = "l56"
+CG {{루시}} {{루시}}.png
+페이드아웃 l33
+딜레이 100
+진동 {{루시}} 0 3 200 2000
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+
+대사 Lucy flinches.
+대기
+스크립트 아버지.txt 09
+스크립트 이름.txt 아버지
+대사 “ What a useless robot. ”
+대기
+대사 “ I can’t believe so many people are losing their jobs because of these things. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0307_{{$언어}}.mp3
+대사 “ U-umm… Father? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Even while stuttering, Lucy does not give up.
+대기
+스크립트 루시.txt 93
+스크립트 이름.txt 루시
+보이스 lucy0308_{{$언어}}.mp3
+대사 “ Th-there are many other things that Lucy can do better. ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0309_{{$언어}}.mp3
+대사 “ Cleaning, doing the laundry… please leave everything to Lucy. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ There won’t be a need for that. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0310_{{$언어}}.mp3
+대사 “ But father... ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ Now what? ”
+대기
+스크립트 루시.txt 60
+스크립트 이름.txt 루시
+보이스 lucy0311_1_{{$언어}}.mp3
+대사 “ Lucy really can do a lot of things. ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0311_2_{{$언어}}.mp3
+대사 “ Although she has failed at cooking… Lucy is sure that she could be useful in other ways. ”
+대기
+스크립트 아버지.txt 08
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0312_{{$언어}}.mp3
+대사 “ Hehe… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s grinning uncontrollably.
+대기
+대사새줄
+대사잇기 She looks like a total idiot.
+대기
+대사 I feel frustrated from just watching her.
+대기
+스크립트 이름.txt 아버지
+대사 “ If you’re that confident, I suppose I can give you another chance. ”
+대기
+대사 “ I’ll be watching your performance. ”
+대기
+스크립트 루시.txt 56
+딜레이 700
+스크립트 루시.txt 95
+스크립트 이름.txt 루시
+보이스 lucy0313_{{$언어}}.mp3
+대사 “ P-please leave it to Lucy! ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+대사 With that said, Lucy swiftly moves to clean the kitchen table.
+대기
+효과음 rustle rustle.mp3
+대사 After watching Lucy for a while with a look of contempt, my father gets up from his seat.
+대기
+스크립트 아버지.txt 04
+스크립트 이름.txt 아버지
+대사 “ Did you really want to keep this stubborn thing that much? ”
+대기
+대사 “ Enough to make you bare your teeth at your own father? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That had only happened in the heat of the moment.
+대기
+대사새줄
+대사잇기 There is a whole underlying issue between us.
+대기
+대사 And he hasn’t realized it yet.
+대기
+대사새줄
+대사잇기 But I know that it’d be a waste of time to try to talk some sense into him.
+대기
+//배경음악 반복 free64.mp3
+대사 Pretending not to hear him, I return to my room.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 아버지.txt 지우기
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+페이드아웃 bg_table_night_light 2500
+
+딜레이 2000
+
+
+변수 chapter = 10
+
+점프 로봇3원칙.txt 첫줄
+
+
+
+
+
+
+
+

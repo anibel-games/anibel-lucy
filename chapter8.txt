@@ -1,0 +1,1886 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 14, You"
+//변수 슬롯씬이름 = "10월 14일 주인공"
+//변수 슬롯씬이름 = "10月14日 主人公"
+
+딜레이 1000
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+딜레이 1000
+
+스크립트 대화창함수.txt
+스크립트 이름.txt 목소리
+보이스 lucy0192_{{$언어}}.mp3
+대사 “ Master…
+딜레이 1500
+대사잇기  Master… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 FABRICMovementShortRR4 FABRICMovementShortRR4.mp3
+딜레이 1500
+효과음 fabric_move fabric_move.mp3
+딜레이 500
+대사 My body is being shaken from side to side.
+대기
+스크립트 이름.txt 목소리
+보이스 lucy0193_{{$언어}}.mp3
+대사 “ Master… ”
+대기
+효과음 FABRICMovementLong FABRICMovementLong.mp3 2
+딜레이 500
+효과음 FABRICMovementShortRR4 FABRICMovementShortRR4.mp3
+스크립트 이름.txt 이름지우기
+대사 Something is shaking my body.
+대기
+스크립트 이름.txt 주인공
+대사 “ Ugh… ”
+대기
+스크립트 이름.txt 목소리1
+보이스 lucy0194_{{$언어}}.mp3
+대사 “ Wake up, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Augh… What do you want… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Still feeling drowsy, I try my hardest to overcome the weight of my drooping eyelids.
+대기
+대사 I finally manage to force open my eyes.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 1000
+배경룰페이드인 룰_47.png 500
+배경 ev03_1 ev03_1.jpg
+////앨범에 ev03_1 추가
+오마케추가 ev03_1 ev03_1.jpg
+변수 $ev03_1획득 = 1
+딜레이 200
+배경룰페이드아웃 룰_47.png 500
+딜레이 500
+배경룰페이드인 룰_47.png 400
+배경 ev03_1 ev03_1.jpg
+딜레이 500
+//ev03_2 출력
+CG ev03_2 ev03_2.jpg
+페이드인 ev03_2 3500
+페이드아웃 ev03_1
+////앨범에 ev03_2 추가
+오마케추가 ev03_2 ev03_2.jpg
+변수 $ev03_2획득 = 1
+
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 And right before me was a pair of blue eyes the size of frying pans.
+대기
+배경룰페이드인
+배경 bg_room01_day bg_room01_day.jpg
+페이드아웃 ev03_2 500
+스크립트 이름.txt 주인공
+대사크기 55
+대사 “ AHHHH!!! ”
+
+쓰레드 진동둥둥
+//진동 ev03_2 5 1 700 2000
+진동 bg_room01_day 5 1 700 2000
+쓰레드
+쓰레드시작
+
+딜레이 700
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+효과음 THUDMovementBeforeandAfter THUDMovementBeforeandAfter.mp3
+배경룰페이드아웃 룰_4.png 2500
+딜레이 800
+효과음 THUDSmooth01 THUDSmooth01.mp3
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사크기 35
+대사 I stare at Lucy in bewilderment as I find myself fallen off my bed.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1500
+배경룰페이드인 룰_24.png 400
+배경 bg_room01_day bg_room01_day.jpg
+배경음악 반복 wake_up.MP3
+딜레이 1500
+
+변수 루시 = "l67"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0195_{{$언어}}.mp3
+대사 “ It’s morning now. Did master enjoy his sleep? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Before I make any attempt to talk back to her, I decide to check the time.
+대기
+대사 It was earlier than usual.
+대기
+대사 I let out a big yawn.
+대기
+스크립트 이름.txt 주인공
+대사 “ It’s so early in the morning… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Before I could ask why I was woken up so ahead of schedule, I start to sniff.
+대기
+대사 I could smell something delicious.
+대기
+대사새줄
+대사잇기 My room was filled with the mouth-watering scent.
+대기
+대사 I tell myself that the neighbors must be cooking up something good.
+대기
+대사 Then Lucy suddenly opens her mouth.
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0196_{{$언어}}.mp3
+대사 “ Breakfast will be ready soon. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Those words were the most unexpected.
+대기
+스크립트 이름.txt 주인공
+대사 “ Did you just say breakfast…? ”
+대기
+스크립트 루시.txt 95
+스크립트 이름.txt 루시
+보이스 lucy0197_{{$언어}}.mp3
+대사 “ Lucy tried preparing something from the leftovers in the fridge. ”
+대기
+스크립트 루시.txt 63 1
+보이스 lucy0198_{{$언어}}.mp3
+대사 “ She hopes it will be to master’s liking. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Breakfast… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The word had a nostalgic ring to it.
+대기
+대사 When was the last time I’d eaten something other than fast food for breakfast…?
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0199_{{$언어}}.mp3
+대사 “ Oh, are there any dishes that master dislikes in particular? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No… ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0200_{{$언어}}.mp3
+대사 “ Any ingredients then? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No…
+대기
+대사잇기  Nothing like that. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wanted to say carrots and cucumbers, but I decide against it.
+대기
+대사새줄
+대사잇기 I didn’t want to be seen as an immature kid complaining about his food.
+대기
+대사 It just doesn’t fit my cool, intellectual image.
+대기
+대사 Still haven’t fully woken up yet, I confirm my understanding with Lucy once more.
+대기
+스크립트 이름.txt 주인공
+대사 “ So… You’re telling me you’ve made breakfast? ”
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0201_{{$언어}}.mp3
+대사 “ Yes. Lucy tried putting her skills to the test. ”
+대기
+보이스 lucy0202_{{$언어}}.mp3
+대사 “ It will be ready in ten minutes, so please have a drink while master waits. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A cup of water is presented to me.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I was just starting to get a little thirsty too.
+대기
+대사 As I grab hold of the cup, its pleasant coolness spreads along my skin.
+대기
+대사 I feel embarrassed about following Lucy’s orders, so I decide to make a small
+대사새줄
+대사잇기 complaint as I put the cup to my lips.
+대기
+스크립트 이름.txt 주인공
+대사 “ Next time, you should wake me up when the food’s actually ready. ”
+대기
+스크립트 루시.txt 35
+스크립트 이름.txt 루시
+보이스 lucy0203_{{$언어}}.mp3
+대사 “ Lucy can’t do that, because it’s unhealthy to eat before master’s stomach has fully awoken. ”
+대기
+스크립트 루시.txt 19 1
+보이스 lucy0204_{{$언어}}.mp3
+대사 “ Drinking a cup of water is necessary to get the insides moving. Only then master
+대사새줄
+대사잇기 can enjoy his food. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How annoying. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 What a strict one, this robot is.
+대기
+효과음 drink drink.mp3
+딜레이 1000
+대사 I enjoy the feeling of the cold water pouring down my throat and quenching my
+대사새줄
+대사잇기 thirst.
+대기
+//대사새줄
+대사 It feels like my insides are being cleansed thoroughly.
+대기
+대사 Suddenly, I realize how absurd this whole situation is.
+대기
+대사 The fact that someone is preparing breakfast for me...
+대기
+대사새줄
+대사잇기 Could I still be dreaming?
+대기
+대사 I feel like I’m on cloud nine.
+대기
+스크립트 루시.txt 지우기
+효과음 StepB11 StepB11.mp3
+대사 Lucy cheerfully skips towards the kitchen.
+대기
+대사 I only continue to stare at her blankly.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+배경룰페이드아웃 룰_10.png 700
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Ten minutes have passed.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+배경룰페이드인 룰_13.png 700
+배경 bg_room01_day bg_room01_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Only now I feel more awake.
+대기
+대사새줄
+대사잇기 It’s a pain how my body is really slow to start itself up.
+대기
+대사 I begin to feel hungry.
+대기
+대사 The smell of Lucy’s cooking motivates me to drag myself out of bed.
+대기
+//배경음악 반복 wake_up.MP3
+대사 I head straight to the kitchen table.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+쓰레드 효과음페이드인
+딜레이 1000
+효과음 e74032_door-03 e74032_door-03.mp3
+쓰레드
+쓰레드시작
+배경룰페이드인 룰_20.png 700
+배경 bg_room01outside_day bg_room01outside_day.jpg
+딜레이 1500
+효과음 StepC11 StepC11.mp3
+배경룰페이드인 룰_24.png 400
+배경 bg_table_day bg_table_day.jpg
+페이드아웃 배경음악 1000
+//음악선정?
+//배경음악 반복 free0539.mp3
+배경음악 반복 free0327.mp3
+//배경음악 반복 free14.mp3
+페이드인 배경음악 1000
+효과음 e71012_houcho_kiru e71012_houcho_kiru.mp3
+페이드인 e71012_houcho_kiru 1000
+효과음 e71003_awa e71003_awa.mp3 반복
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I’m stunned by the veritable feast laid out before me.
+대기
+대사 A cloud of white steam is rising from the bowl of rice.
+대기
+대사 The soup is boiling with intensity.
+대기
+대사새줄
+대사잇기 The sound it’s making is music to my ears.
+대기
+페이드아웃 e71012_houcho_kiru 500
+쓰레드 그릇효과음
+효과음 e71017_sara e71017_sara.mp3
+딜레이 500
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+딜레이 500
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+쓰레드
+쓰레드시작
+대사 And there’s a perfectly prepared fish along with a variety of side dishes.
+대기
+대사 It’d be shameful to compare this to a lunchbox from a convenience store.
+대기
+대사지우기
+쓰레드 효과음페이드아웃
+페이드아웃 e71003_awa 2000
+쓰레드
+쓰레드시작
+변수 루시 = "l67"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+대사 Appearing to have sensed my delight, Lucy smiles pleasantly.
+대기
+스크립트 루시.txt 66
+대사 Her voice is full of tease.
+대기
+스크립트 루시.txt 135
+스크립트 이름.txt 루시
+보이스 lucy0205_{{$언어}}.mp3
+대사 “ Ahem! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I feel a sense of defeat.
+대기
+대사새줄
+대사잇기 I begin to feel frustrated for no particular reason.
+대기
+대사 I want to say something in reply but decide to hold back.
+대기
+쓰레드 자리앉음효과음
+효과음 rustle rustle.mp3
+딜레이 2000
+효과음 e71017_sara e71017_sara.mp3
+쓰레드
+쓰레드시작
+대사 I take a seat in silence and lift my spoon.
+딜레이 2000
+대기
+스크립트 루시.txt 21
+스크립트 이름.txt 루시
+보이스 lucy0206_{{$언어}}.mp3
+대사 “ How does it taste? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I haven’t even taken a bite yet. ”
+대기
+대사 “ What’s the rush? Just hold on a second. ”
+대기
+스크립트 루시.txt 95
+스크립트 이름.txt 루시
+보이스 lucy0207_{{$언어}}.mp3
+대사 “ Yes, yes. Please start before the food gets cold. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+효과음 rustle rustle.mp3
+대사 Lucy takes a seat at the opposite end of the table.
+대기
+대사 While striking a sly pose with a hand on her chin, she urges me to eat.
+대기
+대사 It was as if the food was suddenly going to disappear if I didn’t start soon.
+대기
+대사 She’s gazing at me intently.
+대기
+대사새줄
+대사잇기 She’s trying not to make it obvious, but I can tell that she’s very eager to see my
+대사새줄
+대사잇기 reaction.
+대기
+대사 Whatever I say next will decide what her face will show.
+대기
+쓰레드 먹는효과음
+효과음 eating_oatmeal eating_oatmeal.mp3
+딜레이 1500
+페이드아웃 eating_oatmeal 1000
+쓰레드
+쓰레드시작
+대사 I take a spoonful of the glossy, white rice and put it in my mouth.
+대기
+딜레이 1000
+대사크기 45
+스크립트 이름.txt 주인공
+대사 “ ……! ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 It’s good.
+대기
+대사새줄
+대사잇기 Perfect flavor and texture.
+대기
+효과음 eating_oatmeal eating_oatmeal.mp3
+대사 While I’m at it, let’s try some side dishes too.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+딜레이 500
+스크립트 이름.txt 이름지우기
+대사 Marvelous.
+대기
+대사 She really wasn’t lying about her cooking skills.
+대기
+대사 Let’s be fair, though.
+대기
+대사새줄
+대사잇기 She probably knows only the best recipes from around the world.
+대기
+대사 And since she’s a robot, there wouldn’t be any inconsistencies in her cooking.
+대기
+대사 If they had programmed her to be a top-level chef…
+대기
+대사 Then this was to be expected.
+대기
+대사새줄
+대사잇기 There’s nothing to be surprised about.
+대기
+대사 Hmph. But a robot’s just a robot.
+대기
+대사 She wouldn’t be able to top something that ‘ mama used to make, ’ as they say.
+대기
+대사 Although personally, I’ve never had an opportunity to taste my mother’s cooking, so I can’t compare.
+대기
+스크립트 루시.txt 17
+대사 Looking back at Lucy, who was still staring at me with great anticipation, I think
+대사새줄
+대사잇기 about what I should say.
+대기
+대사 I can feel an aura of confidence around her, yet she appears to be worried at the
+대사새줄
+대사잇기 same time.
+대기
+대사 She’s expecting me to say something.
+대기
+대사새줄
+대사잇기 I finally make my reply.
+대기
+쓰레드 eating_oatmeal페이드아웃
+페이드아웃 eating_oatmeal 1000
+쓰레드
+쓰레드시작
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_맛이어떠신가요
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 460 152 255 255 255 255 {{당연히무겁지}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 당연히무겁지 = "It tastes all right, I guess." 
+라벨 선택지2_2 491 290 255 255 255 255 {{생각보단가벼워}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 생각보단가벼워 = "Bleh. This is horrible."
+//라벨 선택지2_1 522 152 255 255 255 255 {{그냥먹을만은하네}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 그냥먹을만은하네 = "그냥 먹을 만은 하네." 
+//라벨 선택지2_2 568 290 255 255 255 255 {{으웩맛없어}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 으웩맛없어 = "으웩, 맛 없어." 
+//라벨 선택지2_1 474 154 255 255 255 255 {{당연히무겁지}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 당연히무겁지 = "まぁまぁ美味しいかな。" 
+//라벨 선택지2_2 513 292 255 255 255 255 {{생각보단가벼워}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 생각보단가벼워 = "うえっ、マズイ！" 
+
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 그냥먹을만은하네
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter8.txt 그냥먹을만은하네 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 으웩맛없어
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter8.txt 으웩맛없어 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_맛이어떠신가요
+
+
+북마크 그냥먹을만은하네
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Well… it tastes all right, I guess. ”
+대기
+스크립트 루시.txt 70
+스크립트 이름.txt 루시
+보이스 lucy0208_{{$언어}}.mp3
+대사 “ Whew… What a relief! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Even with my meek response, she still lets out a big sigh of relief.
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0209_1_{{$언어}}.mp3
+대사 “ Lucy was so worried that master might not enjoy her cooking. ”
+대기
+보이스 lucy0209_2_{{$언어}}.mp3
+대사 “ Lucy was lacking the initial data. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You don’t need to concern yourself with that. ”
+대기
+대사 “ I’ve been eating fast foods all my life. ”
+대기
+//배경음악 반복 free14.mp3
+대사 “ I’ll eat anything, even if you make me some porridge from pig intestines. ”
+대기
+//개그씬 음악 추가
+페이드아웃 배경음악 1000
+배경음악 반복 c17.mp3
+//배경음악 반복 n37.mp3
+//배경음악 반복 jisatu5.mp3
+스크립트 루시.txt 76
+스크립트 이름.txt 루시
+대사크기 40
+쓰레드 루시말
+보이스 lucy0210_{{$언어}}.mp3
+대사 “ I-is that how Lucy’s cooking tastes like?! ”
+쓰레드
+쓰레드 진동
+진동 {{루시}} 2 1 500 2000
+쓰레드
+쓰레드시작
+쓰레드대기
+대기
+스크립트 루시.txt 77 1
+대사크기 35
+보이스 lucy0211_{{$언어}}.mp3
+대사 “ Please forgive Lucy for her lack of skills. ”
+대기
+스크립트 루시.txt 78 1
+보이스 lucy0212_{{$언어}}.mp3
+대사 “ Lucy… truly is a failure of an android… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She actually looks pretty depressed about this.
+대기
+대사 She looks as if she’s about to run off while leaving behind a trail of tears.
+대기
+대사새줄
+대사잇기 Am I supposed to chase after her while holding a piece of bread in my mouth or
+대사새줄
+대사잇기 something?
+대기
+스크립트 이름.txt 주인공
+대사 “ No… That’s not what I meant. ”
+대기
+대사 “ I’m saying that it tastes better than what I’d expected. ”
+대기
+대사 “ So you don’t need to beat yourself up over it. ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0213_{{$언어}}.mp3
+대사 “ Is that true…? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0214_{{$언어}}.mp3
+대사 “ Can Lucy really trust master with those words…? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Mhm. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 800
+스크립트 루시.txt 68
+딜레이 500
+대사 It doesn’t take long for Lucy to cheer up and start humming away happily.
+대기
+대사 …………
+대기
+대사 It’s nice that she’s easy to deal with.
+대기
+대사 I continue to eat in silence while checking up on her after every few spoonfuls.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 루시.txt 지우기
+
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_43.png 700
+딜레이 2500
+
+점프 먹은후
+
+
+북마크 으웩맛없어
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Bleh. This is horrible! What is this stuff? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I decide to bluff.
+대기
+대사 It’s because I wanted to hide my embarrassment,
+대기
+대사잇기  and I also wanted to tease Lucy.
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+효과음 eating_oatmeal eating_oatmeal.mp3
+스크립트 이름.txt 주인공1
+대사 “ This one… and that one too. ”
+대기
+대사 “ They’re all terrible. ”
+대기
+대사 “ You seemed pretty confident last night, but I’d say you still have a long way to go. ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How dare you present something like this to your master. You’re nothing but all
+대사새줄
+대사잇기 talk, aren’t you? ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0215_{{$언어}}.mp3
+대사 “ Umm… master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it? ”
+대기
+대사 “ Do you have a problem with my honest feedback? ”
+대기
+스크립트 루시.txt 70
+스크립트 이름.txt 루시
+보이스 lucy0216_{{$언어}}.mp3
+대사 “ Does master even realize that he’s smiling? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Shoot, I forgot to keep a straight face.
+대기
+대사 But I won’t back down so easily.
+대기
+대사새줄
+대사잇기 Men never give up.
+대기
+대사 Once a man makes a decision, he sticks with it till the end.
+대기
+스크립트 이름.txt 주인공
+대사 “ You’re just imagining things. The food’s outright terrible.
+대기
+대사잇기  Why won’t you believe
+대사새줄
+대사잇기 me? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I decide to go on the defensive to see how she would react.
+대기
+스크립트 루시.txt 65
+스크립트 이름.txt 루시
+보이스 lucy0217_{{$언어}}.mp3
+대사 “ That’s because master hasn’t put down his spoon even once yet. ”
+대기
+보이스 lucy0218_{{$언어}}.mp3
+대사 “ Or is Lucy imagining that too? ”
+대기
+쓰레드 eating_oatmeal페이드아웃
+페이드아웃 eating_oatmeal 1000
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기
+대사 Touche…
+대기
+대사새줄
+대사잇기 At this point, I decide to take it to the next step.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, aren’t you being skeptical. How about you try the food yourself. ”
+대기
+스크립트 루시.txt 72
+스크립트 이름.txt 루시
+보이스 lucy0219_{{$언어}}.mp3
+대사 “ M-master wants Lucy to eat it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You heard me. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 As I’m about to pick up some of the food to give her, I stop to think.
+대기
+대사 Is it all right for robots to eat something like this?
+대기
+대사새줄
+대사잇기 Will they get a stomach ache?
+대기
+대사 What if the food gets stuck somewhere and causes a malfunction?
+대기
+대사 I’ve spent a ton of money already and I don’t know how expensive another visit to
+대사새줄
+대사잇기 the repair shop is going to be…
+대기
+대사 Plus, that guy will probably make some sort of excuse to take Lucy away from me
+대사새줄
+대사잇기 next time.
+대기
+스크립트 루시.txt 29
+스크립트 이름.txt 루시
+보이스 lucy0220_{{$언어}}.mp3
+대사 “ Then just a little bit… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 300
+대사 Wow. I guess she really can eat it.
+대기
+대사지우기
+딜레이 500
+변수 루시 = "l39"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+쓰레드 eating_oatmeal페이드인
+효과음 eating_oatmeal eating_oatmeal.mp3
+페이드인 eating_oatmeal 1000
+페이드아웃 eating_oatmeal 1000
+쓰레드
+쓰레드시작
+대사 Those small lips of hers start to get busy.
+대기
+대사 I wait nervously.
+대기
+딜레이 500
+스크립트 루시.txt 47
+딜레이 1000
+스크립트 루시.txt 34
+딜레이 1000
+스크립트 루시.txt 51
+딜레이 500
+스크립트 이름.txt 주인공
+대사 “ H-how is it? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’ll be fine, right?
+대기
+대사 I attempt to calm myself with a glass of water.
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0221_{{$언어}}.mp3
+대사 “ It tastes just like master… ”
+대기
+스크립트 이름.txt 주인공1
+대사크기 48
+효과음 spurt spurt.mp3
+쓰레드 주인공대사
+대사 “ Pfft—! ”
+쓰레드
+쓰레드 루시진동
+진동 {{루시}} 1 5 500 2000
+쓰레드
+쓰레드 푸훕진동
+진동 bg_table_day 1 5 500 2000
+쓰레드
+쓰레드시작
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 All the water I’ve been holding in my mouth comes squirting out.
+대기
+스크립트 루시.txt 56
+딜레이 300
+스크립트 루시.txt 지우기
+대사 With lightning reflexes, Lucy begins to wipe down the table.
+대기
+대사지우기
+딜레이 500
+변수 루시 = "l61"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0222_{{$언어}}.mp3
+대사 “ Oh, is master not happy? ”
+대기
+보이스 lucy0223_{{$언어}}.mp3
+대사 “ Lucy read on the internet that people like to hear this sort of thing after an
+대사새줄
+대사잇기 indirect kiss, though. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ All right…
+대기
+대사잇기  This just proved you suck at research. ”
+대기
+대사 “ Don’t you ever mention those dumb sources of yours again. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Ah, the internet truly is a scary place.
+대기
+대사 Talking in real-time with online strangers is even scarier.
+대기
+대사 This is what technology has come to.
+대기
+대사새줄
+대사잇기 Here, we can clearly see the downside from having such excessive amounts of
+대사새줄
+대사잇기 information.
+대기
+대사 Past generations may have suffered from a lack of information.
+대기
+대사 But the current generation is struggling from having so much useless information
+대사새줄
+대사잇기 that it’s become tough to sift through all the crud for a single bit of truth.
+대기
+스크립트 루시.txt 69
+스크립트 이름.txt 루시
+보이스 lucy0224_{{$언어}}.mp3
+대사 “ In all honesty, Lucy is unable to taste anything. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Oh, now she decides to tell me that.
+대기
+대사 But what did I expect?
+대기
+대사새줄
+대사잇기 It’s obvious that robots wouldn’t have any taste buds.
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0225_{{$언어}}.mp3
+대사 “ However, Lucy was able to detect that the balance amongst the six flavours was
+대사새줄
+대사잇기 in perfect harmony.. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Okay, so? ”
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0226_{{$언어}}.mp3
+대사 “ It means that it’ll definitely be delicious. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I guess I can’t deny it when she puts it that way.
+대기
+대사 And it really is true that her cooking is very good.
+대기
+//배경음악 반복 free14.mp3
+대사 So I decide to focus on eating instead.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_43.png 700
+딜레이 2000
+
+
+조건 $인터넷으로배웠어요트로피 = 1 여기 먹은후
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 398 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "인터넷으로 배웠어요"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 631 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 404 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 699 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Reliable Source"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 336 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "インターネットで学んだ知識"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 677 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $인터넷으로배웠어요트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 2500
+
+
+
+북마크 먹은후
+배경룰페이드인 룰_11.png 700
+배경 bg_table_day bg_table_day.jpg
+딜레이 500
+//음악선정?
+배경음악 반복 free31.mp3
+페이드인 배경음악 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I can’t tell how much time has passed.
+대기
+대사 The bowl of rice I’d been eating from has started to show its bottom.
+대기
+대사 I steal a glance at the clock.
+대기
+대사 It’s not yet time to leave for school.
+대기
+대사새줄
+대사잇기 While revelling in my satisfaction, I decide to sit back in my chair to chill out for a bit.
+대기
+대사 Some time passes.
+대기
+효과음 e74056_sara-01-02 e74056_sara-01-02.mp3
+대사 While cleaning up the empty dishes, Lucy asks me a question.
+대기
+대사 Her tone was quite delicate, as if to soothe a small animal.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 800
+변수 루시 = "l63"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0227_1_{{$언어}}.mp3
+대사 “ Umm, pardon Lucy for asking, ”
+대기
+보이스 lucy0227_2_{{$언어}}.mp3
+대사 “ but there’s something she has been wondering about since yesterday… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 37
+딜레이 1200
+스크립트 루시.txt 33
+스크립트 이름.txt 루시
+보이스 lucy0228_{{$언어}}.mp3
+대사 “ Umm… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She seemed to be hesitating, so I gave her a little push.
+대기
+스크립트 이름.txt 주인공
+대사 “ Go ahead. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+스크립트 루시.txt 29
+스크립트 이름.txt 루시
+보이스 lucy0229_{{$언어}}.mp3
+대사 “ The reason why master hates robots… Is it due to father’s influence? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The question catches me off guard.
+대기
+대사 All the unpleasant memories involving my father come flying back.
+대기
+대사 I slowly realize that my chopsticks were frozen in mid-air.
+대기
+대사 Without missing a beat, I continue delivering the food to my mouth.
+대기
+대사새줄
+대사잇기 In an attempt to hide my surprise, I purposely give a curt answer.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well… I guess you could say that. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Nothing will change from denying it.
+대기
+효과음 e71017_sara e71017_sara.mp3
+대사 I put down the chopsticks and lock eyes with Lucy.
+대기
+대사지우기
+딜레이 500
+스크립트 루시.txt 51
+딜레이 500
+대사 This robot’s just laid to waste the values and beliefs I’ve held for the past eighteen
+대사새줄
+대사잇기 years.
+대기
+대사 Keeping my eyes on the robot, I muse.
+대기
+스크립트 이름.txt 주인공
+대사 “ Now that I think about it… ”
+대기
+대사 “ I was probably brainwashed. ”
+대기
+스크립트 루시.txt 34
+스크립트 이름.txt 루시
+보이스 lucy0230_{{$언어}}.mp3
+대사 “ By brainwashed, does master mean… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’ve heard nothing but awful things about robots since I was little. ”
+대기
+대사 “ Robots are bad.
+대기
+대사잇기  Robots make us ill.
+대기
+대사잇기  Robots harm society. ”
+대기
+대사 “ I grew up listening to that all the time, so it sort of just rubbed off on me. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+페이드아웃 bg_table_day 1000
+딜레이 500
+대사 The previous generation of I.T.
+대기
+대사새줄
+대사잇기 Now, the new generation of robots.
+대기
+대사 As long as we live sandwiched between two generations, there’s bound to be
+대사새줄
+대사잇기 people advocating against new technology such as robots.
+대기
+대사 There are plenty of people out there who are strongly opposed to the production
+대사새줄
+대사잇기 of robots.
+대기
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+대사 My father is a prime example.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 아버지.txt 지우기1000
+딜레이 1500
+CG bg_greatdepression bg_greatdepression.jpg
+페이드인 bg_greatdepression 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Similar to what happened during the industrial revolution, the effects of this
+대사새줄
+대사잇기 profound new technology is gradually expanding across the globe.
+대기
+대사 Robots are slowly taking away people’s job opportunities.
+대기
+대사 It costs less to maintain robots than to pay employee salaries.
+대기
+페이드아웃 bg_greatdepression 1500
+딜레이 200
+CG bg_factoryrobots bg_factoryrobots.jpg
+페이드인 bg_factoryrobots 1500
+대사 Robots never complain, and they’re consistent in their performance, unlike people.
+대기
+대사새줄
+대사잇기 They don’t feel any stress or pain, and they never mess around.
+대기
+대사 It’d be much easier to deal with a robot than to fuss over a troublesome worker.
+대기
+대사 We’re only beginning to find out what kind of changes robots will bring to our
+대사새줄
+대사잇기 society.
+대기
+대사 Unemployment is getting out of control.
+대기
+대사새줄
+대사잇기 All the newly formed jobs are being handled by robots.
+대기
+페이드아웃 bg_factoryrobots 1500
+딜레이 200
+CG bg_protest bg_protest.jpg
+페이드인 bg_protest 1500
+대사 This is why many people shun robots.
+대기
+대사 No one understands whether this is a temporary phenomenon arising from the
+대사새줄
+대사잇기 drastic changes in our lifestyle, or if  it’s a type of a psychological ‘ disease. ’
+대기
+대사 It’ll only become clearer as time goes on.
+대기
+대사 One thing I can say for sure is that there’s always been a divide amongst the
+대사새줄
+대사잇기 population—as made evident by the Ludditism movement in the early 1800s.
+대기
+대사 Some are more willing to accept this new technology, while some are not.
+대기
+대사 To me, a world run by robots doesn’t seem too promising.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_protest 2000
+딜레이 1000
+CG bg_table_daycg bg_table_day.jpg
+페이드인 bg_table_daycg 1500
+배경룰페이드인
+배경 bg_table_day bg_table_day.jpg
+페이드아웃 bg_table_daycg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ It was too late by the time I’d finally grown old enough to be able to think for
+대사새줄
+대사잇기 myself. ”
+대기
+대사 “ It’s not as simple as just changing my perspective. ”
+대기
+대사 “ Because maybe I still would’ve turned out like this even without my father’s
+대사새줄
+대사잇기 influence. ”
+대기
+대사 “ My hatred for robots has simply become part of my life now. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The most horrifying part of brainwashing is that you can never fight against it.
+대기
+대사 It’s technically impossible to bend someone completely to your will.
+대기
+대사 You can’t do anything about people acting loyal on the outside, but despising you
+대사새줄
+대사잇기 on the inside.
+대기
+대사 Brainwashing is different, however.
+대기
+대사 Because the person wouldn’t have the knowledge to think for himself in the first
+대사새줄
+대사잇기 place.
+대기
+대사 And it’s possible to take advantage of that bit by bit.
+대기
+대사 As long as the victim never comes to realize this, he’ll never be able to retaliate.
+대사새줄
+대사잇기 There also needs to be a compelling reason for him to change.
+대기
+대사 Even with a good reason, it’s likely that he won’t be willing to accept it.
+대기
+대사 Because if he did, he would be going against all the beliefs he’d held for his entire
+대사새줄
+대사잇기 life.
+대기
+대사 It would crumble the foundation of his very existence.
+대기
+대사 The older a person becomes, the harder it gets for him to admit that he has been in the wrong.
+대기
+스크립트 이름.txt 주인공
+대사 “ Who knows… ”
+대기
+대사 “ Maybe I would’ve never come to hate robots… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s too late for me to start thinking about that now, though.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 루시 = "l77"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 200
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+보이스 lucy0231_1_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+스크립트 루시.txt 20 1
+보이스 lucy0231_2_{{$언어}}.mp3
+대사 “ Lucy really hopes that…  ”
+대기
+보이스 lucy0232_{{$언어}}.mp3
+대사 “ …master and his father will come to appreciate robots. ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0233_{{$언어}}.mp3
+대사 “ And appreciate Lucy. ”
+대기
+보이스 lucy0234_{{$언어}}.mp3
+대사 “ She wants to get along with everyone. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Upon hearing that, I unknowingly let out a bitter laugh.
+대기
+스크립트 이름.txt 주인공
+대사 “ You saw what my father did when he found out you’re a robot. ”
+대기
+대사 “ You’re asking for the impossible. ”
+대기
+대사 “ It’d be a relief in itself if nothing happens to you behind my back. ”
+대기
+스크립트 루시.txt 37
+스크립트 이름.txt 루시
+보이스 lucy0235_{{$언어}}.mp3
+대사 “ Lucy understands that, but… ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0236_{{$언어}}.mp3
+대사 “ Her wishes remain the same. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I sigh softly.
+대기
+대사 She’s failing to think logically as a computer.
+대기
+스크립트 이름.txt 주인공
+대사 “ Even after hearing that my father wants to throw you out… ”
+대기
+//대사 “ 당장 내다 버리라는 소리를 듣고도 말이지.
+//대기
+대사 “ How could you still hope for something like that? ”
+대기
+//대사잇기  아낌없이 주는 나무라도 돼? ”
+//대기
+스크립트 이름.txt 이름지우기
+대사 If Person A hates Person B, it’s likely that Person B will come to hate Person A.
+대기
+대사 At least, that’s how it is in normal human relationships.
+대기
+대사 So how come Lucy can’t grasp this?
+대기
+대사 Because she’s very patient and forgiving?
+대기
+대사새줄
+대사잇기 No way…
+대기
+대사 It’s because she’s a robot that knows how to suppress its emotions.
+대기
+대사새줄
+대사잇기 It’s because she isn’t human.
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0237_{{$언어}}.mp3
+대사 “ Lucy thinks that father is just as kind-hearted as master is. ”
+대기
+스크립트 루시.txt 67 1
+보이스 lucy0238_{{$언어}}.mp3
+대사 “ Lucy can tell. ”
+대기
+보이스 lucy0239_{{$언어}}.mp3
+대사 “ That’s why she hopes that he will maintain a healthy relationship with master. ”
+대기
+스크립트 루시.txt 53 1
+보이스 lucy0240_{{$언어}}.mp3
+대사 “ Ah, with Lucy too, of course. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re already mistaken by calling me kind-hearted. ”
+대기
+스크립트 루시.txt 20
+스크립트 이름.txt 루시
+보이스 lucy0241_{{$언어}}.mp3
+대사 “ And it’s not just father. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She just ignored me.
+대기
+대사잇기  That little…
+대기
+스크립트 루시.txt 26
+스크립트 이름.txt 루시
+보이스 lucy0242_{{$언어}}.mp3
+대사 “ Master, the man at the repair shop and the researchers at the lab… they’re all nice people. ”
+대기
+스크립트 루시.txt 19 1
+보이스 lucy0243_{{$언어}}.mp3
+대사 “ To be of a big help to everyone, including master… ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0244_{{$언어}}.mp3
+대사 “ That is Lucy’s mission, and her wish. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It definitely sounds like something a robot would say.
+대기
+대사새줄
+대사잇기 It doesn’t seem like she’s capable of sorting the good from the bad.
+대기
+대사 I can’t help but give a cynical reply.
+대기
+스크립트 이름.txt 주인공
+대사 “ In the end, we’re the same. ”
+대기
+대사 “ You’ve also been brainwashed, but in a different way. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 34
+딜레이 500
+대사 Lucy slightly tilts her head to the side.
+대기
+대사 She seems to do that whenever she’s confused about something.
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0245_{{$언어}}.mp3
+대사 “ Could master elaborate? ”
+대기
+스크립트 이름.txt 주인공1
+대사 ‘ You will love humans... ’
+대기
+대사 “ That’s essentially what’s been programmed into your main system. ”
+대기
+대사 “ You have no free will. That’s an illusion. ”
+대기
+대사 “ You have no choice but to act this way. ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0246_{{$언어}}.mp3
+대사 “ Hmm… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She tilts her head from side to side.
+대기
+대사 She doesn’t seem to understand.
+대기
+스크립트 이름.txt 주인공
+대사 “ You want to help everyone, right? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0247_{{$언어}}.mp3
+대사 “ Yes, of course. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ And you’re happy when you help people. ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0248_{{$언어}}.mp3
+대사 “ Yes. Lucy is very happy. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why do you think that you want to help others, and that you feel happy once you do? ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0249_{{$언어}}.mp3
+대사 “ Hmm… Lucy has no clue… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It’s because the program those researchers put inside you is forcing you to feel
+대사새줄
+대사잇기 this way. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0250_{{$언어}}.mp3
+대사 “ Really? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah.
+대기
+대사잇기  Your will and your personality are yours. ”
+대기
+대사 “ But at the same time, they aren’t. They’re from the people that made you. ”
+대기
+대사 “ They programmed you this way, and you’re simply following orders. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re nothing but a puppet on stage whose strings are being pulled. ”
+대기
+대사 “ It may look like it’s moving by itself at first glance, but it’s actually being held up by wires. ”
+대기
+대사 “ And there are people behind the stage controlling these wires. ”
+대기
+대사 “ That’s who you are. You’re only moving according to how they want you to
+대사새줄
+대사잇기 move. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 148
+딜레이 500
+대사 The pupils in Lucy’s eyes diminish.
+대기
+대사새줄
+대사잇기 She appears to be deep in thought.
+대기
+스크립트 루시.txt 34
+스크립트 이름.txt 루시
+보이스 lucy0251_{{$언어}}.mp3
+대사 “ Lucy still doesn’t understand what master is saying. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m saying that your actions have no actual meaning. ”
+대기
+대사 “ You’re just a toy made to do certain tasks at a certain time. ”
+대기
+대사 “ Nothing about you is real. ”
+대기
+대사 “ There’s no significance.
+대기
+대사잇기  Do you understand? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The mind, its emotions, and its intuition on the inside.
+대기
+대사새줄
+대사잇기 The body, its movements, and its reactions on the outside.
+대기
+대사 If they’re just part of a computer algorithm created by someone, then they aren’t
+대사새줄
+대사잇기 genuine.
+대기
+대사 Any gestures, any sentiments—there’s no meaning behind them.
+대기
+대사 I stress that idea over and over again.
+대기
+//배경음악 반복 free31.mp3
+스크립트 이름.txt 주인공
+대사 “ Something like that doesn’t have any meaning. ”
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+딜레이 500
+스크립트 루시.txt 17
+스크립트 이름.txt 루시
+보이스 lucy0252_{{$언어}}.mp3
+대사 “ That isn’t true, master. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She startles me with a sudden rebuttal.
+대기
+대사새줄
+대사잇기 I wasn’t expecting that from her.
+대기
+스크립트 이름.txt 주인공
+대사 “ What are you talking about? ”
+대기
+스크립트 루시.txt 19
+//음악선정? kimi_to_boku가 어울리는데 끝이 좀...;
+쓰레드 배경음악페이드인
+딜레이 1000
+배경음악 반복 i72006_kimi_to_boku-pf.mp3
+페이드인 배경음악 2000
+//배경음악 반복 i76009_futatsu_no_michi.mp3
+쓰레드
+쓰레드시작
+스크립트 이름.txt 루시
+보이스 lucy0253_1_{{$언어}}.mp3
+대사 “ There definitely is a meaning. ”
+대기
+스크립트 루시.txt 25 1
+보이스 lucy0253_2_{{$언어}}.mp3
+대사 “ Lucy knows. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re saying that there is a meaning?
+대기
+대사잇기  You still don’t get it? ”
+대기
+대사 “ You were made to be friendly with humans through a program! ”
+대기
+대사 “ It’s not by your own choice.
+대기
+대사잇기  Your actions and feelings… They’re all artificial. ”
+대기
+대사 “ That’s why they’re meaningless. ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0254_{{$언어}}.mp3
+대사 “ It doesn’t matter where Lucy’s feelings come from. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What? ”
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0255_{{$언어}}.mp3
+대사 “ No matter who’s controlling Lucy, if Lucy helps someone, that person will be
+대사새줄
+대사잇기 happy. ”
+대기
+보이스 lucy0256_1_{{$언어}}.mp3
+대사 “ And if he’s happy, Lucy will be even happier. ”
+대기
+보이스 lucy0256_2_{{$언어}}.mp3
+대사 “ Because Lucy was able to help someone in need. ”
+대기
+보이스 lucy0257_{{$언어}}.mp3
+대사 “ In the end, both that person and Lucy will be happy. ”
+대기
+스크립트 루시.txt 26 1
+보이스 lucy0258_{{$언어}}.mp3
+대사 “ And Lucy is satisfied with that. ”
+대기
+보이스 lucy0259_{{$언어}}.mp3
+대사 “ Even if she was created for this purpose… ”
+대기
+보이스 lucy0260_{{$언어}}.mp3
+대사 “ Even if she is acting on someone else’s will… ”
+대기
+보이스 lucy0261_{{$언어}}.mp3
+대사 “ That’s not important to Lucy at all. ”
+대기
+보이스 lucy0262_{{$언어}}.mp3
+대사 “ The fact that Lucy helped someone, how Lucy felt while helping someone, how
+대사새줄
+대사잇기 Lucy was thanked for helping someone… ”
+대기
+스크립트 루시.txt 20 1
+보이스 lucy0263_1_{{$언어}}.mp3
+대사 “ Master may call such feelings fake. ”
+대기
+보이스 lucy0263_2_{{$언어}}.mp3
+대사 “ Because Lucy was made to feel and act this way. ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0264_{{$언어}}.mp3
+대사 “ But to Lucy, this is very much real, and this is where she finds meaning in her
+대사새줄
+대사잇기 life. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Nonsense. ”
+대기
+//스크립트 루시.txt 62
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+//ev04_1 출력
+CG ev04_1 ev04_1.jpg
+페이드인 ev04_1 2000
+페이드아웃 bg_table_day
+페이드아웃 {{루시}}
+////앨범에 ev04_1 추가
+오마케추가 ev04_1 ev04_1.jpg
+변수 $ev04_1획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0265_{{$언어}}.mp3
+대사 “ My name is Lucy Valentine. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy states her name.
+대기
+대사새줄
+대사잇기 As if she’s announcing herself before a crowd.
+대기
+대사 She also did not refer to herself in third person.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0266_{{$언어}}.mp3
+대사 “ The name ‘ Lucy ’ comes from a Latin word meaning ‘ light ’.  ”
+대기
+보이스 lucy0267_{{$언어}}.mp3
+대사 “ To become a messenger of hope… that’s how Lucy interprets her name. ”
+대기
+보이스 lucy0268_{{$언어}}.mp3
+대사 “ Helping people. Finding a sense of accomplishment. ”
+대기
+보이스 lucy0269_{{$언어}}.mp3
+대사 “ This is what Lucy lives for. ”
+대기
+//스크립트 루시.txt 26 1
+//스크립트 이름.txt 이름지우기
+//ev04_2 출력
+CG ev04_2 ev04_2.jpg
+페이드인 ev04_2 1000
+페이드아웃 ev04_1
+////앨범에 ev04_2 추가
+오마케추가 ev04_2 ev04_2.jpg
+변수 $ev04_2획득 = 1
+보이스 lucy0270_{{$언어}}.mp3
+대사 “ This warm, fuzzy feeling in her heart after helping someone. ”
+대기
+보이스 lucy0271_{{$언어}}.mp3
+대사 “ Even if she was made to feel this way, these feelings are definitely real to Lucy. ”
+대기
+//스크립트 루시.txt 19 1
+//ev04_3 출력
+CG ev04_3 ev04_3.jpg
+페이드인 ev04_3 1000
+페이드아웃 ev04_2
+////앨범에 ev04_3 추가
+오마케추가 ev04_3 ev04_3.jpg
+변수 $ev04_3획득 = 1
+보이스 lucy0272_{{$언어}}.mp3
+대사 “ And that is why she will continue to help people. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I tried to say something back.
+대기
+대사 But the words never came out.
+대기
+대사 It felt as if there was something stuck in my throat.
+대기
+대사 It wasn’t exactly because I agreed with her.
+대기
+대사새줄
+대사잇기 And it wasn’t because I was touched by her words either.
+대기
+대사 I actually thought she was very stubborn.
+대기
+대사 As stubborn as a mule.
+대기
+대사 It was rather because of how Lucy appeared so mature and… real.
+대기
+대사 The way she confidently stated her opinion.
+대기
+대사 Nothing about her was as remotely close to my idea of a robot.
+대기
+//배경음악 반복 free48.mp3
+대사 That was why I could only sit in silence.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 6000
+쓰레드
+쓰레드시작
+페이드아웃 ev04_3 3500
+
+
+//스크립트 루시.txt 지우기1000
+//배경룰페이드아웃 룰_30.png 500
+
+딜레이 2500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I headed to school with my mind in a haze of confusion.
+대기
+대사 My emotions were in turmoil.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 2000
+
+변수 chapter = 8
+
+점프 로봇3원칙.txt 첫줄
+
+
+
+

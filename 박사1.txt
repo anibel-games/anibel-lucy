@@ -1,0 +1,112 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+
+변수 슬롯씬이름 = "May 3, Doctor"
+//변수 슬롯씬이름 = "5월 3일 박사"
+//변수 슬롯씬이름 = "5月3日 博士"
+
+배경음악 반복 c7.mp3
+페이드인 배경음악 1000
+딜레이 1000
+스크립트 대화창함수.txt
+딜레이 300
+대사 I’ve endured this far with just one goal in mind.
+대기
+대사 There hasn’t been a single day where I could rest.
+대기
+//대사잇기  정신적으로도.
+//대기
+//대사새줄
+//대사잇기 하루라도 편한 날이 없었다.
+//대기
+대사 It’s become natural to go to bed at the crack of dawn.
+대기
+대사새줄
+대사잇기 I don’t recall the last time I’ve been home.
+대기
+스크립트 이름.txt 박사
+대사 “ Thinking back, it’s been quite a long while. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Fifteen years…
+대기
+대사 Fifteen years have passed since I’ve started this project.
+대기
+대사 But the end is near.
+대기
+대사 Fifteen years of hard work and determination.
+대기
+대사새줄
+대사잇기 After all this time…
+대기
+대사 The fruits of my labor may finally be realized.
+대기
+스크립트 이름.txt 박사
+대사 “ how long have I yearned for this day… ”
+대기
+대사 “ I’d almost given up on you many times. ”
+대기
+//대사잇기  몇 번이고 포기하려고 했었다. ”
+//대기
+대사 “ But I've persevered… ”
+대기
+대사 “ …and finally succeeded. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I barely manage to hold back the tears.
+대기
+대사새줄
+대사잇기 I remind myself that it’s still too early to celebrate.
+대기
+대사 I must restrain my exuberance.
+대기
+대사 I’m teetering on the brink of complete exhaustion.
+대기
+//대사잇기  여력도,
+//대기
+대사새줄
+대사잇기 I’ve been pushed physically and mentally to my limit.
+//대기
+//대사잇기  자본도 남아있지 않다.
+대기
+대사 I’ve become a shell of my former self.
+대기
+대사새줄
+대사잇기 The last fifteen years have taken a huge toll on me.
+대기
+대사 I cannot wait any longer.
+대기
+대사새줄
+대사잇기 That is why…
+대기
+스크립트 이름.txt 박사
+대사 “ That is why… ”
+대기
+대사 “ Please… Please open your eyes… ”
+대기
+//배경음악 반복 c7.mp3
+대사 “ Lucy Valentine. ”
+대기
+게임상태
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창2000
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+
+딜레이 3500
+
+변수 chapter = 41
+
+점프 로봇3원칙.txt 첫줄

@@ -1,0 +1,1495 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+
+// 모두 지웁니다. 굳이 아무것도 없는데 모두 지우는 것은
+// '메뉴'에서 '타이틀로' 선택시에 화면에 있는 모든 것을 지워줘야 하기 때문입니다.
+시스템버튼제거
+//CG title_shine title_shine.jpg 0 0 아니 100
+//페이드인 title_shine 500
+쓰레드 title_lucy페이드아웃
+페이드아웃 title_lucy 500
+쓰레드
+쓰레드 title_oct12_lucy
+페이드아웃 title_oct12_lucy 500
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 500
+쓰레드
+쓰레드 title_eternity_02페이드아웃
+페이드아웃 title_eternity_02 500
+쓰레드
+쓰레드 title_eternity_03페이드아웃
+페이드아웃 title_eternity_03 500
+쓰레드
+//쓰레드 title_shine페이드아웃
+//페이드아웃 title_shine 500
+//쓰레드
+쓰레드시작
+쓰레드대기
+페이드아웃 light
+
+
+
+//타이틀배경등장
+북마크 엑스트라
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+CG top_layout_02p top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02p이동
+이동 top_layout_02p 7 15 700 -200
+쓰레드
+CG top_layout_01p top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01p이동
+이동 top_layout_01p 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03p페이드인
+CG top_layout_03p top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03p 300
+쓰레드
+딜레이 100
+CG top_layout_04p top_layout_04.png 0 0 아니 -125
+크기 top_layout_04p 0 1
+쓰레드 top_layout_04p크기확대
+크기 top_layout_04p 1 1 300
+쓰레드
+쓰레드 top_extra페이드인
+CG top_extra top_extra.png 108 0 아니 -130
+페이드인 top_extra 300
+쓰레드
+쓰레드시작
+
+조건 $코멘터리해금 = 1 여기 제작후일담해금
+조건 $REUNION = 1 여기 백정필박사의일기해금
+조건 $트루엔딩 = 1 여기 REUNION해금
+조건 $10월12일 = 1 여기 초로의기억버튼처음생성
+조건 $노멀엔딩 = 1 여기 초로의기억버튼처음생성
+조건 $CG갤러리 = 1 여기 CG갤러리버튼생성
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallery_glitchcg페이드인
+딜레이 150
+CG title_cggallery_glitchcg title_cggallery_glitch.png 835 372 
+페이드인 title_cggallery_glitchcg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_hidden2cg페이드인  
+딜레이 350
+CG title_hidden2cg title_hidden.png 1004 544 
+페이드인 title_hidden2cg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+북마크 엑스트라2
+쓰레드 한번에0
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에1
+CG title_achievementcg
+쓰레드
+쓰레드 한번에2
+시스템버튼 title_cggallery_glitch 835 372 346 80 점프 여기 메세지출력_패스워드 title_cggallery_glitch.png 없음 없음
+쓰레드
+쓰레드 한번에3
+CG title_cggallery_glitchcg
+쓰레드
+쓰레드 한번에4
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에5
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에6
+시스템버튼 title_hidden2 1004 544 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에7
+CG title_hidden2cg
+쓰레드
+쓰레드 한번에8
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에9
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에10
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에11
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+북마크 CG갤러리버튼처음생성
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $CG갤러리버튼처음생성 >= 1 여기 CG갤러리버튼생성
+변수 $CG갤러리버튼처음생성 = 1
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallery_glitchcg페이드인
+딜레이 150
+CG title_cggallery_glitchcg title_cggallery_glitch.png 835 372 
+페이드인 title_cggallery_glitchcg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_hidden2cg페이드인  
+딜레이 350
+CG title_hidden2cg title_hidden.png 1004 544 
+페이드인 title_hidden2cg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+쓰레드 title_cggallery_glitchcg페이드아웃
+페이드아웃 title_cggallery_glitchcg 1500
+쓰레드
+CG title_cggallerycg title_cggallery.png 871 376 
+쓰레드 title_cggallerycg페이드인
+페이드인 title_cggallerycg 1500
+쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에12
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에13
+CG title_achievementcg
+쓰레드
+쓰레드 한번에14
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에15
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에16
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에17
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에18
+시스템버튼 title_hidden2 1004 544 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에19
+CG title_hidden2cg
+쓰레드
+쓰레드 한번에20
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에21
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에22
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에23
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+북마크 CG갤러리버튼생성
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_hidden2cg페이드인  
+딜레이 350
+CG title_hidden2cg title_hidden.png 1004 544 
+페이드인 title_hidden2cg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기 
+쓰레드 한번에24
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_push.png title_achievement_select.png
+쓰레드
+쓰레드 한번에25
+CG title_achievementcg
+쓰레드
+쓰레드 한번에26
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에27
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에28
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에29
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에30
+시스템버튼 title_hidden2 1004 544 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에31
+CG title_hidden2cg
+쓰레드
+쓰레드 한번에32
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에33
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에34
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에35
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+북마크 초로의기억버튼처음생성
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $초로의기억버튼처음생성 >= 1 여기 초로의기억버튼생성
+변수 $초로의기억버튼처음생성 = 1
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_hidden2cg페이드인  
+딜레이 350
+CG title_hidden2cg title_hidden.png 1004 544 
+페이드인 title_hidden2cg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500 
+쓰레드 title_hidden2cg페이드아웃
+페이드아웃 title_hidden2cg 1500
+쓰레드
+쓰레드 title_oldmancg페이드인
+CG title_oldmancg title_oldman.png 786 543 
+페이드인 title_oldmancg 1500
+쓰레드
+//쓰레드 title_oldmancg페이드인
+//CG title_oldmancg title_oldman_kr.png 935 542 
+//페이드인 title_oldmancg 1500
+//쓰레드
+//쓰레드 title_oldmancg페이드인
+//CG title_oldmancg title_oldman_jp.png 932 545 
+//페이드인 title_oldmancg 1500
+//쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에36
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에37
+CG title_achievementcg
+쓰레드
+쓰레드 한번에38
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에39
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에40
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에41
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에42
+시스템버튼 title_oldman 786 543 384 69 점프 타이틀.txt start_초로의기억 title_oldman.png title_oldman_select.png title_oldman_push.png 
+쓰레드
+//쓰레드 한번에42
+//시스템버튼 title_oldman 935 542 233 72 점프 타이틀.txt start_초로의기억 title_oldman_kr.png title_oldman_kr_select.png title_oldman_kr_push.png
+//쓰레드
+//쓰레드 한번에42
+//시스템버튼 title_oldman 932 545 234 69 점프 타이틀.txt start_초로의기억 title_oldman_jp.png title_oldman_jp_select.png title_oldman_jp_push.png 
+//쓰레드
+쓰레드 한번에43
+CG title_oldmancg
+쓰레드
+쓰레드 한번에44
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에45
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에46
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에47
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+북마크 초로의기억버튼생성
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_oldmancg페이드인
+딜레이 350
+CG title_oldmancg title_oldman.png 786 543 
+페이드인 title_oldmancg 500
+쓰레드
+//쓰레드 title_oldmancg페이드인
+//딜레이 350
+//CG title_oldmancg title_oldman_kr.png 935 542 
+//페이드인 title_oldmancg 500
+//쓰레드
+//쓰레드 title_oldmancg페이드인
+//딜레이 350
+//CG title_oldmancg title_oldman_jp.png 932 545 
+//페이드인 title_oldmancg 500
+//쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기 
+쓰레드 한번에48
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에49
+CG title_achievementcg
+쓰레드
+쓰레드 한번에50
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에51
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에52
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에53
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에54
+시스템버튼 title_oldman 786 543 384 69 점프 타이틀.txt start_초로의기억 title_oldman.png title_oldman_select.png title_oldman_push.png 
+쓰레드
+//쓰레드 한번에54
+//시스템버튼 title_oldman 935 542 233 72 점프 타이틀.txt start_초로의기억 title_oldman_kr.png title_oldman_kr_select.png title_oldman_kr_push.png
+//쓰레드
+//쓰레드 한번에54
+//시스템버튼 title_oldman 932 545 234 69 점프 타이틀.txt start_초로의기억 title_oldman_jp.png title_oldman_jp_select.png title_oldman_jp_push.png 
+//쓰레드
+쓰레드 한번에55
+CG title_oldmancg
+쓰레드
+쓰레드 한번에56
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에57
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에58
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에59
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+북마크 REUNION해금
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $REUNION해금 >= 1 여기 REUNION
+변수 $REUNION해금 = 1
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_oldmancg페이드인
+딜레이 350
+CG title_oldmancg title_oldman.png 786 543 
+페이드인 title_oldmancg 500
+쓰레드
+//쓰레드 title_oldmancg페이드인
+//딜레이 350
+//CG title_oldmancg title_oldman_kr.png 935 542 
+//페이드인 title_oldmancg 500
+//쓰레드
+//쓰레드 title_oldmancg페이드인
+//딜레이 350
+//CG title_oldmancg title_oldman_jp.png 932 545 
+//페이드인 title_oldmancg 500
+//쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+쓰레드 title_oldmancg페이드아웃
+페이드아웃 title_oldmancg 1500
+쓰레드
+쓰레드 title_reunioncg페이드인
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 1500
+쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에84
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에85
+CG title_achievementcg
+쓰레드
+쓰레드 한번에86
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에87
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에88
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에89
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에90
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에91
+CG title_reunioncg
+쓰레드
+쓰레드 한번에92
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에93
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에94
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에95
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+북마크 REUNION
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_reunioncg페이드인
+딜레이 350
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에96
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에97
+CG title_achievementcg
+쓰레드
+쓰레드 한번에98
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에99
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에100
+시스템버튼 title_hidden1 1004 462 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에101
+CG title_hidden1cg
+쓰레드
+쓰레드 한번에102
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에103
+CG title_reunioncg
+쓰레드
+쓰레드 한번에104
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에105
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에106
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에107
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+북마크 백정필박사의일기해금
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $백정필박사의일기해금 >= 1 여기 백정필박사의일기
+변수 $백정필박사의일기해금 = 1
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_hidden1cg페이드인
+딜레이 250
+CG title_hidden1cg title_hidden.png 1004 462 
+페이드인 title_hidden1cg 500
+쓰레드
+쓰레드 title_reunioncg페이드인
+딜레이 350
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+쓰레드 title_hidden1cg페이드아웃
+페이드아웃 title_hidden1cg 1500
+쓰레드
+쓰레드 title_drbaekcg페이드인
+CG title_drbaekcg title_drbaek.png 881 461 
+페이드인 title_drbaekcg 1500
+쓰레드
+//쓰레드 title_drbaekcg페이드인
+//CG title_drbaekcg title_drbaek_kr.png 808 460 
+//페이드인 title_drbaekcg 1500
+//쓰레드
+//쓰레드 title_drbaekcg페이드인
+//CG title_drbaekcg title_drbaek_jp.png 726 463 
+//페이드인 title_drbaekcg 1500
+//쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에60
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에61
+CG title_achievementcg
+쓰레드
+쓰레드 한번에62
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에63
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에64
+시스템버튼 title_drbaek 881 461 290 77 점프 타이틀.txt start_박사의일기 title_drbaek.png title_drbaek_select.png title_drbaek_push.png 
+쓰레드
+//쓰레드 한번에64
+//시스템버튼 title_drbaek 808 460 359 73 점프 타이틀.txt start_박사의일기 title_drbaek_kr.png title_drbaek_kr_select.png title_drbaek_kr_push.png
+//쓰레드
+//쓰레드 한번에64
+//시스템버튼 title_drbaek 726 463 440 69 점프 타이틀.txt start_박사의일기 title_drbaek_jp.png title_drbaek_jp_select.png title_drbaek_jp_push.png 
+//쓰레드
+쓰레드 한번에65
+CG title_drbaekcg
+쓰레드
+쓰레드 한번에66
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에67
+CG title_reunioncg
+쓰레드
+쓰레드 한번에68
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에69
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에70
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에71
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+
+
+북마크 백정필박사의일기
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_drbaekcg페이드인
+딜레이 250
+CG title_drbaekcg title_drbaek.png 881 461 
+페이드인 title_drbaekcg 500
+쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_kr.png 808 460 
+//페이드인 title_drbaekcg 500
+//쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_jp.png 726 463 
+//페이드인 title_drbaekcg 500
+//쓰레드
+쓰레드 title_reunioncg페이드인
+딜레이 350
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에72
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에73
+CG title_achievementcg
+쓰레드
+쓰레드 한번에74
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에75
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에76
+시스템버튼 title_drbaek 881 461 290 77 점프 타이틀.txt start_박사의일기 title_drbaek.png title_drbaek_select.png title_drbaek_push.png 
+쓰레드
+//쓰레드 한번에76
+//시스템버튼 title_drbaek 808 460 359 73 점프 타이틀.txt start_박사의일기 title_drbaek_kr.png title_drbaek_kr_select.png title_drbaek_kr_push.png
+//쓰레드
+//쓰레드 한번에76
+//시스템버튼 title_drbaek 726 463 440 69 점프 타이틀.txt start_박사의일기 title_drbaek_jp.png title_drbaek_jp_select.png title_drbaek_jp_push.png 
+//쓰레드
+쓰레드 한번에77
+CG title_drbaekcg
+쓰레드
+쓰레드 한번에78
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에79
+CG title_reunioncg
+쓰레드
+쓰레드 한번에80
+시스템버튼 title_hidden3 1004 627 158 68 스크립트 텅빈.txt title_hidden.png 없음 없음 없음 UIErrorSubtleDeep.mp3
+쓰레드
+쓰레드 한번에81
+CG title_hidden3cg
+쓰레드
+쓰레드 한번에82
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에83
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+
+
+북마크 제작후일담해금
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $제작후일담해금 >= 1 여기 제작후일담
+변수 $제작후일담해금 = 1
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_drbaekcg페이드인
+딜레이 250
+CG title_drbaekcg title_drbaek.png 881 461 
+페이드인 title_drbaekcg 500
+쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_kr.png 808 460 
+//페이드인 title_drbaekcg 500
+//쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_jp.png 726 463 
+//페이드인 title_drbaekcg 500
+//쓰레드
+쓰레드 title_reunioncg페이드인
+딜레이 350
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 500
+쓰레드
+쓰레드 title_hidden3cg페이드인
+딜레이 450
+CG title_hidden3cg title_hidden.png 1004 627 
+페이드인 title_hidden3cg 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+쓰레드 title_hidden3cg페이드아웃
+페이드아웃 title_hidden3cg 1500
+쓰레드
+쓰레드 title_devcommentscg페이드인
+CG title_devcommentscg title_devcomments.png 758 627 
+페이드인 title_devcommentscg 1500
+쓰레드
+//쓰레드 title_devcommentscg페이드인
+//CG title_devcommentscg title_devcomments_kr.png 934 625 
+//페이드인 title_devcommentscg 1500
+//쓰레드
+//쓰레드 title_devcommentscg페이드인
+//CG title_devcommentscg title_devcomments_jp.png 930 628 
+//페이드인 title_devcommentscg 1500
+//쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에108
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에109
+CG title_achievementcg
+쓰레드
+쓰레드 한번에110
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에111
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에112
+시스템버튼 title_drbaek 881 461 290 77 점프 타이틀.txt start_박사의일기 title_drbaek.png title_drbaek_select.png title_drbaek_push.png 
+쓰레드
+//쓰레드 한번에112
+//시스템버튼 title_drbaek 808 460 359 73 점프 타이틀.txt start_박사의일기 title_drbaek_kr.png title_drbaek_kr_select.png title_drbaek_kr_push.png
+//쓰레드
+//쓰레드 한번에112
+//시스템버튼 title_drbaek 726 463 440 69 점프 타이틀.txt start_박사의일기 title_drbaek_jp.png title_drbaek_jp_select.png title_drbaek_jp_push.png 
+//쓰레드
+쓰레드 한번에113
+CG title_drbaekcg
+쓰레드
+쓰레드 한번에114
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에115
+CG title_reunioncg
+쓰레드
+쓰레드 한번에116
+시스템버튼 title_devcomments 758 627 412 76 점프 코멘트.txt 첫줄 title_devcomments.png title_devcomments_select.png title_devcomments_push.png 
+쓰레드
+//쓰레드 한번에116
+//시스템버튼 title_devcomments 934 625 236 73 점프 코멘트.txt 첫줄 title_devcomments_kr.png title_devcomments_kr_select.png title_devcomments_kr_push.png
+//쓰레드
+//쓰레드 한번에116
+//시스템버튼 title_devcomments 930 628 235 69 점프 코멘트.txt 첫줄 title_devcomments_jp.png title_devcomments_jp_select.png title_devcomments_jp_push.png 
+//쓰레드
+쓰레드 한번에117
+CG title_devcommentscg
+쓰레드
+쓰레드 한번에118
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에119
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+
+
+북마크 제작후일담
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+쓰레드 button_backcg페이드인
+CG button_backcg button_back.png 1184 12 
+페이드인 button_backcg 300
+쓰레드
+쓰레드 title_achievementcg페이드인
+CG title_achievementcg title_achievement.png 829 297 
+페이드인 title_achievementcg 500
+쓰레드
+쓰레드 title_cggallerycg페이드인
+딜레이 150
+CG title_cggallerycg title_cggallery.png 871 376 
+페이드인 title_cggallerycg 500
+쓰레드
+쓰레드 title_drbaekcg페이드인
+딜레이 250
+CG title_drbaekcg title_drbaek.png 881 461 
+페이드인 title_drbaekcg 500
+쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_kr.png 808 460 
+//페이드인 title_drbaekcg 500
+//쓰레드
+//쓰레드 title_drbaekcg페이드인
+//딜레이 250
+//CG title_drbaekcg title_drbaek_jp.png 726 463 
+//페이드인 title_drbaekcg 500
+//쓰레드
+쓰레드 title_reunioncg페이드인
+딜레이 350
+CG title_reunioncg title_reunion.png 941 544 
+페이드인 title_reunioncg 500
+쓰레드
+쓰레드 title_devcommentscg페이드인
+딜레이 450
+CG title_devcommentscg title_devcomments.png 758 627 
+페이드인 title_devcommentscg 500
+쓰레드
+//쓰레드 title_devcommentscg페이드인
+//딜레이 450
+//CG title_devcommentscg title_devcomments_kr.png 934 625 
+//페이드인 title_devcommentscg 500
+//쓰레드
+//쓰레드 title_devcommentscg페이드인
+//딜레이 450
+//CG title_devcommentscg title_devcomments_jp.png 930 628 
+//페이드인 title_devcommentscg 500
+//쓰레드
+쓰레드시작
+쓰레드대기
+쓰레드 한번에120
+시스템버튼 title_achievement 829 297 345 68 스크립트 시스템_업적.txt title_achievement.png title_achievement_select.png title_achievement_push.png
+쓰레드
+쓰레드 한번에121
+CG title_achievementcg
+쓰레드
+쓰레드 한번에122
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+쓰레드
+쓰레드 한번에123
+CG title_cggallerycg
+쓰레드
+쓰레드 한번에124
+시스템버튼 title_drbaek 881 461 290 77 점프 타이틀.txt start_박사의일기 title_drbaek.png title_drbaek_select.png title_drbaek_push.png 
+쓰레드
+//쓰레드 한번에124
+//시스템버튼 title_drbaek 808 460 359 73 점프 타이틀.txt start_박사의일기 title_drbaek_kr.png title_drbaek_kr_select.png title_drbaek_kr_push.png
+//쓰레드
+//쓰레드 한번에124
+//시스템버튼 title_drbaek 726 463 440 69 점프 타이틀.txt start_박사의일기 title_drbaek_jp.png title_drbaek_jp_select.png title_drbaek_jp_push.png 
+//쓰레드
+쓰레드 한번에125
+CG title_drbaekcg
+쓰레드
+쓰레드 한번에126
+시스템버튼 title_reunion 941 544 229 67 점프 타이틀.txt start_초로의기억 title_reunion.png title_reunion_select.png title_reunion_push.png
+쓰레드
+쓰레드 한번에127
+CG title_reunioncg
+쓰레드
+쓰레드 한번에128
+시스템버튼 title_devcomments 758 627 412 76 점프 코멘트.txt 첫줄 title_devcomments.png title_devcomments_select.png title_devcomments_push.png 
+쓰레드
+//쓰레드 한번에128
+//시스템버튼 title_devcomments 934 625 236 73 점프 코멘트.txt 첫줄 title_devcomments_kr.png title_devcomments_kr_select.png title_devcomments_kr_push.png
+//쓰레드
+//쓰레드 한번에128
+//시스템버튼 title_devcomments 930 628 235 69 점프 코멘트.txt 첫줄 title_devcomments_jp.png title_devcomments_jp_select.png title_devcomments_jp_push.png 
+//쓰레드
+쓰레드 한번에129
+CG title_devcommentscg
+쓰레드
+쓰레드 한번에130
+시스템버튼 button_back 1184 12 85 85 점프 여기 종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+쓰레드
+쓰레드 한번에131
+CG button_backcg
+쓰레드
+쓰레드시작
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 엑스트라
+
+
+
+
+
+
+
+북마크 메세지출력_패스워드
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+CG %시스템_메세지박스배경 message_box.png 457 226 아니 100
+크기 %시스템_메세지박스배경 0 0
+효과음 UIAnimateHi-PitchAppear UIAnimateHi-PitchAppear.mp3
+쓰레드 메시지박스 크기확대
+크기 %시스템_메세지박스배경 1 1 200 
+쓰레드
+
+쓰레드 메시지박스 페이드인
+페이드인 %시스템_메세지박스배경 300
+쓰레드
+
+CG log_box log_box.png 483 298 아니 99
+크기 log_box 0 0 
+
+쓰레드 메시지박스 크기확대
+딜레이 200
+크기 log_box .3 .11 200 
+쓰레드
+
+//CG deletecg button_delete.png 793 231 아니 -130
+//크기 deletecg 0 0 
+//쓰레드 deletecg 크기확대
+//딜레이 220
+//크기 deletecg 1 1 100 
+//쓰레드
+
+쓰레드시작
+딜레이 300
+
+
+쓰레드 메시지박스 페이드인
+페이드인 log_box 300
+쓰레드
+라벨 패스워드 508 258 255 255 255 255 {{typename}}
+라벨속성 패스워드 30 아니 NanumGothic
+변수 typename = "Please enter password" 
+//라벨 패스워드 519 258 255 255 255 255 {{typename}}
+//라벨속성 패스워드 30 아니 NanumGothic
+//변수 typename = "패스워드를 입력하세요" 
+//라벨 패스워드 488 258 255 255 255 255 {{typename}}
+//라벨속성 패스워드 23 아니 Apple osaka_unicode
+//변수 typename = "パスワードを入力してください" 
+페이드인 패스워드 200
+//라벨 패스워드2 479 378 255 255 255 255 {{typename2}}
+//라벨속성 패스워드2 20 아니 Apple osaka_unicode
+//변수 typename2 = "＊半角英数字のみ入力してください" 
+//페이드인 패스워드2 200
+
+//버튼 delete 793 231 22 22 점프 여기 입력창닫기 button_delete.png button_delete_select.png button_delete_push.png
+//출력순서 delete -200
+//페이드아웃 deletecg
+
+
+// 입력창 버튼 필요.
+입력 $패스워드 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 NanumGothic
+//입력 $패스워드 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 Apple osaka_unicode
+//
+
+
+북마크 입력창닫기
+
+페이드아웃 패스워드
+//페이드아웃 패스워드2
+페이드아웃 log_box
+페이드아웃 %시스템_메세지박스배경 500
+페이드아웃 black_background_40 500
+ 
+조건 $패스워드 = "incorrect" 여기 CG갤러리해제 아니면 여기 메세지출력_패스워드가틀렸습니다
+
+
+페이드아웃 메세지박스_protect
+점프 CG갤러리해제
+
+
+
+
+북마크 CG갤러리해제
+키처리 32 텅빈.txt 첫줄
+키처리 202 텅빈.txt 첫줄
+키처리 27 텅빈.txt 첫줄
+키처리 201 텅빈.txt 첫줄
+키처리 112
+조건 $CG갤러리버튼처음생성 >= 1 여기 CG갤러리버튼생성
+변수 $CG갤러리버튼처음생성 = 1
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+쓰레드 title_cggallery_glitchcg페이드아웃
+페이드아웃 title_cggallery_glitch 1500
+쓰레드
+CG title_cggallerycg title_cggallery.png 871 376 
+쓰레드 title_cggallerycg페이드인
+페이드인 title_cggallerycg 1500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+효과음 decide11 decide11.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png 0 0 아니 -130
+페이드인 black_background_40 500
+쓰레드
+CG message_box_info message_box_info.png 159 24 아니 -130
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 478 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "CG 갤러리"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 601 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "가 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 469 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 687 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "CG Gallery"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 466 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "CGギャラリー"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 627 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $CG갤러리 = 1
+쓰레드대기
+페이드아웃 메세지박스_protect
+시스템버튼 title_cggallery 871 376 302 72 스크립트 시스템_CG갤러리.txt title_cggallery.png title_cggallery_select.png title_cggallery_push.png
+CG title_cggallerycg
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+버튼대기
+
+
+
+
+
+북마크 메세지출력_패스워드가틀렸습니다
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.mp3
+CG 메세지박스 message_box.png 457 226 아니 -130
+크기 메세지박스 0 0 
+쓰레드 메시지박스 크기확대
+크기 메세지박스 1 1 200 
+쓰레드
+쓰레드 메시지박스 페이드인
+페이드인 메세지박스 300
+쓰레드
+쓰레드시작
+딜레이 300
+라벨 메세지 487 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+라벨속성 메세지 30 아니 NanumGothic
+출력순서 메세지 -130
+변수 해금조건을달성하지못했습니다 = "The password is incorrect." 
+//라벨 메세지 484 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+//라벨속성 메세지 28 아니 NanumGothic
+//출력순서 메세지 -130
+//변수 해금조건을달성하지못했습니다 = "패스워드가 일치하지 않습니다." 
+//라벨 메세지 481 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+//라벨속성 메세지 26 아니 Apple osaka_unicode
+//출력순서 메세지 -130
+//변수 해금조건을달성하지못했습니다 = "パスワードが一致しません。" 
+페이드인 메세지 500
+버튼 메세지박스투명 0 0 1280 720 없음 없음 없음 없음
+출력순서 메세지박스투명 -200
+키처리 32 텅빈.txt 첫줄
+키처리 27 여기 메세지종료_해금조건을달성하지못했습니다
+키처리 201 여기 메세지종료_해금조건을달성하지못했습니다
+버튼대기
+북마크 메세지종료_해금조건을달성하지못했습니다
+페이드아웃 메세지박스투명
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+쓰레드 메시지박스페이드아웃
+페이드아웃 메세지박스 100
+쓰레드
+쓰레드 메세지페이드아웃
+페이드아웃 메세지 100
+쓰레드
+쓰레드시작
+딜레이 100
+
+페이드아웃 메세지박스_protect
+점프 엑스트라2
+
+
+
+
+
+
+//조건달성메세지출력
+북마크 메세지출력_해금조건을달성하지못했습니다
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.mp3
+CG 메세지박스 message_box.png 457 226 아니 -130
+크기 메세지박스 0 0 
+쓰레드 메시지박스 크기확대
+크기 메세지박스 1 1 200 
+쓰레드
+쓰레드 메시지박스 페이드인
+페이드인 메세지박스 300
+쓰레드
+쓰레드시작
+딜레이 300
+라벨 메세지 487 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+라벨속성 메세지 30 아니 NanumGothic
+출력순서 메세지 -130
+변수 해금조건을달성하지못했습니다 = "The password is incorrect." 
+//라벨 메세지 488 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+//라벨속성 메세지 25 아니 NanumGothic
+//출력순서 메세지 -130
+//변수 해금조건을달성하지못했습니다 = "해금조건을 달성하지 못했습니다." 
+//라벨 메세지 481 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+//라벨속성 메세지 26 아니 Apple osaka_unicode
+//출력순서 메세지 -130
+//변수 해금조건을달성하지못했습니다 = "パスワードが一致しません。" 
+페이드인 메세지 500
+버튼 메세지박스투명 0 0 1280 720 없음 없음 없음 없음
+출력순서 메세지박스투명 -200
+키처리 32 텅빈.txt 첫줄
+키처리 27 여기 메세지종료_해금조건을달성하지못했습니다
+키처리 201 여기 메세지종료_해금조건을달성하지못했습니다
+버튼대기
+북마크 메세지종료_해금조건을달성하지못했습니다
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+쓰레드 메시지박스페이드아웃
+페이드아웃 메세지박스 100
+쓰레드
+쓰레드 메세지페이드아웃
+페이드아웃 메세지 100
+쓰레드
+쓰레드시작
+딜레이 100
+
+페이드아웃 메세지박스_protect
+점프 엑스트라2
+
+
+
+
+
+
+북마크 종료
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_extra페이드아웃
+페이드아웃 top_extra 300
+쓰레드
+쓰레드시작
+
+점프 타이틀.txt title_return

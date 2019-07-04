@@ -1,0 +1,2277 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 16, You"
+//변수 슬롯씬이름 = "10월 16일 주인공"
+//변수 슬롯씬이름 = "10月16日 主人公"
+
+배경룰페이드인 룰_26.png 500
+배경 bg_classroom_day bg_classroom_day.jpg
+효과음 theater_chatter theater_chatter.mp3 반복
+페이드인 theater_chatter 2000
+변수 기박사 = "f30"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 1500
+딜레이 500
+스크립트 대화창함수.txt
+스크립트 이름.txt 기박사
+대사 “ By the way… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I snap out of my daydream.
+대기
+대사 When I came to, class had already ended.
+대기
+스크립트 이름.txt 주인공
+대사 “ Huh? What is it? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Something about you seems off lately. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What do you mean? ”
+대기
+스크립트 기박사.txt 35
+스크립트 이름.txt 기박사
+대사 “ Well, you seem to be staring out the window a lot more. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Me? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Yeah. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re probably just imagining things. ”
+대기
+//대사잇기  그런 적 없어. ”
+//대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Whoa, now. It looks like you haven’t even noticed it yourself. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 기박사.txt 52
+스크립트 이름.txt 기박사
+대사 “ Is there something you’re worried about? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No, nothing like that. ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ You sure? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ Well, if you say so. ”
+대기
+스크립트 기박사.txt 17 1
+대사 “ All right, I’ll believe you. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He sounds as if he’s doing me a favor.
+대기
+대사새줄
+대사잇기 Although I couldn’t care less whether if he believes me or not.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+딜레이 500
+효과음 door_slide door_slide.mp3
+배경룰페이드아웃 룰_12.png 700
+딜레이 1000
+배경룰페이드인 룰_15.png 700
+배경 bg_schoolhallway_day bg_schoolhallway_day.jpg
+//음악선정?
+쓰레드 배경음악페이드인
+배경음악 반복 free0342.mp3
+//배경음악 반복 free0554.mp3
+페이드인 배경음악 1000
+쓰레드
+쓰레드시작
+딜레이 1000
+변수 기박사 = "f15"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 1000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 기박사
+대사 “ How did your exams go yesterday?
+대기
+대사잇기  What do you think you’ll get? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No idea. ”
+대기
+스크립트 기박사.txt 06
+스크립트 이름.txt 기박사
+대사 “ Was it easy? Tough? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well, I wasn’t particularly stuck on anything… ”
+대기
+대사 “ So I guess I did all right. ”
+대기
+스크립트 기박사.txt 17
+스크립트 이름.txt 기박사
+대사 “ Haha, way to go, smart guy! ”
+대기
+//대사잇기  말하는 거부터가 다르다니까. ”
+//대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. That means a great deal, coming from you. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Coming from the top scorer in the entire school, to be specific. He’s just making fun of me.
+대기
+대사 But it’s not like I do bad in school.
+대기
+대사새줄
+대사잇기 I can comfortably maintain above-average grades.
+대기
+스크립트 기박사.txt 34
+스크립트 이름.txt 기박사
+대사 “ So which courses are you planning to take?
+대기
+대사잇기  Have you even thought about that
+대사새줄
+대사잇기 yet? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No… not yet. ”
+대기
+대사 “ I’m fine with anything though. As long as it has nothing to do with robots or
+대사새줄
+대사잇기 engineering. ”
+대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ Hey, come on. There you go talking nonsense again. ”
+대기
+스크립트 기박사.txt 81 1
+대사 “ You already know how massive the robotics industry is. ”
+대기
+대사 “ You’ll be set for life enjoying six-figure salaries! ”
+대기
+스크립트 기박사.txt 16 1
+대사 “ It truly is the way to live. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Life isn’t all about money, you know. ”
+대기
+스크립트 기박사.txt 19
+스크립트 이름.txt 기박사
+대사 “ Haha, aren’t you just saying that because you want to avoid anything related to 
+대사새줄
+대사잇기 robots? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I was found out almost immediately.
+대기
+대사새줄
+대사잇기 Dammit. And I thought I sounded a little cool there, too.
+대기
+스크립트 이름.txt 주인공
+대사 “ Anyway, I’m not good with robots, so I don’t plan on going down that road. ”
+대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ Ugh, you’re such a stubborn idiot. ”
+대기
+스크립트 기박사.txt 52 1
+대사 “ Putting that aside… ”
+대기
+대사 “ When are you gonna introduce me to her? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ To whom? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ You know, your android.
+대기
+대사잇기  The one you found the other day. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Oh, you’re talking about Lucy. ”
+대기
+스크립트 기박사.txt 39
+스크립트 이름.txt 기박사
+대사 “ Ooh, what’s with the pretty name? ”
+대기
+대사 “ You must’ve really taken a liking to her. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s the name she came with.
+대기
+대사잇기  I didn’t give it to her. ”
+대기
+스크립트 기박사.txt 62
+스크립트 이름.txt 기박사
+대사 “ Okay, okay.
+대기
+대사잇기  But you really need to show me. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I don’t have any time for that. ”
+대기
+대사 “ You won’t find her interesting, anyway. ”
+대기
+스크립트 기박사.txt 56
+스크립트 이름.txt 기박사
+대사 “ I think it’ll be quite the opposite.
+대기
+대사잇기  Didn’t you tell me that she’s a brand new
+대사새줄
+대사잇기 model? ”
+대기
+대사 “ She must be loaded with features. ”
+대기
+스크립트 기박사.txt 10 1
+대사 “ Maybe I’ll get to see something new! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy’s figure appears in my mind.
+대기
+대사새줄
+대사잇기 I wonder if she really does have any of these ‘features’ he’s asking for.
+대기
+대사 He’ll probably just be disappointed once he sees that airheaded idiot.
+대기
+대사 Wait, no… If it’s Dr. Gears we’re talking about, he might actually like that side of her.
+대기
+스크립트 이름.txt 주인공
+대사 “ A no is a no.
+대기
+대사잇기  Just give it up already. ”
+대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ Ugh, you’re such a pain in the ass ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Ignoring him, I leave the school grounds.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+페이드아웃 theater_chatter 1000
+배경룰페이드아웃 룰_29.png 700
+딜레이 1500
+배경룰페이드인 룰_34.png 700
+배경 bg_schoolgate_day bg_schoolgate_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 When I looked back, I noticed that Dr. Gears was trailing behind me.
+대기
+대사 I decide to leave him be.
+대기
+//배경음악 반복 free0342.mp3
+//배경음악 반복 free0554.mp3
+대사 It’s not like he’s actually going to follow me all the way home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드아웃 룰_33.png 700
+딜레이 1500
+배경룰페이드인 룰_29.png 700
+배경 bg_park_day bg_downtown_day.jpg
+페이드아웃 배경음악 2500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 But then I suddenly stop in my tracks.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+변수 루시 = "l100"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 300
+스크립트 루시.txt 지우기1000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 At first, I’d assumed my eyes were failing me.
+대기
+대사새줄
+대사잇기 We’re just outside of school.
+대기
+대사 There’s no way she’d be here.
+대기
+대사 It has to be a different person… no, a different robot with a similar appearance.
+대기
+대사 That’s what I’d thought.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+//음악선정? 가게주인테마 겹침
+쓰레드 배경음악 페이드인
+//배경음악 반복 free0257.mp3
+배경음악 반복 free68.mp3
+//배경음악 반복 spring_city.mp3
+페이드인 배경음악 500
+쓰레드
+쓰레드시작
+
+딜레이 1000
+
+변수 루시 = "l99"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0331_{{$언어}}.mp3
+대사 “ Ah,
+스크립트 루시.txt 105 1
+대사잇기  master! ”
+스크립트 루시.txt 101 1
+딜레이 200
+
+스크립트 루시.txt 104 1
+딜레이 200
+쓰레드 루시이동
+이동 {{루시}} -10 10 120 0
+이동 {{루시}} -20 0 120 0
+이동 {{루시}} -30 10 120 0
+이동 {{루시}} -40 0 120 0
+이동 {{루시}} -50 10 120 0
+이동 {{루시}} -60 0 120 0
+이동 {{루시}} -70 10 120 0
+이동 {{루시}} -80 00 120 0
+이동 {{루시}} -90 10 120 0
+이동 {{루시}} -100 00 120 0
+이동 {{루시}} -110 10 120 0
+이동 {{루시}} -120 00 120 0
+이동 {{루시}} -130 10 120 0
+이동 {{루시}} -140 00 120 0
+쓰레드
+쓰레드시작
+효과음 RunA11 RunA11.mp3
+딜레이 1300
+페이드아웃 {{루시}} 500
+딜레이 500
+스크립트 이름.txt 이름지우기
+대사 But as soon as she opened her mouth, all my suspicions were confirmed.
+대기
+대사 She starts running towards me.
+대기
+대사 Without sparing as much as a single glance, I pretend not to notice her and
+대사새줄
+대사잇기 continue walking.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0332_{{$언어}}.mp3
+대사 “ Master!
+딜레이 1000
+대사크기 40
+대사잇기  Master! ”
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 Quit making a racket, will you?
+대기
+대사지우기
+딜레이 500
+변수 기박사 = "f05"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 500
+스크립트 이름.txt 기박사
+대사 “ Hey, doesn’t it look like someone’s coming towards us? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re just imagining things again. ”
+대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Hmm, really? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사크기 42
+스크립트 이름.txt 루시
+보이스 lucy0333_{{$언어}}.mp3
+대사 “ Master!
+딜레이 1000
+대사잇기  Master! ”
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+딜레이 1000
+변수 기박사 = "f33"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 500
+스크립트 이름.txt 기박사
+대사 “ Hmm… I’m almost positive that she’s calling out to us. ”
+대기
+대사 “ Do you know her by any chance? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No. It’s probably someone else. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+딜레이 500
+배경룰페이드아웃 룰_41.png 700
+딜레이 1000
+배경룰페이드인 룰_40.png 700
+배경 bg_street01_day bg_street01_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I feigned ignorance until the very last moment.
+대기
+대사새줄
+대사잇기 However, it was all for naught.
+대기
+대사 Lucy eventually caught up to me.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+페이드인 FOOTSTEPSRunTrainersCompactGravel 1000
+딜레이 500
+변수 루시 = "l107"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0334_{{$언어}}.mp3
+대사 “ Ha…
+딜레이 500
+대사잇기  Ha…
+딜레이 2000
+대사잇기  …M-master! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have no choice but to stop walking.
+대기
+대사 She’s sweating like crazy—as a robot.
+대기
+대사새줄
+대사잇기 Can she get any more real?
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0335_{{$언어}}.mp3
+대사 “ Lucy didn’t know master could walk so fast, ahaha! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Hey. How can you be so dense? ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0336_{{$언어}}.mp3
+대사 “ Eh? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ If I ignore you on purpose, you’re supposed to play along! ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0337_{{$언어}}.mp3
+대사 “ Hmm? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s tilting her head again.
+대기
+대사 I shake my head wearily.
+대기
+대사 I just didn't want to be seen with an android in public.
+대기
+대사 But she’s obviously incapable of understanding something so subtle.
+대기
+스크립트 이름.txt 주인공
+대사 “ Why are you here, anyway? ”
+대기
+스크립트 루시.txt 68
+스크립트 이름.txt 루시
+보이스 lucy0338_{{$언어}}.mp3
+대사 “ That’s because Lucy wanted to greet master on his way home! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Aren’t you supposed to be waiting in front of the house? ”
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0339_{{$언어}}.mp3
+대사 “ Lucy thought it’d be more convenient if she met master on the way back. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You’re wrong. In fact, it’s the very opposite.
+대기
+대사잇기  You don’t need to come out this far. ”
+대기
+대사 “ Just wait at home next time. ”
+대기
+스크립트 루시.txt 93
+스크립트 이름.txt 루시
+보이스 lucy0340_{{$언어}}.mp3
+대사 “ But… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No buts! Shush! ”
+대기
+대사 “ Just don’t ever show up here again. ”
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0341_{{$언어}}.mp3
+대사 “ Aww… Well, if master insists… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She looks pretty disappointed.
+대기
+대사지우기
+딜레이 300
+변수 기박사 = "f05"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 500
+딜레이 500
+대사 Meanwhile, Dr. Gears is drooling in excitement.
+대기
+스크립트 기박사.txt 38
+스크립트 이름.txt 기박사
+대사 “ Hey, hey, who is this?
+대기
+대사잇기  Is this the android?
+대기
+대사크기 40
+대사잇기  The android? ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 He seems to have noticed the code on her mid-riff.
+대기
+대사새줄
+대사잇기 And the object attached to her ear.
+대기
+스크립트 이름.txt 주인공
+대사 “ Yeah… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I finally give up and decide to introduce my android.
+대기
+스크립트 이름.txt 주인공
+대사 “ This is Lucy Valentine, also known as PIM-001. ”
+대기
+대사 “ I don’t know much else other than that she’s a new model. ”
+대기
+대사 “ And since she’s not store-bought, I don’t have the manuals. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Dr. Gears approaches Lucy at once and starts poking around everywhere.
+대기
+스크립트 기박사.txt 39
+딜레이 200
+이동 {{기박사}} 80 0 100 100
+스크립트 이름.txt 기박사
+대사 “ Wow!
+딜레이 700
+이동 {{기박사}} 160 0 100 100
+대사크기 45
+대사잇기  Wow!
+딜레이 800
+이동 {{기박사}} 240 0 100 100
+대사크기 55
+대사잇기  Wow! ”
+대기
+스크립트 루시.txt 34
+딜레이 200
+대사크기 35
+이동 {{루시}} 40 0 50 100
+스크립트 이름.txt 루시
+보이스 lucy0342_{{$언어}}.mp3
+대사 “ Huh?
+딜레이 200
+대사잇기  O-oh,
+딜레이 300
+이동 {{루시}} 80 0 50 100
+시작위치 80 0
+스크립트 루시.txt 36 1
+대사잇기  umm,
+딜레이 500
+대사잇기  master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0343_{{$언어}}.mp3
+대사 “ W-w-would this person be master’s acquaintance? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah, unfortunately. ”
+대기
+
+이동 {{기박사}} 0 0 200 55
+시작위치 0 0
+스크립트 기박사.txt 05
+시작위치 80 0
+
+스크립트 루시.txt 30
+딜레이 200
+쓰레드 루시이동
+이동 {{루시}} 0 0 80 35
+쓰레드
+쓰레드시작
+시작위치 0 0
+
+스크립트 이름.txt 루시
+보이스 lucy0344_1_{{$언어}}.mp3
+대사 “ Oh, umm…
+딜레이 500
+대사잇기  hello! Lucy Valentine here. ”
+대기
+보이스 lucy0344_2_{{$언어}}.mp3
+대사 “ Please continue to take good care of master. ”
+대기
+효과음 hit hit.mp3
+딜레이 300
+변수 루시 = "l91"
+CG {{루시}} {{루시}}.png
+페이드아웃 l30
+진동 {{루시}} 1 4 300 1000
+대사크기 45
+보이스 lucy0345_{{$언어}}.mp3
+대사 “ Oww! ”
+대기
+대사크기 35
+스크립트 루시.txt 90 1
+스크립트 이름.txt 주인공1
+대사 “ Who do you think you are? ”
+대기
+대사 “ To be saying something like that… ”
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0346_{{$언어}}.mp3
+대사 “ Master, violence is bad. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 75
+대사 Her face puffs up in anger.
+대기
+대사 Meanwhile, Dr. Gears is still exclaiming in amazement.
+대기
+스크립트 기박사.txt 13
+스크립트 이름.txt 기박사
+대사 “ W-wow, all these different facial expressions… ”
+대기
+대사 “ Is she really an android?
+대기
+대사잇기  Looks just like a real person. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well… yeah. I was also surprised at first. ”
+대기
+스크립트 기박사.txt 14
+스크립트 이름.txt 기박사
+대사 “ I can’t believe how far technology has advanced! ”
+대기
+대사크기 38
+스크립트 기박사.txt 55 1
+대사 “ The name’s Baek Du-San.
+대기
+대사잇기  This is the happiest day of my life since that one
+대사새줄
+대사잇기 time I won fifth place in a lottery! ”
+대기
+대사크기 35
+스크립트 이름.txt 주인공1
+대사 “ That sounds pretty insignificant… ”
+대기
+대사 “ What’s with the Baek Du-San anyway? ”
+대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Hey, at least remember your friend’s name… ”
+대기
+대사 “ …considering how long we’ve known each other. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Huh? I thought your name was Dr. Gears? ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 All right, enough with the jokes.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, your wish finally came true. What do you think? ”
+대기
+대사크기 40
+스크립트 기박사.txt 40
+스크립트 이름.txt 기박사
+대사 “ Isn’t it obvious? She’s the best! ”
+대기
+대사크기 35
+스크립트 기박사.txt 37 1
+대사 “ Hey robot lady, did you say your name's Lucy? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0347_{{$언어}}.mp3
+대사 “ Yes, that is correct. ”
+대기
+스크립트 기박사.txt 61
+스크립트 이름.txt 기박사
+대사 “ Oh man, what a beautiful model. ”
+대기
+대사 “ What kind of android are you? A domestic type? ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0348_{{$언어}}.mp3
+대사 “ Hmm… That’s a difficult question. ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0349_{{$언어}}.mp3
+대사 “ With countless built-in features and capabilities, Lucy was designed to fulfill a
+대사새줄
+대사잇기 variety of tasks. ”
+대기
+스크립트 기박사.txt 48
+스크립트 이름.txt 기박사
+대사 “ Do you know how to eat? ”
+대기
+스크립트 루시.txt 65
+스크립트 이름.txt 루시
+보이스 lucy0350_1_{{$언어}}.mp3
+대사 “ Lucy can only pretend to eat food. ”
+대기
+보이스 lucy0350_2_{{$언어}}.mp3
+대사 “ She cannot digest it. ”
+대기
+스크립트 기박사.txt 04
+스크립트 이름.txt 기박사
+대사 “ Then do you know how to cry? ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0351_1_{{$언어}}.mp3
+대사 “ Lucy can simulate the effects of crying, ”
+대기
+보이스 lucy0351_2_{{$언어}}.mp3
+대사 “ although her tears are different than normal human tears. ”
+대기
+스크립트 기박사.txt 39
+스크립트 이름.txt 기박사
+대사 “ Ooh! Then can you do something like a rocket punch? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Okay, I don’t know where that came from.
+대기
+대사 He’s been watching too much television, I’m sure.
+대기
+스크립트 루시.txt 95
+스크립트 이름.txt 루시
+보이스 lucy0352_{{$언어}}.mp3
+대사 “ Of course Lucy can. ”
+대기
+스크립트 이름.txt 이름지우기
+대사크기 50
+쓰레드 진동
+진동 bg_street01_day 0 4 300 1500
+쓰레드
+쓰레드시작
+대사 Say what?
+대기
+대사크기 35
+스크립트 이름.txt 주인공
+대사 “ What kind of purpose does that serve? ”
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0353_{{$언어}}.mp3
+대사 “ It enables Lucy to protect her master from harm. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 All right, I guess I’m all set for an alien invasion.
+대기
+대사 Her creator is either a genius or an utter nutcase… Probably both.
+대기
+대사 But to be fair, there are weirder shows out there which involve saving the universe with card games or idol singers.
+대기
+대사 Maybe I shouldn’t be so surprised about something like a futuristic android
+대사새줄
+대사잇기 shooting laser beams out of its eyes.
+대기
+스크립트 기박사.txt 37
+스크립트 이름.txt 기박사
+대사 “ Well? Anything else? ”
+대기
+스크립트 루시.txt 69
+스크립트 이름.txt 루시
+보이스 lucy0354_{{$언어}}.mp3
+대사 “ Umm… Lucy isn’t sure if she could call this a feature, but… ”
+대기
+//배경음악 반복 free68.mp3
+스크립트 이름.txt 기박사1
+대사 “ Mhm, mhm. ”
+대기
+페이드아웃 배경음악 1000
+//개그씬 음악 추가
+배경음악 반복 c17.mp3
+//배경음악 반복 n37.mp3
+//배경음악 반복 jisatu5.mp3
+페이드인 배경음악 1000
+스크립트 루시.txt 135
+스크립트 이름.txt 루시
+보이스 lucy0355_{{$언어}}.mp3
+대사 “ Lucy is capable of performing impersonations. ”
+대기
+스크립트 기박사.txt 29
+스크립트 이름.txt 기박사
+대사 “ Huh? Impersonations? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0356_{{$언어}}.mp3
+대사 “ Yes. She did it often back at the lab. ”
+대기
+보이스 lucy0357_{{$언어}}.mp3
+대사 “ The researchers would give Lucy a role to play. Then Lucy would acquire the
+대사새줄
+대사잇기 relevant information on the Internet and act it out. ”
+대기
+보이스 lucy0358_{{$언어}}.mp3
+대사 “ They really enjoyed it. ”
+대기
+스크립트 기박사.txt 51
+스크립트 이름.txt 기박사
+대사 “ Hmm, that sounds pretty fun to watch. ”
+대기
+대사 “ Show me something right now. ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0359_{{$언어}}.mp3
+대사 “ Who shall Lucy imitate? ”
+대기
+스크립트 기박사.txt 14
+스크립트 이름.txt 기박사
+대사 “ First…
+대기
+스크립트 기박사.txt 78 1
+대사잇기  How about a secretary cheering for her boss at a golf course? ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0360_{{$언어}}.mp3
+대사 “ Hmm… Is it something like this? ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0361_{{$언어}}.mp3
+대사 “ Wow, nice shot~! That was so cool! Please have a drink! ”
+대기
+스크립트 기박사.txt 11
+스크립트 이름.txt 기박사
+대사 “ Not bad, not bad! ”
+대기
+대사 “ Then how about… ”
+대기
+스크립트 기박사.txt 78 1
+대사 “ A drunk woman at a mixer? ”
+대기
+스크립트 루시.txt 24
+스크립트 이름.txt 루시
+보이스 lucy0362_{{$언어}}.mp3
+대사 “ Hey~, wanna come have some fun with us pretty girls? ”
+대기
+스크립트 기박사.txt 15
+스크립트 이름.txt 기박사
+대사 “ Next up, Marie Antoinette! ”
+대기
+스크립트 루시.txt 113
+스크립트 이름.txt 루시
+보이스 lucy0363_{{$언어}}.mp3
+대사 “ If they have no bread, let them eat cake.
+딜레이 2500
+대사크기 46
+스크립트 루시.txt 134 1
+대사잇기  Ohohoho~! ”
+대기
+대사크기 35
+스크립트 기박사.txt 37
+스크립트 이름.txt 기박사
+대사 “ Now… How about the kid detective with an adult’s intelligence? ”
+대기
+대사크기 42
+스크립트 루시.txt 59
+스크립트 이름.txt 루시
+보이스 lucy0364_{{$언어}}.mp3
+대사 “ One truth prevails! ”
+대기
+대사크기 35
+스크립트 루시.txt 117 1
+보이스 lucy0365_{{$언어}}.mp3
+대사 “ Fear not Mi
+대사색깔 255 0 0 255
+대사잇기 *****
+대사색깔 255 255 255 255
+대사잇기 ki.
+딜레이 1000
+대사잇기  In the name of my grandfather, I swear I shall find the true
+대사새줄
+대사잇기 culprit! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Uh… You sure you’ve got the right show?
+대기
+대사 Let’s just move on, I suppose.
+대기
+스크립트 기박사.txt 82
+스크립트 이름.txt 기박사
+대사 “ A woman with a love for peanuts! ”
+대기
+스크립트 루시.txt 125
+스크립트 이름.txt 루시
+대사크기 50
+보이스 lucy0366_{{$언어}}.mp3
+대사 “ You dare serve me these nuts in a bag?
+딜레이 2500
+스크립트 루시.txt 127 1
+대사크기 60
+대사잇기  You!
+딜레이 1000
+대사잇기  Get off!
+딜레이 1000
+대사크기 62
+스크립트 루시.txt 123 1
+대사잇기  Turn this plane around at once! ”
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 Lucy began pointing her finger at everyone.
+대기
+스크립트 기박사.txt 56
+스크립트 이름.txt 기박사
+대사 “ A female college student about to fail a class! ”
+대기
+스크립트 루시.txt 38
+스크립트 이름.txt 루시
+보이스 lucy0367_1_{{$언어}}.mp3
+대사 “ Professor. I’ll do anything for a passing grade. ”
+대기
+스크립트 루시.txt 10 1
+보이스 lucy0367_2_{{$언어}}.mp3
+대사 “ If professor would like… ”
+대기
+효과음 hit hit.mp3
+딜레이 300
+변수 루시 = "l108"
+CG {{루시}} {{루시}}.png
+페이드아웃 l10
+진동 {{루시}} 1 4 300 1000
+대사크기 50
+보이스 lucy0368_{{$언어}}.mp3
+대사 “ Ow! ”
+대기
+대사크기 35
+스크립트 이름.txt 주인공1
+대사 “ That’s enough. How much longer are you gonna go on for? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Does she have no sense of shame?
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0369_{{$언어}}.mp3
+대사 “ Did master not enjoy it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why don’t you take a wild guess?! ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0370_1_{{$언어}}.mp3
+대사 “ That’s weird… ”
+대기
+스크립트 루시.txt 60 1
+보이스 lucy0370_2_{{$언어}}.mp3
+대사 “ Everyone back at the lab liked it… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That doesn’t really sound like a healthy place to grow up in.
+대기
+대사새줄
+대사잇기 Well, judging by how Lucy’s personality turned out…
+대기
+대사 Let’s just say that the people at the lab might be a tad eccentric.
+대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Hey, what’s your problem?
+대기
+대사잇기  I was having a good time. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Not me. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It might be fun when you stoop down to his level.
+대기
+스크립트 이름.txt 주인공
+대사 “ Anyway, you’re satisfied, right? ”
+대기
+대사 “ I’ll be taking her home now. ”
+대기
+스크립트 기박사.txt 42
+스크립트 이름.txt 기박사
+대사 “ Huh? What’s the rush? I wanted to stay with her for a little longer. ”
+대기
+스크립트 기박사.txt 63 1
+대사 “ You wouldn’t understand the excitement of getting your hands on the latest
+대사새줄
+대사잇기 products on the market.
+대기
+대사잇기  Since you can see her every day, hmph. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That’s an awfully specific way to be jealous.
+대기
+대사새줄
+대사잇기 Although, I’m not sure if I really get what he’s on about.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, I’ll be going home now, see ya. ”
+대기
+스크립트 루시.txt 지우기
+딜레이 500
+//배경음악 반복 c17.mp3
+스크립트 기박사.txt 57
+스크립트 이름.txt 기박사
+대사 “ Hey, don’t be like that. Let me come along with you…
+대기
+스크립트 기박사.txt 32 1
+대사잇기  H-hey! Hey! ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+효과음 RunA11 RunA11.mp3
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_9.png 700
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I just ignore him and break into a mad sprint.
+대기
+대사 I run as hard as I can while holding onto Lucy’s arm.
+대기
+대사 I can still feel the warmth of a person in my hand.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+
+딜레이 2500
+배경룰페이드인
+배경 bg_street03_day bg_street03_day.jpg
+페이드인 bg_street03_day 2500
+배경음악 반복 free52.mp3
+페이드인 배경음악 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I don’t know how long I’ve been running for.
+대기
+대사 I no longer see anyone following behind me.
+대기
+대사 I let go of Lucy’s arm and catch my breath.
+대기
+스크립트 이름.txt 주인공
+대사 “ Huff… gasp… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 루시 = "l72"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0371_{{$언어}}.mp3
+대사 “ I-is master all right? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy herself doesn’t appear to be too worn out.
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0372_{{$언어}}.mp3
+대사 “ Master’s shirt is completely soaked with sweat… His heart rate also seems to be
+대사새줄
+대사잇기 quite high. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+//효과음 fabric_lean_soft fabric_lean_soft.mp3
+대사 She takes out a handkerchief and carefully wipes down my forehead.
+대기
+대사새줄
+대사잇기 She’s always so well-prepared.
+대기
+대사 The handkerchief is giving off Lucy’s scent.
+대기
+대사 That is… the fragrance of her perfume.
+대기
+대사 I try to divert my attention away from it.
+대기
+스크립트 이름.txt 주인공
+대사 “ Huff… huff… Ah, I’m so tired! ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l74"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0373_{{$언어}}.mp3
+대사 “ That’s because master was running too hard. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She sounds worried.
+대기
+스크립트 이름.txt 주인공
+대사 “ Whew… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It feels as if I’ve just run a marathon.
+대기
+대사 I can’t believe I’m already this exhausted from running a few meters.
+대기
+대사새줄
+대사잇기 It’s proof that I’m out of shape.
+대기
+대사 It can’t be helped because I’m not very athletic in the first place.
+대기
+대사 I just sit around in the shades during gym classes anyway.
+대기
+대사 I take some time to catch my breath.
+대기
+대사 I start to feel better after a few moments.
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0374_{{$언어}}.mp3
+대사 “ Master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it. ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0375_{{$언어}}.mp3
+대사 “ Sudden bursts of strenuous activities are not good for the body. Please be
+대사새줄
+대사잇기 careful. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why exactly do you think I ran away in the first place… ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0376_{{$언어}}.mp3
+대사 “ Lucy is unsure…
+딜레이 2500
+스크립트 루시.txt 53 1
+대사잇기  Ah, Lucy has finished searching up the relevant information. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What. ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0377_{{$언어}}.mp3
+대사 “ It’s good for the liver, yes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You. It was because of you. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wonder where she’s even finding this sort of information.
+대기
+대사 If she has a favorites feature, I would like to update it for her.
+대기
+스크립트 이름.txt 주인공
+대사 “ Say… ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0378_{{$언어}}.mp3
+대사 “ Yes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Did you know? You could probably pass off as an actual person if you just
+대사새줄
+대사잇기 remove the code on your stomach and that strange thing on your ear. ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0379_{{$언어}}.mp3
+대사 “ Really? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah… ”
+대기
+대사 “ So long as you stop being so weird. ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0380_{{$언어}}.mp3
+대사 “ Master?
+딜레이 1000
+대사잇기  Lucy has never acted weird. ”
+대기
+쓰레드 배경진동
+딜레이 400
+진동 bg_street03_day 1 5 200 1500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 주인공1
+대사크기 45
+대사 “ Pfft—! ”
+대기
+스크립트 루시.txt 84 1
+대사크기 35
+대사 “ Ah, I just thought of something funny. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I come up with a small lie to make her stop pouting.
+대기
+대사 I’m surprised that she hasn’t realized it herself.
+대기
+스크립트 이름.txt 주인공
+대사 “ Speaking of which, can’t you take off that thing… whatever it is on your ear? ”
+대기
+스크립트 루시.txt 20
+스크립트 이름.txt 루시
+보이스 lucy0381_{{$언어}}.mp3
+대사 “ No, that’s not possible. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That’s what I figured.
+대기
+대사 It’d be problematic if there wasn’t a way to tell humans and androids apart.
+대기
+대사 Imagine robots like Lucy running amok in our society.
+대기
+대사 There would be mass confusion and chaos.
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0382_{{$언어}}.mp3
+대사 “ Umm, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0383_1_{{$언어}}.mp3
+대사 “ Lucy wants to stop by somewhere before going home… ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0383_2_{{$언어}}.mp3
+대사 “ Is that all right? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You want to stop by somewhere? ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0384_{{$언어}}.mp3
+대사 “ Yes. Lucy accidentally forgot to collect her part-time pay. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ A part-time pay? ”
+대기
+대사 “ What do you mean?
+대기
+대사잇기  You work somewhere? ”
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0385_{{$언어}}.mp3
+대사 “ Yes, Lucy started working at a shop a few days ago. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ A shop? You can’t be talking about…
+대기
+대사잇기  that place with the weird guy? ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0386_{{$언어}}.mp3
+대사 “ Weird…?
+딜레이 1800
+스크립트 루시.txt 53 1
+대사잇기  Ah, yes.
+딜레이 200
+스크립트 루시.txt 54 1
+대사잇기  It’s that one. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 By ‘weird,’ she knew exactly who I was referring to.
+대기
+대사 Let’s have a moment of silence for the repairman.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0387_{{$언어}}.mp3
+대사 “ While master is at school, Lucy decided to help out at the shop. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why would you bother working in the first place? ”
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0388_1_{{$언어}}.mp3
+대사 “ Isn’t there an old saying? ”
+대기
+스크립트 루시.txt 135 1
+보이스 lucy0388_2_{{$언어}}.mp3
+대사 ‘ He who does not work, neither shall he eat. ’
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 93
+스크립트 이름.txt 루시
+보이스 lucy0389_{{$언어}}.mp3
+대사 “ Lucy just wants to be less of a burden to master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I wanna ask you something. ”
+대기
+대사 “ What my father said about paying the bills… That’s still on your mind, isn’t it? ”
+대기
+스크립트 루시.txt 88
+스크립트 이름.txt 루시
+보이스 lucy0390_{{$언어}}.mp3
+대사 “ T-that is not true. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What are you… a politician? ”
+대기
+스크립트 루시.txt 60
+스크립트 이름.txt 루시
+보이스 lucy0391_{{$언어}}.mp3
+대사 “ Lucy denies that ever happened. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I won’t get angry, so be honest. ”
+대기
+스크립트 루시.txt 88
+스크립트 이름.txt 루시
+보이스 lucy0392_{{$언어}}.mp3
+대사 “ Umm…
+딜레이 1500
+스크립트 루시.txt 86 1
+대사잇기  Well… Maybe a little. ”
+대기
+효과음 hit hit.mp3
+딜레이 300
+변수 루시 = "l91"
+CG {{루시}} {{루시}}.png
+페이드아웃 l86
+진동 {{루시}} 1 4 300 1000
+대사크기 45
+보이스 lucy0393_{{$언어}}.mp3
+대사 “ Oww! ”
+대기
+
+스크립트 이름.txt 주인공1
+대사 “ Are you an idiot? ”
+대기
+대사크기 35
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0394_{{$언어}}.mp3
+대사 “ Master, violence is prohibited by law. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That doesn’t apply to you. ”
+대기
+스크립트 루시.txt 76
+스크립트 이름.txt 루시
+보이스 lucy0395_{{$언어}}.mp3
+대사 “ And master promised not to get angry! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m just trying to knock some sense into you. ”
+대기
+대사 “ It’s the same logic as hitting an old television to make it work. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0396_{{$언어}}.mp3
+대사 “ Lucy is a state-of-the-art model of android. It’s unfair to be compared to an old
+대사새줄
+대사잇기 television. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s because you keep telling me all these stupid things. ”
+대기
+대사 “ My father was just saying that on a whim. Why would you even care about
+대사새줄
+대사잇기 something like that? ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0397_{{$언어}}.mp3
+대사 “ By ‘on a whim,’ does master mean… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ He was just making excuses to yell at us. ”
+대기
+대사 “ Don’t you know about ‘ Leon Festinger’s theory of Cognitive Dissonance? ’ ”
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0398_1_{{$언어}}.mp3
+대사 “ L-Leon? Festi…? ”
+대기
+보이스 lucy0398_2_{{$언어}}.mp3
+대사 “ Lucy is not sure…
+딜레이 1800
+스크립트 루시.txt 94 1
+대사잇기  Ah-ha! Now Lucy knows. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I can never get used to how fast she can search anything on the go.
+대기
+스크립트 이름.txt 주인공
+대사 “ So yeah. What my father has been saying is not necessarily the truth. ”
+대기
+대사 “ It’s just his emotions getting the better of him. ”
+대기
+대사 “ What I’m trying to say is that the electricity bill is actually none of our concern. ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0399_{{$언어}}.mp3
+대사 “ Really? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. ”
+대기
+스크립트 루시.txt 29
+스크립트 이름.txt 루시
+보이스 lucy0400_{{$언어}}.mp3
+대사 “ Then that’s a relief. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy lets out a small sigh.
+대기
+스크립트 이름.txt 주인공
+대사 “ So don’t sweat the small stuff. ”
+대기
+대사 “ There’s no need for you to get a job. ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0401_1_{{$언어}}.mp3
+대사 “ Even so, Lucy still wants to work. ”
+대기
+보이스 lucy0401_2_{{$언어}}.mp3
+대사 “ She wants to be of help to master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Even though I’m telling you not to? ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0402_{{$언어}}.mp3
+대사 “ As long as Lucy isn’t causing any trouble for master, she would still like to help. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 This robot refuses to listen to its master.
+대기
+대사새줄
+대사잇기 If she really wanted to help me, the least she could do is obey…
+대기
+스크립트 이름.txt 주인공
+대사 “ Ugh, so annoying.
+대기
+대사잇기  Go do whatever you want then. ”
+대기
+스크립트 이름.txt 이름지우기
+//배경음악 반복 free52.mp3
+대사 I spit out the words as I move along.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_20.png 500
+
+딜레이 3000
+
+효과음 door_bell door_bell.mp3
+배경룰페이드인 룰_16.png 500
+배경 bg_antiqueshop bg_antiqueshop.jpg
+배경음악 반복 free0257.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 When we walked into the shop, the owner was already busy with another guest.
+대기
+대사지우기
+딜레이 300
+변수 가게주인 = "s26"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+스크립트 이름.txt 가게주인
+대사 “ Welcome!
+딜레이 1000
+스크립트 가게주인.txt 18 1
+대사잇기  Oh… It’s you again? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I can see that you treat your customers well, as usual. ”
+대기
+스크립트 가게주인.txt 22
+스크립트 이름.txt 가게주인
+대사 “ Why don’t you pay up if you want some sort of a special treatment. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 청년 = "z01"
+CG {{청년}} {{청년}}.png
+페이드인 {{청년}} 1000
+스크립트 이름.txt 청년
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 가게주인페이드아웃
+페이드아웃 {{가게주인}} 500
+쓰레드
+쓰레드 청년페이드아웃
+페이드아웃 {{청년}} 500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 500
+변수 루시 = "l09"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0403_{{$언어}}.mp3
+대사 “ Huh…? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+변수 청년 = "z01"
+CG {{청년}} {{청년}}.png
+페이드인 {{청년}} 1000
+딜레이 500
+스크립트 이름.txt 청년
+대사 “ I should get going now. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 가게주인 = "s21"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+스크립트 이름.txt 가게주인
+대사 “ But you just got here! ”
+대기
+스크립트 가게주인.txt 14 1
+대사 “ Let’s have a drink after I’m done. ”
+대기
+스크립트 이름.txt 청년1
+대사 “ I have some business to take care of, so maybe next time. ”
+대기
+스크립트 가게주인.txt 17
+스크립트 이름.txt 가게주인
+대사 “ I guess it can’t be helped. ”
+대기
+스크립트 가게주인.txt 20 1
+대사 “ All right, see you later then. ”
+대기
+스크립트 이름.txt 청년1
+대사 “ ………… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The man never once took his eyes off Lucy until he left.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 청년.txt 지우기1000
+딜레이 1000
+효과음 door_bell door_bell.mp3
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 After making sure that he was gone, I ask the repairman a question.
+대기
+스크립트 이름.txt 주인공
+대사 “ Who was that? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 가게주인.txt 02
+스크립트 이름.txt 가게주인
+대사 “ A friend of mine who runs a robot shop in another town. ”
+대기
+대사 “ He’s planning to expand his business here, so he was asking if I’d be willing to
+대사새줄
+대사잇기 work for him. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s good. Congratulations on becoming a professional engineer. What’s next,
+대사새줄
+대사잇기 building a dispenser? ”
+대기
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Haha, very funny, kid. Who said I accepted? ”
+대기
+대사 “ I’m not giving up this quiet, relaxing life just yet. ”
+대기
+스크립트 가게주인.txt 12 1
+대사 “ You can have this. ”
+대기
+효과음 paper_double paper_double.mp3
+스크립트 이름.txt 이름지우기
+대사 He tosses me a sheet of paper that reads…
+대기
+대사크기 38
+대사색깔 255 215 0 255
+대사 ‘ Robot Shop Zerial.Net, New Location Grand Opening! ’
+대기
+대사크기 35
+대사색깔 255 255 255 255
+대사새줄
+대사잇기 …in a futuristic, mechanical font.
+대기
+스크립트 이름.txt 주인공
+대사 “ What’s this,
+대기
+대사잇기  a flyer? ”
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ It’s from that guy you just saw. ”
+대기
+대사 “ When I look at you, I can sort of see your future, you know? ”
+대기
+대사 “ You look like you’ll probably end up unemployed or homeless when you grow
+대사새줄
+대사잇기 up. ”
+대기
+스크립트 가게주인.txt 26 1
+대사 “ That’s why I’m looking out for you, kid. ”
+대기
+대사 “ Keep that flyer and tell the guy that I sent you if you ever need a job.
+대기
+대사잇기  Aren’t you
+대사새줄
+대사잇기 grateful? ”
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_광고지
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 535 152 255 255 255 255 {{광고지를가진다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 광고지를가진다 = "Keep the flyer." 
+라벨 선택지2_2 534 290 255 255 255 255 {{버린다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 버린다 = "Throw it away."
+//라벨 선택지2_1 529 152 255 255 255 255 {{광고지를가진다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 광고지를가진다 = "광고지를 가진다." 
+//라벨 선택지2_2 591 290 255 255 255 255 {{버린다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 버린다 = "버린다." 
+//라벨 선택지2_1 507 154 255 255 255 255 {{광고지를가진다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 광고지를가진다 = "チラシを受け取る。" 
+//라벨 선택지2_2 586 292 255 255 255 255 {{버린다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 버린다 = "捨てる。"
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 광고지를가진다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter11.txt 광고지를가진다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 버린다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter11.txt 버린다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_광고지
+
+
+북마크 광고지를가진다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Thank you. I’ll use it if I ever run out of toilet paper. ”
+대기
+스크립트 가게주인.txt 22
+스크립트 이름.txt 가게주인
+대사 “ Come on, just try calling him! ”
+대기
+대사 “ Maybe you’ll get some parts for cheap, who knows? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+//배경음악 반복 free0257.mp3
+대사 It doesn’t seem like I’ll ever need it, but I decide to keep it for now.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기
+딜레이 500
+변수 트루엔딩조건1 = 1
+점프 로봇에게마음
+
+
+북마크 버린다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Thank you, but I’ll be throwing it away now. ”
+대기
+스크립트 가게주인.txt 09
+스크립트 이름.txt 가게주인
+대사 “ How rude! ”
+대기
+대사 “ You’re gonna miss out on an amazing opportunity, you know. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ A man creates his own future.
+대기
+대사잇기  That means by myself. ”
+대기
+//배경음악 반복 free0257.mp3
+스크립트 가게주인.txt 18
+스크립트 이름.txt 가게주인
+대사 “ Fine by me. Just don’t come crying when you regret it. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기
+딜레이 500
+
+
+북마크 로봇에게마음
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_12.PNG 700
+딜레이 3000
+조건 트루엔딩조건1 = 1 여기 나비효과트로피 아니면 여기 30분에걸쳐
+북마크 나비효과트로피
+조건 $나비효과트로피 = 1 여기 30분에걸쳐
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 458 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "나비 효과"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 571 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 405 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 700 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Butterfly Effect"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 362 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "バタフライ・エフェクト"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 651 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $나비효과트로피 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 2000
+북마크 30분에걸쳐
+딜레이 1000
+배경룰페이드인 룰_24.PNG 500
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 500
+//음악선정?
+배경음악 반복 grove.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The repairman is performing a routine maintenance on Lucy.
+대기
+대사 I’ve been sitting here for around half an hour, listening to the two chatter away.
+대기
+대사 They seem to have agreed on trading Lucy’s part-time pay for her regular
+대사새줄
+대사잇기 maintenance.
+대기
+대사 Shortly after, the session's finished.
+대기
+대사 With no other business, we decide to head back.
+대기
+대사새줄
+대사잇기 On the way out, I casually toss the repairman a question.
+대기
+대사 It’s the same one I’d asked Dr. Gears.
+대기
+스크립트 이름.txt 주인공
+대사 “ Do you believe that robots have feelings? ”
+대기
+스크립트 이름.txt 이름지우기
+변수 가게주인 = "s21"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+
+스크립트 이름.txt 가게주인
+대사 “ Huh? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He gives me a blank stare.
+대기
+대사 It forms into a serious look.
+대기
+스크립트 가게주인.txt 04
+스크립트 이름.txt 가게주인
+대사 “ Why do you ask? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No reason. ”
+대기
+대사 “ It just came to me. ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He continues to stare at me for a while.
+대기
+대사 Like he’s trying to read my mind.
+대기
+대사 He looks as if he understands what I’m thinking.
+대기
+스크립트 가게주인.txt 20
+스크립트 이름.txt 가게주인
+대사 “ Well… since you’ve been spending so much time with Lucy… ”
+대기
+대사 “ I suppose I understand why you’d be perplexed. ”
+대기
+대사 “ It’s natural you’d be wondering about that. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ So? What do you think? ”
+대기
+대사 “ Do androids have feelings? ”
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ They’re imitations. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Imitations? ”
+대기
+스크립트 가게주인.txt 28
+스크립트 이름.txt 가게주인
+대사 “ Not the real deal. ”
+대기
+대사 “ Lucy’s feelings are not genuine. ”
+대기
+대사 “ She’s a little different from other androids. ”
+대기
+대사 “ She can do almost everything a real person can do. ”
+대기
+대사 “ Thinking and experiencing on her own, then reacting. ”
+대기
+스크립트 가게주인.txt 27 1
+대사 “ Getting angry, sad, or happy. ”
+대기
+스크립트 가게주인.txt 04 1
+대사 “ But in the end, they’re nothing but imitations. ”
+대기
+대사 “ It’d be inaccurate to say that they’re her own true feelings. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 가게주인.txt 20
+스크립트 이름.txt 가게주인
+대사 “ But at the same time, she’s extremely close to the real thing. ”
+대기
+대사 “ She’s a fake piece of diamond that even professionals can’t tell apart. ”
+대기
+스크립트 가게주인.txt 06 1
+대사 “ A near-perfect replica. ”
+대기
+대사 “ But real diamonds have an astronomically high value. ”
+대기
+대사 “ On the other hand, a fake one won’t ever surpass the value of a genuine, no
+대사새줄
+대사잇기 matter how close to the real thing it may be. ”
+대기
+대사 “ What do you think about Lucy? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What do you mean? ”
+대기
+스크립트 가게주인.txt 15
+스크립트 이름.txt 가게주인
+대사 “ While watching her… while watching what she’s been doing, I want to know what
+대사새줄
+대사잇기 you’ve been thinking. ”
+대기
+대사 “ Compared to a real person, how does it feel to be with a fake? ”
+대기
+대사 “ How does the Lucy you know compare to a real woman? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I…… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I don’t know.
+대기
+대사새줄
+대사잇기 I’m asking him because I don’t know.
+대기
+대사 Not that I’m familiar with how a proper woman acts anyway.
+대기
+스크립트 가게주인.txt 01
+스크립트 이름.txt 가게주인
+대사 “ Well, whether you want to concern yourself with it or not, that’s your choice. ”
+대기
+대사 “ It’s not something I can decide for you. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기
+딜레이 500
+배경룰페이드아웃 룰_12.PNG 500
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 I mull over a few things on the way home.
+대기
+대사 Within me, logic is clashing with emotion.
+대기
+대사 My brain is a mess.
+대기
+대사 She’s not a human, but an android.
+대기
+대사새줄
+대사잇기 This is what I need to focus on.
+대기
+대사 The mystery behind an android’s feelings.
+대기
+대사새줄
+대사잇기 The difference between man and android.
+대기
+대사 Let’s say that a certain god created humans.
+대기
+대사 It doesn’t matter which one.
+대기
+대사 The Allah, the Lord, the Buddha…
+대기
+대사새줄
+대사잇기 Any of the countless Hindu or Japanese deities… It doesn’t matter.
+대기
+//대사 힌두교나 일본 내의 셀 수 없을 만큼 많은 신들 중 하나라도 아무 문제가 없다.
+//대기
+대사 I’d also like to make it clear that I’m not here to debate between creationism and
+대사새줄
+대사잇기 evolution.
+대기
+대사 Whoever created humans and other creatures.
+대기
+대사새줄
+대사잇기 Whoever created the Earth and the universe.
+대기
+대사 Whatever our origin, let us refer to it as ‘God.’
+대기
+대사 God created man.
+대기
+대사새줄
+대사잇기 Then man created robots.
+대기
+대사 Man was made from DNA that God created.
+대기
+대사새줄
+대사잇기 And robots are made from an algorithm program that man created.
+대기
+대사 Now, let’s try asking ourselves.
+대기
+대사 What if the robot algorithms match how human brains work?
+대기
+대사 What if robots are capable of acting or feeling the same way we do?
+대기
+대사 Then could you really still designate them as fake?
+대기
+대사 As you watch them act just like real people, would you be able to convince yourself
+대사새줄
+대사잇기 that they’re not human?
+대기
+대사 And if they’re fakes, who’s to say we ourselves are genuine?
+대기
+대사 What is real? What is not?
+대기
+대사잇기  What are the standards?
+대기
+대사 Someone once said that people see only what they want to see, and people build a world with only what they can see.
+대기
+대사 It might’ve been Schopenhauer.
+대기
+대사 Anyway.
+대기
+대사 Since we know nothing about the far outreaches of the universe, we cannot
+대사새줄
+대사잇기 conclude that we, humans, are real.
+대기
+대사 …………
+대기
+대사 This is getting me nowhere.
+대기
+대사 I'm just running around in circles.
+대기
+대사새줄
+대사잇기 It’s making my head spin.
+대기
+대사 Barring religious beliefs, it’s also scary to think about what might be waiting for us
+대사새줄
+대사잇기 out there.
+대기
+대사 I grip my head tightly in frustration.
+대기
+대사새줄
+대사잇기 No matter how hard I try, a clear conclusion eludes me.
+대기
+대사 But one thing’s for certain.
+대기
+대사 Something deeply rooted inside of me…
+대기
+//배경음악 반복 grove.mp3
+대사 Something inside me is about to change.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+
+페이드아웃 배경음악 3000
+딜레이 1500
+
+
+변수 chapter = 11
+
+점프 로봇3원칙.txt 첫줄
+
+

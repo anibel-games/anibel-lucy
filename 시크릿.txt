@@ -1,0 +1,241 @@
+﻿변수 시크릿버튼제거 = 1
+//시스템버튼제거
+효과음 zzizik zzizik.mp3
+페이드아웃 title_lucy_button
+CG title_glitch00 title_glitch00.jpg
+딜레이 1
+CG title_glitch01 title_glitch01.jpg
+CG title_glitch00
+딜레이 1
+CG title_glitch02 title_glitch02.jpg
+CG title_glitch01
+딜레이 1
+CG title_glitch03 title_glitch03.jpg
+CG title_glitch02
+딜레이 1
+CG title_glitch02 title_glitch02.jpg
+CG title_glitch03
+딜레이 1
+//CG title title.jpg
+CG title_glitch02
+
+점프 타이틀.txt 타이틀2
+
+
+북마크 글리치
+
+시스템버튼 bg_black 0 0 1280 720 스크립트 텅빈.txt bg_black.jpg 없음 없음
+출력순서 bg_black -150
+투명도 bg_black 170
+
+효과음 computer_startup computer_startup.mp3
+딜레이 1000
+CG code_00 code_00.png 20 730 아니
+출력순서 code_00 -151
+이동 code_00 20 690 600 -200
+딜레이 100
+이동 code_00 20 650 600 -200
+딜레이 500
+이동 code_00 20 600 600 -200
+딜레이 300
+이동 code_00 20 580 600 -200
+딜레이 100
+이동 code_00 20 540 600 -200
+딜레이 300
+이동 code_00 20 490 600 -200
+
+
+CG loading_bar loading_bar.png 375 307 아니 -151
+크기 loading_bar 0 1 
+CG ev01_2 ev01_2.jpg 0 0 아니 -149
+CG loading_code_00 loading_code_00.png 360 348 아니 -151
+CG bg_lab_day bg_lab_day.jpg 0 0 아니 -149
+크기 loading_bar .3 1 200
+CG ev01_2
+CG ev06_1 ev06_1.jpg 0 0 아니 -149 
+CG loading_code_00
+딜레이 3
+CG ev02_1 ev02_1.jpg 0 0 아니 -149 
+CG loading_code_01 loading_code_01.png 360 348 아니 -151
+CG ev06_1
+CG bg_krobotics_evening bg_krobotics_evening.jpg 0 0 아니 -149
+크기 loading_bar .4 1 200
+딜레이 5
+CG ev02_1
+CG bg_krobotics_evening
+CG ev04_1 ev04_1.jpg 0 0 아니 -149 
+CG bg_lab_day
+딜레이 5
+CG loading_code_01
+CG loading_code_02 loading_code_02.png 360 348 아니 -151
+크기 loading_bar .7 1 200 
+CG ev04_1
+CG ev10_1 ev10_1.jpg 0 0 아니 -149 
+딜레이 5
+CG loading_code_02
+CG loading_code_03 loading_code_03.png 360 348 아니 -151
+CG bg_dump01 bg_dump01.jpg 0 0 아니 -149 
+CG ev10_1
+크기 loading_bar .8 1 200 
+CG ev08_1 ev08_1.jpg 0 0 아니 -149
+CG bg_dump01
+CG loading_code_03
+딜레이 5
+CG bg_livingroom_evening bg_livingroom_evening.jpg 0 0 아니 -149
+CG ev08_1
+CG loading_code_04 loading_code_04.png 360 348 아니 -151
+크기 loading_bar .9 1 200
+CG ev07_1 ev07_1.jpg 0 0 아니 -149
+딜레이 1
+CG title_oct12_black title_oct12_black.jpg 0 0 아니 -149
+CG ev07_1
+CG bg_livingroom_evening
+CG loading_code_04
+CG loading_code_05 loading_code_05.png 360 348 아니 -151 
+크기 loading_bar 1 1 200 
+CG title_glitch03 title_glitch03.jpg 0 0 아니 -149
+딜레이 20
+CG title_glitch01 title_glitch01.jpg 0 0 아니 -149
+CG title_glitch03
+딜레이 5
+CG title_glitch02 title_glitch02.jpg 0 0 아니 -149
+CG title_glitch01
+딜레이 5
+CG titleoct12_glitch05 title_oct12_glitch05.jpg 0 0 아니 -149
+CG title_glitch02
+딜레이 5
+CG titleoct12_glitch03 title_oct12_glitch03.jpg 0 0 아니 -149
+CG titleoct12_glitch05
+딜레이 5
+CG title_oct12_black title_oct12_black.jpg 0 0 아니 -149
+CG titleoct12_glitch03
+이동 code_00 20 460 600 -200
+이동 code_00 20 440 600 -200
+이동 code_00 20 390 600 -200
+딜레이 400
+이동 code_00 20 340 600 -200
+딜레이 300
+
+모두지우기
+
+효과음 digitalaudioglitch digitalaudioglitch.mp3
+
+CG titleoct12_glitch01 title_oct12_glitch01.jpg
+딜레이 10
+CG titleoct12_glitch03 title_oct12_glitch03.jpg
+CG titleoct12_glitch01
+딜레이 20
+CG titleoct12_glitch02 title_oct12_glitch02.jpg
+CG titleoct12_glitch03
+딜레이 10
+CG titleoct12_glitch00 title_oct12_glitch00.jpg
+CG titleoct12_glitch02
+딜레이 20
+CG titleoct12_glitch04 title_oct12_glitch04.jpg
+CG titleoct12_glitch00
+딜레이 20
+CG titleoct12_glitch05 title_oct12_glitch05.jpg
+CG titleoct12_glitch04
+딜레이 10
+CG titleoct12_glitch05
+
+점프 타이틀.txt 타이틀4
+
+
+
+
+북마크 메모리복구성공
+
+시스템버튼 bg_black 0 0 1280 720 스크립트 텅빈.txt bg_black.jpg 없음 없음
+출력순서 bg_black -150
+투명도 bg_black 170
+
+딜레이 1000
+
+CG code_01 code_01.png 20 730 아니
+출력순서 code_01 -151
+이동 code_01 20 690 600 -200
+딜레이 100
+이동 code_01 20 650 600 -200
+딜레이 500
+이동 code_01 20 600 600 -200
+딜레이 300
+이동 code_01 20 580 600 -200
+딜레이 100
+이동 code_01 20 540 600 -200
+딜레이 300
+이동 code_01 20 490 600 -200
+
+
+CG loading_bar loading_bar.png 375 307 아니 -151
+크기 loading_bar 0 1 
+CG ev01_2 ev01_2.jpg 0 0 아니 -149
+CG loading_code_00 loading_code_00.png 360 348 아니 -151
+CG bg_lab_day bg_lab_day.jpg 0 0 아니 -149
+크기 loading_bar .3 1 200
+CG ev01_2
+CG ev06_1 ev06_1.jpg 0 0 아니 -149 
+CG loading_code_00
+딜레이 3
+CG ev02_1 ev02_1.jpg 0 0 아니 -149 
+CG loading_code_01 loading_code_01.png 360 348 아니 -151
+CG ev06_1
+CG bg_krobotics_evening bg_krobotics_evening.jpg 0 0 아니 -149
+크기 loading_bar .4 1 200
+딜레이 5
+CG ev02_1
+CG bg_krobotics_evening
+CG ev04_1 ev04_1.jpg 0 0 아니 -149 
+CG bg_lab_day
+딜레이 5
+CG loading_code_01
+CG loading_code_02 loading_code_02.png 360 348 아니 -151
+크기 loading_bar .7 1 200 
+CG ev04_1
+CG ev10_1 ev10_1.jpg 0 0 아니 -149 
+딜레이 5
+CG loading_code_02
+CG loading_code_03 loading_code_03.png 360 348 아니 -151
+CG bg_dump01 bg_dump01.jpg 0 0 아니 -149 
+CG ev10_1
+크기 loading_bar .8 1 200 
+CG ev08_1 ev08_1.jpg 0 0 아니 -149
+CG bg_dump01
+CG loading_code_03
+딜레이 5
+CG bg_livingroom_evening bg_livingroom_evening.jpg 0 0 아니 -149
+CG ev08_1
+CG loading_code_04 loading_code_04.png 360 348 아니 -151
+크기 loading_bar .9 1 200
+CG ev07_1 ev07_1.jpg 0 0 아니 -149
+딜레이 1
+CG ev07_1
+CG bg_livingroom_evening
+CG loading_code_04
+CG loading_code_05 loading_code_05.png 360 348 아니 -151 
+크기 loading_bar 1 1 200 
+CG titleoct12_glitch03
+이동 code_01 20 460 600 -200
+이동 code_01 20 440 600 -200
+이동 code_01 20 390 600 -200
+딜레이 400
+이동 code_01 20 340 600 -200
+딜레이 300
+쓰레드 computer_startup페이드아웃
+페이드아웃 computer_startup 1500
+쓰레드
+쓰레드 bg_black페이드아웃
+페이드아웃 bg_black 1000
+쓰레드
+쓰레드 code_01페이드아웃
+페이드아웃 code_01 1000
+쓰레드
+쓰레드 loading_code_05페이드아웃
+페이드아웃 loading_code_05 1000
+쓰레드
+쓰레드 loading_bar페이드아웃
+페이드아웃 loading_bar 1000
+쓰레드
+쓰레드시작
+딜레이 1500
+

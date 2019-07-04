@@ -1,0 +1,307 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Jul 23, Doctor"
+//변수 슬롯씬이름 = "7월 23일 박사"
+//변수 슬롯씬이름 = "7月23日 博士"
+
+
+
+딜레이 2000
+배경음악 반복 c7.mp3
+페이드인 배경음악 1000
+배경룰페이드인 룰_24.PNG 500
+배경 bg_lab_day bg_lab_day.jpg
+딜레이 1000
+변수 루시 = "l62"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt
+스크립트 이름.txt 루시
+보이스 lucy0314_{{$언어}}.mp3
+대사 “ Hello, Doctor. Good morning. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0315_{{$언어}}.mp3
+대사 “ Is something wrong,
+딜레이 2000
+대사잇기  Dr. Ryu? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Oh, it’s nothing. ”
+대기
+대사 “ I’m just not used to being called that. ”
+대기
+대사 “ It feels peculiar. ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0316_{{$언어}}.mp3
+대사 “ As in being called a ‘doctor’, Dr. Ryu? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I take off my glasses and rub the bridge of my nose.
+대기
+스크립트 이름.txt 박사
+대사 “ Ah, yes. I can never get used to that. ”
+대기
+대사 “ It always reminds me of how old I am. ”
+대기
+대사 “ Although I’m still very young at heart. ”
+대기
+대사 “ But time truly does fly by in the blink of an eye. ”
+대기
+대사 “ I’m experiencing it firsthand. ”
+대기
+스크립트 루시.txt 20
+스크립트 이름.txt 루시
+보이스 lucy0317_1_{{$언어}}.mp3
+대사 “ Dr. Ryu is only in his early thirties. ”
+대기
+스크립트 루시.txt 25 1
+보이스 lucy0317_2_{{$언어}}.mp3
+대사 “ That’s still quite young. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ You really think so? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0318_{{$언어}}.mp3
+대사 “ Of course. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy is beaming brightly.
+대기
+대사새줄
+대사잇기 Without a trace of doubt on her face.
+대기
+대사 It pains me to see her.
+대기
+대사새줄
+대사잇기 Her pure, innocent smile.
+대기
+대사 It’s difficult to hold my gaze.
+대기
+대사 I turn away from her instinctively.
+대기
+스크립트 이름.txt 박사
+대사 “ Haha, thanks. ”
+대기
+대사 “ Anyway… How are the other folks around here treating you? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0319_{{$언어}}.mp3
+대사 “ Ah, they’re all very kind to Lucy. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ That’s good.
+대기
+대사잇기  I’ve been worrying about that. ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0320_{{$언어}}.mp3
+대사 “ They’re teaching Lucy a lot of things. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ That’s because you’re very smart! ”
+대기
+대사 “ They enjoy teaching you. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+쓰레드 발자국페이드인
+효과음 FootStepD11 FootStepD11.mp3
+딜레이 1500
+페이드아웃 FootStepD11 500
+쓰레드
+쓰레드시작
+딜레이 2000
+효과음 ROBOTICTransformationInsect01ServosClicksDigital ROBOTICTransformationInsect01ServosClicksDigital.mp3
+//앤드류 등장
+변수 앤드류 = "a01"
+CG {{앤드류}} {{앤드류}}.png
+페이드인 {{앤드류}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 앤드류
+대사 “ Doctor, I’ve brought the data you requested. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Hmm?
+대기
+대사잇기  Ah… thanks, Andrew. ”
+대기
+대사 “ Just leave it on the table. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Andrew is an android that’s been working here even before me.
+대기
+대사 He’s a fine piece of craftsmanship.
+대기
+대사 I heard that Andrew used to be a high-end model in his time, and his job was to
+대사새줄
+대사잇기 escort important individuals.
+대기
+대사 Having served his time, he was retired and now lives a simple life as a patrol guard
+대사새줄
+대사잇기 at the junkyard.
+대기
+대사 He sometimes helps out at the lab with basic work like this, too.
+대기
+대사 His jobs aren’t very sophisticated, but that’s probably why he’s been in use for so
+대사새줄
+대사잇기 long.
+대기
+대사지우기
+효과음 rustle rustle.mp3
+딜레이 1500
+스크립트 이름.txt 앤드류
+대사 “ Then if you'll excuse me. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 발자국페이드인
+효과음 FootStepD11 FootStepD11.mp3
+딜레이 1000
+페이드아웃 FootStepD11 2000
+쓰레드
+쓰레드시작
+스크립트 앤드류.txt 지우기1000
+딜레이 700
+스크립트 루시.txt 25
+딜레이 300
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0321_{{$언어}}.mp3
+대사 “ Lucy is also getting along well with Andrew. He’s now Lucy’s best friend. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I put my glasses back on.
+대기
+스크립트 이름.txt 박사
+대사 “ It sounds like you’re doing well. ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0322_{{$언어}}.mp3
+대사 “ Yes. Every day is full of excitement. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Is that so. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Watching Lucy thrive in her youth.
+대기
+대사새줄
+대사잇기 It is my only remaining pleasure in life.
+대기
+대사 But at the same time, it is also one of my greatest sorrows.
+대기
+스크립트 이름.txt 박사
+대사 “ Have you learned anything new today? ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0323_{{$언어}}.mp3
+대사 “ Yes. Lucy received the data for hundreds of new recipes from around the
+대사새줄
+대사잇기 world. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Sounds splendid. ”
+대기
+대사 “ Then, could you make something for me during your evaluation? ”
+대기
+스크립트 루시.txt 21
+스크립트 이름.txt 루시
+보이스 lucy0324_{{$언어}}.mp3
+대사 “ Of course. What does Dr. Ryu want? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Anything…
+대기
+대사잇기  If it’s by you, anything is fine. ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0325_{{$언어}}.mp3
+대사 “ The recipes Lucy learned today are only for French cooking. ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0326_{{$언어}}.mp3
+대사 “ Lucy is worried that Dr. Ryu might not enjoy these types of dishes. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ No need to worry.
+대기
+대사잇기  I’m not too picky about food. ”
+대기
+대사 “ I’ll eat anything that Lucy makes for me. ”
+대기
+대사 “ It doesn’t matter how unpleasant it might taste. ”
+대기
+스크립트 루시.txt 118
+스크립트 이름.txt 루시
+보이스 lucy0327_{{$언어}}.mp3
+대사 “ That’s not acceptable, Doctor. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy scolds me.
+대기
+스크립트 루시.txt 33
+스크립트 이름.txt 루시
+보이스 lucy0328_{{$언어}}.mp3
+대사 “ If it doesn’t taste good, Dr. Ryu must let Lucy know. ”
+대기
+스크립트 루시.txt 19 1
+보이스 lucy0329_{{$언어}}.mp3
+대사 “ So she can study harder to make it better next time. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Hmm, I guess you’re right. ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0330_{{$언어}}.mp3
+대사 “ Hehe… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Then I’ll be waiting. ”
+대기
+//배경음악 반복 c7.mp3
+대사 “ I’m looking forward to it. ”
+대기
+게임상태
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 루시.txt 지우기1000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+딜레이 500
+배경룰페이드아웃 룰_34.png 400
+딜레이 2500
+
+
+변수 chapter = 43
+
+점프 로봇3원칙.txt 첫줄
+
+

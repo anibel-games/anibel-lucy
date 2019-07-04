@@ -1,0 +1,1627 @@
+﻿//ev01_1 출력
+북마크 ev01_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev01_1획득 = 1 여기 ev01_1 아니면 여기 ev01_2_off
+북마크 ev01_1
+오마케CG ev01_1 0 0 1280 720 
+출력순서 ev01_1 -200
+페이드인 ev01_1 500
+대기
+북마크 ev01_2_off
+조건 $ev01_2획득 = 1 여기 ev01_2 아니면 여기 ev01_3_off
+북마크 ev01_2
+오마케CG ev01_2 0 0 1280 720 
+출력순서 ev01_2 -200
+페이드인 ev01_2 500
+페이드아웃 ev01_1
+대기
+북마크 ev01_3_off
+점프 종료
+
+
+//ev02_1 출력
+북마크 ev02_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev02_1획득 = 1 여기 ev02_1 아니면 여기 ev02_2_off
+북마크 ev02_1
+오마케CG ev02_1 0 0 1280 720 
+출력순서 ev02_1 -200
+페이드인 ev02_1 500
+대기
+북마크 ev02_2_off
+조건 $ev02_2획득 = 1 여기 ev02_2 아니면 여기 ev02_3_off
+북마크 ev02_2
+오마케CG ev02_2 0 0 1280 720 
+출력순서 ev02_2 -200
+페이드인 ev02_2 500
+페이드아웃 ev02_1
+대기
+북마크 ev02_3_off
+조건 $ev02_3획득 = 1 여기 ev02_3 아니면 여기 ev02_4_off
+북마크 ev02_3
+오마케CG ev02_3 0 0 1280 720 
+출력순서 ev02_3 -200
+페이드인 ev02_3 500
+페이드아웃 ev02_2
+대기
+북마크 ev02_4_off
+조건 $ev02_4획득 = 1 여기 ev02_4 아니면 여기 ev02_5_off
+북마크 ev02_4
+오마케CG ev02_4 0 0 1280 720 
+출력순서 ev02_4 -200
+페이드인 ev02_4 500
+페이드아웃 ev02_3
+대기
+북마크 ev02_5_off
+조건 $ev02_5획득 = 1 여기 ev02_5 아니면 여기 ev02_6_off
+북마크 ev02_5
+오마케CG ev02_5 0 0 1280 720 
+출력순서 ev02_5 -200
+페이드인 ev02_5 500
+페이드아웃 ev02_4
+대기
+북마크 ev02_6_off
+조건 $ev02_6획득 = 1 여기 ev02_6 아니면 여기 ev02_7_off
+북마크 ev02_6
+오마케CG ev02_6 0 0 1280 720 
+출력순서 ev02_6 -200
+페이드인 ev02_6 500
+페이드아웃 ev02_5
+대기
+북마크 ev02_7_off
+조건 $ev02_7획득 = 1 여기 ev02_7 아니면 여기 ev02_8_off
+북마크 ev02_7
+오마케CG ev02_7 0 0 1280 720 
+출력순서 ev02_7 -200
+페이드인 ev02_7 500
+페이드아웃 ev02_6
+대기
+북마크 ev02_8_off
+조건 $ev02_8획득 = 1 여기 ev02_8 아니면 여기 ev02_9_off
+북마크 ev02_8
+오마케CG ev02_8 0 0 1280 720 
+출력순서 ev02_8 -200
+페이드인 ev02_8 500
+페이드아웃 ev02_7
+대기
+북마크 ev02_9_off
+조건 $ev02_9획득 = 1 여기 ev02_9 아니면 여기 ev02_10_off
+북마크 ev02_9
+오마케CG ev02_9 0 0 1280 720 
+출력순서 ev02_9 -200
+페이드인 ev02_9 500
+페이드아웃 ev02_8
+대기
+북마크 ev02_10_off
+조건 $ev02_10획득 = 1 여기 ev02_10 아니면 여기 ev02_11_off
+북마크 ev02_10
+오마케CG ev02_10 0 0 1280 720 
+출력순서 ev02_10 -200
+페이드인 ev02_10 500
+페이드아웃 ev02_9
+대기
+북마크 ev02_11_off
+조건 $ev02_11획득 = 1 여기 ev02_11 아니면 여기 ev02_12_off
+북마크 ev02_11
+오마케CG ev02_11 0 0 1280 720 
+출력순서 ev02_11 -200
+페이드인 ev02_11 500
+페이드아웃 ev02_10
+대기
+북마크 ev02_12_off
+조건 $ev02_12획득 = 1 여기 ev02_12 아니면 여기 ev02_13_off
+북마크 ev02_12
+오마케CG ev02_12 0 0 1280 720 
+출력순서 ev02_12 -200
+페이드인 ev02_12 500
+페이드아웃 ev02_11
+대기
+북마크 ev02_13_off
+조건 $ev02_13획득 = 1 여기 ev02_13 아니면 여기 ev02_14off
+북마크 ev02_13
+오마케CG ev02_13 0 0 1280 720 
+출력순서 ev02_13 -200
+페이드인 ev02_13 500
+페이드아웃 ev02_12
+대기
+북마크 ev02_14off
+점프 종료
+
+
+
+//ev03_1 출력
+북마크 ev03_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev03_1획득 = 1 여기 ev03_1 아니면 여기 ev03_2_off
+북마크 ev03_1
+오마케CG ev03_1 0 0 1280 720 
+출력순서 ev03_1 -200
+페이드인 ev03_1 500
+대기
+북마크 ev03_2_off
+조건 $ev03_2획득 = 1 여기 ev03_2 아니면 여기 ev03_3_off
+북마크 ev03_2
+오마케CG ev03_2 0 0 1280 720 
+출력순서 ev03_2 -200
+페이드인 ev03_2 500
+페이드아웃 ev03_1
+대기
+북마크 ev03_3_off
+조건 $ev03_3획득 = 1 여기 ev03_3 아니면 여기 ev03_4_off
+북마크 ev03_3
+오마케CG ev03_3 0 0 1280 720 
+출력순서 ev03_3 -200
+페이드인 ev03_3 500
+페이드아웃 ev03_2
+대기
+북마크 ev03_4_off
+조건 $ev03_4획득 = 1 여기 ev03_4 아니면 여기 ev03_5_off
+북마크 ev03_4
+오마케CG ev03_4 0 0 1280 720 
+출력순서 ev03_4 -200
+페이드인 ev03_4 500
+페이드아웃 ev03_3
+대기
+북마크 ev03_5_off
+점프 종료
+
+
+
+
+//ev04_1 출력
+북마크 ev04_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev04_1획득 = 1 여기 ev04_1 아니면 여기 ev04_2_off
+북마크 ev04_1
+오마케CG ev04_1 0 0 1280 720 
+출력순서 ev04_1 -200
+페이드인 ev04_1 500
+대기
+북마크 ev04_2_off
+조건 $ev04_2획득 = 1 여기 ev04_2 아니면 여기 ev04_3_off
+북마크 ev04_2
+오마케CG ev04_2 0 0 1280 720 
+출력순서 ev04_2 -200
+페이드인 ev04_2 500
+페이드아웃 ev04_1
+대기
+북마크 ev04_3_off
+조건 $ev04_3획득 = 1 여기 ev04_3 아니면 여기 ev04_4_off
+북마크 ev04_3
+오마케CG ev04_3 0 0 1280 720 
+출력순서 ev04_3 -200
+페이드인 ev04_3 500
+페이드아웃 ev04_2
+대기
+북마크 ev04_4_off
+점프 종료
+
+
+
+
+//ev05_1 출력
+북마크 ev05_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev05_1획득 = 1 여기 ev05_1 아니면 여기 ev05_2_off
+북마크 ev05_1
+오마케CG ev05_1 0 0 1280 720 
+출력순서 ev05_1 -200
+페이드인 ev05_1 500
+대기
+북마크 ev05_2_off
+조건 $ev05_2획득 = 1 여기 ev05_2 아니면 여기 ev05_3_off
+북마크 ev05_2
+오마케CG ev05_2 0 0 1280 720 
+출력순서 ev05_2 -200
+페이드인 ev05_2 500
+페이드아웃 ev05_1
+대기
+북마크 ev05_3_off
+조건 $ev05_3획득 = 1 여기 ev05_3 아니면 여기 ev05_4_off
+북마크 ev05_3
+오마케CG ev05_3 0 0 1280 720 
+출력순서 ev05_3 -200
+페이드인 ev05_3 500
+페이드아웃 ev05_2
+대기
+북마크 ev05_4_off
+조건 $ev05_4획득 = 1 여기 ev05_4 아니면 여기 ev05_5_off
+북마크 ev05_4
+오마케CG ev05_4 0 0 1280 720 
+출력순서 ev05_4 -200
+페이드인 ev05_4 500
+페이드아웃 ev05_3
+대기
+북마크 ev05_5_off
+조건 $ev05_5획득 = 1 여기 ev05_5 아니면 여기 ev05_6_off
+북마크 ev05_5
+오마케CG ev05_5 0 0 1280 720 
+출력순서 ev05_5 -200
+페이드인 ev05_5 500
+페이드아웃 ev05_4
+대기
+북마크 ev05_6_off
+점프 종료
+
+
+
+
+
+//ev06_1 출력
+북마크 ev06_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev06_1획득 = 1 여기 ev06_1 아니면 여기 ev06_2_off
+북마크 ev06_1
+오마케CG ev06_1 0 0 1280 720 
+출력순서 ev06_1 -200
+페이드인 ev06_1 500
+대기
+북마크 ev06_2_off
+조건 $ev06_2획득 = 1 여기 ev06_2 아니면 여기 ev06_3_off
+북마크 ev06_2
+오마케CG ev06_2 0 0 1280 720 
+출력순서 ev06_2 -200
+페이드인 ev06_2 500
+페이드아웃 ev06_1
+대기
+북마크 ev06_3_off
+조건 $ev06_3획득 = 1 여기 ev06_3 아니면 여기 ev06_4_off
+북마크 ev06_3
+오마케CG ev06_3 0 0 1280 720 
+출력순서 ev06_3 -200
+페이드인 ev06_3 500
+페이드아웃 ev06_2
+대기
+북마크 ev06_4_off
+점프 종료
+
+
+
+
+//ev07_1 출력
+북마크 ev07_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev07_1획득 = 1 여기 ev07_1 아니면 여기 ev07_2_off
+북마크 ev07_1
+오마케CG ev07_1 0 0 1280 720 
+출력순서 ev07_1 -200
+페이드인 ev07_1 500
+대기
+북마크 ev07_2_off
+조건 $ev07_2획득 = 1 여기 ev07_2 아니면 여기 ev07_3_off
+북마크 ev07_2
+오마케CG ev07_2 0 0 1280 720 
+출력순서 ev07_2 -200
+페이드인 ev07_2 500
+페이드아웃 ev07_1
+대기
+북마크 ev07_3_off
+점프 종료
+
+
+
+
+
+//ev08_1 출력
+북마크 ev08_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev08_1획득 = 1 여기 ev08_1 아니면 여기 ev08_2_off
+북마크 ev08_1
+오마케CG ev08_1 0 0 1280 720 
+출력순서 ev08_1 -200
+페이드인 ev08_1 500
+대기
+북마크 ev08_2_off
+조건 $ev08_2획득 = 1 여기 ev08_2 아니면 여기 ev08_3_off
+북마크 ev08_2
+오마케CG ev08_2 0 0 1280 720 
+출력순서 ev08_2 -200
+페이드인 ev08_2 500
+페이드아웃 ev08_1
+대기
+북마크 ev08_3_off
+점프 종료
+
+
+
+
+//ev09_1 출력
+북마크 ev09_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev09_1획득 = 1 여기 ev09_1 아니면 여기 ev09_2_off
+북마크 ev09_1
+오마케CG ev09_1 0 0 1280 720 
+출력순서 ev09_1 -200
+페이드인 ev09_1 500
+대기
+북마크 ev09_2_off
+조건 $ev09_2획득 = 1 여기 ev09_2 아니면 여기 ev09_3_off
+북마크 ev09_2
+오마케CG ev09_2 0 0 1280 720 
+출력순서 ev09_2 -200
+페이드인 ev09_2 500
+페이드아웃 ev09_1
+대기
+북마크 ev09_3_off
+조건 $ev09_3획득 = 1 여기 ev09_3 아니면 여기 ev09_4_off
+북마크 ev09_3
+오마케CG ev09_3 0 0 1280 720 
+출력순서 ev09_3 -200
+페이드인 ev09_3 500
+페이드아웃 ev09_2
+대기
+북마크 ev09_4_off
+조건 $ev09_4획득 = 1 여기 ev09_4 아니면 여기 ev09_5_off
+북마크 ev09_4
+오마케CG ev09_4 0 0 1280 720 
+출력순서 ev09_4 -200
+페이드인 ev09_4 500
+페이드아웃 ev09_3
+대기
+북마크 ev09_5_off
+조건 $ev09_5획득 = 1 여기 ev09_5 아니면 여기 ev09_6_off
+북마크 ev09_5
+오마케CG ev09_5 0 0 1280 720 
+출력순서 ev09_5 -200
+페이드인 ev09_5 500
+페이드아웃 ev09_4
+대기
+북마크 ev09_6_off
+조건 $ev09_6획득 = 1 여기 ev09_6 아니면 여기 ev09_7_off
+북마크 ev09_6
+오마케CG ev09_6 0 0 1280 720 
+출력순서 ev09_6 -200
+페이드인 ev09_6 500
+페이드아웃 ev09_5
+대기
+북마크 ev09_7_off
+조건 $ev09_7획득 = 1 여기 ev09_7 아니면 여기 ev09_8_off
+북마크 ev09_7
+오마케CG ev09_7 0 0 1280 720 
+출력순서 ev09_7 -200
+페이드인 ev09_7 500
+페이드아웃 ev09_6
+대기
+북마크 ev09_8_off
+조건 $ev09_8획득 = 1 여기 ev09_8 아니면 여기 ev09_9_off
+북마크 ev09_8
+오마케CG ev09_8 0 0 1280 720 
+출력순서 ev09_8 -200
+페이드인 ev09_8 500
+페이드아웃 ev09_7
+대기
+북마크 ev09_9_off
+조건 $ev09_9획득 = 1 여기 ev09_9 아니면 여기 ev09_10_off
+북마크 ev09_9
+오마케CG ev09_9 0 0 1280 720 
+출력순서 ev09_9 -200
+페이드인 ev09_9 500
+페이드아웃 ev09_8
+대기
+북마크 ev09_10_off
+조건 $ev09_10획득 = 1 여기 ev09_10 아니면 여기 ev09_11_off
+북마크 ev09_10
+오마케CG ev09_10 0 0 1280 720 
+출력순서 ev09_10 -200
+페이드인 ev09_10 500
+페이드아웃 ev09_9
+대기
+북마크 ev09_11_off
+점프 종료
+
+
+
+
+
+//ev10_1 출력
+북마크 ev10_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev10_1획득 = 1 여기 ev10_1 아니면 여기 ev10_2_off
+북마크 ev10_1
+오마케CG ev10_1 0 0 1280 720 
+출력순서 ev10_1 -200
+페이드인 ev10_1 500
+대기
+북마크 ev10_2_off
+조건 $ev10_2획득 = 1 여기 ev10_2 아니면 여기 ev10_3_off
+북마크 ev10_2
+오마케CG ev10_2 0 0 1280 720 
+출력순서 ev10_2 -200
+페이드인 ev10_2 500
+페이드아웃 ev10_1
+대기
+북마크 ev10_3_off
+조건 $ev10_3획득 = 1 여기 ev10_3 아니면 여기 ev10_4_off
+북마크 ev10_3
+오마케CG ev10_3 0 0 1280 720 
+출력순서 ev10_3 -200
+페이드인 ev10_3 500
+페이드아웃 ev10_2
+대기
+북마크 ev10_4_off
+조건 $ev10_4획득 = 1 여기 ev10_4 아니면 여기 ev10_5_off
+북마크 ev10_4
+오마케CG ev10_4 0 0 1280 720 
+출력순서 ev10_4 -200
+페이드인 ev10_4 500
+페이드아웃 ev10_3
+대기
+북마크 ev10_5_off
+조건 $ev10_5획득 = 1 여기 ev10_5 아니면 여기 ev10_6_off
+북마크 ev10_5
+오마케CG ev10_5 0 0 1280 720 
+출력순서 ev10_5 -200
+페이드인 ev10_5 500
+페이드아웃 ev10_4
+대기
+북마크 ev10_6_off
+조건 $ev10_6획득 = 1 여기 ev10_6 아니면 여기 ev10_7_off
+북마크 ev10_6
+오마케CG ev10_6 0 0 1280 720 
+출력순서 ev10_6 -200
+페이드인 ev10_6 500
+페이드아웃 ev10_5
+대기
+북마크 ev10_7_off
+점프 종료
+
+
+
+
+//ev11_1 출력
+북마크 ev11_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev11_1획득 = 1 여기 ev11_1 아니면 여기 ev11_2_off
+북마크 ev11_1
+오마케CG ev11_1 0 0 1280 720 
+출력순서 ev11_1 -200
+페이드인 ev11_1 500
+대기
+북마크 ev11_2_off
+조건 $ev11_2획득 = 1 여기 ev11_2 아니면 여기 ev11_3_off
+북마크 ev11_2
+오마케CG ev11_2 0 0 1280 720 
+출력순서 ev11_2 -200
+페이드인 ev11_2 500
+페이드아웃 ev11_1
+대기
+북마크 ev11_3_off
+조건 $ev11_3획득 = 1 여기 ev11_3 아니면 여기 ev11_4_off
+북마크 ev11_3
+오마케CG ev11_3 0 0 1280 720 
+출력순서 ev11_3 -200
+페이드인 ev11_3 500
+페이드아웃 ev11_2
+대기
+북마크 ev11_4_off
+점프 종료
+
+
+
+
+//ev12_1 출력
+북마크 ev12_1출력
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev12_1획득 = 1 여기 ev12_1 아니면 여기 ev12_2_off
+북마크 ev12_1
+오마케CG ev12_1 0 0 1280 720 
+출력순서 ev12_1 -200
+페이드인 ev12_1 500
+대기
+북마크 ev12_2_off
+조건 $ev12_2획득 = 1 여기 ev12_2 아니면 여기 ev12_3_off
+북마크 ev12_2
+오마케CG ev12_2 0 0 1280 720 
+출력순서 ev12_2 -200
+페이드인 ev12_2 500
+페이드아웃 ev12_1
+대기
+북마크 ev12_3_off
+조건 $ev12_3획득 = 1 여기 ev12_3 아니면 여기 ev12_4_off
+북마크 ev12_3
+오마케CG ev12_3 0 0 1280 720 
+출력순서 ev12_3 -200
+페이드인 ev12_3 500
+페이드아웃 ev12_2
+대기
+북마크 ev12_4_off
+조건 $ev12_4획득 = 1 여기 ev12_4 아니면 여기 ev12_5_off
+북마크 ev12_4
+오마케CG ev12_4 0 0 1280 720 
+출력순서 ev12_4 -200
+페이드인 ev12_4 500
+페이드아웃 ev12_3
+대기
+북마크 ev12_5_off
+점프 종료
+
+
+
+
+
+//ev13_1 출력
+북마크 ev13_1출력
+
+키처리 27 여기 종료2
+키처리 201 여기 종료2
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드 
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev13_1획득 = 1 여기 ev13_1 아니면 여기 ev13_2_off
+북마크 ev13_1
+오마케CG ev13_1 0 0 1280 720
+출력순서 ev13_1 -200
+페이드인 ev13_1 500
+대기
+북마크 ev13_2_off
+조건 $ev13_2획득 = 1 여기 ev13_2 아니면 여기 ev13_3_off
+북마크 ev13_2
+오마케CG ev13_2 0 0 1280 720
+출력순서 ev13_2 -200
+페이드인 ev13_2 500
+페이드아웃 ev13_1
+대기
+북마크 ev13_3_off
+점프 종료2
+
+
+
+
+
+//ev14_1 출력
+북마크 ev14_1출력
+
+키처리 27 여기 종료2
+키처리 201 여기 종료2
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드 
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev14_1획득 = 1 여기 ev14_1 아니면 여기 ev14_2_off
+북마크 ev14_1
+오마케CG ev14_1 0 0 1280 720 
+출력순서 ev14_1 -200
+페이드인 ev14_1 500
+대기
+북마크 ev14_2_off
+조건 $ev14_2획득 = 1 여기 ev14_2 아니면 여기 ev14_3_off
+북마크 ev14_2
+오마케CG ev14_2 0 0 1280 720 
+출력순서 ev14_2 -200
+페이드인 ev14_2 500
+페이드아웃 ev14_1
+대기
+북마크 ev14_3_off
+조건 $ev14_3획득 = 1 여기 ev14_3 아니면 여기 ev14_4_off
+북마크 ev14_3
+오마케CG ev14_3 0 0 1280 720 
+출력순서 ev14_3 -200
+페이드인 ev14_3 500
+페이드아웃 ev14_2
+대기
+북마크 ev14_4_off
+조건 $ev14_4획득 = 1 여기 ev14_4 아니면 여기 ev14_5_off
+북마크 ev14_4
+오마케CG ev14_4 0 0 1280 720 
+출력순서 ev14_4 -200
+페이드인 ev14_4 500
+페이드아웃 ev14_3
+대기
+북마크 ev14_5_off
+조건 $ev14_5획득 = 1 여기 ev14_5 아니면 여기 ev14_6_off
+북마크 ev14_5
+오마케CG ev14_5 0 0 1280 720 
+출력순서 ev14_5 -200
+페이드인 ev14_5 500
+페이드아웃 ev14_4
+대기
+북마크 ev14_6_off
+조건 $ev14_6획득 = 1 여기 ev14_6 아니면 여기 ev14_7_off
+북마크 ev14_6
+오마케CG ev14_6 0 0 1280 720 
+출력순서 ev14_6 -200
+페이드인 ev14_6 500
+페이드아웃 ev14_5
+대기
+북마크 ev14_7_off
+조건 $ev14_7획득 = 1 여기 ev14_7 아니면 여기 ev14_8_off
+북마크 ev14_7
+오마케CG ev14_7 0 0 1280 720 
+출력순서 ev14_7 -200
+페이드인 ev14_7 500
+페이드아웃 ev14_6
+대기
+북마크 ev14_8_off
+조건 $ev14_8획득 = 1 여기 ev14_8 아니면 여기 ev14_9_off
+북마크 ev14_8
+오마케CG ev14_8 0 0 1280 720 
+출력순서 ev14_8 -200
+페이드인 ev14_8 500
+페이드아웃 ev14_7
+대기
+북마크 ev14_9_off
+점프 종료2
+
+
+
+
+
+//ev15_1 출력
+북마크 ev15_1출력
+
+키처리 27 여기 종료2
+키처리 201 여기 종료2
+키처리 202
+키처리 203 텅빈.txt 첫줄
+
+쓰레드 라벨제거
+라벨 페이지번호
+쓰레드
+시스템버튼제거
+버튼제거
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드 
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+조건 $ev15획득 = 1 여기 ev15_1 아니면 여기 ev15_2_off
+북마크 ev15_1
+CG ev15 ev15.jpg 
+출력순서 ev15 -200
+페이드인 ev15 500
+대기
+북마크 ev15_2_off
+점프 종료2
+
+
+
+
+
+//종료
+북마크 종료
+키처리 27 
+키처리 201 
+쓰레드 ev01_1페이드아웃
+페이드아웃 ev01_1 500
+쓰레드
+쓰레드 ev01_2페이드아웃
+페이드아웃 ev01_2 500
+쓰레드
+쓰레드 ev02_1페이드아웃
+페이드아웃 ev02_1 500
+쓰레드
+쓰레드 ev02_2페이드아웃
+페이드아웃 ev02_2 500
+쓰레드
+쓰레드 ev02_3페이드아웃
+페이드아웃 ev02_3 500
+쓰레드
+쓰레드 ev02_4페이드아웃
+페이드아웃 ev02_4 500
+쓰레드
+쓰레드 ev02_5페이드아웃
+페이드아웃 ev02_5 500
+쓰레드
+쓰레드 ev02_6페이드아웃
+페이드아웃 ev02_6 500
+쓰레드
+쓰레드 ev02_7페이드아웃
+페이드아웃 ev02_7 500
+쓰레드
+쓰레드 ev02_8페이드아웃
+페이드아웃 ev02_8 500
+쓰레드
+쓰레드 ev02_9페이드아웃
+페이드아웃 ev02_9 500
+쓰레드
+쓰레드 ev02_10페이드아웃
+페이드아웃 ev02_10 500
+쓰레드
+쓰레드 ev02_11페이드아웃
+페이드아웃 ev02_11 500
+쓰레드
+쓰레드 ev02_12페이드아웃
+페이드아웃 ev02_12 500
+쓰레드
+쓰레드 ev02_13페이드아웃
+페이드아웃 ev02_13 500
+쓰레드
+쓰레드 ev03_1페이드아웃
+페이드아웃 ev03_1 500
+쓰레드
+쓰레드 ev03_2페이드아웃
+페이드아웃 ev03_2 500
+쓰레드
+쓰레드 ev03_3페이드아웃
+페이드아웃 ev03_3 500
+쓰레드
+쓰레드 ev03_4페이드아웃
+페이드아웃 ev03_4 500
+쓰레드
+쓰레드 ev04_1페이드아웃
+페이드아웃 ev04_1 500
+쓰레드
+쓰레드 ev04_2페이드아웃
+페이드아웃 ev04_2 500
+쓰레드
+쓰레드 ev04_3페이드아웃
+페이드아웃 ev04_3 500
+쓰레드
+쓰레드 ev05_1페이드아웃
+페이드아웃 ev05_1 500
+쓰레드
+쓰레드 ev05_2페이드아웃
+페이드아웃 ev05_2 500
+쓰레드
+쓰레드 ev05_3페이드아웃
+페이드아웃 ev05_3 500
+쓰레드
+쓰레드 ev05_4페이드아웃
+페이드아웃 ev05_4 500
+쓰레드
+쓰레드 ev05_5페이드아웃
+페이드아웃 ev05_5 500
+쓰레드
+쓰레드 ev06_1페이드아웃
+페이드아웃 ev06_1 500
+쓰레드
+쓰레드 ev06_2페이드아웃
+페이드아웃 ev06_2 500
+쓰레드
+쓰레드 ev06_3페이드아웃
+페이드아웃 ev06_3 500
+쓰레드
+쓰레드 ev07_1페이드아웃
+페이드아웃 ev07_1 500
+쓰레드
+쓰레드 ev07_2페이드아웃
+페이드아웃 ev07_2 500
+쓰레드
+쓰레드 ev08_1페이드아웃
+페이드아웃 ev08_1 500
+쓰레드
+쓰레드 ev08_2페이드아웃
+페이드아웃 ev08_2 500
+쓰레드
+쓰레드 ev09_1페이드아웃
+페이드아웃 ev09_1 500
+쓰레드
+쓰레드 ev09_2페이드아웃
+페이드아웃 ev09_2 500
+쓰레드
+쓰레드 ev09_3페이드아웃
+페이드아웃 ev09_3 500
+쓰레드
+쓰레드 ev09_4페이드아웃
+페이드아웃 ev09_4 500
+쓰레드
+쓰레드 ev09_5페이드아웃
+페이드아웃 ev09_5 500
+쓰레드
+쓰레드 ev09_6페이드아웃
+페이드아웃 ev09_6 500
+쓰레드
+쓰레드 ev09_7페이드아웃
+페이드아웃 ev09_7 500
+쓰레드
+쓰레드 ev09_8페이드아웃
+페이드아웃 ev09_8 500
+쓰레드
+쓰레드 ev09_9페이드아웃
+페이드아웃 ev09_9 500
+쓰레드
+쓰레드 ev09_10페이드아웃
+페이드아웃 ev09_10 500
+쓰레드
+쓰레드 ev10_1페이드아웃
+페이드아웃 ev10_1 500
+쓰레드
+쓰레드 ev10_2페이드아웃
+페이드아웃 ev10_2 500
+쓰레드
+쓰레드 ev10_3페이드아웃
+페이드아웃 ev10_3 500
+쓰레드
+쓰레드 ev10_4페이드아웃
+페이드아웃 ev10_4 500
+쓰레드
+쓰레드 ev10_5페이드아웃
+페이드아웃 ev10_5 500
+쓰레드
+쓰레드 ev10_6페이드아웃
+페이드아웃 ev10_6 500
+쓰레드
+쓰레드 ev11_1페이드아웃
+페이드아웃 ev11_1 500
+쓰레드
+쓰레드 ev11_2페이드아웃
+페이드아웃 ev11_2 500
+쓰레드
+쓰레드 ev11_3페이드아웃
+페이드아웃 ev11_3 500
+쓰레드
+쓰레드 ev12_1페이드아웃
+페이드아웃 ev12_1 500
+쓰레드
+쓰레드 ev12_2페이드아웃
+페이드아웃 ev12_2 500
+쓰레드
+쓰레드 ev12_3페이드아웃
+페이드아웃 ev12_3 500
+쓰레드
+쓰레드 ev12_4페이드아웃
+페이드아웃 ev12_4 500
+쓰레드
+쓰레드시작
+딜레이 500
+
+
+점프 시스템_CG갤러리.txt CG리스트
+
+
+
+
+//종료
+북마크 종료2
+키처리 27 
+키처리 201 
+쓰레드 ev13_1페이드아웃
+페이드아웃 ev13_1 500
+쓰레드
+쓰레드 ev13_2페이드아웃
+페이드아웃 ev13_2 500
+쓰레드
+쓰레드 ev14_1페이드아웃
+페이드아웃 ev14_1 500
+쓰레드
+쓰레드 ev14_2페이드아웃
+페이드아웃 ev14_2 500
+쓰레드
+쓰레드 ev14_3페이드아웃
+페이드아웃 ev14_3 500
+쓰레드
+쓰레드 ev14_4페이드아웃
+페이드아웃 ev14_4 500
+쓰레드
+쓰레드 ev14_5페이드아웃
+페이드아웃 ev14_5 500
+쓰레드
+쓰레드 ev14_6페이드아웃
+페이드아웃 ev14_6 500
+쓰레드
+쓰레드 ev14_7페이드아웃
+페이드아웃 ev14_7 500
+쓰레드
+쓰레드 ev14_8페이드아웃
+페이드아웃 ev14_8 500
+쓰레드
+쓰레드 ev15페이드아웃
+페이드아웃 ev15 500
+쓰레드
+쓰레드시작
+딜레이 500
+
+
+점프 시스템_CG갤러리_2.txt CG리스트2
+

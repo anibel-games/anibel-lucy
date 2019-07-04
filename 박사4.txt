@@ -1,0 +1,362 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Sept 29, Doctor"
+//변수 슬롯씬이름 = "9월 29일 박사"
+//변수 슬롯씬이름 = "9月29日 博士"
+
+
+딜레이 1000
+배경음악 반복 c7.mp3
+페이드인 배경음악 1000
+배경룰페이드인 룰_23.png 500
+배경 bg_lab_day bg_lab_day.jpg
+딜레이 500
+효과음 knockknock_gentle knockknock_gentle.mp3
+딜레이 2000
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+딜레이 1500
+변수 루시 = "l51"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 500
+스크립트 대화창함수.txt
+스크립트 이름.txt 루시
+보이스 lucy0618_{{$언어}}.mp3
+대사 “ Doctor…
+딜레이 2000
+대사잇기  Doctor… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy suddenly came looking for me.
+대기
+대사 It was unexpected of her, so I was a little surprised.
+대기
+스크립트 이름.txt 박사
+대사 “ What’s this all about? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy hesitates a little bit.
+대기
+스크립트 루시.txt 74
+스크립트 이름.txt 루시
+보이스 lucy0619_{{$언어}}.mp3
+대사 “ Uh… Um… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Just what is on her mind?
+대기
+스크립트 이름.txt 박사
+대사 “ Go ahead. ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0620_{{$언어}}.mp3
+대사 “ When will Lucy be able to meet her master? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her words made me cease all my movements momentarily.
+대기
+대사 Then, as if nothing had happened, I calmly replied.
+대기
+스크립트 이름.txt 박사
+대사 “ What do you mean? ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0621_{{$언어}}.mp3
+대사 “ When will Lucy be ready to be released? ”
+대기
+보이스 lucy0622_{{$언어}}.mp3
+대사 “ When will Lucy be able to meet her master? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Well… ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0623_{{$언어}}.mp3
+대사 “ Lucy is very excited to find out what kind of person her master will be. ”
+대기
+스크립트 루시.txt 20 1
+보이스 lucy0624_{{$언어}}.mp3
+대사 “ Although, since Lucy is a robot, she cannot dream. ”
+대기
+스크립트 루시.txt 26 1
+보이스 lucy0625_{{$언어}}.mp3
+대사 “ But if Lucy was human, she believes that she would dream every night about
+대사새줄
+대사잇기 meeting her master. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0626_{{$언어}}.mp3
+대사 “ When… When will Lucy be able to meet her master? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have no idea how I should respond.
+대기
+대사 Her words are stabbing at my heart.
+대기
+대사 It’s painful to continue listening to her.
+대기
+대사새줄
+대사잇기 It’s painful to watch her desire for a master.
+대기
+대사 Despite that, I do my best to stay composed.
+대기
+대사 In a controlled, measured voice, I reply.
+대기
+스크립트 이름.txt 박사
+대사 “ Well, try not to fret over it too much. ”
+대기
+대사 “ Your big day will come soon enough.
+대기
+대사잇기  It’s not like you don’t enjoy staying here,
+대사새줄
+대사잇기 right? ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0627_{{$언어}}.mp3
+대사 “ Of course. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Then all you need to do is wait patiently. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0628_{{$언어}}.mp3
+대사 “ But how long will Lucy need to wait? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Well…
+대기
+대사잇기  It might take a little longer than you expect. ”
+대기
+스크립트 루시.txt 48
+스크립트 이름.txt 루시
+보이스 lucy0629_{{$언어}}.mp3
+대사 “ W-will it really take that long? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A small chuckle escapes my mouth.
+대기
+스크립트 이름.txt 박사
+대사 “ Yes. Since we must secure approval from the authorities. ”
+대기
+스크립트 루시.txt 58
+스크립트 이름.txt 루시
+보이스 lucy0630_{{$언어}}.mp3
+대사 “ Is the process really that difficult? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Mhm. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0631_{{$언어}}.mp3
+대사 “ Why is that? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ They’re… scared. ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0632_{{$언어}}.mp3
+대사 “ Scared? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0633_{{$언어}}.mp3
+대사 “ What are they scared about? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I struggle to find the words to tell her.
+대기
+대사 Lucy purses her lips while trying to read my expression.
+대기
+스크립트 루시.txt 33
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0634_{{$언어}}.mp3
+대사 “ Is Lucy… scary? ”
+대기
+스크립트 루시.txt 37 1
+보이스 lucy0635_{{$언어}}.mp3
+대사 “ Are people scared of Lucy? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ …Quite a lot of them are, actually. ”
+대기
+스크립트 루시.txt 09
+스크립트 이름.txt 루시
+보이스 lucy0636_{{$언어}}.mp3
+대사 “ Is Doctor also scared? ”
+대기
+보이스 lucy0637_{{$언어}}.mp3
+대사 “ Is he… scared of Lucy? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Not me. ”
+대기
+대사 “ But everyone’s different. ”
+대기
+대사 “ It’s unlikely that other people feel the same way as I do. ”
+대기
+대사 “ Only the people at this lab share my perspective. ”
+대기
+대사 “ There are definitely people out there who are scared of you. ”
+대기
+대사 “ There might even be people in this very lab who may put up a strong front, but
+대사새줄
+대사잇기 are actually afraid deep inside. ”
+대기
+대사 “ There are a lot more people like that in the outside world. ”
+대기
+대사 “ Many more than you can imagine. ”
+대기
+스크립트 루시.txt 10
+스크립트 이름.txt 루시
+보이스 lucy0638_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+보이스 lucy0639_{{$언어}}.mp3
+대사 “ Lucy doesn’t understand. ”
+대기
+스크립트 루시.txt 40 1
+보이스 lucy0640_{{$언어}}.mp3
+대사 “ Lucy comes with security features like any other robot. ”
+대기
+보이스 lucy0641_{{$언어}}.mp3
+대사 “ Lucy knows that some of her features might pose a threat to people. ”
+대기
+스크립트 루시.txt 57 1
+보이스 lucy0642_{{$언어}}.mp3
+대사 “ But… she was programmed to be unable to harm humans. ”
+대기
+보이스 lucy0643_{{$언어}}.mp3
+대사 “ There is something called the Three Laws of Robotics. ”
+대기
+보이스 lucy0644_{{$언어}}.mp3
+대사 “ There are rules in place to protect humans. ”
+대기
+보이스 lucy0645_{{$언어}}.mp3
+대사 “ No matter how twisted Lucy becomes and starts malfunctioning… ”
+대기
+보이스 lucy0646_{{$언어}}.mp3
+대사 “ The moment Lucy breaks any of the laws, she’s programmed to break down. ”
+대기
+스크립트 루시.txt 33 1
+보이스 lucy0647_{{$언어}}.mp3
+대사 “ That’s why… ”
+대기
+스크립트 루시.txt 37 1
+보이스 lucy0648_{{$언어}}.mp3
+대사 “ That’s why Lucy hopes that people will stop being scared of her. ”
+대기
+스크립트 루시.txt 78 1
+보이스 lucy0649_{{$언어}}.mp3
+대사 “ Lucy hopes that the people in the outside world will stop being scared of her. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The chance of Lucy being officially released… is probably close to nil.
+대기
+대사 The authorities are very conservative.
+대기
+대사새줄
+대사잇기 We’ve been having a tough time trying to convince them.
+대기
+대사 They don’t wish for any changes that may pose a risk.
+대기
+대사 And it’s not just them. The majority of people also share their view.
+대기
+대사 My mindset is certainly in the minority.
+대기
+대사새줄
+대사잇기 We’re nothing but a small group of people disillusioned with human beings.
+대기
+대사 We’re crossing the line that wasn’t meant to be crossed.
+대기
+대사 Nothing has changed since the past.
+대기
+대사 The fact that she’s still very dangerous.
+대기
+대사 She’s a robot that is capable of replacing a human being wholly.
+대기
+대사 The nobility of mankind.
+대기
+대사새줄
+대사잇기 Our reign over the world.
+대기
+대사 This robot has the potential to take them away entirely.
+대기
+대사 That is why the authorities believe that Lucy is a Pandora’s box.
+대기
+//대사 여는 것을 재고해 보아야 한다고 주장한다.
+//대기
+대사 That is why they’re trying to restrict her capabilities and keep her out of public
+대사새줄
+대사잇기 reach.
+대기
+대사 You can learn beauty from art,
+대기
+대사새줄
+대사잇기 The world from science,
+대기
+대사새줄
+대사잇기 Life from religion,
+대기
+대사 And man from robots.
+대기
+대사 It could be that people are afraid to see reflections of themselves.
+대기
+대사 They’re afraid they might be reproduced through robots.
+대기
+대사 The day will soon come.
+대기
+대사 The day where I will have to let go of Lucy.
+대기
+//배경음악 반복 c7.mp3
+대사 There isn’t much time remaining… for me and Lucy.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 루시.txt 지우기1000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+딜레이 500
+배경룰페이드아웃 룰_34.png 400
+딜레이 3000
+
+
+변수 chapter = 44
+
+점프 로봇3원칙.txt 첫줄
+
+
+

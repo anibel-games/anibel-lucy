@@ -1,0 +1,472 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 23, You"
+//변수 슬롯씬이름 = "10월 23일 주인공"
+//변수 슬롯씬이름 = "10月23日 主人公"
+
+배경룰페이드인 룰_26.png 400
+배경 bg_room01_day bg_room01_day.jpg
+//음악선정?
+배경음악 반복 wake_up.mp3
+//배경음악 반복 community.mp3
+페이드인 배경음악 2000
+
+스크립트 대화창함수.txt
+딜레이 500
+대사 The clock reads 10:30 AM.
+대기
+대사 I feel a lot better compared to yesterday.
+대기
+대사새줄
+대사잇기 My dizziness is gone, and my mind is now crystal sharp.
+대기
+대사 It’s as if my sickness from yesterday was just a dream.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_16.png 700
+딜레이 1000
+배경룰페이드인 룰_16.png 700
+배경 bg_laundry_day bg_laundry_day.jpg
+효과음 e74064_sink-01 e74064_sink-01.mp3
+페이드인 e74064_sink-01 1500
+딜레이 2500
+배경룰페이드아웃 룰_17.png 700
+페이드아웃 e74064_sink-01 1000
+딜레이 1000
+배경룰페이드인 룰_30.png 700
+배경 bg_livingroom_day bg_livingroom_day.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I take a light shower and enter the living room.
+대기
+대사 I lock eyes with Lucy, who was doing some cleaning around the house.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+변수 루시 = "l53"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0582_{{$언어}}.mp3
+대사 “ Ah, master is awake. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I find it difficult to maintain my gaze with her.
+대기
+대사새줄
+대사잇기 Because of the events from yesterday.
+대기
+대사 I could only give a small nod.
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0583_{{$언어}}.mp3
+대사 “ How is master feeling? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Well… not too bad. ”
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0584_{{$언어}}.mp3
+대사 “ Really? Lucy will check master’s temperature again. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m telling you, I’m fine. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Without even pretending to listen, Lucy places her hand on my forehead.
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0585_{{$언어}}.mp3
+대사 “ Mm… yes. It does appear that master’s fever is really gone. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s what I said. ”
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0586_{{$언어}}.mp3
+대사 “ What a relief. It appears it was just a mild sickness. ”
+대기
+보이스 lucy0587_{{$언어}}.mp3
+대사 “ Will master be going to school today, then? ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0588_{{$언어}}.mp3
+대사 “ Although master will be late to class. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 My body has recovered enough for me to be able to attend class without straining myself.
+대기
+//대사새줄
+대사 But I feel too lazy to go to school at this hour.
+대기
+대사 I’ll also probably draw a lot of attention if I enter right in the middle of class, and I
+대사새줄
+대사잇기 don’t want that either.
+대기
+스크립트 이름.txt 주인공
+대사 “ No, not today. Let’s just go with the story of me still being sick. ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0589_{{$언어}}.mp3
+대사 “ Master. It’s not good to pretend to be sick. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m not pretending. I actually still feel a bit feverish. ”
+대기
+대사 “ I feel like I’m about to faint, but I’m trying my best to stay up. ”
+대기
+스크립트 루시.txt 83
+스크립트 이름.txt 루시
+보이스 lucy0590_{{$언어}}.mp3
+대사 “ It’s even worse to tell a lie. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It’s so inconvenient that she already knows everything.
+대기
+대사새줄
+대사잇기 Since I can’t talk my way through anything.
+대기
+스크립트 이름.txt 주인공
+대사 “ Anyway, I’m not going. So give it up. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0591_{{$언어}}.mp3
+대사 “ Please don’t make a fuss over it. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I said I’m not going! And no one’s going to make me. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy puts on a troubled expression.
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0592_{{$언어}}.mp3
+대사 “ It can’t be helped… Just this one time, then. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I won…
+대기
+대사잇기  It’s my victory.
+대기
+대사 But in exchange, I seem to have lost my status as her master.
+대기
+대사 I don’t know if this is really something to be happy about.
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0593_{{$언어}}.mp3
+대사 “ Master must be starving, yes? ”
+대기
+//배경음악 반복 wake_up.mp3
+보이스 lucy0594_{{$언어}}.mp3
+대사 “ Lucy will prepare something right away. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+대사 I quickly stop Lucy, who was just about to head over to the kitchen.
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 1500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 주인공
+대사 “ Umm… by the way… ”
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l62"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0595_{{$언어}}.mp3
+대사 “ Yes? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy turns around and gives me a questioning look.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, how should I put this… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The words are stuck in my throat.
+대기
+대사 I shake my head, take a deep breath, then continue.
+대기
+//음악선정?
+쓰레드 배경음악페이드인
+//배경음악 반복 free31.mp3
+//배경음악 반복 free0701.mp3
+배경음악 반복 Promise_Of_You.mp3
+페이드인 배경음악 2000
+쓰레드
+쓰레드시작
+스크립트 이름.txt 주인공
+대사 “ I’ll just say that I’m thankful for what you’ve done. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 92
+딜레이 500
+대사 Lucy stares at me while frozen in place.
+대기
+대사 I awkwardly scratch my cheeks.
+대기
+스크립트 이름.txt 주인공
+대사 “ It… wasn’t a bad feeling. ”
+대기
+대사 “ Unlike the other kids at my age, I never had a mother taking care of me ever since I was little. ”
+대기
+대사 “ My father was always so focused on his work, too. ”
+대기
+대사 “ And my new mother is nothing more than a distant stranger to me. ”
+대기
+대사 “ She never stops by our place unless she has a good reason to. ”
+대기
+대사 “ So basically… I’ve never had anyone take care of me while I’m sick. ”
+대기
+대사 “ That’s why, the fact that you were here to stay by my side… ”
+대기
+대사 “ It was… How to put it… ”
+대기
+대사 “ A new sensation. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That was too vague of a description.
+대기
+대사 I feel that I need to make myself clearer.
+대기
+스크립트 이름.txt 주인공
+대사 “ In other words… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I overcome my embarrassment. And pronounce each word clearly.
+대기
+스크립트 이름.txt 주인공
+대사 “ Thanks for taking care of me…
+대기
+대사잇기  Lucy. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy doesn’t say a word.
+대기
+대사 She continues to stare at me in silence.
+대기
+스크립트 이름.txt 주인공
+대사 “ Lucy? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0596_{{$언어}}.mp3
+대사 “ This is the first time… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0597_{{$언어}}.mp3
+대사 “ This is the first time Lucy was able to receive master’s gratitude. ”
+대기
+스크립트 루시.txt 51 1
+보이스 lucy0598_{{$언어}}.mp3
+대사 “ It feels like… this is the first time Lucy has ever proven useful to master. ”
+대기
+스크립트 루시.txt 78 1
+보이스 lucy0599_{{$언어}}.mp3
+대사 “ Lucy was afraid all this time. ”
+대기
+보이스 lucy0600_{{$언어}}.mp3
+대사 “ Because Lucy didn’t know whether she was doing a good job, or if she was only
+대사새줄
+대사잇기 causing trouble. ”
+대기
+스크립트 루시.txt 74 1
+보이스 lucy0601_1_{{$언어}}.mp3
+대사 “ As master knows… ”
+대기
+보이스 lucy0601_2_{{$언어}}.mp3
+대사 “ Lucy was always being scolded by master for being clumsy. ”
+대기
+스크립트 루시.txt 77 1
+보이스 lucy0602_{{$언어}}.mp3
+대사 “ And father was always yelling at Lucy for being useless. ”
+대기
+보이스 lucy0603_{{$언어}}.mp3
+대사 “ That is why…
+딜레이 1500
+대사잇기  it was tough for Lucy to maintain her confidence. ”
+대기
+보이스 lucy0604_{{$언어}}.mp3
+대사 “ Lucy always wore a bright, cheery smile and pretended nothing was wrong. ”
+대기
+스크립트 루시.txt 78 1
+보이스 lucy0605_{{$언어}}.mp3
+대사 “ But deep inside, Lucy felt uneasy and afraid. ”
+대기
+보이스 lucy0606_{{$언어}}.mp3
+대사 “ Afraid that if things continued like this, she may be abandoned by master one
+대사새줄
+대사잇기 day… ”
+대기
+보이스 lucy0607_{{$언어}}.mp3
+대사 “ Abandoned just like before… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You idiot. I would never—! ”
+대기
+스크립트 루시.txt 67
+스크립트 이름.txt 루시
+보이스 lucy0608_{{$언어}}.mp3
+대사 “ But… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy cuts me off and continues to speak.
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0609_{{$언어}}.mp3
+대사 “ But now… Lucy has become more confident. ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0610_{{$언어}}.mp3
+대사 “ At last…
+딜레이 1500
+대사잇기  At last, master has acknowledged Lucy… ”
+대기
+보이스 lucy0611_{{$언어}}.mp3
+대사 “ At last… master has found Lucy useful. ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0612_{{$언어}}.mp3
+대사 “ Lucy is very happy about that. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Both of us go silent for a while.
+대기
+대사새줄
+대사잇기 Then I continue while trying to hide my embarrassment.
+대기
+스크립트 이름.txt 주인공
+대사 “ In all honesty… you’re not that bad. ”
+대기
+대사 “ You’re really helping me out a lot. ”
+대기
+대사 “ So quit your worrying. ”
+대기
+대사 “ And…
+대기
+대사잇기  you can continue to stay here. ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0613_{{$언어}}.mp3
+대사 “ Really? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah. I will personally allow it. ”
+대기
+스크립트 루시.txt 93
+스크립트 이름.txt 루시
+보이스 lucy0614_{{$언어}}.mp3
+대사 “ Lucy can really continue to stay here, in this house? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah… You can. ”
+대기
+스크립트 루시.txt 20
+스크립트 이름.txt 루시
+보이스 lucy0615_{{$언어}}.mp3
+대사 “ Lucy can really continue to stay by master’s side? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yeah.
+대기
+대사잇기  From here on out, you can stay by my side. ”
+대기
+대사 “ No, actually… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I decide to be more honest.
+대기
+대사 More honest… with myself.
+대기
+스크립트 이름.txt 주인공
+대사 “ I would like you to stay here.
+대기
+대사잇기  From here on out. ”
+대기
+대사 “ I would like you to continue being here for me. ”
+대기
+대사 “ Can you do that? ”
+대기
+딜레이 500
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0616_{{$언어}}.mp3
+대사 “ Of course. ”
+대기
+보이스 lucy0617_{{$언어}}.mp3
+대사 “ Lucy will gladly do so. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy smiled.
+대기
+대사새줄
+대사잇기 She smiled brightly, resembling a real person.
+대기
+대사 The reason why my heart is wavering so much.
+대기
+대사새줄
+대사잇기 The reason why it wouldn’t calm down.
+대기
+//배경음악 반복 free0701.mp3
+대사 I’d say it’s definitely because of that smile.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 루시.txt 지우기1000
+딜레이 1000
+
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_32.png 400
+
+딜레이 6000
+
+
+변수 chapter = 16
+
+점프 로봇3원칙.txt 첫줄
+
+
+
+
+
+

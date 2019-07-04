@@ -1,0 +1,3042 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+대사출력영역 132 80 1030 640
+대사창영역 0 0 1280 720
+
+대사크기 35
+대사속도 30
+대사그림자 1
+대사줄간격 7
+대사굵게 아니
+대사페이드 응
+대사정렬 왼쪽
+대사그림자색깔 0 0 0 255
+대사색깔 255 255 255 255
+대사폰트 Open Sans
+대사창스킨 black_background_40.png
+
+
+조건 $트루엔딩 = 1 여기 REUNION세이브이름
+변수 슬롯씬이름 = "An Old Man's Wish"
+//변수 슬롯씬이름 = "초로의 기억"
+//변수 슬롯씬이름 = "初老の記憶"
+점프 초로의기억세이브이름
+북마크 REUNION세이브이름
+변수 슬롯씬이름 = "REUNION"
+북마크 초로의기억세이브이름
+
+
+조건 $초로의기억 = 1 여기 스킵확인 아니면 여기 트루엔딩안봄
+
+북마크 트루엔딩안봄
+
+딜레이 2000
+효과음 e74008_bird-01 e74008_bird-01.mp3 반복
+딜레이 1000
+배경룰페이드인 룰_24.png 200
+배경 bg_room02_day bg_room02_day.jpg
+딜레이 500
+배경음악 반복 free31.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 It was early morning.
+대기
+대사새줄
+대사잇기 The chirping of birds could be heard through the window.
+대기
+대사새줄
+대사잇기 The old man, who was a light sleeper, slowly opened his eyes.
+대기
+효과음 fabric_lean_soft fabric_lean_soft.mp3
+대사 Lazily sitting up in bed, he scowled at the almost-blinding sunlight.
+대기
+대사 Then he slowly rose, walked over to the windows and closed the curtains.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+효과음 e71006_curtain-open e71006_curtain-open.mp3
+쓰레드 효과음페이드아웃
+페이드아웃 e74008_bird-01 2000
+쓰레드
+쓰레드시작
+배경룰페이드인
+배경 bg_room02_earlymorning bg_room02_earlymorning.jpg
+페이드인 bg_room02_earlymorning 1000
+페이드아웃 bg_room02_day
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 As the curtains came to a halt, everything became quieter as if he had muted the
+대사새줄
+대사잇기 television.
+대기
+대사 Darkness engulfed the sixteen-square-meter sized room.
+대기
+대사 Even after opening his eyes, the old man continued to sit on his bed, staring into
+대사새줄
+대사잇기 empty space.
+대기
+대사새줄
+대사잇기 It appeared he hadn’t fully woken up yet.
+대기
+효과음 knockknock_gentle knockknock_gentle.mp3
+딜레이 1000
+대사 “ Pardon my intrusion. ”
+대기
+대사 There was a sudden knock at the door.
+대기
+대사새줄
+대사잇기 Followed by a feminine voice oddly devoid of emotion, which caused the old man to
+대사새줄
+대사잇기 snap out of his trance.
+대기
+대사 The old man slowly moved his gaze towards the entrance of the room with an
+대사새줄
+대사잇기 indifferent stare.
+대기
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+딜레이 1500
+대사 A woman young enough to be his granddaughter made an appearance at the door.
+대기
+대사 “ Breakfast is ready. ”
+대기
+대사 Her words lacked the kindness expected in such a familial relationship.
+대기
+대사 The formal, rigid manner was reminiscent of how an employee would address their
+대사새줄
+대사잇기 superior.
+대기
+대사 “ Bring it here. ”
+대기
+대사 Obeying the old man’s order, she quietly entered the room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 PIM023 = "p01"
+CG {{PIM023}} {{PIM023}}.png
+페이드인 {{PIM023}} 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 She placed the food upon a fold-up table beside his bed.
+대기
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+딜레이 700
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+대사 It was a light meal consisting of toast with scrambled eggs and bacon…
+대기
+대사새줄
+대사잇기 And a lovely salad containing a wide variety of vegetables, served with coffee.
+대기
+대사 Instead of expressing gratitude for bringing his meal or giving a morning greeting, the old man decided to say something else.
+대기
+대사 “ What time is it…? ”
+대기
+대사새줄
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+대사잇기 “ It’s currently 6:12 AM.
+대기
+대사잇기  Master has woken up four minutes later than average this
+대사새줄
+대사잇기 month. ”
+대기
+대사 Her voice sounded noticeably unnatural and dull.
+대기
+대사새줄
+대사잇기 Yet the old man did not seem to mind.
+대기
+효과음 coffee_slurping coffee_slurping.mp3
+대사 Lifting his cup of coffee from the table, he took a sip.
+대기
+대사 “ Ah… ”
+대기
+대사새줄
+대사잇기 The balance between the amount of coffee mix and water was nothing short of
+대사새줄
+대사잇기 perfect.
+대기
+//대사새줄
+//대사잇기 언제나와 같이 최고의 맛과 향기를 간직하고 있다.
+//대기
+대사 She was aware of how the old man preferred his coffee, and had been providing the
+대사새줄
+대사잇기 same coffee every day without fail.
+대기
+대사 It’s not just the coffee.
+대기
+대사새줄
+대사잇기 The breakfast laid out before the old man was also the result of a carefully calculated balance between his tastes and required nutrient intake.
+대기
+대사 Silveroids.
+대기
+대사새줄
+대사잇기 They’re androids that specifically cater to the elderly.
+대기
+대사 With the changes in society and advancements in technology, traditional
+대사새줄
+대사잇기 familial duties are becoming outdated.
+대기
+대사 Nowadays, it’s rare to see people taking care of their aging parents themselves.
+대기
+대사새줄
+대사잇기 Instead, they would gift them a premium silveroid as their designated caretaker.
+대기
+대사 The old man once more skimmed through the newspaper article he’d read a few days ago.
+대기
+대사새줄
+대사잇기 It said that the gratitude of the offspring correlates to how advanced of a silveroid
+대사새줄
+대사잇기 model they send to their parents.
+대기
+대사 The one in front of him was a PIM series model.
+대기
+대사새줄
+대사잇기 Undoubtedly considered one of the best out there.
+대기
+대사 “ Master? ”
+대기
+대사 Seeing that the old man had stopped moving, the android voiced her concern.
+대기
+대사새줄
+대사잇기 From those words, the old man awoke from his daydream and proceeded to carry a
+대사새줄
+대사잇기 piece of toast to his mouth.
+효과음 eating_a_toastie eating_a_toastie.mp3
+대기
+대사 While crunching down on the familiar crispness, he began to reminisce about the past.
+대기
+대사 “ Now that I think about it, it’s been quite a while since you first arrived here. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 There wasn’t any visible reaction from the android.
+대기
+대사새줄
+대사잇기 She continued to stare into the air while maintaining a rigid posture.
+대기
+대사 “ How long has it been since your arrival? ”
+대기
+대사새줄
+대사잇기 “ It has been exactly ten years. ”
+대기
+대사새줄
+대사잇기 “ I see…
+대기
+대사잇기  Time sure flies. ”
+대기
+대사 She was the present his son had bought for his birthday after the old man retired
+대사새줄
+대사잇기 from his work.
+대기
+대사 Technically, the android in front of him was not the same model he received back
+대사새줄
+대사잇기 then, but an upgraded version of it.
+대기
+//대사새줄
+//대사잇기 그녀의 이전 기종이었다.
+//대기
+대사 Whenever the old man’s birthday neared, his son would religiously send a new
+대사새줄
+대사잇기 revision of the model.
+대기
+대사 Then the memory chip from the previous version would be inserted into the new one.
+대기
+대사새줄
+대사잇기 The silveroid has gone through six upgrades so far.
+대기
+대사 Apparently, many new features were added with each successive generation, yet the
+대사새줄
+대사잇기 old man had difficulty understanding the subtle variations.
+대기
+대사 The unfamiliarity of the new models only made him feel uncomfortable.
+대기
+대사 “ Master? ”
+대기
+대사새줄
+대사잇기 From her repeated calls of ‘master’, the old man shifted his focus back to the meal.
+대기
+대사 “ …It’s nothing. ”
+대기
+대사새줄
+대사잇기 “ Could it be that master is not feeling well? ”
+대기
+대사새줄
+대사잇기 “ When people get old…
+대기
+대사잇기  they naturally turn sentimental. It can’t be helped. ”
+대기
+대사 After letting out a small sigh, the old man placed a trembling hand on his forehead.
+대기
+대사 “ Old memories just keep coming back to me even when I’m only trying to rest. ”
+대기
+대사새줄
+대사잇기 “ Does master mean good memories? ”
+대기
+대사새줄
+대사잇기 “ Yes… There are some good ones.
+대기
+대사잇기  Good or bad, they all come back though. ”
+대기
+CG bg_black bg_black.jpg
+페이드인 bg_black 1500
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 She was an android he once had actively rejected.
+대기
+대사새줄
+대사잇기 Yet being left alone after a recent divorce had somewhat altered his views.
+대기
+대사새줄
+대사잇기 As an old man who had only paid attention to work in his life, it was obvious that he
+대사새줄
+대사잇기 wouldn’t be able to handle the house work on his own.
+대기
+대사 He tried hiring live-in housekeepers, but found the arrangement too uncomfortable,
+대사새줄
+대사잇기 as it wasn’t in his preference to live together with someone unfamiliar.
+대기
+대사 After he had experienced numerous failures, he finally decided to try the silveroid.
+대기
+대사 He still had a lot of trouble with the robot at first.
+대기
+대사새줄
+대사잇기 She nitpicked about the smallest things, and ambushed him in the washroom every
+대사새줄
+대사잇기 day with her examinations and whatnot.
+대기
+대사새줄
+대사잇기  The first year was very stressful for him.
+대기
+대사 However, humans are adaptive creatures.
+대기
+대사새줄
+대사잇기 With time, he eventually adjusted to her routine, keeping his complaints down to a
+대사새줄
+대사잇기 minimum.
+대기
+대사 In fact, he had become so dependent upon the convenience of having an android that the old man wasn’t sure if he would ever be able to survive without one.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_black 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 “ I have to get up now. Take this away. ”
+대기
+대사 The android put on a puzzled expression as the old man weakly set down his fork.
+대기
+대사 “ Master is finished? But master has not yet met the recommended nutrient intake. ”
+대기
+대사새줄
+대사잇기 “ I don’t feel too hungry today. ”
+대기
+대사새줄
+대사잇기 “ Then just to be safe, today’s morning examination will have to be more extensive
+대사새줄
+대사잇기 than usual.
+대기
+대사잇기  I expect nothing out of the ordinary, but there’s nothing wrong with being cautious. ”
+대기
+대사새줄
+대사잇기 “ How am I supposed to find the time for that?
+대기
+대사잇기  I have to go open my shop. ”
+대기
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+대사 The old man rose as he stubbornly replied.
+대기
+스크립트 PIM023.txt 지우기
+딜레이 500
+대사 “ Master must not avoid the examination entirely.
+대기
+대사잇기  If master insists, I will do my best to get through it as quick as possible. ”
+대기
+대사새줄
+대사잇기 The old man clicked his tongue in annoyance.
+대기
+대사 Only a few years ago, he would’ve gotten furious in a similar situation, but he was
+대사새줄
+대사잇기 used to it now.
+대기
+대사 After shaking his head, all he did was quietly stare at the android approaching him.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_room02_earlymorning 2000
+딜레이 2500
+배경룰페이드인 룰_17.png 500
+배경 bg_house_enterancecloseup_day bg_house_enterancecloseup_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 After the examination, the old man made some preparations to leave and headed
+대사새줄
+대사잇기 towards the front door.
+대기
+대사 The android set aside the chores she had been doing, and approached the old man.
+대기
+대사 “ Will master be leaving now? ”
+대기
+대사새줄
+대사잇기 “ Yes. ”
+대기
+대사 The old man went through his usual routine.
+대기
+대사새줄
+대사잇기 But today, the android appeared to be a little tense.
+대기
+대사 After a moment of hesitation, she carefully spoke up.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+배경룰페이드인 룰_20.png 500
+배경 bg_house_passage_day bg_house_passage_day.jpg
+딜레이 300
+변수 PIM023 = "p01"
+CG {{PIM023}} {{PIM023}}.png
+페이드인 {{PIM023}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 “ …Master. ”
+대기
+대사새줄
+대사잇기 “ What is it? ”
+대기
+대사새줄
+대사잇기 “ I was thinking maybe master should avoid going to work today. ”
+대기
+대사새줄
+대사잇기 “ And why is that? ”
+대기
+대사 “ It’s been confirmed that master isn’t in a very good condition.
+대기
+대사잇기  Please consider taking a day off. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 Those were the results from the examination he’d taken in the washroom moments
+대사새줄
+대사잇기 ago.
+대기
+대사 It was true that his body felt heavier when he woke up.
+대기
+대사새줄
+대사잇기 It seemed that he had caught a cold.
+대기
+대사 Yet the old man dismissed the silveroid’s concerns with a snort.
+대기
+대사새줄
+대사잇기 “ From just this? I’m fine. There’s nothing wrong with me. ”
+대기
+대사 The android stopped the old man who was preparing to leave once more.
+대기
+대사새줄
+대사잇기 She was persistent in her attempt to get her message across.
+대기
+대사새줄
+대사잇기 Apparently, in case of emergencies, her typically-meek personality was programmed to become more assertive.
+대기
+대사 “ As mentioned, it’s not necessary for master to go to work today.
+대기
+대사잇기  It’s fine if master
+대사새줄
+대사잇기 leaves the store work to me and rests at home. ”
+대기
+대사새줄
+대사잇기 “ Hmph, no way. What if you get robbed or something?
+대기
+대사잇기  How are you planning to deal with that when you’re not even allowed to hurt people? ”
+대기
+대사 “ There are many ways to subdue people without inflicting bodily harm.
+대기
+대사잇기  There is also
+대사새줄
+대사잇기 an alarm feature that will alert the police to arrive on the scene in less than five
+대사새줄
+대사잇기 minutes. ”
+대기
+대사 “ Stop talking nonsense and stay at home.
+대기
+대사잇기  Keeping our home safe is a job too. What
+대사새줄
+대사잇기 if this place gets robbed? ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 It seemed like the android wanted to say something, but she eventually lowered her
+대사새줄
+대사잇기 head.
+대기
+//대사새줄
+//배경음악 반복 free31.mp3
+대사 After giving her a look of disapproval, the old man left the house.
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 PIM023.txt 지우기1000
+
+배경룰페이드아웃 룰_25.png 700
+효과음 e74032_door-03 e74032_door-03.mp3
+딜레이 3500
+배경룰페이드인 룰_29.png 500
+배경 bg_convenience_day bg_convenience_day.jpg
+배경음악 반복 free0519.mp3
+페이드인 배경음악 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The place that the old man arrived at was found to be a tiny, ordinary supermarket.
+대기
+대사새줄
+대사잇기 It was a business he’d started himself near his home after retiring.
+대기
+대사새줄
+대사잇기 Being in the quieter areas of town, the business wasn’t exactly booming, but at the
+대사새줄
+대사잇기 very least, he had always managed to earn enough to pay for his expenses.
+대기
+대사 It wasn’t like the old man was hunting for cash, though.
+대기
+대사 His lifetime savings was already enormous, and the monthly allowance from his son
+대사새줄
+대사잇기 was nothing to scoff at either.
+대기
+대사새줄
+대사잇기 He could spend the rest of his life without having to work at all if he wanted to.
+대기
+대사 Yet he was the type of person who had focused on work all his life.
+대기
+대사새줄
+대사잇기 Unlike others, he never bothered going on vacations or spending time abroad, mostly because he didn’t know what to do with his free time.
+대기
+대사 He wasn’t flexible enough to try to find a new hobby at this stage of his life.
+대기
+대사새줄
+대사잇기 Since he had thought about nothing but work all his life, all he could do was to find
+대사새줄
+대사잇기 some more work even after retirement.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 500
+배경룰페이드아웃 룰_27.png 500
+딜레이 1500
+배경룰페이드인 룰_27.png 500
+배경 bg_convenience_day bg_convenience_day.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The store remained vacant even after its opening.
+대기
+대사새줄
+대사잇기 Several regular customers stopped by as time passed, but today still seemed especially quiet.
+대기
+대사새줄
+대사잇기 Sometimes, co-workers from the company he used to work at would come visit the
+대사새줄
+대사잇기 old man.
+대기
+대사 He had always been a little out-of-touch concerning family matters, but he was
+대사새줄
+대사잇기 well-respected at his workplace back in the day.
+대기
+대사 Whenever they paid him a visit, the old man would reminiscence about the past and
+대사새줄
+대사잇기 share stories usually over drinks.
+대기
+대사새줄
+대사잇기 But that seemed unlikely today.
+대기
+대사 Inside the quiet store, the old man passed the time by cleaning and checking the
+대사새줄
+대사잇기 inventory.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+배경룰페이드아웃 룰_3.png 500
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 It was when a bit of time had passed and the old man was sitting at the counter
+대사새줄
+대사잇기 reading a newspaper.
+대기
+대사 At the usual hour, the android stopped by at the store.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+
+배경룰페이드인 룰_11.png 500
+배경 bg_convenience_day bg_convenience_day.jpg
+딜레이 700
+변수 PIM023 = "p01"
+CG {{PIM023}} {{PIM023}}.png
+페이드인 {{PIM023}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 “ Is everything fine? ”
+대기
+대사 The android offered a greeting with that dull voice of hers.
+대기
+대사새줄
+대사잇기 She was carrying a large sack.
+대기
+대사새줄
+대사잇기 He already knew what it was without needing to look inside.
+대기
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+대사새줄
+대사잇기 She placed the sack onto the counter and proceeded to unwrap it.
+대기
+대사 “ I’ve brought master’s lunch. ”
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+대기
+대사새줄
+대사잇기 The moment the old man caught a glimpse of the lunchbox, he let out a deep sigh.
+대기
+대사새줄
+대사잇기 “ How many times have I told you? You don’t need to bring me something like this.
+대기
+대사새줄
+대사잇기  I can just get by with the stuff inside the store. ”
+대기
+대사새줄
+대사잇기 “ With all due respect, the food inside the store is not healthy enough for master.
+대기
+대사새줄
+대사잇기  Please refrain from eating such undesirable products.
+대기
+대사잇기  I have received a specific order from master’s son that I should supervise and manage master’s diet. ”
+대기
+대사 The old man became silent at the mention of his son.
+대기
+대사새줄
+대사잇기 But he soon snatched the lunchbox away while letting out a loud snort.
+대기
+효과음 e71017_sara e71017_sara.mp3
+대사새줄
+대사잇기 Then, as if he was trying to let out his anger, he hastily pried it open.
+대기
+대사새줄
+대사잇기 An assortment of nutritious foods that he enjoyed was laid out before him.
+대기
+대사 “ That bastard.
+대기
+대사잇기  Pretending to worry so much… ”
+대기
+대사 Even while carrying the lukewarm food to his mouth using a pair of chopsticks, the old man continued to complain.
+대기
+대사 “ Saying all of that and not even bothering to show up once in a while…
+대기
+//대사잇기  말로는 있는 말 없는 말 다 하면서 신경 쓰는 척 생색은 다 낸다고.
+//대기
+//대사잇기  누가 보면 지극 정성으로 효도하고 있는 줄 알 거야.
+//대기
+//대사잇기  근데 정작 얼굴은 코빼기도 안 비춘다니까.
+//대기
+대사잇기  How
+대사새줄
+대사잇기 ungrateful. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ That’s why there’s no point in having children.
+대기
+대사잇기  Running off doing whatever they
+대사새줄
+대사잇기 want and leaving their parents behind after growing up. Tsk, tsk… ”
+대기
+대사 The android tilted her modest-sized head in confusion.
+대기
+//대사새줄
+//대사잇기 방금 한 말이 이해가 가지 않는 모양이었다.
+//대기
+대사 “ With all due respect,
+대기
+대사잇기  master was the one who told his son, who was paying master a visit for his birthday two years ago, to never show up again and kicked him out of the house. ”
+대기
+대사새줄
+대사잇기 “ That’s because he kept talking nonsense! ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ Every word that came out of his mouth was driving me insane, so how could I not
+대사새줄
+대사잇기 do anything about it? ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 As his voice began to rise, the android lowered her head without a word.
+대기
+대사새줄
+대사잇기 She appeared to be waiting for the old man’s anger to settle down.
+대기
+대사 Two years had passed since the old man and his son last saw each other.
+대기
+대사새줄
+대사잇기 The monthly allowances and the birthday presents delivered through an android.
+대기
+대사새줄
+대사잇기 Those were the only connections remaining between them.
+대기
+대사 The old man had always been on bad terms with his son.
+대기
+대사새줄
+대사잇기 Whenever they met, they always ended up getting into a quarrel over something
+대사새줄
+대사잇기 petty. This eventually led to a huge confrontation on his birthday two years ago.
+대기
+대사 The argument escalated until the old man, who had finally reached his breaking point, decided to kick his son out of his home.
+대기
+대사 Since the incident, they hadn’t made any direct contact in two years.
+대기
+대사새줄
+대사잇기 Their relationship had deteriorated to the point where they would only use the old
+대사새줄
+대사잇기 man’s silveroid to keep in touch.
+대기
+대사 “ From the son’s perspective, master may have come across as exceedingly cruel. ”
+대기
+대사새줄
+대사잇기 “ I’ve done nothing wrong. ”
+대기
+대사새줄
+대사잇기 “ He had returned from overseas just to pay master a visit, so perhaps it was
+대사새줄
+대사잇기 insensitive of master to drive him away only because of a minor argument. ”
+대기
+대사 “ That’s enough.
+대기
+대사잇기  This is nothing out of the ordinary.
+대기
+대사잇기  You should already know that. ”
+대기
+대사새줄
+대사잇기 “ Even so, I feel that this has been going on for too long this time.
+대기
+대사잇기  Even after a
+대사새줄
+대사잇기 conflict, he always used to return the following holiday as if nothing had happened. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ I’m worried that the pain in the son’s heart may be deeper than what master
+대사새줄
+대사잇기 believes. ”
+대기
+대사 The old man did not reply.
+대기
+대사새줄
+대사잇기 He’d also been worried all this time.
+대기
+대사새줄
+대사잇기 He’d always argued with his son, yet he did silently admit that this latest conflict had
+대사새줄
+대사잇기 lasted far longer than usual.
+대기
+대사 For a moment, he began to worry that his son couldn’t visit because something bad
+대사새줄
+대사잇기 had happened to him.
+대기
+대사새줄
+대사잇기 But that was very unlikely.
+대기
+대사 If his son hadn’t been doing well, the silveroid would’ve already notified him.
+대기
+대사새줄
+대사잇기 It was proof that his son was doing fine.
+대기
+대사 “ Master? ”
+대기
+대사새줄
+대사잇기 “ What is it? ”
+대기
+대사새줄
+대사잇기 “ Master has stopped moving his hand. ”
+대기
+대사새줄
+대사잇기 Indeed, the old man had ceased moving his chopsticks.
+대기
+대사 Keeping his hand stationary, the old man posed a question.
+대기
+대사새줄
+대사잇기 It wasn’t something he would normally ask.
+대기
+대사 “ …What has my son been doing lately? ”
+대기
+대사새줄
+대사잇기 “ He appears to be running a successful business.
+대기
+대사잇기  I heard that he has returned from
+대사새줄
+대사잇기 his business trip overseas. ”
+대기
+대사새줄
+대사잇기 “ I see… So he’s in Korea at the moment. ”
+대기
+대사 It was understandable why he couldn’t pay a visit while overseas.
+대기
+대사새줄
+대사잇기 But if he was presently in Korea, what was stopping him now?
+대기
+대사 As the old man continued to stare at his lunchbox with a pained look, the android
+대사새줄
+대사잇기 spoke up once more with her mechanical voice.
+대기
+대사 “ Master, the food is getting cold. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 The old man closed the lid for his half-eaten lunchbox.
+대기
+효과음 mug_on_table mug_on_table.mp3
+대사새줄
+대사잇기 “ Hmph, I’ve lost my appetite. ”
+대기
+대사새줄
+대사잇기 “ Master has not yet consumed the required amount of nutrients.
+대기
+대사잇기  Moreover, master
+대사새줄
+대사잇기 has already skipped most of his breakfast. ”
+대기
+쓰레드 배경진동
+진동 bg_convenience_day 1 5 300 1500
+쓰레드
+쓰레드시작
+효과음 metal_drop metal_drop.mp3
+대사크기 45
+대사 “ I said I’ve lost my appetite! How many times do I have to repeat myself? ”
+대기
+대사크기 35
+대사 As the old man slammed his chopsticks onto the counter, the android silently
+대사새줄
+대사잇기 continued to stare at him.
+대기
+대사새줄
+대사잇기 The look in her eyes implied that she still had a few things left to say.
+대기
+대사 “ Master is… ”
+대기
+대사새줄
+대사잇기 “ What is it? ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ If you’re going to speak up, at least finish your sentence. ”
+대기
+대사 Following the old man’s command, the android continued with her emotionless voice.
+대기
+대사 “ With all due respect, I believe that master has a tendency to get too angry with his
+대사새줄
+대사잇기 son.
+대기
+대사잇기  I recommend that master attempt to be more understanding of him. ”
+대기
+대사 It was rare for the android to openly criticize him.
+대기
+대사새줄
+대사잇기 Because he wasn’t used to such treatment, he couldn’t help but furrow his brow.
+대기
+대사 After a moment, he lowered his voice and replied calmly.
+대기
+대사새줄
+대사잇기 “ Are you taking his side? ”
+대기
+대사새줄
+대사잇기 “ I’m not taking anyone’s side.
+대기
+대사잇기  I’m only advising that if master wishes the situation
+대사새줄
+대사잇기 with his son to improve, he must gain proper control over his emotions. ”
+대기
+대사새줄
+대사잇기 “ Do you really think I get mad just because I want to?
+대기
+대사잇기  Of course not,
+대기
+대사잇기  but the stuff he
+대사새줄
+대사잇기 spouts in front of me makes me lose my mind.
+대기
+대사잇기  It’s his fault for being such an idiot. ”
+대기
+대사 “ Isn’t that because…
+대기
+대사잇기  he’s part of family? ”
+대기
+대사새줄
+대사잇기 “ Just what are you talking about, all of a sudden? ”
+대기
+대사새줄
+대사잇기 The android stared at the old man intently.
+대기
+대사 She opened her mouth to speak as she shook her head back and forth in hesitation.
+대기
+대사새줄
+대사잇기 Evidently, she wasn’t feeling very confident.
+대기
+대사 “ The reason why master gets so frustrated… ”
+대기
+대사 “ Isn’t it because having a father-son bond causes one party to unconsciously expect
+대사새줄
+대사잇기 something from the other, and become frustrated when they don’t follow through? ”
+대기
+//대사잇기  무의식적으로 서로에게 일정 부분 마음을 의탁하고 있는 부자 관계이기 때문에 타인을 상대할 때처럼 감정을 다스릴 수가 없는 것이 아닐까요? ”
+//대기
+대사 “ I have never seen master get so angry in front of other people. ”
+대기
+//대사잇기  그렇지 않습니까? ”
+//대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 “ I’m an android.
+대기
+대사잇기  Therefore, I’m unable to properly gauge how these negative
+대사새줄
+대사잇기 emotions are being formed inside master.
+대기
+대사잇기  We do not have any unnecessary,
+대사새줄
+대사잇기 troublesome emotions programmed inside us after all.
+대기
+대사잇기  But… ”
+대기
+대사새줄
+대사잇기 “ But what? ”
+대기
+대사 “ Since I will never be able to experience such emotions, sometimes I find myself
+대사새줄
+대사잇기 being envious of that side of humans. ”
+대기
+대사새줄
+대사잇기 “ Hmph, what nonsense. ”
+대기
+대사 Just for a moment, the old man nearly forgot he was conversing with a machine.
+대기
+대사새줄
+대사잇기 The android knew that the old man wanted the straight-forward, robotic version of
+대사새줄
+대사잇기 her instead of the casual, conversational one, so she rarely ever opened up to share
+대사새줄
+대사잇기 her thoughts like this.
+대기
+대사 Such a candid display stirred up a memory deep within the man’s past, nearly
+대사새줄
+대사잇기 forgotten till now.
+대기
+//대사 그건 여태까지 쭉 잊고 있었던,
+//대기
+//대사잇기  그리고 방금 안드로이드의 모습이 아니었다면 앞으로도 잊고 지냈을 아주 오래 전 기억이었다.
+//대기
+대사 “ Now that I think about it, there was another android quite similar to you… ”
+대기
+대사새줄
+대사잇기 The old man quietly mumbled.
+대기
+대사 “ I can barely remember when that was…
+대기
+대사잇기  It happened so long ago. ”
+대기
+//배경음악 반복 free0519.mp3
+대사 “ My son once brought home a strange android. ”
+대기
+대사 “ She was… ”
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+CG bg_black bg_black.jpg
+페이드인 bg_black 1500
+대사 The old man closed his eyes in an attempt to comb through the distant memories.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+배경음악 반복 free0336.mp3
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+CG l62 l62.png
+페이드인 l62 1500
+딜레이 1500
+대사 “ She was a little different from you… ”
+대기
+대사지우기
+쓰레드 l104
+CG l104 l104.png
+페이드인 l104 1000
+페이드아웃 l62 500
+쓰레드
+쓰레드시작
+딜레이 1500
+대사 “ Yes…
+대기
+대사잇기  She really seemed like a real person, that one. ”
+대기
+대사새줄
+대사잇기 “ A real person? ”
+대기
+대사새줄
+대사잇기 “ I’ve forgotten how she looked or sounded like. ”
+대기
+//대사잇기  원체 오래 전 일이니. ”
+//대기
+대사지우기
+쓰레드 l136
+CG l136 l136.png
+페이드인 l136 1000
+페이드아웃 l104 500
+쓰레드
+쓰레드시작
+딜레이 1500
+대사 “ But one thing I remember is that she was very talkative.
+대기
+대사잇기  She would always get ahead of herself despite being only a robot. ”
+대기
+딜레이 300
+페이드아웃 l136 1000
+대사 The android remained silent after the explanation, staring blankly at her master.
+대기
+대사 “ But my understanding is that master prefers a less-talkative, laid-back android
+대사새줄
+대사잇기 companion. ”
+대기
+//대사잇기  실례로 저는 최소한의 말만 하도록 프로그램 되어 있습니다. ”
+//대기
+대사 “ I do! That’s why I hated that android.
+대기
+대사잇기  My son and I used to argue over it all the
+대사새줄
+대사잇기 time. ”
+대기
+대사새줄
+대사잇기 “ What did you do with her? ”
+대기
+대사새줄
+대사잇기 “ What do you mean? ”
+대기
+대사 Her eyes slightly narrowed.
+대기
+대사새줄
+대사잇기 “ The android.
+대기
+대사잇기  What did you do with her? ”
+대기
+대사새줄
+대사잇기 “ Well, I’m not sure. ”
+대기
+대사새줄
+대사잇기 “ Did master continue using it? ”
+대기
+대사새줄
+대사잇기 “ It was so long ago… I don’t recall what exactly happened. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 1000
+CG bg_white bg_white.jpg
+페이드인 bg_white 500
+CG ev12_5 ev12_5.jpg
+페이드인 ev12_5 700
+페이드아웃 bg_white
+
+딜레이 1000
+CG bg_white bg_white.jpg
+페이드인 bg_white 500
+페이드아웃 ev12_5
+페이드아웃 bg_white 500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 “ ……… ”
+대기
+대사새줄
+대사잇기 Only then, the old man could finally remember his son’s heartbroken expression.
+대기
+대사 At the time, he was certainly at his most rebellious.
+대기
+대사새줄
+대사잇기 Even before then, the old man never had a good relationship with his son.
+대기
+대사새줄
+대사잇기 Afterwards, their conflict appeared to escalate in intensity and frequency.
+대기
+대사 The old man wondered whether an alternate, less-confrontational approach might’ve worked out better.
+대기
+대사 “ ……… ”
+대기
+대사 But with the shake of his head, he dismissed the thought.
+대기
+대사새줄
+대사잇기 It would be pointless to dwell in the past.
+대기
+대사 He had no intention to change either.
+대기
+대사새줄
+대사잇기 The old man still despised androids, and he believed that he hadn’t done anything
+대사새줄
+대사잇기 wrong.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+페이드아웃 bg_black 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 “ How about making an apology? ”
+대기
+대사 The old man’s hand flinched a little.
+대기
+대사새줄
+대사잇기 He responded in anger.
+대기
+대사 “ Quit talking nonsense. ”
+대기
+대사새줄
+대사잇기 “ Oh, was it truly nonsense?
+대기
+대사잇기  I thought master would want his relationship with his
+대사새줄
+대사잇기 son to improve. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ Does master not want to make peace with him? ”
+대기
+대사 “ Stop it. How do you expect me to do such a thing. ”
+대기
+//대사잇기  내가 뭐가 아쉬워서 그래야 되나? 내 눈에 흙이 들어와도 그런 짓은 못 해! ”
+//대기
+대사새줄
+대사잇기 “ …Master. ”
+대기
+대사새줄
+대사잇기 There was a bit of hesitation, but it only lasted for a very short moment.
+대기
+대사 With a newly determined look, the android stared straight into the old man’s eyes.
+대기
+대사새줄
+대사잇기 “ I’ve served master for a very long time,
+대기
+대사잇기  and I’m confident that I know more about
+대사새줄
+대사잇기 master than anyone else. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 “ I’ve more or less deduced what master deems important in terms of values. ”
+대기
+//대사잇기  또한, 주인님께서 실제로는 무얼 더 중요하게 생각하고 계시는지도 잘 알고 있습니다. ”
+//대기
+대사새줄
+대사잇기 “ Just what are you blabbering about.
+대기
+대사잇기  You’re acting quite strange today. ”
+대기
+대사 “ Isn’t there something more important than master’s pride? ”
+대기
+//대사잇기  자존심보다 훨씬 더 소중한 것을 잊고 있지는 않으신지요? ”
+//대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 “ Isn’t there something much more important that master needs to consider?
+대기
+대사잇기  Instead
+대사새줄
+대사잇기 of trying to save face, wouldn’t it be wiser to drop his stubbornness once and for all? ”
+대기
+대사 The old man did not budge.
+대기
+대사새줄
+대사잇기 Without agreeing or disagreeing, he sat in silence.
+대기
+대사 While maintaining her blank expression, the android continued.
+대기
+대사새줄
+대사잇기 “ Of course, I do realize such a task would be difficult to accomplish. ”
+대기
+//대사잇기  간단해 보이지만 실행하기는 쉽지 않은 문제라는 것도 여러 데이터를 통해 인지하고 있습니다. ”
+//대기
+대사 “ But master…
+대기
+대사잇기  I believe that sometimes, it’s important to swallow one’s pride for the
+대사새줄
+대사잇기 greater good. ”
+대기
+대사새줄 
+대사잇기 “ ……… ”
+대기
+대사새줄
+대사잇기 The old man tore open one of the cigarette packs on the store display and lit one up.
+대기
+대사새줄
+대사잇기 Typically, the android would have scolded him for such an unhealthy habit, but for
+대사새줄
+대사잇기 some reason, she did not say anything this time.
+대기
+대사 Exhaling a cloud of smoke, the man sighed.
+대기
+대사새줄
+대사잇기 “ It will be master’s birthday soon.
+대기
+대사잇기  Instead of holding a social gathering with master’s
+대사새줄
+대사잇기 acquaintances, may I recommend a private session with master’s son to spend some
+대사새줄
+대사잇기 quality time together? ”
+대기
+대사새줄
+대사잇기 “ …You sure are talkative today. ”
+대기
+대사 The android lowered her head.
+대기
+대사새줄
+대사잇기 Perhaps this was her own unique way of apologizing.
+대기
+대사 The old man exhaled another cloud of smoke.
+대기
+대사새줄
+대사잇기 “ Well…
+대기
+대사잇기  I suppose it wouldn’t hurt to sit down and have a nice, long chat with my
+대사새줄
+대사잇기 son. ”
+대기
+대사 The android raised her head to look at the old man once more.
+대기
+대사새줄
+대사잇기 “ Then I will make the preparations right away.
+대기
+대사잇기  Also, is it all right if I pay master’s son a visit and deliver the message in person this time? ”
+대기
+대사 Although her voice sounded flat as usual, the old man could somehow sense a tinge
+대사새줄
+대사잇기 of excitement coming from her.
+대기
+대사 “ Is it really necessary that you go in person? ”
+대기
+대사새줄
+대사잇기 “ To elaborate, the timing would coincide with the arrival of an android engineer for
+대사새줄
+대사잇기 the annual model upgrade.
+대기
+대사잇기  I thought it would be a good idea to go into the city and
+대사새줄
+대사잇기 get the upgrade there while delivering the message. ”
+대기
+//대사잇기  직접적으로 내용을 전달할 수 있고, 또 가는 김에 몸체도 교환을 하고 돌아오면 편하지 않을까 하고…… ”
+//대기
+대사 “ Although, things will be inconvenient for master during my leave. ”
+대기
+대사새줄
+대사잇기 “ If that’s better for you, then go ahead.
+대기
+대사잇기  I’ll be fine around here. ”
+대기
+대사 “ I understand. Then I will make the preparations to leave right away. ”
+대기
+//배경음악 반복 free0336.mp3
+대사새줄
+대사잇기 “ …All right. Good luck. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 PIM023.txt 지우기1000
+딜레이 500
+배경룰페이드아웃 룰_13.png 500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Several days flew by since their conversation.
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 1500
+쓰레드
+쓰레드시작
+
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+
+딜레이 3000
+배경룰페이드인 룰_29.png 500
+배경 bg_house_enteranceopen_day bg_house_enteranceopen_day.jpg
+배경음악 반복 free0334.mp3
+페이드인 배경음악 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The android, who had been busy creating a schedule all this time, was especially
+대사새줄
+대사잇기 making a lot of racket today.
+대기
+대사새줄
+대사잇기 When she was done, she bid farewell to the old man before she departed.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 PIM023 = "p01"
+CG {{PIM023}} {{PIM023}}.png
+페이드인 {{PIM023}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 “ Then I will be making my leave now.
+대기
+대사잇기  If everything goes as planned, I expect to be
+대사새줄
+대사잇기 back by the evening two days from today. ”
+대기
+대사새줄
+대사잇기 “ You’ll be taking that long? ”
+대기
+대사새줄
+대사잇기 “ The trip itself shouldn’t take much time, but I must cater to both master’s son and
+대사새줄
+대사잇기 the android engineer’s schedules.
+대기
+대사잇기  With the time constraints, it appears that I will have to meet up with the engineer for the upgrade first. ”
+대기
+대사 “ What about my son? ”
+대기
+대사새줄
+대사잇기 “ I will be seeing him on the last day of the scheduled trip.
+대기
+대사잇기  I am planning to bring him back with the news of master’s birthday.
+대기
+대사잇기  Now, please take this… ”
+대기
+효과음 paper_double paper_double.mp3
+대사 The android handed the old man a piece of paper.
+대기
+대사 “ What’s this? ”
+대기
+대사새줄
+대사잇기 “ It’s a list of popular restaurants nearby.
+대기
+대사잇기  Each one offers a unique birthday set menu.
+대기
+대사잇기  I’ve listed the foods they offer in great detail. ”
+대기
+대사 “ That should be more than enough to go around, but I’d like to recommend master
+대사새줄
+대사잇기 to add in some of his son’s favorite foods. ”
+대기
+대사 “ If it’s too much trouble, I can take care of the reservations and everything else, but I
+대사새줄
+대사잇기 just thought it would be better if master personally chose the menu himself. ”
+대기
+대사새줄
+대사잇기 “ …All right. I’ll take a look. ”
+대기
+대사 Squinting, the old man scanned through the sheet of paper.
+대기
+대사새줄
+대사잇기 The text was in a large font in consideration of the old man’s vision, but he still had
+대사새줄
+대사잇기 trouble reading it.
+대기
+대사 It appeared that his eyesight had gotten even worse.
+대기
+효과음 glasses_folley glasses_folley.mp3
+대사 He took out a magnifying glass from his pocket to ease the strain.
+대기
+대사새줄
+대사잇기 The silveroid was very thorough.
+대기
+대사새줄
+대사잇기 She had listed the menu and price comparisons, cuisine critiques, as well as
+대사새줄
+대사잇기 accompanying photos.
+대기
+대사 Rice cakes, seaweed soup, assortment of veggies, crab soup, pork chops, beef rib
+대사새줄
+대사잇기 stew, vegetable pancakes… and so forth.
+대기
+//대사새줄
+//대사잇기 떡으로 만든 케이크, 미역국, 해파리 냉채, 꽃게장, 돼지고기 보쌈, 갈비찜, LA 갈비, 각종 전, 삼색 나물 등…
+//대기
+대사잇기  All the menus were fairly similar with little
+대사새줄
+대사잇기 diversity.
+대기
+대사 The android appeared to have sensed the old man’s distress.
+대기
+대사 “ Is there something master needs help with? ”
+대기
+대사새줄
+대사잇기 “ I just… don’t know. ”
+대기
+대사새줄
+대사잇기 “ Don’t know what, master? ”
+대기
+대사새줄
+대사잇기 “ What my son likes…
+대기
+대사잇기  I just can’t figure it out.
+대기
+대사잇기  All I ever did was give him allowance
+대사새줄
+대사잇기 money, thinking he’ll go find something to eat on his own. ”
+대기
+대사 In this situation, it wouldn’t have been that strange for others to judge him for not
+대사새줄
+대사잇기 knowing what his own son liked, but he wasn’t talking to a real person.
+대기
+대사지우기
+딜레이 300
+스크립트 PIM023.txt 지우기
+딜레이 500
+효과음 pencil_writing pencil_writing.mp3
+대사 The android quietly began writing something down on another sheet of paper, and
+대사새줄
+대사잇기 soon handed it over to the old man.
+대기
+페이드아웃 pencil_writing
+변수 PIM023 = "p01"
+CG {{PIM023}} {{PIM023}}.png
+페이드인 {{PIM023}} 1000
+딜레이 500
+효과음 paper_double paper_double.mp3
+대사 “ I’ve tried listing the foods that master’s son might enjoy.
+대기
+대사잇기  I should mention that the
+대사새줄
+대사잇기 data is more than two years old, so it might not be the most accurate. However, I do
+대사새줄
+대사잇기 believe that it will serve as a good reference point. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 The old man slowly took the sheet of paper.
+대기
+대사새줄
+대사잇기 He couldn’t bring himself to praise her for her efforts,
+대기
+대사잇기  mostly because he was shocked
+대사새줄
+대사잇기 by the fact that a mere android knew more about his son than he did.
+대기
+대사 “ I just thought boys like him would do fine growing up on their own… ”
+대기
+대사새줄
+대사잇기 “ Master? ”
+대기
+대사새줄
+대사잇기 “ …Forget it. That will be all. ”
+대기
+//배경음악 반복 free0334.mp3
+대사 A puzzled look lingered on the Silveroid’s face, but she soon departed with a bow.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 PIM023.txt 지우기1000
+딜레이 500
+효과음 FootStepD11 FootStepD11.mp3
+페이드아웃 FootStepD11 3000
+
+효과음 e74032_door-03 e74032_door-03.mp3
+배경룰페이드인
+배경 bg_house_enterance_day bg_house_enterance_day.jpg
+페이드인 bg_house_enterance_day 500
+페이드아웃 bg_house_enteranceopen_day
+페이드아웃 배경음악 3000
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 500
+효과음 e74023_clock-01_custom e74023_clock-01_custom.mp3 반복
+대사 And the old man was instantly enveloped by a deafening silence.
+대기
+대사 He could only hear the loud ticking of the clock.
+대기
+대사 Appearing as if he was having trouble getting used to the emptiness, the old man
+대사새줄
+대사잇기 weakly made his way towards his bedroom.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 e74023_clock-01_custom 1000
+페이드아웃 bg_house_enterance_day 2500
+
+
+딜레이 3000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 A day had passed since the android’s departure.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+//쓰레드 배경음악페이드인
+//배경음악 반복 community.mp3
+//쓰레드
+//쓰레드시작
+배경음악 반복 free31.mp3
+딜레이 1500
+배경 bg_table_day bg_table_day.jpg
+페이드인 bg_table_day 2000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 Today was a day no different than any other, yet it felt far from normal for the old
+대사새줄
+대사잇기 man.
+대기
+대사 In the silveroid’s absence, the old man had to take over all of her chores, which was no walk in the park.
+대기
+대사 Even the simplest tasks, such as cooking, were proving to be quite an effort.
+대기
+대사새줄
+대사잇기 The old man found preparing the meal bothersome, so he decided to skip breakfast
+대사새줄
+대사잇기 and headed straight to the store.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+배경룰페이드아웃 룰_29.png 700
+딜레이 2000
+배경룰페이드인 룰_1.png 700
+배경 bg_convenience_day bg_convenience_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 However, without food to sustain the old man, he quickly succumbed to fatigue.
+대기
+대사 He also didn’t have a proper lunch since there was no android to bring him food.
+대기
+대사새줄
+대사잇기 Instead, he made due with a handful of rice balls from the store shelves.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 300
+페이드아웃 bg_convenience_day 1500
+딜레이 2500
+배경룰페이드인
+배경 bg_convenience_evening bg_convenience_evening.jpg
+페이드인 bg_convenience_evening 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 He set aside some time during work to make a reservation for his birthday meal.
+대기
+대사새줄
+대사잇기 The old man chose the restaurant he thought young people would prefer.
+대기
+대사 He was notified that the delivery would be made tomorrow at around 5 PM.
+대기
+대사 After a busy day of work, which felt much longer than usual, the old man dragged his
+대사새줄
+대사잇기 tired body home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 300
+배경룰페이드아웃 룰_10.png 500
+딜레이 3000
+배경룰페이드인 룰_16.png 400
+배경 bg_table_evening bg_table_evening.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 When the old man arrived home, he was too tired to cook up a proper meal.
+대기
+대사새줄
+대사잇기 So he ate a bunch of nearly-expired snacks brought from the store.
+대기
+대사 Afterwards, he neatly folded up and put away his clothes instead of leaving them lying around the house like he usually did.
+대기
+대사 Deeming it too much effort to run a bath, he opted for a quick shower. Then he ran a laundry load through the washing machine and tidied up around the house.
+대기
+대사 This was what the android had always done for the old man.
+대기
+대사 He clearly didn’t have the same amount of energy he used to have when he was
+대사새줄
+대사잇기 young.
+대기
+대사새줄
+대사잇기 He was no longer at an age where he would be able to do everything on his own.
+대기
+대사 The old man began to feel thankful that he had someone that could take care of all
+대사새줄
+대사잇기 the chores for him.
+대기
+대사 He probably would’ve never felt this way if his body hadn’t been so weak.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+배경룰페이드인 룰_16.png 400
+배경 bg_livingroom_sunset bg_livingroom_sunset.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 What the old man had the most trouble adjusting to was this air of melancholy.
+대기
+대사 Certainly, his android wasn’t the most outgoing.
+대기
+대사새줄
+대사잇기 That was because she was instructed to keep everything simple and to the point.
+대사새줄
+대사잇기 It was what the old man preferred.
+대기
+대사 Even so, there was a lot of bustle while the silveroid attended to the numerous
+대사새줄
+대사잇기 household chores.
+대기
+대사새줄
+대사잇기 The sound of soup boiling in the kitchen,
+대기
+대사잇기  the clanking of dishes in the dishwasher,
+대기
+대사잇기  the humming of the running washing machine,
+대기
+대사잇기  and the vacuum cleaner…
+대기
+대사새줄
+대사잇기 The house always used to be alive with activity.
+대기
+대사새줄
+대사잇기 He was able to hear someone else’s presence.
+대기
+대사 But now, there was nothing.
+대기
+대사 Tick-tock, tick-tock.
+대기
+대사새줄
+대사잇기 Only the sound of the clock rang in the stillness.
+대기
+대사 The fact that the old man was doing everything on his own without anyone helping
+대사새줄
+대사잇기 him…
+대기
+대사새줄
+대사잇기 And the fact that there was no one to see him out when he went to work and greet
+대사새줄
+대사잇기 him when he returned was unexpectedly tough on him.
+대기
+대사 He realized just how much he relied on the android.
+대기
+대사 He could feel how much the silveroid he used to hate was being a big help in many
+대사새줄
+대사잇기 ways.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_livingroom_sunset 2500
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 While lying in bed with nothing to do…
+대기
+대사새줄
+대사잇기 The old man tried to picture himself in his son’s shoes when he was young.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 1000
+배경룰페이드인
+배경 bg_house_passage_night bg_house_passage_night.jpg
+페이드인 bg_house_passage_night 2000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+효과음 e74024_clock-02_custom e74024_clock-02_custom.mp3 반복
+대사 The deathly quiet house.
+대기
+배경룰페이드인 룰_26.png 500
+배경 bg_table_night bg_table_night.jpg
+딜레이 300
+대사새줄
+대사잇기 The ten-dollar bills stacked on top of the kitchen table instead of a warm meal.
+대기
+대사새줄
+대사잇기 The old man imagined his son picking them up with an unhappy look on his face.
+대기
+페이드아웃 bg_table_night 2000
+대사 He imagined how his son would’ve felt being all alone at home while listening to the
+대사새줄
+대사잇기 sound of the clock ticking away…
+대기
+대사 …While waiting for his parents to return late at night.
+대기
+대사 Only then, he could finally understand how that old android, whose name he had
+대사새줄
+대사잇기 now forgotten, could’ve been such a big help to his son back then.
+대기
+대사 “ ……… ”
+대기
+//배경음악 반복 community.mp3
+대사 They say people require less sleep as they age, yet the old man felt particularly restless that night.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+쓰레드 효과음페이드아웃
+페이드아웃 e74024_clock-02_custom 3000
+쓰레드
+쓰레드시작
+페이드아웃 배경음악 3000
+딜레이 2000
+
+//////////////////////////////////////////////////////
+
+북마크 여기부터다시보기
+
+딜레이 4000
+배경룰페이드인 룰_24.png 200
+배경 bg_room02_day bg_room02_day.jpg
+배경음악 반복 free0334.mp3
+페이드인 배경음악 1000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 Today was the big day.
+대기
+대사새줄
+대사잇기 In the evening, the android would return with the old man’s son.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+
+배경룰페이드인 룰_16.png 500
+배경 bg_laundry_day bg_laundry_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 The old man took a light shower.
+대기
+대사새줄
+대사잇기 After brushing his teeth and combing his hair, he made his way towards the living
+대사새줄
+대사잇기 room, feeling refreshed.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+배경룰페이드인 룰_20.png 500
+배경 bg_livingroom_day bg_livingroom_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 It was a day off from his work, but he had other reasons to bustle about the house.
+대기
+대사새줄
+대사잇기 Rather than standing around until the food arrived, the old man decided to occupy
+대사새줄
+대사잇기 himself with some chores.
+대기
+대사 He first checked for any messy spots around the house.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+배경룰페이드인 룰_20.png 400
+배경 bg_house_passage_day bg_house_passage_day.jpg
+딜레이 1000
+배경룰페이드인 룰_1.png 400
+배경 bg_room01outside_day bg_room01outside_day.jpg
+딜레이 1000
+배경룰페이드인 룰_1.png 400
+배경 bg_table_day bg_table_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The house was clean.
+대기
+대사새줄
+대사잇기 Since the android had always kept up with her chores, that was to be expected.
+대기
+대사새줄
+대사잇기 There wasn’t any work left for the old man to do.
+대기
+대사 So at the very least, he decided to change the kitchen tablecloth.
+대기
+효과음 fabric_move fabric_move.mp3
+대사새줄
+대사잇기 He took away the aged, dust-speckled one and laid out a fresh one with a sleek
+대사새줄
+대사잇기 design.
+대기
+대사 Then he brought out a pack of coloured candles which he never had any chance to
+대사새줄
+대사잇기 use.
+쓰레드 효과음페이드인
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+딜레이 800
+효과음 e71018_sara_oku e71018_sara_oku.mp3
+쓰레드
+쓰레드시작
+대기
+대사 He also took out an assortment of fruits and veggies from the fridge.
+효과음 freezer_open freezer_open.mp3
+대기
+대사새줄
+대사잇기 Since the android had already peeled off all the skins and cut them into pleasing
+대사새줄
+대사잇기 shapes, he just needed to give them the finishing touches.
+대기
+대사 “ This should be good enough… ”
+대기
+대사새줄
+대사잇기 The old man muttered to himself while viewing the table full of food.
+대기
+대사 It was the house that the old man had lived in for as long as he could remember, but he had never seen the place brighten up as much as today.
+대기
+대사 He thought about how he never had many chances to sit down and eat with his
+대사새줄
+대사잇기 family.
+대기
+대사 So this time at least, he wanted to savor a warm, intimate meal with his son.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+페이드아웃 bg_table_day 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 While rummaging about, the old man came across a room that hadn’t been used for
+대사새줄
+대사잇기 ages.
+대기
+대사새줄
+대사잇기 It was his son’s room.
+대기
+대사 The room had remained vacant after his son moved out.
+대기
+대사 “ ……… ”
+대기
+대사 It was getting late, so he might stay over for the night.
+대기
+대사 With the intention to clean the room, the old man opened the door.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 500
+배경룰페이드아웃 룰_25.png 700
+딜레이 1000
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+배경룰페이드인 룰_25.png 500
+배경 bg_room01empty_day bg_room01empty_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The old man found himself in shock.
+대기
+대사새줄
+대사잇기 The room was so clean to the point that no one would believe it hadn’t been used in
+대사새줄
+대사잇기 years.
+대기
+대사 The old man dragged his fingers across numerous surfaces, but not a single speck of dust was to be seen.
+대기
+대사새줄
+대사잇기 It appeared that the android had been cleaning the room every day.
+대기
+대사 Had she been doing that just for the sake of cleaning the entire house?
+대기
+대사잇기  Or had she
+대사새줄
+대사잇기 been anticipating the day his son would finally return?
+대기
+대사 The old man could not tell.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 500
+페이드아웃 bg_room01empty_day 2000
+딜레이 1500
+효과음 door_bell_ring door_bell_ring.mp3
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 At five o’clock in the afternoon, the delivery arrived.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 1500
+배경룰페이드인 룰_11.png 500
+배경 bg_table_day bg_table_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Since he had added numerous side dishes, it came out to be quite a large amount of
+대사새줄
+대사잇기 food.
+대기
+대사 It wasn’t something two people would be able to finish, but that was all right.
+대기
+대사새줄
+대사잇기 He could always save the leftovers for later.
+대기
+대사 He transferred the delivered food onto dishes and bowls, then set them on the table.
+대기
+대사새줄
+대사잇기 The old man took all the dishes containing foods that his son might enjoy, and placed them on his side of the table.
+대기
+대사 He did not bother placing candles on top of the rice cake.
+대기
+대사새줄
+대사잇기 It would be embarrassing to sing the birthday song and blow out candles at his age.
+대기
+대사 He fiddled with the candle placements in an attempt to create the ideal atmosphere.
+대기
+대사 He also prepared a bottle of fine wine that hadn’t been opened for ten years.
+대기
+//배경음악 반복 free0334.mp3
+대사 Soon, the old man’s very special guest would be arriving.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 배경음악 4000
+딜레이 1000
+배경룰페이드인 룰_1.png 300
+배경 bg_table_evening bg_table_evening.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 7:15 in the evening.
+대기
+대사새줄
+대사잇기 Could it be that he was running a little late?
+대기
+대사 It was the time the android had promised, yet the doorbell did not ring.
+대기
+대사 The old man strove to be patient.
+대기
+대사새줄
+대사잇기 After all, it had been two years since they last met.
+대기
+대사새줄
+대사잇기 Waiting a few more hours wouldn’t hurt.
+대기
+대사 He tried to think up some topics he would be able to discuss with his son.
+대기
+대사새줄
+대사잇기 He had no intention of ending this meal with a fight when it had been so long since he last ate with him.
+대기
+대사 The old man did some rehearsals in his head.
+대기
+대사새줄
+대사잇기 He thought about how he would start and carry the conversation.
+대기
+대사 He reminded himself that he would need to pay extra attention to his quick temper.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+배경룰페이드아웃 룰_27.png 400
+딜레이 2500
+배경음악 반복 community.mp3
+페이드인 배경음악 4000
+배경룰페이드인 룰_27.png 400
+배경 bg_table_night bg_table_night.jpg
+딜레이 500
+효과음 e74023_clock-01_custom e74023_clock-01_custom.mp3 반복
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 Two hours passed in the blink of an eye.
+대기
+대사새줄
+대사잇기 The clock now read 9:25.
+대기
+대사 The old man started to worry if something had happened to his son.
+대기
+대사새줄
+대사잇기 He considered giving him a call, but stopped himself.
+대기
+대사 He decided to wait a little longer.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 e74023_clock-01_custom 1500
+페이드아웃 bg_table_night 2000
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 After about ten minutes…
+대기
+효과음 door_bell_ring door_bell_ring.mp3
+딜레이 2000
+대사 The doorbell that the old man had painstakingly been waiting for finally rang.
+대기
+대사 Suppressing the urge to rush out, he slowly made his way towards the front door.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1500
+배경룰페이드인 룰_25.png 500
+배경 bg_house_enterancecloseup_night bg_house_enterancecloseup_night.jpg
+딜레이 1000
+효과음 e74030_door-02-01 e74030_door-02-01.mp3
+배경룰페이드인 룰_25.png 400
+배경 bg_house_enterancecloseupopen_night bg_house_enterancecloseupopen_night.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 A silhouette of a person entered the old man’s vision as he opened the door.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+
+변수 PIM023 = "p02"
+CG {{PIM023}} {{PIM023}}.png 
+페이드인 {{PIM023}} 1500
+
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 An unfamiliar woman was standing before him.
+대기
+대사새줄
+대사잇기 With the help of the serial code embedded on her body, he was able to deduce that it was his android.
+대기
+대사 This happened every year.
+대기
+대사새줄
+대사잇기 She was just inside a new body.
+대기
+대사새줄
+대사잇기 There was no need to be surprised.
+대기
+대사 The android made a small bow towards the old man.
+대기
+대사새줄
+대사잇기 “ I have returned. How have things been? ”
+대기
+대사새줄
+대사잇기 “ How come you were so late? ”
+대기
+대사새줄
+대사잇기 “ There were some unexpected delays. ”
+대기
+대사새줄
+대사잇기 “ Okay.
+대기
+대사잇기  But… ”
+대기
+대사 The old man looked past the android.
+대기
+대사새줄
+대사잇기 But there wasn’t anyone else besides her.
+대기
+페이드아웃 배경음악 3000
+대사 “ Where’s my son? ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 There was no reply.
+대기
+대사 The old man anxiously inquired once more.
+대기
+대사 “ Where is my son? ”
+대기
+대사새줄
+대사잇기 “ Unfortunately, he had other business to attend to…
+대기
+대사잇기  My apologies. ”
+대기
+대사 Despite the silveroid’s flat tone of voice, the gesture of deeply bowing her head
+대사새줄
+대사잇기 conveyed sincere remorse.
+대기
+//대사새줄
+//대사잇기 하지만 푹 고개를 숙이는 안드로이드의 동작에서는 충분히 안타까움이 전해져 왔다.
+//대기
+배경음악 반복 community.mp3
+딜레이 2000
+대사 “ Is that so…
+대기
+대사잇기  My son’s not coming, huh. ”
+대기
+대사새줄
+대사잇기 “ I’m very sorry.
+대기
+대사잇기  It’s all my fault. ”
+대기
+대사 The android apologized once more.
+대기
+대사새줄
+대사잇기 Lacking the energy to reply, the old man weakly hobbled back inside the house.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 PIM023.txt 지우기1000
+딜레이 500
+쓰레드 효과음페이드아웃
+효과음 StepC11_slow StepC11_slow.mp3
+딜레이 3000
+페이드아웃 StepC11_slow 7000
+쓰레드
+쓰레드시작
+페이드아웃 bg_house_enterancecloseupopen_night 3000
+딜레이 6000
+배경룰페이드인
+배경 bg_table_night bg_table_night.jpg
+페이드인 bg_table_night 2500
+딜레이 1000
+
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The old man’s stare lingered on the prepared table full of food.
+대기
+대사 Much to his chagrin, he found it difficult to conceal his sadness from the android.
+대기
+대사 “ The first birthday meal I’ve prepared in a long time has gone to complete waste
+대사새줄
+대사잇기 now…
+대기
+대사잇기  I don’t think I can finish this on my own. ”
+대기
+대사새줄
+대사잇기 “ ……… ”
+대기
+대사 The android’s head lowered even further.
+대기
+대사새줄
+대사잇기 Perhaps she was feeling guilty.
+대기
+대사 “ It’s not your fault.
+대기
+대사잇기  It couldn’t be helped that he was busy. Raise your head. ”
+대기
+대사새줄
+대사잇기 “ Actually…
+대기
+대사잇기  I have brought a letter from him. ”
+대기
+대사새줄
+대사잇기 “ A letter?
+대기
+대사잇기  What’s it about? ”
+대기
+대사 The android shook her head from side to side.
+대기
+대사새줄
+대사잇기 It appeared that she did not know herself.
+대기
+대사 The old man sat up in his chair and prepared himself.
+대기
+대사 “ Would you mind reading it for me.
+대기
+대사잇기  My eyesight is quite poor. ”
+대기
+대사 The android nodded and took out the letter.
+대기
+효과음 paper_double paper_double.mp3
+대사새줄
+대사잇기 She spread out the long piece of white paper and began to read, making sure to
+대사새줄
+대사잇기 pronounce each word clearly.
+대기
+페이드아웃 배경음악 2000
+페이드아웃 bg_table_night 1500
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 2000
+CG bg_letter01 bg_letter01.jpg
+페이드인 bg_letter01 3000
+딜레이 500
+배경음악 반복 free40.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 ‘ Father, ’
+대기
+대사 ‘ I hope you have been doing well. ’
+대기
+//대사 “2년 만에 이렇게 편지라는 수단을 통해 찾아뵙습니다. ’
+//대기
+대사 ‘ First and foremost, I would like to say happy birthday, and thank you for inviting me
+대사새줄
+대사잇기 to your party.
+대기
+대사잇기  I hope you can find it in your heart to forgive your son who is sending a letter due to unforeseen circumstances instead of paying you a visit in person. ’
+대기
+대사 The needless formality continued for a little longer before finally delving into the main topic.
+대기
+대사 ‘ It appears that two years have passed since the last time I was in touch with you. ’
+대기
+대사 ‘ These years have felt both short and long, and have allowed me to think over many
+대사새줄
+대사잇기 things. ’
+대기
+대사 ‘ About this father-son relationship where we frequently quarrel…
+대기
+대사잇기  about this twisted
+대사새줄
+대사잇기 relationship where we end up scowling whenever we see each other.
+대기
+대사잇기  I’ve had more
+대사새줄
+대사잇기 than enough time to mull it over. ’
+대기
+대사 ‘ I pondered over why we always fought over even the pettiest things. ’
+대기
+대사 ‘ Why both of us were so quick to anger whenever we came to a disagreement,
+대기
+대사잇기  and
+대사새줄
+대사잇기 why we couldn’t avoid these conflicts. ’
+대기
+//대사잇기  왜 충돌을 피하지 못하는지를 곰곰이 생각했습니다. ’
+//대기
+대사 ‘ Time and time again, I tried to figure out why.
+대기
+대사잇기  I tried to grasp why you found me so
+대사새줄
+대사잇기 detestable. ’
+대기
+//대사잇기  그러다 보니…… ’
+//대기
+대사 ‘ And soon enough…
+대기
+대사잇기  After thinking it over while putting myself in your shoes, I began
+대사새줄
+대사잇기 to understand your feelings to a certain degree. ’
+대기
+대사 ‘ I began to understand what you wanted from me, and what you expected from
+대사새줄
+대사잇기 me. ’
+대기
+대사 ‘ In short… ’
+대기
+//대사잇기  아버지와 저는…… ’
+//대기
+대사 The silveroid paused momentarily.
+대기
+대사 Her wavering did not last very long.
+대기
+대사새줄
+대사잇기 Despite her hesitation, she continued to speak.
+대기
+대사 ‘ It appears that we are simply incompatible. ’
+대기
+대사 A small moan escaped from the old man’s mouth.
+대기
+대사 ‘ For the past two years, I realized that much like you have your own ways of doing
+대사새줄
+대사잇기 things, I have my own. ’
+대기
+대사 ‘ We have conflicting values and beliefs,
+대기
+대사잇기  and neither of us is willing to compromise. ’
+대기
+대사 ‘ Indeed, by cutting off all communication between us… I believe both you and I will
+대사새줄
+대사잇기 be able to lead happier lives. ’
+대기
+대사 ‘ They say that some people were simply meant to clash with one another. ’
+대기
+대사 ‘ Much like a relationship between a mother-in-law and a wife, hopeless relationships
+대사새줄
+대사잇기 can always exist where you just end up despising one another no matter what. ’
+대기
+대사 ‘ Father…
+대기
+대사잇기  Perhaps we were born to end up in that sort of relationship. ’
+대기
+대사 ‘ From now on, I ask of you to continue on your chosen path.
+대기
+대사잇기  As I shall press onward
+대사새줄
+대사잇기 on mine… despite not being the one you would have favored. ’
+대기
+대사 ‘ I have chosen to sever all my ties with you. I believe that will be best for both of us.
+대기
+대사새줄
+대사잇기 The android will act on my behalf and offer assistance to the best of her ability. ’
+대기
+//배경음악 반복 free40.mp3
+대사 ‘ Thank you for everything up until now.
+대기
+대사잇기  Goodbye. ’
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+딜레이 1500
+페이드아웃 bg_letter01 3500
+
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 And like that, the letter ended.
+대기
+대사 With eyes closed, the old man sat quietly in his chair.
+대기
+대사 He smiled bitterly as he digested the words from the letter.
+대기
+변수 $초로의기억 = 1
+조건 $트루엔딩 = 1 여기 루시 아니면 여기 종료
+
+북마크 루시
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+딜레이 1500
+배경룰페이드인
+배경 bg_table_night bg_table_night.jpg
+페이드인 bg_table_night 2000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 The atmosphere was suffocating.
+대기
+대사새줄
+대사잇기 The android did not know what to do for the old man who was sunken in depression.
+대기
+대사 What had interrupted the long-lasting silence was the sound of weeping.
+대기
+대사 The old man broke free from his shock and slowly opened his eyes.
+대기
+대사 “ …Are you crying? ”
+대기
+대사새줄
+보이스 lucy0977_{{$언어}}.mp3
+대사잇기 “ Sniff… sniff… ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+//ev14_1
+CG ev14_1 ev14_1.jpg
+페이드인 ev14_1 2500
+페이드아웃 bg_table_night
+////앨범에 ev14_1 추가
+오마케추가 ev14_1 ev14_1.jpg
+변수 $ev14_1획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 The silveroid trembled whilst clenching the letter tightly in her hands.
+대기
+대사 Only then, the old man could finally remember.
+대기
+대사새줄
+대사잇기 The android standing before him looked strikingly similar to the one from his past
+대사새줄
+대사잇기 memories.
+대기
+대사 “ It seems that…
+대기
+대사잇기  you are not my android. ”
+대기
+대사새줄
+보이스 lucy0978_{{$언어}}.mp3
+대사잇기 “ Sniff… Sniff… ”
+대기
+대사새줄
+대사잇기 “ Your face… I finally remember now.
+대기
+대사잇기  You’re the android from before.
+대기
+대사잇기  The one my
+대사새줄
+대사잇기 son brought home long ago. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+배경음악 반복 free0517.mp3
+//배경음악 반복 n75.mp3
+페이드인 배경음악 1500
+//ev14_2
+CG ev14_2 ev14_2.jpg
+페이드인 ev14_2 3500
+페이드아웃 ev14_1
+////앨범에 ev14_2 추가
+오마케추가 ev14_2 ev14_2.jpg
+변수 $ev14_2획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+보이스 lucy0979_{{$언어}}.mp3
+대사 “ I-it’s
+딜레이 1000
+대사잇기  Lucy.
+딜레이 1500
+대사잇기  It’s
+딜레이 1500
+대사잇기  Lucy Valentine,
+딜레이 1000
+대사잇기  father. ”
+대기
+딜레이 1500
+대사새줄
+대사잇기 “ I see…
+대기
+딜레이 500 
+대사잇기  So he built you back up from scratch.
+대기
+대사잇기  How obstinate. ”
+대기
+대사 The old man stared at the sobbing android in silence.
+대기
+대사 As if he was trying to comfort the android, he soon began to talk about his past.
+대기
+딜레이 1000
+대사 “ I’ve…
+대기
+대사잇기  always lived my life to the fullest. ”
+대기
+대사 Indeed, the old man had lived a busy life.
+대기
+대사 “ I don’t know about anything else…
+대기
+대사잇기  but when it came to my job, I’m confident that I
+대사새줄
+대사잇기 worked harder than anyone else. ”
+대기
+대사 The old man had dedicated most of his life to his career—
+대기
+대사잇기 even volunteering for
+대사새줄
+대사잇기 additional assignments and doing overtime late into the night.
+대기
+대사 His performance was unrivaled in terms of professional quality and outright
+대사새줄
+대사잇기 enthusiasm.
+대기
+대사새줄
+대사잇기 He became the envy of all those around him, and gained an infinite amount of
+대사새줄
+대사잇기 recognition and trust from his employers.
+대기
+대사새줄
+대사잇기 Such an impressive work ethic did not go unnoticed.
+대기
+대사 “ After constantly increasing my performance and building up a lot of experience, I
+대사새줄
+대사잇기 eventually came to earn a lot of respect from my coworkers.
+대기
+대사잇기  That inspired me to work even harder.
+대기
+대사잇기  And soon, the promotions naturally came along. ”
+대기
+대사 He had started out as a normal employee,
+대기
+대사잇기  but one day, he found himself promoted a manager.
+대기
+대사잇기  When the relatively small company he’d been supervising began to gain
+대사새줄
+대사잇기 traction and expand to multiple locations, he was promoted to a director.
+대기
+대사 “ I later re-married a colleague of mine.
+대기
+대사잇기  She knew of nothing but work, much like
+대사새줄
+대사잇기 myself, and I was very fond of her.
+대기
+대사잇기  Perhaps you could say that she was the perfect
+대사새줄
+대사잇기 match for me. ”
+대기
+대사 The old man smiled at the memory.
+대기
+대사 “ In the end, I was forced into early retirement.
+대기
+대사잇기  I made a foolish mistake and had to
+대사새줄
+대사잇기 shoulder the blame.
+대기
+대사잇기  But still, I want people to know that what I’d built up is not
+대사새줄
+대사잇기 something anyone can achieve. ”
+대기
+대사 “ Starting out as a normal employee and being promoted all the way up to a director
+대사새줄
+대사잇기 is an incredible feat.
+대기
+대사잇기  It’s the fruition of my sweat and tears. ”
+대기
+대사 “ But time is limited.
+대기
+대사잇기  If one gains something by investing time, they will also have to
+대사새줄
+대사잇기 let go of something. ”
+대기
+대사 “ In order for me to achieve what I desired, I had to give up many things. ”
+대기
+대사 “ Time with my son,
+대기
+대사잇기  time with my wife,
+대기
+대사잇기  time with my family… ”
+대기
+대사 “ I had to give up all of them for work.
+대기
+대사잇기  The time I could’ve spent with my family was
+대사새줄
+대사잇기 all invested into my job. ”
+대기
+대사 “ I was able to succeed only because I had that kind of dedication. ”
+대기
+대사 “ I knew my son hated me for thinking of nothing but work.
+대기
+대사잇기  It was the same with my
+대사새줄
+대사잇기 first wife who ran away long ago. ”
+대기
+//대사잇기  결국 참지 못하고 도망가 버렸으니 말이다. ”
+//대기
+대사 “ I suppose as a father… as a husband… I’ve failed miserably. ”
+대기
+대사 “ But I still wanted him to take after me. ”
+대기
+대사 “ After seeing my dedication,
+대기
+대사잇기  after seeing all the things I was able to achieve,
+대기
+대사잇기  I wanted my son to take after me and live his own life to the fullest. ”
+대기
+대사 “ I wanted to show him how much respect and recognition one can gain from
+대사새줄
+대사잇기 working hard. ”
+대기
+대사 “ Yet…
+대기
+대사잇기  it seems that I’ve failed to earn the respect of my own son. ”
+대기
+//스크립트 대화창함수.txt 페이드아웃 대사창 1500
+// 배경 bg_table_night bg_table_night.jpg
+//페이드인 bg_table_night 1500
+// 딜레이 1500
+// 스크립트 대화창함수.txt 페이드인 대사창 1000
+//ev14_3
+CG ev14_3 ev14_3.jpg
+페이드인 ev14_3 1000
+페이드아웃 ev14_2
+////앨범에 ev14_3 추가
+오마케추가 ev14_3 ev14_3.jpg
+변수 $ev14_3획득 = 1
+딜레이 1000
+대사 At some point, Lucy had stopped crying.
+대기
+대사새줄
+대사잇기 She was listening to the hoarse voice with sorrowful eyes.
+대기
+대사 “ I’m not trying to make an excuse.
+대기
+대사잇기  I don’t regret anything either. ”
+대기
+대사 “ My life didn’t have so little meaning that I could dismiss it with a single regret. ”
+대기
+대사 “ Even if I could go back to the past, I would still live my life prioritizing work over
+대사새줄
+대사잇기 anything else. ”
+대기
+//대사잇기  그게 내게 있어서 가장 중요한 것이니까 말이다. ”
+//대기
+대사 “ However… ”
+대기
+대사 “ However, perhaps I could’ve been more flexible about it. ”
+대기
+//대사잇기  내가 살아왔던 방식보다 좀 더 나은 방식이…… ”
+//대기
+대사 “ My top priority in life always has and will be work,
+대기
+대사잇기  but perhaps I could’ve made a
+대사새줄
+대사잇기 better effort to cherish my family at the same time. ”
+대기
+대사 “ Maybe I could’ve tried to find some time…
+대기
+대사잇기  at least once or twice a week… to be able
+대사새줄
+대사잇기 to have dinner as family. ”
+대기
+대사 “ ……… ”
+대기
+대사 “ But enough of this. ”
+대기
+대사 “ What’s done is done. I’ve… ”
+대기
+대사 “ I’ve lost everything already, so what’s the point. ”
+대기
+대사 The old man’s gaze returned to the food on the table.
+대기
+대사 The dishes he had ordered specifically for his son would probably be thrown out or
+대사새줄
+대사잇기 shared with neighbours,
+대기
+//배경음악 반복 free0517.mp3
+대사잇기  because his weak teeth wouldn’t be able to handle most of
+대사새줄
+대사잇기 them.
+대기
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+대사 The old man rose to clean up the table.
+대기
+대사새줄
+대사잇기 It was at that moment…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+쓰레드대기
+배경음악 반복 i72005_hoshizora_matataku.mp3
+페이드인 배경음악 1500
+//ev14_4
+CG ev14_4 ev14_4.jpg
+페이드인 ev14_4 1000
+페이드아웃 ev14_3
+////앨범에 ev14_4 추가
+오마케추가 ev14_4 ev14_4.jpg
+변수 $ev14_4획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+보이스 lucy0980_{{$언어}}.mp3
+대사 “ It will come back. ”
+대기
+대사 …The android suddenly spoke up with her eyes full of tears.
+대기
+대사 Despite being on the verge of breaking down, her voice remained clear.
+대기
+//대사새줄
+//대사잇기 그렇지만 필사적으로 입을 열었다.
+//대기
+보이스 lucy0981_1_{{$언어}}.mp3
+대사 “ Father’s birthday will come back. ”
+대기
+보이스 lucy0981_2_{{$언어}}.mp3
+대사 “ This year’s birthday might be over, but it will return next year… ”
+대기
+보이스 lucy0981_3_{{$언어}}.mp3
+대사 “ …and the following year too. ”
+대기
+보이스 lucy0981_4_{{$언어}}.mp3
+대사 “ Today is not father’s last birthday. ”
+대기
+보이스 lucy0982_{{$언어}}.mp3
+대사 “ Although it’s regrettable that father could not spend the day together with his son, it will definitely be possible next year, isn’t that right? ”
+대기
+대사 That was exactly what the old man had been dying to hear.
+대기
+대사새줄
+대사잇기 He stubbornly wanted to believe in those sweet, hopeful words.
+대기
+대사 Yet at the same time, he knew they were only coated with nonsense.
+대기
+대사 The old man shook his head.
+대기
+대사 “ …You saw the letter.
+대기
+대사잇기  He’s never coming back.
+대기
+대사잇기  He won’t be paying me a visit for my
+대사새줄
+대사잇기 next birthday or any after that. ”
+대기
+대사 “ He’s already made his decision.
+대기
+대사잇기  It’s all over now. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+//ev14_5 출력
+CG ev14_5 ev14_5.jpg
+페이드인 ev14_5 1000
+페이드아웃 ev14_4
+////앨범에 ev14_5 추가
+오마케추가 ev14_5 ev14_5.jpg
+변수 $ev14_5획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+보이스 lucy0983_{{$언어}}.mp3
+대사 “ I will… I will try to convince him! ”
+대기
+보이스 lucy0984_1_{{$언어}}.mp3
+대사 “ Perhaps the situation will improve by next year. ”
+대기
+보이스 lucy0984_2_{{$언어}}.mp3
+대사 “  If it doesn’t work out by then, then we can always look towards the year after
+대사새줄
+대사잇기 that. ”
+대기
+보이스 lucy0985_1_{{$언어}}.mp3
+대사 “ Two years, three years, four years, or five years… ”
+대기
+보이스 lucy0985_2_{{$언어}}.mp3
+대사 “ It doesn’t matter how long it will take. ”
+대기
+보이스 lucy0985_3_{{$언어}}.mp3
+대사 “ I will continue to try my hardest until he decides to listen to my words. ”
+대기
+//ev14_4 출력
+CG ev14_4 ev14_4.jpg
+페이드인 ev14_4 1000
+페이드아웃 ev14_5
+////앨범에 ev14_4 추가
+오마케추가 ev14_4 ev14_4.jpg
+변수 $ev14_4획득 = 1
+딜레이 500
+보이스 lucy0985_4_{{$언어}}.mp3
+대사 “ I will definitely convince master and pay father a visit together. ”
+대기
+보이스 lucy0986_1_{{$언어}}.mp3
+대사 “ There’s no such thing as a hopeless relationship. ”
+대기
+보이스 lucy0986_2_{{$언어}}.mp3
+대사 “ Master may have written down those words, but such cruel relationships do not
+대사새줄
+대사잇기 exist in this world. ”
+대기
+보이스 lucy0986_3_{{$언어}}.mp3
+대사 “ I will prove it. ”
+대기
+보이스 lucy0986_4_{{$언어}}.mp3
+대사 “ I will host a birthday party where master and father will be able to enjoy their time
+대사새줄
+대사잇기 together. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+//ev14_6
+CG ev14_6 ev14_6.jpg
+페이드인 ev14_6 1500
+페이드아웃 ev14_4
+////앨범에 ev14_6 추가
+오마케추가 ev14_6 ev14_6.jpg
+변수 $ev14_6획득 = 1
+스크립트 대화창함수.txt 페이드인 대사창 1000
+보이스 lucy0986_5_{{$언어}}.mp3
+대사 “ That is why… ”
+대기
+보이스 lucy0987_1_{{$언어}}.mp3
+대사 “ That is why I would like to ask of father to wait patiently in good health. ”
+대기
+보이스 lucy0987_2_{{$언어}}.mp3
+대사 “ Please trust in master and I, and wait for us. ”
+대기
+딜레이 1500
+대사 “ ……… ”
+대기
+대사 For the most of his life, the old man had despised androids.
+대기
+대사 The machine that makes people lazy.
+대기
+대사새줄
+대사잇기 The machine that steals people’s jobs.
+대기
+대사새줄
+대사잇기 The machine that threatens mankind’s dominance.
+대기
+대사새줄
+대사잇기 A worthless imitation that only makes people miserable.
+대기
+대사 He knew.
+대기
+//대사새줄
+//대사잇기 알고 있지만……
+//대기
+대사 He knew… yet for some reason, his eyes began to well up with tears.
+대기
+대사 “ I must be getting old…
+대기
+대사잇기  To be able to find comfort in the words of a mere robot…
+대기
+대사새줄
+대사잇기 How weak I’ve truly become. ”
+대기
+효과음 rustle rustle.mp3
+대사 The old man dragged his frail body and approached the android.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1500
+//ev14_7
+CG ev14_7 ev14_7.jpg
+페이드인 ev14_7 2000
+페이드아웃 ev14_6
+////앨범에 ev14_7 추가
+오마케추가 ev14_7 ev14_7.jpg
+변수 $ev14_7획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 “ It’s just as you say.
+대기
+대사잇기  My birthday will always return. ”
+대기
+대사 “ Next year…
+대기
+대사잇기  I would love to be able to spend the day with my son. ”
+대기
+대사 “ With you too, of course. ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+//ev14_8
+CG ev14_8 ev14_8.jpg
+페이드인 ev14_8 1500
+페이드아웃 ev14_7
+////앨범에 ev14_8 추가
+오마케추가 ev14_8 ev14_8.jpg
+변수 $ev14_8획득 = 1
+스크립트 대화창함수.txt 페이드인 대사창 1000
+보이스 lucy0988_{{$언어}}.mp3
+대사 “ Father… ”
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 1000
+페이드아웃 ev14_8 3500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 The old man patted the android’s head with his wrinkled hand.
+대기
+대사 As if he was standing before his own granddaughter…
+대기
+대사잇기  as if he was standing before a
+대사새줄
+대사잇기 real person, he patted her head affectionately.
+대기
+대사 The old man mused.
+대기
+대사 His current self was now able to pat an android.
+대기
+대사 It wasn’t exactly a remarkable accomplishment,
+대기
+대사잇기  but it was something that had been
+대사새줄
+대사잇기 impossible before.
+대기
+대사 If the old man continued to make such progress…
+대기
+대사새줄
+대사잇기 Then perhaps one day, the conflict between himself and his son may finally be
+대사새줄
+대사잇기 resolved.
+대기
+//배경음악 반복 free0517.mp3
+//배경음악 반복 the.mp3
+//배경음악 반복 Climax_Promise of you 4_demo.mp3
+대사 And like that, the old man looked towards a hope-filled future.
+대기
+변수 $REUNION = 1
+게임상태
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 6000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+딜레이 9000
+
+효과음 e74024_clock-02_custom e74024_clock-02_custom.mp3 반복
+페이드인 e74024_clock-02_custom 3000
+딜레이 1000
+쓰레드 발소리 페이드인
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+페이드인 FOOTSTEPSRunTrainersCompactGravel 1500
+쓰레드
+쓰레드 시계소리 페이드아웃
+페이드아웃 e74024_clock-02_custom 3000
+쓰레드
+쓰레드시작
+딜레이 4000
+
+//배경룰페이드인
+//배경 bg_house_enterancecloseup_night bg_house_enterancecloseup_night.jpg
+//페이드인 bg_house_enterancecloseup_night 3000
+//딜레이 2000
+//배경룰페이드인
+//배경 bg_house_enterancecloseupopen_day bg_house_enterancecloseupopen_day.jpg
+//페이드인 bg_house_enterancecloseupopen_day 1500
+//딜레이 2000
+쓰레드 문여는소리
+효과음 door_open2 door_open2.mp3
+딜레이 1500
+효과음 door_squeak door_squeak.mp3
+쓰레드
+쓰레드시작
+배경룰페이드인 룰_7.png 400
+배경 bg_white bg_white.jpg
+딜레이 3000
+
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+조건 $재회트로피 = 1 여기 화해
+효과음 decide12 decide12.mp3
+//쓰레드 black_background_40페이드인
+//CG black_background_40 black_background_40.png
+//페이드인 black_background_40 500
+//쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 486 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "재회"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 544 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 445 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 740 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Reunion"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 479 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "再会"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 535 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드시작
+변수 $재회트로피 = 1
+딜레이 1000
+
+북마크 화해
+조건 $일기 = 1 여기 돌아온주인공
+효과음 decide11 decide11.mp3
+CG message_box_info message_box_info.png 159 24 아니 -130
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 433 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "백정필 박사의 일기"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 641 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "가 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 446 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 665 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Dr. Baek's Log"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 416 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "十時光一郎博士の日記"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 677 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+//쓰레드 black_background_40페이드아웃
+//페이드아웃 black_background_40 500
+//쓰레드
+쓰레드시작
+변수 $일기 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 1500
+
+북마크 돌아온주인공
+페이드아웃 bg_white 4000
+딜레이 3000
+
+점프 타이틀.txt 첫줄
+
+
+
+북마크 종료
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+딜레이 500
+페이드아웃 bg_table_night 2500
+
+딜레이 3000
+모두지우기
+
+점프 타이틀.txt 첫줄
+
+
+
+북마크 스킵확인
+
+스크립트 초로의기억스킵질문.txt 
+쓰레드시작
+
+
+점프 여기부터다시보기
+
+
+
+    
+

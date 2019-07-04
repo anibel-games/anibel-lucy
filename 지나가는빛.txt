@@ -1,0 +1,38 @@
+﻿페이드아웃 title_lucy_button
+
+조건 $빛보다빠른트로피 = 1 여기 메세지출력_당신은빛을잡을수있나요?스킵
+//조건 $노멀엔딩 = 1 여기 메세지출력_당신은빛을잡을수있나요?스킵
+
+
+북마크 메세지출력_당신은빛을잡을수있나요?스킵
+
+CG title_oct12_lucy_push1 title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push1 600
+쓰레드
+쓰레드 제목 페이드아웃
+딜레이 700
+페이드아웃 title_oct12_lucy_push1 800
+쓰레드
+
+//CG light light.png -456 188
+버튼 light -456 188 456 104 스크립트 시크릿.txt light.png 없음 없음
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드시작
+
+조건 시크릿버튼제거 = 1 여기 종료
+
+//쓰레드 title_lucy_button다시생김
+//딜레이 1500
+//시스템버튼 title_lucy_button 42 0 485 322 스크립트 지나가는빛.txt 없음 없음 없음
+//출력순서 title_lucy_button -199
+//페이드인 title_lucy_button
+//쓰레드
+//쓰레드시작
+
+북마크 종료
+
+조건 $노멀엔딩 = 1 타이틀.txt 버튼대기2
+점프 타이틀.txt 버튼대기1

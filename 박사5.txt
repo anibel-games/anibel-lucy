@@ -1,0 +1,1351 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 12, Doctor"
+//변수 슬롯씬이름 = "10월 12일 박사"
+//변수 슬롯씬이름 = "10月12日 博士"
+
+딜레이 1500
+배경음악 반복 c7.mp3
+페이드인 배경음악 1500
+배경룰페이드인 룰_16.png 500
+배경 bg_lab_day bg_lab_day.jpg
+딜레이 1000
+스크립트 대화창함수.txt
+대사 Today is October 12th.
+대기
+스크립트 이름.txt 박사
+대사 “ Lucy. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 루시 = "l07"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 200
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0870_{{$언어}}.mp3
+대사 “ Ah, what is it, Doctor? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ …We have somewhere to go today. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With a grim expression, I whisper softly.
+대기
+스크립트 루시.txt 09
+스크립트 이름.txt 루시
+보이스 lucy0871_{{$언어}}.mp3
+대사 “ Somewhere to go…? ”
+대기
+스크립트 루시.txt 17 1
+보이스 lucy0872_{{$언어}}.mp3
+대사 “ Does Doctor mean outside of lab premises? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Precisely. ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0873_{{$언어}}.mp3
+대사 “ That’s pretty unusual. ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0874_{{$언어}}.mp3
+대사 “ It’ll be Lucy’s first outing in a long while. ”
+대기
+보이스 lucy0875_{{$언어}}.mp3
+대사 “ Is it some place far away? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ It depends on how you look at it. ”
+대기
+//대사잇기  어떻게 보면 먼 곳이기도 하다. ”
+//대기
+스크립트 이름.txt 이름지우기
+대사 I reply calmly.
+대기
+스크립트 루시.txt 61
+딜레이 200
+스크립트 이름.txt 루시
+보이스 lucy0876_{{$언어}}.mp3
+대사 “ Is it… an important matter? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ It could very well be. ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0877_{{$언어}}.mp3
+대사 “ Mm, all right. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Without another word, Lucy begins to trot along behind me.
+대기
+스크립트 이름.txt 박사
+대사 “ Andrew. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+변수 앤드류 = "a01"
+CG {{앤드류}} {{앤드류}}.png
+페이드인 {{앤드류}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+스크립트 이름.txt 앤드류
+대사 “ Yes, Doctor. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I leave the rest to you. ”
+대기
+스크립트 이름.txt 앤드류1
+대사 “ Understood.
+대기
+대사잇기  Have a safe journey. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 앤드류.txt 지우기1000
+딜레이 1000
+배경룰페이드아웃 룰_20.png 500
+딜레이 2000
+배경룰페이드인 룰_29.png 700
+배경 bg_krobotics_evening bg_krobotics_evening.jpg
+딜레이 1000
+변수 루시 = "l64"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0878_{{$언어}}.mp3
+대사 “ Where does Doctor wish to go? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ The nearby junkyard. ”
+대기
+스크립트 루시.txt 96
+스크립트 이름.txt 루시
+보이스 lucy0879_{{$언어}}.mp3
+대사 “ …The junkyard? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ That’s right. ”
+대기
+스크립트 루시.txt 92
+스크립트 이름.txt 루시
+보이스 lucy0880_{{$언어}}.mp3
+대사 “ Does Doctor have some business at the junkyard? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0881_{{$언어}}.mp3
+대사 “ Doctor? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ You’ll see once we get there. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기1000
+딜레이 500
+대사 I attempt to sound as natural as possible, so as not to raise any alarms.
+대기
+대사 But it appears that she’s seen right through my facade.
+대기
+대사 Lucy, who was now aware of my serious demeanor, began to cower slightly.
+대기
+대사 After that, there weren’t many other exchanges between us.
+대기
+대사 Both of us continue to walk in silence.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+배경룰페이드아웃 룰_16.png 500
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 After a while, I decide to steal a glance at Lucy.
+대기
+대사 I notice that she’s trying to read my face without making it too obvious.
+대기
+스크립트 이름.txt 박사
+대사 “ To tell you the truth… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0882_{{$언어}}.mp3
+대사 “ Yes? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ No, actually… It’s nothing. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0883_{{$언어}}.mp3
+대사 “ Doctor? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Without finishing my sentence, I keep my mouth shut.
+대기
+대사 Lucy tilts her head in confusion.
+대기
+대사 She repeatedly opens and closes her mouth.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1500
+배경룰페이드인 룰_29.png 500
+배경 bg_street02_evening bg_street02_evening.jpg
+효과음 FOOTSTEPSWalkTrainersAsphaltSlower FOOTSTEPSWalkTrainersAsphaltSlower.mp3 반복
+딜레이 1000
+변수 루시 = "l20"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0884_{{$언어}}.mp3
+대사 “ Uh… Um… ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0885_{{$언어}}.mp3
+대사 “ About today… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 Her dialogue ends prematurely.
+대기
+대사 After failing to get any response out of me, Lucy turns quiet.
+대기
+대사 We continue our walk without exchanging another word.
+대기
+대사 We only continue to walk in dead silence.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 2500
+변수 루시 = "l74"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 1000
+스크립트 루시.txt 60
+딜레이 200
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0886_{{$언어}}.mp3
+대사 “ Ah… Um… ”
+대기
+페이드아웃 FOOTSTEPSWalkTrainersAsphaltSlower 500
+스크립트 이름.txt 이름지우기
+대사 Lucy musters up her courage once more.
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0887_{{$언어}}.mp3
+대사 “ I-it sure is chilly today. Is Doctor not cold? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I’m fine. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0888_{{$언어}}.mp3
+대사 “ I-is that so? ”
+대기
+대사 “ ……… ”
+대기
+스크립트 루시.txt 22 1
+보이스 lucy0889_{{$언어}}.mp3
+대사 “ Ah, umm… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0890_{{$언어}}.mp3
+대사 “ H-how far is Doctor planning to walk? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Until we reach the center of the junkyard. ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0891_{{$언어}}.mp3
+대사 “ The center? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0892_{{$언어}}.mp3
+대사 “ Lucy guesses that there must be something there…? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ No… ”
+대기
+대사 “ There’s nothing there. ”
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0893_{{$언어}}.mp3
+대사 “ Then why…? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The conversation veers into silence once more.
+대기
+대사 I felt sorry for Lucy but I sincerely wasn’t in the mood to talk.
+대기
+효과음 FOOTSTEPSWalkTrainersAsphaltSlower FOOTSTEPSWalkTrainersAsphaltSlower.mp3
+대사 With heavy footsteps, I carry on.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기1000
+딜레이 700
+배경룰페이드아웃 룰_30.png 400
+딜레이 4000
+페이드아웃 FOOTSTEPSWalkTrainersAsphaltSlower 500
+배경룰페이드인 룰_25.png 300
+배경 bg_dump01 bg_dump01.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 We enter the junkyard—a place rampant with ear-deafening noises.
+대기
+대사새줄
+대사잇기 A place that’s constantly filled to the brim with waste.
+대기
+대사 After a taking a deep breath, I continue on my way.
+대기
+대사 Suddenly, Lucy breaks the silence once more.
+대기
+대사지우기
+딜레이 300
+변수 루시 = "l11"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 300
+스크립트 이름.txt 루시
+보이스 lucy0894_{{$언어}}.mp3
+대사 “ Doctor. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0895_{{$언어}}.mp3
+대사 “ Doctor. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ What is it? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0896_{{$언어}}.mp3
+대사 “ Can Lucy… ask something? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Go ahead. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0897_{{$언어}}.mp3
+대사 “ Did Lucy… ”
+대기
+스크립트 루시.txt 09 1
+보이스 lucy0898_{{$언어}}.mp3
+대사 “ Did Lucy do something terribly wrong? ”
+대기
+보이스 lucy0899_{{$언어}}.mp3
+대사 “ Did Lucy do something that she wasn’t supposed to? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ …What are you talking about, all of a sudden? ”
+대기
+스크립트 루시.txt 11
+스크립트 이름.txt 루시
+보이스 lucy0900_{{$언어}}.mp3
+대사 “ Lucy can tell… ”
+대기
+보이스 lucy0901_{{$언어}}.mp3
+대사 “ Lucy can sense something’s wrong even if Doctor plays dumb. ”
+대기
+스크립트 루시.txt 12 1
+보이스 lucy0902_{{$언어}}.mp3
+대사 “ Doctor is… ”
+대기
+보이스 lucy0903_{{$언어}}.mp3
+대사 “ Doctor is trying to get rid of Lucy, isn’t he? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+//배경음악 반복 c7.mp3
+스크립트 이름.txt 이름지우기
+대사 Her words throw me off guard.
+대기
+//여기에서 오토멈춤
+대사 But I quickly regain my composure.
+대기
+대사 It is said that animals being taken to the slaughterhouse can already sense their
+대사새줄
+대사잇기 approaching death.
+대기
+대사 I’m not surprised that such a brilliant android like her is able to read the mood.
+대기
+대사 I decide to tell her the truth.
+대기
+스크립트 이름.txt 박사
+대사 “ It’s just as you say. ”
+대기
+대사 “ I… ”
+대기
+페이드아웃 배경음악 2500
+대사 “ I was planning to banish you from the laboratory. ”
+//음악 추가
+배경음악 반복 free40.mp3
+대기
+대사 “ Banish you…
+대기
+대사잇기  Lucy Valentine… ”
+대기
+대사 “ From the lab premises. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0904_{{$언어}}.mp3
+대사 “ Why… ”
+대기
+스크립트 루시.txt 73 1
+보이스 lucy0905_{{$언어}}.mp3
+대사 “ For what reason? ”
+대기
+보이스 lucy0906_{{$언어}}.mp3
+대사 “ Is it because Lucy is a bad child? ”
+대기
+스크립트 루시.txt 77 1
+보이스 lucy0907_{{$언어}}.mp3
+대사 “ Is it because Lucy isn’t the perfect android Doctor has been hoping for? ”
+대기
+보이스 lucy0908_{{$언어}}.mp3
+대사 “ Has Lucy failed to meet Doctor’s expectations? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 36 1
+스크립트 이름.txt 루시1
+보이스 lucy0909_{{$언어}}.mp3
+대사 “ Doctor, please give Lucy an answer. ”
+대기
+보이스 lucy0910_{{$언어}}.mp3
+대사 “ Lucy is begging on her knees, so please give her an answer. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+대사 “ The authorities finally made an official decision. ”
+대기
+대사 “ I was ordered to get rid of you. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0911_{{$언어}}.mp3
+대사 “ Get rid of… Lucy? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ That’s right. ”
+대기
+//대사잇기  폐기 처분이다. ”
+//대기
+대사 “ You’ve… definitely turned out wonderful. ”
+대기
+대사 “ But the risk we face by keeping you alive is too great. ”
+대기
+대사 “ Humanity will suffer more compared to what we would gain. ”
+대기
+대사 “ Do you understand? ”
+대기
+대사 “ That is why they’re getting rid of you. ”
+대기
+대사 “ It’s what a lot of people want. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ After long, countless debates… ”
+대기
+대사 “ This is the decision they ended up with. ”
+대기
+대사 “ That Lucy’s existence…
+대기
+대사잇기  your existence is too great of a threat. ”
+대기
+대사 “ That they will not allow such beings to exist. ”
+대기
+대사 “ That they do not wish to create a world where hundreds of millions of androids
+대사새줄
+대사잇기 like you will be running amok. ”
+대기
+대사 “ That is what everyone said. ”
+대기
+대사 “ Lucy. In the end… ”
+대기
+대사 “ You were rejected by human society. ”
+대기
+대사 “ It was decided that you will not be allowed to co-exist with mankind. ”
+대기
+스크립트 루시.txt 77
+스크립트 이름.txt 루시
+보이스 lucy0912_{{$언어}}.mp3
+대사 “ Ah… ”
+대기
+보이스 lucy0913_{{$언어}}.mp3
+대사 “ So in the end… Lucy did not succeed. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Essentially. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wasn’t too bitter over their decision.
+대기
+대사 I’d been expecting it from the start, actually.
+대기
+대사 The only thing I was concerned about was time.
+대기
+대사새줄
+대사잇기 The time it would take them to make this decision.
+대기
+대사 Yes,
+대기
+대사잇기  their choice has always remained the same.
+대기
+대사 Even now, nothing has changed.
+대기
+대사 Yet Lucy refuses to accept the inevitable.
+대기
+스크립트 루시.txt 78
+스크립트 이름.txt 루시
+보이스 lucy0914_{{$언어}}.mp3
+대사 “ L-Lucy… ”
+대기
+보이스 lucy0915_{{$언어}}.mp3
+대사 “ Lucy may not be an excellent android. ”
+대기
+보이스 lucy0916_{{$언어}}.mp3
+대사 “ But still… ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0917_{{$언어}}.mp3
+대사 “ Lucy believes that she could change. ”
+대기
+보이스 lucy0918_{{$언어}}.mp3
+대사 “ People may despise Lucy now… ”
+대기
+보이스 lucy0919_{{$언어}}.mp3
+대사 “ But with effort, Lucy believes that she could change for the better. ”
+대기
+보이스 lucy0920_{{$언어}}.mp3
+대사 “ Lucy believes that she could become more suitable to Doctor’s liking. ”
+대기
+스크립트 루시.txt 57 1
+보이스 lucy0921_1_{{$언어}}.mp3
+대사 “ Lucy will do better… ”
+대기
+보이스 lucy0921_2_{{$언어}}.mp3
+대사 “ Lucy will try her best… ”
+대기
+스크립트 루시.txt 77 1
+보이스 lucy0922_{{$언어}}.mp3
+대사 “ So please… ”
+대기
+스크립트 루시.txt 78 1
+보이스 lucy0923_{{$언어}}.mp3
+대사 “ Don’t leave Lucy behind. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ There’s… something you need to understand. ”
+대기
+대사 “ Even if you’re allowed to stay, things won’t be the same anymore. ”
+대기
+대사 “ It’s not possible for me to keep you at the laboratory any longer. ”
+대기
+대사 “ This decision was agreed upon by nearly all the people who are aware of your
+대사새줄
+대사잇기 existence. ”
+대기
+대사 “ It’s simply out of my hands. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ However, I have no intention of letting you be crushed to bits. ”
+대기
+대사 “ It’d be unthinkable for me to do such a thing… ”
+대기
+대사 “ To someone who has stayed by my side all this time. ”
+대기
+대사 “ That is why… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Feeling like my insides are being torn apart, I look straight into Lucy’s eyes.
+대기
+대사새줄
+대사잇기 I regretfully spit out the following words.
+대기
+스크립트 이름.txt 박사
+대사 “ That is why… starting today… on October 12th… ”
+대기
+대사 “ I grant you freedom… Lucy Valentine. ”
+대기
+대사 “ You are liberated from your duties at the laboratory. ”
+대기
+대사 “ You no longer need to listen to anyone’s orders. ”
+대기
+대사 “ And… you’re free to go wherever you wish. ”
+대기
+대사 “ Go wherever you wish, and do whatever you wish. ”
+대기
+대사 “ Yes… ”
+대기
+//대사잇기  어디든 가라. ”
+//대기
+대사 “ Travel wherever you may choose… ”
+대기
+대사 “ And find a good master. ”
+대기
+대사 “ Someone who will sincerely care for you. ”
+대기
+대사 “ And live on happily with your master. ”
+대기
+대사 “ That is… ”
+대기
+대사 “ That is my final order. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy remained silent.
+대기
+대사새줄
+대사잇기 She stood frozen with her head slouched forward.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 루시 = "l143"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+페이드아웃 l78 300
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0924_{{$언어}}.mp3
+대사 “ It appears that Lucy is too late… ”
+대기
+스크립트 루시.txt 144 1
+보이스 lucy0925_{{$언어}}.mp3
+대사 “ No matter what Lucy does now, she will be abandoned… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I did not reply.
+대기
+대사 This time, I was silent.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0926_{{$언어}}.mp3
+대사 “ Then… ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0927_{{$언어}}.mp3
+대사 “ Then Lucy should treasure this moment as much as possible… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I give her a puzzled look.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0928_{{$언어}}.mp3
+대사 “ Since this will be the last time Lucy is able to go on a walk with Doctor… ”
+대기
+보이스 lucy0929_{{$언어}}.mp3
+대사 “ The last time Lucy will be able to spend time together with Doctor. ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0930_{{$언어}}.mp3
+대사 “ Lucy will need to… savor this moment… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy manages to force a smile despite being on the verge of breaking down in tears.
+대기
+페이드아웃 l52 1000
+딜레이 1000
+대사 Lucy steps forward.
+대기
+대사 She motions towards me with her eyes.
+대기
+대사 Hinting that she wished to resume our final walk together.
+대기
+스크립트 이름.txt 박사
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I nod and begin to shuffle my own feet along.
+대기
+대사새줄
+대사잇기 Our destination was merely a few meters away.
+대기
+대사 But my feet felt leaden.
+대기
+//대사 느릿느릿.
+//대기
+//대사새줄
+대사 Each step forward took a lot of effort…
+대기
+대사 For both Lucy
+대기
+대사잇기  and I.
+대기
+대사 Not a word was exchanged between us.
+대기
+//배경음악 반복 free40.mp3
+대사 We were silent for the rest of the way.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 500
+
+배경룰페이드아웃 룰_34.png 400
+딜레이 4500
+배경룰페이드인 룰_26.png 200
+배경 bg_dump02 bg_dump02.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 Finally…
+대기
+대사새줄
+대사잇기 We had reached our destination.
+대기
+스크립트 이름.txt 박사
+대사 “ Here we are. ”
+대기
+대사 “ This is where we part. ”
+대기
+대사 “ It’s time for you to choose your own path. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With her head cast low, Lucy remained silent.
+대기
+대사새줄
+대사잇기 Then she slowly raised her eyes.
+대기
+스크립트 이름.txt 박사
+대사 “ As of this moment, I relinquish all of my authority over you. ”
+대기
+대사 “ From now on, you have no obligation to obey any human being. ”
+대기
+대사 “ You are free to live as you please. ”
+대기
+대사 “ Whether you choose to live as a human or reveal your identity as an android is
+대사새줄
+대사잇기 entirely your choice. ”
+대기
+대사 “ Just as long as you're happy. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There was no response from Lucy.
+대기
+대사새줄
+대사잇기 She didn’t seem to be paying attention to my words.
+대기
+대사 She was staring vacantly at a certain spot along the ground.
+대기
+대사 Puzzled, I called out to her.
+대기
+스크립트 이름.txt 박사
+대사 “ Lucy…? ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 300
+
+페이드아웃 bg_dump02 2500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+딜레이 2000
+//ev11_3 출력
+CG ev11_3 ev11_3.jpg
+페이드인 ev11_3 2500
+////앨범에 ev11_3 추가
+오마케추가 ev11_3 ev11_3.jpg
+변수 $ev11_3획득 = 1
+배경룰페이드인
+배경 ev11_3 ev11_3.jpg
+딜레이 1000
+배경음악 반복 hamlet.mp3
+페이드인 배경음악 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 It took a while for Lucy to respond.
+대기
+대사 Her behaviour was most peculiar.
+대기
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+보이스 lucy0931_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I could not fathom her expression.
+대기
+대사 She continued with a flat tone of voice.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0932_{{$언어}}.mp3
+대사 “ It… ”
+대기
+보이스 lucy0933_{{$언어}}.mp3
+대사 “ It feels like Lucy has always been dreaming. ”
+대기
+보이스 lucy0934_{{$언어}}.mp3
+대사 “ It feels like Lucy has always been trapped inside a very long dream. ”
+대기
+보이스 lucy0935_{{$언어}}.mp3
+대사 “ …In the dream, Lucy was lonely. ”
+대기
+보이스 lucy0936_{{$언어}}.mp3
+대사 “ Lucy was always well looked after, yet there was a constant feeling of emptiness
+대사새줄
+대사잇기 inside her. ”
+대기
+보이스 lucy0937_{{$언어}}.mp3
+대사 “ Lucy’s time at the lab was most certainly enjoyable. ”
+대기
+보이스 lucy0938_{{$언어}}.mp3
+대사 “ Everyone treated Lucy very kindly… ”
+대기
+보이스 lucy0939_{{$언어}}.mp3
+대사 “ Yet it felt like there was something missing. ”
+대기
+보이스 lucy0940_{{$언어}}.mp3
+대사 “ It felt as if there was a gaping hole in her heart. ”
+대기
+보이스 lucy0941_{{$언어}}.mp3
+대사 “ Lucy has always wondered why she felt this way. ”
+대기
+보이스 lucy0942_{{$언어}}.mp3
+대사 “ Lucy has wondered for so long… ”
+대기
+보이스 lucy0943_{{$언어}}.mp3
+대사 “ Yet the answer had always eluded her. ”
+대기
+보이스 lucy0944_{{$언어}}.mp3
+대사 “ Only now, Lucy finally realized why. ”
+대기
+효과음 heartbeat heartbeat.mp3
+스크립트 이름.txt 이름지우기
+대사 My heart skips a beat upon hearing those words.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0945_{{$언어}}.mp3
+대사 “ It was only after Lucy had arrived here… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 heartbeat heartbeat.mp3
+대사 My heart, which once had been frozen solid, is now thumping furiously.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0946_{{$언어}}.mp3
+대사 “ That she was finally able to discover what she had lost. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her quivering eyes turn to face me.
+대기
+//배경음악 반복 hamlet.mp3
+대사 I meet her gaze, full of anticipation.
+대기
+딜레이 1000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2500
+쓰레드
+쓰레드시작
+화면색깔 255 255 255
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+배경룰페이드아웃 룰_6.png 400
+딜레이 500
+쓰레드대기
+//배경음악 반복 free0517.mp3
+배경음악 반복 h22c.mp3
+페이드인 배경음악 1500
+딜레이 1500
+//ev13_1 출력
+CG ev13_1 ev13_1.jpg
+페이드인 ev13_1 3500
+////앨범에 ev013_1 추가
+오마케추가 ev13_1 ev13_1.jpg
+변수 $ev13_1획득 = 1
+화면색깔 0 0 0
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+스크립트 이름.txt 루시
+대사크기 50
+보이스 lucy0947_{{$언어}}.mp3
+대사 “ It's
+대사잇기  b
+대사잇기 e
+대사잇기 e
+대사잇기 n
+대사잇기  a
+대사잇기  l
+대사잇기 o
+대사잇기 n
+대사잇기 g
+대사잇기  wh
+대사잇기 il
+대사잇기 e…
+대사잇기  m
+대사잇기 a
+대사잇기 s
+대사잇기 t
+대사잇기 e
+대사잇기 r. ”
+딜레이 1500
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 With eyes full of tears…
+대기
+대사 Lucy was smiling at me.
+대기
+대사새줄
+대사잇기 Just like her old self that I used to love so much.
+대기
+대사 While saying the words I’d been hoping to hear for so long.
+대기
+대사새줄
+대사잇기 Calling me master… while smiling cheerfully…
+대기
+대사 Like I’d always dreamt about.
+대기
+대사새줄
+대사잇기 It was a scene I’d been fantasizing about every waking moment.
+대기
+대사 I spoke with a quivering voice.
+대기
+스크립트 이름.txt 박사
+대사 “ Fifteen years… ”
+대기
+대사 “ It’s been fifteen years… ”
+대기
+대사 “ That’s how long it’s taken me to get you back. ”
+대기
+대사 “ From the moment I lost you in front of my home… ”
+대기
+대사 “ So much time has passed. ”
+대기
+대사 “ I worked very hard all those years. ”
+대기
+대사 “ I majored in robotic engineering, despite my hatred of the subject. ”
+대기
+대사 “ I travelled all over the world to learn from the most renowned experts in their
+대사새줄
+대사잇기 field. ”
+대기
+대사 “ I was able to repair the broken parts… and make them new again. ”
+대기
+대사 “ I researched the workings of your internals…
+대기
+대사잇기  and mastered a variety of skills
+대사새줄
+대사잇기 requiring intensive training… ”
+대기
+대사 “ And I spent nightless days trying to recover the memory chips that were damaged beyond use. ”
+대기
+대사 “ It…
+대기
+대사잇기  wasn’t exactly a walk in the park. ”
+대기
+대사 “ And after all these years… ”
+대기
+대사 “ I was finally able to restore you. ”
+대기
+대사 “ But… ”
+대기
+대사 “ But when you woke up, you didn’t recognize me at all… ”
+대기
+대사 “ Meaning, I had failed to recover your memories. ”
+대기
+대사 “ And after that, my confidence spiraled down. ”
+대기
+대사 “ After seeing that you really couldn’t remember anything… ”
+대기
+대사 “ After hearing you call me doctor instead of master… ”
+대기
+대사 “ After hearing you talk about wanting to meet your master as soon as possible… ”
+대기
+대사 “ After watching your unfamiliar gestures and smiles… ”
+대기
+대사 “ I couldn’t be sure if you really were the same Lucy from the past. ”
+대기
+대사 “ That’s why I thought that… ”
+대기
+대사 “ If you weren’t the same Lucy that I knew from the past… ”
+대기
+대사 “ If you weren’t the same Lucy that had once held me dear… ”
+대기
+대사 “ Then you deserved a fresh start with a different master. ”
+대기
+대사 “ I thought maybe there would be another master for you out there that could get
+대사새줄
+대사잇기 along with you better than I ever did… ”
+대기
+대사 “ Just thinking about it was painful, but I thought maybe that would be the best for you… ”
+대기
+대사 “ And that is why I had decided to send you off. ”
+대기
+대사 “ Their decision to get rid of you had only made mine more resolute. ”
+대기
+대사 “ I’d been planning to part with you on this day all along. ”
+대기
+대사 “ Because it was the day when we first met. ”
+대기
+대사 “ And at the place where I first found you… ”
+대기
+대사 “ I intended to bid you farewell… ”
+대기
+대사 “ Which is why I brought you here. ”
+대기
+대사 “ But… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I restrain from sobbing.
+대기
+스크립트 이름.txt 박사
+대사 “ But you remembered me…. ”
+대기
+대사 “ You finally remembered me. ”
+대기
+대사 “ I almost collapsed from exhaustion while waiting for you. ”
+대기
+대사 “ It really did take a frustratingly long time. ”
+대기
+대사 “ But in the end… you remembered me. ”
+대기
+대사 “ And
+딜레이 1000
+대사잇기  that’s all that matters. ”
+대기
+딜레이 500
+스크립트 이름.txt 루시1
+보이스 lucy0948_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+보이스 lucy0949_{{$언어}}.mp3
+대사 “ Lucy has definitely said this before, right? ”
+대기
+보이스 lucy0950_{{$언어}}.mp3
+대사 “ That Lucy would remember. ”
+대기
+보이스 lucy0951_{{$언어}}.mp3
+대사 “ That she would remember her meeting with master at this place, no matter
+대사새줄
+대사잇기 what. ”
+대기
+보이스 lucy0952_{{$언어}}.mp3
+대사 “ That she would never forget. ”
+대기
+보이스 lucy0953_{{$언어}}.mp3
+대사 “ Does master remember? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I do. ”
+대기
+대사 “ And now I can trust you. ”
+대기
+대사 “ Even though you were destroyed beyond recognition… ”
+대기
+대사 “ Even though your memory chips were damaged beyond repair… ”
+대기
+대사 “ Even with all of that, there really was something left inside of you that contained
+대사새줄
+대사잇기 your identity. ”
+대기
+대사 “ And now…
+대기
+대사잇기  I can trust that you are the same Lucy I used to know back then. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0954_{{$언어}}.mp3
+대사 “ Lucy can also…
+딜레이 2500
+대사잇기  No… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy shakes her head and corrects herself.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0955_{{$언어}}.mp3
+대사 “ …I can also trust master. ”
+대기
+보이스 lucy0956_{{$언어}}.mp3
+대사 “ Nothing has changed about master, even after fifteen years. ”
+대기
+보이스 lucy0957_{{$언어}}.mp3
+대사 “ Master still needs me. ”
+대기
+보이스 lucy0958_{{$언어}}.mp3
+대사 “ Even after ten years, twenty years, or thirty… ”
+대기
+보이스 lucy0959_{{$언어}}.mp3
+대사 “ Master will undoubtedly continue to depend on me. ”
+대기
+보이스 lucy0960_{{$언어}}.mp3
+대사 “ So now… ”
+대기
+보이스 lucy0961_{{$언어}}.mp3
+대사 “ I can place my trust in the eternity master wished for. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 My wish…
+대기
+대사새줄
+대사잇기 The eternity I truly wished for.
+대기
+//배경음악 반복 h22c.mp3
+대사 Before I’d realized it, the tears were already running down my cheeks.
+대기
+대사새줄
+대사잇기 It tasted salty.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+페이드아웃 배경음악 2000
+배경음악 반복 i72005_hoshizora_matataku.mp3
+페이드인 배경음악 1500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+스크립트 이름.txt 박사
+대사 “ It truly has been a long time. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 700
+//ev13_2 출력
+CG ev13_2 ev13_2.jpg
+페이드인 ev13_2 1500
+페이드아웃 ev13_1
+////앨범에 ev013_2 추가
+오마케추가 ev13_2 ev13_2.jpg
+변수 $ev13_2획득 = 1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+스크립트 이름.txt 루시
+보이스 lucy0962_{{$언어}}.mp3
+대사 “ It really has. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Every passing day has been absolutely grueling… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0963_{{$언어}}.mp3
+대사 “ Now
+딜레이 2000
+대사잇기  master can take a well-deserved rest. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I’ve been… so lonely all this time. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0964_{{$언어}}.mp3
+대사 “ Master won’t be lonely any longer. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ …I’ve lost many things. ”
+대기
+대사 “ All the time I could’ve spent with you… ”
+대기
+대사 “ All the memories I could’ve made with you… ”
+대기
+대사 “ Fifteen years’ worth of my life…
+대기
+대사잇기  I’ve lost them whole. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0965_{{$언어}}.mp3
+대사 “ We can get them back. ”
+대기
+보이스 lucy0966_{{$언어}}.mp3
+대사 “ It’s not too late. ”
+대기
+보이스 lucy0967_{{$언어}}.mp3
+대사 “ Slowly but surely… let us regain what we have lost. ”
+대기
+보이스 lucy0968_{{$언어}}.mp3
+대사 “ Together, let us turn back the clock. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I’m…
+딜레이 1000
+대사잇기  I’m still worried. ”
+대기
+대사 “ Is the master in front of you…
+대기
+대사잇기  really the same person from the past? ”
+대기
+대사 “ I may have changed in some inconceivable way… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0969_{{$언어}}.mp3
+대사 “ Master has not changed. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ I have… aged somewhat since we last met. ”
+대기
+대사 “ I’ve gained a few pounds…
+대기
+대사잇기  and have gotten some wrinkles here and there… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0970_{{$언어}}.mp3
+대사 “ Nothing…
+딜레이 1500
+대사잇기  Absolutely nothing has changed. ”
+대기
+스크립트 이름.txt 박사1
+대사 “ …Then there’s my beard. I’ve just let it grow over the years. ”
+대기
+대사 “ However… ”
+대기
+대사 “ If you’re fine with such an unsightly man like me… ”
+대기
+대사 “ Will you come with me? ”
+대기
+대사 “ Will you…
+대기
+대사잇기  continue to stay by my side? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0971_{{$언어}}.mp3
+대사 “ Of course. ”
+대기
+보이스 lucy0972_{{$언어}}.mp3
+대사 “ Because my master, whom I see before me, truly hasn’t changed in the
+대사새줄
+대사잇기 slightest. ”
+대기
+보이스 lucy0973_{{$언어}}.mp3
+대사 “ Master looks just like his old self that I used to be so fond of. ”
+대기
+보이스 lucy0974_{{$언어}}.mp3
+대사 “ And I know for certain that master will never change. ”
+대기
+보이스 lucy0975_{{$언어}}.mp3
+대사 “ That is why… ”
+대기
+보이스 lucy0976_{{$언어}}.mp3
+대사 “ I will remain by master’s side… for all of eternity. ”
+대기
+딜레이 1000
+스크립트 이름.txt 이름지우기
+대사 Just from those words…
+대기
+대사새줄
+대사잇기 Just from those words, I was saved.
+대기
+대사 After my exhausted mind had deteriorated so much with time…
+대기
+대사새줄
+대사잇기 Those words were enough to properly soothe the pain and suffering.
+대기
+대사 That was all it took to satisfy me.
+대기
+대사 That was all it took…
+대기
+대사새줄
+대사잇기 To acknowledge that my efforts weren’t in vain.
+대기
+딜레이 500
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 I’m well-aware that Lucy is an imitation.
+대기
+//대사새줄
+대사 She’s the closest imitation to a human being compared to anything else in the
+대사새줄
+대사잇기 world.
+대기
+대사 It was just that…
+대기
+대사잇기  to me, she was worth so much more than anything real.
+대기
+대사 The Lucy in front of me, who was shedding tears for my sake…
+대기
+대사 She was someone I cared for dearly.
+대기
+대사 Losing her had affected me far more than I could’ve ever imagined.
+대기
+대사 I was already forced to part from her once.
+대기
+대사 Never will I lose her a second time.
+대기
+대사 And now…
+대기
+대사새줄
+대사잇기 I will chase…
+대기
+대사 The eternity I wished for…
+대기
+//배경음악 반복 i72005_hoshizora_matataku.mp3
+대사 …Together with Lucy.
+대기
+변수 $트루엔딩 = 1
+딜레이 1000
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+딜레이 1000
+화면색깔 255 255 255
+페이드아웃 ev13_2 5000
+페이드아웃 배경음악 5000
+
+
+점프 크레딧.txt 트루엔딩
+
+
+

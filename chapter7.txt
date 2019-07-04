@@ -1,0 +1,1205 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+
+딜레이 1000
+효과음 e74030_door-02-01 e74030_door-02-01.mp3
+딜레이 1000
+스크립트 대화창함수.txt
+딜레이 500
+대사 I unlock the front door and enter the house.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 500
+
+배경룰페이드인
+배경 bg_house_passage_light bg_house_passage_light.jpg
+페이드인 bg_house_passage_light 2000
+효과음 e74032_door-03 e74032_door-03.mp3
+딜레이 1000
+효과음 audiencelaughing audiencelaughing.mp3 반복
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Unlike usual, I could sense someone’s presence inside.
+대기
+대사 I hear a couple voices coming from the television inside the living room.
+대기
+대사 My father appears to have returned home early.
+대기
+대사 It makes me feel uneasy.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 thud1 thud1.mp3
+대사 I effortlessly remove my shoes using only my feet.
+대기
+대사 Come to think of it, I was always home alone.
+대기
+대사 It’s been this way ever since I’d grown old enough to take care of myself.
+대기
+대사 Before that, we used to have a housekeeper watching over the place.
+대기
+대사새줄
+대사잇기 However, that was only until I began middle school.
+대기
+대사 From then on, I was always by myself.
+대기
+대사 I would eat breakfast alone. I would eat dinner alone. The cycle would repeat
+대사새줄
+대사잇기 endlessly.
+대기
+대사 I don’t even remember the last time all of us ate dinner together as a family.
+대기
+대사 There’s no such thing as a home-cooked meal in this household.
+대기
+대사 I’ve eaten so many different kinds of instant foods in my life that I’ve come to
+대사새줄
+대사잇기 memorize every product of every brand.
+대기
+대사 My father puts his work before family.
+대기
+대사 And my new mother follows my father everywhere to support him while practically
+대사새줄
+대사잇기 ignoring me.
+대기
+대사 That is my family.
+대기
+대사 At this point…
+대기
+대사 It feels out of place to see someone actually at home.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_3.png 700
+딜레이 1000
+배경룰페이드인 룰_1.png 700
+배경 bg_livingroom_evening bg_livingroom_evening.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 My father is on the couch watching television.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 아버지 = "d01"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1500
+//음악추가 아버지테마
+배경음악 반복 free64.mp3
+페이드인 배경음악 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 아버지
+대사 “ You’re back. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He doesn’t even turn around to face me.
+대기
+대사 It implies that he’s not in a good mood.
+대기
+스크립트 이름.txt 주인공
+대사 “ Yes, father. ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ You’re very late. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I check the time.
+대기
+대사 It… wasn’t actually that late.
+대기
+대사새줄
+대사잇기 There are times when I’d be back much later.
+대기
+대사 I wonder if this man even knows how old I am.
+대기
+쓰레드 효과음페이드아웃
+페이드아웃 audiencelaughing 1500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 아버지
+대사 “ Where have you been wandering around for so long? Don’t you know that you’ll
+대사새줄
+대사잇기 be in college soon? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I don’t bother replying.
+대기
+대사새줄
+대사잇기 Says the guy who never paid any attention to me.
+대기
+대사 I think to myself.
+대기
+대사 I don’t get along too well with my father.
+대기
+대사새줄
+대사잇기 Our relationship compares badly with other families.
+대기
+대사 But that is to be expected.
+대기
+대사새줄
+대사잇기 We’ve never spent much quality time together.
+대기
+대사 Going to the zoo…
+대기
+대사새줄
+대사잇기 or playing soccer together…
+대기
+대사 I don’t have any of those fond memories that other kids my age probably have.
+대기
+대사 My earliest memories are of my father's stern face.
+대기
+대사새줄
+대사잇기 So it would be even more bizarre if we actually got along.
+대기
+대사 As I stand in silence, the old man launches his next attack.
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ Are you not listening to me? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He still doesn’t bother looking at me.
+대기
+대사 I’ve gotten used to minding my own business.
+대기
+대사 We keep to our own devices.
+대기
+대사 To solve any conflicts within a family, you would normally need to sit down together and talk about it.
+대기
+대사 But my father doesn’t think there’s any need for that. He thinks everything is fine
+대사새줄
+대사잇기 the way it is.
+대기
+대사 It’d be really painful to talk face-to-face with that man, though.
+대기
+스크립트 이름.txt 주인공
+대사 “ I just stopped by somewhere on the way home. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Yeah. I’ll just deal with our usual exchange.
+대기
+대사 As long as I don’t make him angry, that’s good enough for me.
+대기
+대사 I just need to maintain the peace between us.
+대기
+대사새줄
+대사잇기 It’s always been this way.
+대기
+대사 As usual, I try my best to not rock the boat.
+대기
+스크립트 아버지.txt 02
+스크립트 이름.txt 아버지
+대사 “ I don’t know what you kids are up to these days… ”
+대기
+대사 “ But remember that students like you should be studying. ”
+대기
+대사 “ I’m saying this for your sake. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ So stop hanging around with those brats who only care about having fun. ”
+대기
+대사 “ You can’t afford to lose sight of your main goal. Stay focused! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’ll be going to my room now. ”
+대기
+스크립트 이름.txt 이름지우기
+페이드아웃 {{아버지}} 500
+대사 With that said, I try to make my escape.
+대기
+대사 Our conversation would usually end about here.
+대기
+대사 But Lucy, who’d been silent all this time, decides to whisper something into my ear.
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l51"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시
+보이스 lucy0135_{{$언어}}.mp3
+대사 “ Umm, pardon Lucy, but would that person be master’s father? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I hesitate whether I should tell her or not. In the end, I quietly whisper back.
+대기
+스크립트 이름.txt 주인공
+대사 “ Yeah… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy taps my shoulders.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0136_{{$언어}}.mp3
+대사 “ Master, please let Lucy down. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have no choice but to grant her wish.
+대기
+효과음 thud1 thud1.mp3
+이동 {{루시}} 0 15 50 0
+이동 {{루시}} 0 0 30 0
+//대사 그녀의 말대로 내려준다.
+//대기
+대사 Maybe Lucy’s voice had caught him by surprise.
+대기
+스크립트 이름.txt 이름지우기
+변수 아버지 = "d06"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 500
+대사 Because my father finally turned to face me.
+대기
+대사 He’s wearing a bewildered look.
+대기
+스크립트 이름.txt 아버지
+대사 “ Who’s your guest? ”
+대기
+스크립트 루시.txt 67
+대사 With a wide smile, Lucy grabs onto the edges of her skirt.
+대기
+대사새줄
+대사잇기 Then she performs a flawless curtsy that would make a princess envious.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0137_{{$언어}}.mp3
+대사 “ Hello. Before father is an android with limitless capabilities—Lucy Valentine. ”
+대기
+보이스 lucy0138_{{$언어}}.mp3
+대사 “ Lucy will be in father’s care from now on, so she hopes she will get along nicely
+대사새줄
+대사잇기 with everyone. ”
+대기
+스크립트 아버지.txt 01
+딜레이 300
+스크립트 이름.txt 아버지
+대사 “ What, it’s just a robot… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 His attitude changes completely.
+대기
+대사 The sharpness in his voice penetrates every part of my body.
+대기
+대사 But Lucy doesn’t seem to notice.
+대기
+대사 Or rather, she’s pretending not to.
+대기
+대사 She continues with a smile.
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0139_{{$언어}}.mp3
+대사 “ Cooking, cleaning, the laundry—please leave everything to Lucy! ”
+대기
+보이스 lucy0140_{{$언어}}.mp3
+대사 “ Household chores are no match for Lucy. ”
+대기
+스크립트 아버지.txt 02
+스크립트 이름.txt 아버지
+대사 “ I’m sorry, but there’s nothing we need from a robot in this family. ”
+대기
+대사 “ I suggest that you go look for somewhere else to stay. ”
+대기
+스크립트 루시.txt 135
+스크립트 이름.txt 루시
+보이스 lucy0141_1_{{$언어}}.mp3
+대사 “ Ahem! Please excuse Lucy, ”
+대기
+보이스 lucy0141_2_{{$언어}}.mp3
+대사 “ but there’s a lot more she can do than just simple chores! ”
+대기
+스크립트 아버지.txt 03
+스크립트 이름.txt 아버지
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Uh oh, this is not looking good.
+대기
+대사 Meanwhile, Lucy continues to ramble on, completely oblivious to what is about to
+대사새줄
+대사잇기 happen.
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0142_{{$언어}}.mp3
+대사 “ Lucy can also help relieve father’s previous concerns regarding his son. ”
+대기
+보이스 lucy0143_{{$언어}}.mp3
+대사 “ Lucy is the perfect educational tool, with access to lectures given by
+대사새줄
+대사잇기 world-renowned professors from various universities. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s talking as if she’s about to become my personal tutor.
+대기
+스크립트 루시.txt 95
+스크립트 이름.txt 루시
+보이스 lucy0144_1_{{$언어}}.mp3
+대사 “ Lucy has lots more features, ”
+대기
+//배경음악 반복 free64.mp3
+보이스 lucy0144_2_{{$언어}}.mp3
+대사 “ such as sewing, plumbing, and— ”
+대기
+스크립트 아버지.txt 12
+대사크기 52
+스크립트 이름.txt 아버지
+대사 “ Just where did you get this piece of junk?!
+페이드아웃 보이스 100
+변수 루시 = "l56"
+CG {{루시}} {{루시}}.png
+페이드아웃 l95
+진동 {{루시}} 0 3 300 1500 
+대사잇기  Get it out of my sight! ”
+대기
+대사크기 35
+스크립트 이름.txt 이름지우기
+대사 His angry outburst is as sudden as it is intense.
+대기
+대사새줄
+대사잇기 It catches Lucy off guard.
+대기
+대사 She stumbles backwards in alarm.
+대기
+스크립트 루시.txt 73
+대사 No surprises here.
+대기
+대사새줄
+대사잇기 I saw all of this coming from a mile away.
+대기
+스크립트 이름.txt 주인공
+대사 “ It’s a present from a friend. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I lie instinctively.
+대기
+대사새줄
+대사잇기 If I honestly tell him that I’d found her in the trash, he’ll definitely force me to take
+대사새줄
+대사잇기 her back there.
+대기
+대사 I’ll just say that I got her from Dr. Gears.
+대기
+대사 My father knows his manners.
+대기
+대사새줄
+대사잇기 There’s no way he’ll make me throw away a present.
+대기
+스크립트 아버지.txt 04
+스크립트 이름.txt 아버지
+대사 “ Hah, really… You haven’t stopped being a troublemaker since you were little. ”
+대기
+대사 “ What have I always told you? Robots are ruining society… ”
+대기
+대사 “ Did you forget about all of that? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 77
+스크립트 이름.txt 이름지우기
+대사 My father has always been like this.
+대기
+대사 Robots are becoming increasingly more common.
+대기
+대사새줄
+대사잇기 They’re gradually making their way into our daily lives.
+대기
+대사 But my parents consider them as intruders infiltrating human society.
+대기
+대사 They’re unable to catch up with the shifts in technology whilst they refuse to let go of their traditional ways.
+대기
+대사 They simply refuse to co-exist with robots.
+대기
+대사 Thanks to that, I grew up hearing nothing but bad things about robots.
+대기
+스크립트 이름.txt 주인공
+대사 “ But what’s wrong with keeping one around the house… ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ What’s wrong, you ask? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’ve read that most families own androids nowadays. ”
+대기
+대사 “ Why can’t we just keep one around for convenience? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 아버지.txt 03
+대사 I’ve clearly just added fuel to the fire.
+대기
+스크립트 이름.txt 아버지
+대사 “ Convenience? Think about the type of people that care about convenience. ”
+대기
+대사 “ Convenience makes us lazy. ”
+대기
+대사 “ And when we’re lazy, our minds don’t work properly. Convenience makes our
+대사새줄
+대사잇기 minds weak. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 아버지.txt 04
+스크립트 이름.txt 아버지
+대사 “ It’s obvious how they’ll live the rest of their lives. ”
+대기
+대사 “ Without realizing that they’re hopelessly lazy, they’ll just end up living a
+대사새줄
+대사잇기 meaningless existence. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’ve already lost count of how many times I’ve heard this from him.
+대기
+대사 Today’s lecture is variant B.
+대기
+대사새줄
+대사잇기 It goes from A to Z, by the way.
+대기
+대사 I’m so sick of this.
+대기
+대사 I just want to wrap up this conversation so I can leave as soon as possible.
+대기
+스크립트 이름.txt 주인공
+대사 “ Anyway, I’ve accepted it already, so we should keep it. I’m the one who’s gonna be using it, so why do you care? ”
+대기
+스크립트 이름.txt 아버지1
+대사 “ And who’s the one going to be paying for the electricity? ”
+대기
+대사 “ Who taught you to be so selfish. ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 heartbeat heartbeat.mp3 반복
+대사 I’m starting to reach my limit.
+대기
+대사새줄
+대사잇기 Come on…
+대기
+대사잇기  I want to leave…
+대기
+스크립트 이름.txt 주인공
+대사 “ Then I’ll pay for it. ”
+대기
+대사 “ I can get a part-time job… ”
+대기
+스크립트 아버지.txt 05
+스크립트 이름.txt 아버지
+대사 “ A job? You’re going to get a JOB? ”
+대기
+대사 “ You’re going to WORK when you should be STUDYING? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yes. ”
+대기
+스크립트 아버지.txt 04
+스크립트 이름.txt 아버지
+대사 “ Do you even realize how important this phase in your life is? ”
+대기
+대사 “ These years in high school could decide the rest of your future. ”
+대기
+대사 “ With whose permission are you planning to work? ”
+대기
+대사크기 43
+대사 “ Kids like you should be STUDYING!
+대기
+대사잇기  Just keep your mouth shut and STUDY! ”
+대기
+페이드아웃 heartbeat 500
+효과음 hit hit.mp3
+딜레이 300
+쓰레드 배경진동
+진동 bg_livingroom_evening 0 7 300 1500 
+쓰레드
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 1500
+쓰레드
+쓰레드시작
+대사크기 52
+스크립트 이름.txt 주인공1
+대사 “ Well, I’ll pay you back when I grow up, so just leave me alone, dammit! ”
+스크립트 아버지.txt 06 1
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 I scream at the top of my lungs.
+대기
+대사 His eyes widen in shock.
+대기
+대사 That was to be expected.
+대기
+대사 I’ve never raised my voice in front of my parents before.
+대기
+대사 You can’t do this. You can’t do that.
+대기
+대사새줄
+대사잇기 Then just what the heck do you expect me to do.
+대기
+대사 I’m so furious that I can almost feel steam rising from my head.
+대기
+스크립트 아버지.txt 03
+대사 At the same time, my father’s eyes quickly narrow and begin to burn with rage.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 배경진동2
+페이드아웃 {{아버지}} 500
+쓰레드
+쓰레드 배경진동3
+페이드아웃 {{루시}} 500
+쓰레드
+쓰레드시작
+딜레이 500
+CG bg_white bg_white.jpg 0 0 아니 -130
+페이드인 bg_white 100
+효과음 slap slap.mp3
+쓰레드 배경진동1
+진동 bg_livingroom_evening 100 1 200 1000
+쓰레드
+쓰레드시작
+페이드아웃 bg_white 1000
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Time slows down, and I’m left struggling to process what had just happened.
+대기
+딜레이 500
+변수 아버지 = "d10"
+CG {{아버지}} {{아버지}}.png
+페이드인 {{아버지}} 1000
+딜레이 500
+대사 I stand in place, holding my sore cheeks as I stare at my father in shock.
+대기
+대사지우기
+변수 루시 = "l105"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+딜레이 700
+스크립트 루시.txt 33
+대사 Not knowing what to do, Lucy is fidgeting non-stop.
+대기
+대사크기 48
+스크립트 아버지.txt 12
+스크립트 이름.txt 아버지
+대사 “ Just where did you learn to be so stubborn? I never raised
+대사새줄
+대사잇기 you this way! ”
+대기
+대사크기 35
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Shocked and humiliated, I can no longer calm my fiery soul.
+대기
+스크립트 이름.txt 이름지우기
+쓰레드 아버지지우기
+페이드아웃 {{아버지}} 500
+쓰레드
+쓰레드 루시지우기
+페이드아웃 {{루시}} 500
+쓰레드
+쓰레드시작
+딜레이 1000
+대사 I turn around and stomp off towards my room.
+대기
+대사 I pull Lucy along with me.
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l56"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+딜레이 500
+효과음 thud1 thud1.mp3
+스크립트 루시.txt 106
+딜레이 200
+이동 {{루시}} 15 0 200 0
+이동 {{루시}} 0 0 100 0
+스크립트 이름.txt 루시
+보이스 lucy0145_{{$언어}}.mp3
+대사 “ O-ow! Master? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 지우기
+딜레이 500
+대사 Hesitating, Lucy eventually makes a short bow to my father and trails along.
+대기
+대사 Behind me, I hear my father yelling.
+대기
+대사 But I shut it all out as my blind rage is nearly overpowering.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+효과음 StepD11 StepD11.mp3
+배경룰페이드아웃 룰_25.PNG 1000
+딜레이 3000
+배경룰페이드인 룰_25.PNG 1000
+배경 bg_room01_light bg_room01_light.jpg
+딜레이 300
+효과음 door_slam door_slam.mp3
+딜레이 1000
+효과음 e74028_door-01-01 e74028_door-01-01.mp3
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Entering my room, I lock the door behind me.
+대기
+효과음 door_knock door_knock.mp3 반복
+딜레이 500
+대사 I hear my father yelling as he continues banging on my door for a while.
+대기
+대사 I’m not sure how many minutes have gone by.
+대기
+대사새줄
+대사잇기 It feels like an eternity.
+대기
+대사 Even if I block my ears, I can still sense the floor shaking.
+대기
+//배경음악 반복 free64.mp3
+대사 I curl up my body and wait for the moment to pass.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+페이드아웃 door_knock 3000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_27.PNG 400
+딜레이 4000
+배경룰페이드인 룰_31.PNG 400
+배경 bg_room01_light bg_room01_light.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The clock slowly ticks away.
+대기
+대사 After a long while, I uncover my ears.
+대기
+대사 The noises have stopped, and I finally begin to relax.
+대기
+대사새줄
+대사잇기 As my head eventually clears up, I realize what I’ve done.
+대기
+스크립트 이름.txt 주인공
+대사 “ Whew… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’d finally lost control.
+대기
+대사 I’ve yelled at my father for the first time in my life.
+대기
+대사새줄
+대사잇기 It’s been a while since the last time I was hit by my father.
+대기
+대사 It was like the rupturing of a dam after so much pressure and strain.
+대기
+대사 Thinking back, it’s strange that we’ve never had any direct confrontations like this
+대사새줄
+대사잇기 one.
+대기
+//대사새줄
+대사 Our relationship was like an unstable bomb, but I’d always managed to prevent it
+대사새줄
+대사잇기 from going off.
+대기
+대사 But today was different.
+대기
+대사 Well, it was bound to happen sooner or later.
+대기
+스크립트 이름.txt 주인공
+대사 “ Whew… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I try to slow down my breathing.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+변수 루시 = "l74"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+배경음악 반복 town.mp3
+페이드인 배경음악 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0146_{{$언어}}.mp3
+대사 “ Umm… Master? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy calls out to me cautiously.
+대기
+스크립트 이름.txt 주인공
+대사 “ What is it…? ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 37
+딜레이 1200
+스크립트 루시.txt 73
+딜레이 700
+스크립트 이름.txt 루시
+보이스 lucy0147_{{$언어}}.mp3
+대사 “ Umm… Is master all right? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wonder what she means by ‘all right.’
+대기
+대사잇기  Nothing’s all right.
+대기
+대사 But I know what she meant.
+대기
+대사 So I give a small nod anyway.
+대기
+스크립트 루시.txt 지우기
+//효과음 fabric_lean_soft fabric_lean_soft.mp3
+대사 With a wet handkerchief from who-knows-where, Lucy wipes down my sweaty
+대사새줄
+대사잇기 forehead.
+대기
+대사 The fruity smell of her perfume is surprisingly calming.
+대기
+변수 루시 = "l77"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0148_{{$언어}}.mp3
+대사 “ Umm, master? With all due respect… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it. ”
+대기
+스크립트 루시.txt 20
+스크립트 이름.txt 루시
+보이스 lucy0149_{{$언어}}.mp3
+대사 “ It’s not right to use that sort of language with master’s father. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 My face quickly becomes contorted with anger.
+대기
+스크립트 이름.txt 주인공
+대사 “ What the heck. Are you also telling me I’m a bad person? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy shakes her head.
+대기
+스크립트 루시.txt 39
+스크립트 이름.txt 루시
+보이스 lucy0150_{{$언어}}.mp3
+대사 “ Lucy isn’t saying that master is bad. ”
+대기
+스크립트 루시.txt 29 1
+보이스 lucy0151_{{$언어}}.mp3
+대사 “ But she thinks that master should be polite towards his parents. ”
+대기
+보이스 lucy0152_{{$언어}}.mp3
+대사 “ It’s master’s family! Father was probably very hurt inside. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Oh, you don’t think that I’m bad, huh? When you’re the one telling me that it’s my
+대사새줄
+대사잇기 fault entirely? ”
+대기
+대사 “ I was the one hurt! And he was the one who hurt me. ”
+대기
+대사 “ My head is aching, so just drop it and leave me alone. ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 loading loading.mp3
+스크립트 루시.txt 148
+딜레이 500
+대사 Lucy, who had been squirming about, goes completely still.
+대기
+대사 Both her eyes suddenly lose their color.
+대기
+대사 After a while, she springs back to life.
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0153_{{$언어}}.mp3
+대사 “ Master. In regards to the information on Lucy’s memory chip, investigating
+대사새줄
+대사잇기 various scenarios regarding family conflict shows that… ”
+대기
+보이스 lucy0154_{{$언어}}.mp3
+대사 “ The conversation between master and his father was found to be one of the least desirable outcomes. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What are you talking about? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0155_{{$언어}}.mp3
+대사 “ Logically speaking, it means that additional repercussions may arise from this
+대사새줄
+대사잇기 incident if master takes no action. ”
+대기
+스크립트 루시.txt 52 1
+보이스 lucy0156_{{$언어}}.mp3
+대사 “ To solve this issue, master should recognize his mistakes and apologize to— ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Shut up!
+대기
+대사잇기  Your explanations don’t even make sense and you’re calling it logical? ”
+대기
+대사 “ You wouldn’t understand a thing anyway? ”
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0157_{{$언어}}.mp3
+대사 “ Eh? What wouldn’t Lucy understand? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What can you possibly tell from watching us for just five minutes? What did you
+대사새줄
+대사잇기 exactly find out about us? ”
+대기
+대사 “ How can you say something so ignorant without knowing anything about the
+대사새줄
+대사잇기 past eighteen years we’ve spent together? ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 34
+딜레이 500
+대사 The android tilts its head, looking confused.
+대기
+스크립트 이름.txt 주인공
+대사 “ Answer this. How many minutes are there in a day? ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0158_{{$언어}}.mp3
+대사 “ 1440 minutes. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How many in a year? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0159_{{$언어}}.mp3
+대사 “ 525600 minutes. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Then what about 18 years? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0160_{{$언어}}.mp3
+대사 “ 9460800 minutes. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 As expected from a robot, her calculations are quick and accurate.
+대기
+스크립트 이름.txt 주인공
+대사 “ That’s right. ”
+대기
+대사 “ Out of the 9460800 minutes I’ve spent with my father, you’ve seen only 5. ”
+대기
+대사 “ That’s less than 0.0001%—an insignificant amount. ”
+대기
+대사 “ It’s my fault that you’ve had to witness something like this. ”
+대기
+대사 “ But that man is always finding the smallest excuses to teach me things that only
+대사새줄
+대사잇기 he himself believes. ”
+대기
+대사 “ Think of it as throwing out an entire pan of pizza because of a single burnt piece
+대사새줄
+대사잇기 of pepperoni. ”
+대기
+대사 “ Where’s the logic in that? ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 loading loading.mp3
+스크립트 루시.txt 148
+딜레이 500
+대사 Lucy’s eyes lose their focus.
+대기
+대사 It’s just like before.
+대기
+대사새줄
+대사잇기 Could she be looking up something inside her memory chip again?
+대기
+대사 Or maybe she’s doing a search online?
+대기
+대사 She returns after a moment.
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0161_1_{{$언어}}.mp3
+대사 “ Sorry. ”
+대기
+보이스 lucy0161_2_{{$언어}}.mp3
+대사 “ Lucy doesn’t understand what master is saying. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I figured as much. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Cause and effect.
+대기
+대사새줄
+대사잇기 The universe operates on this principle.
+대기
+대사 If a father neglects his son....
+대기
+대사새줄
+대사잇기 Then of course, the son would neglect his father in return.
+대기
+대사 Who’s at a bigger fault here?
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0162_{{$언어}}.mp3
+대사 “ But, master… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What? ”
+대기
+스크립트 루시.txt 67
+스크립트 이름.txt 루시
+보이스 lucy0163_{{$언어}}.mp3
+대사 “ Going back to the pizza, by simply replacing the burnt piece of pepperoni, it
+대사새줄
+대사잇기 would become perfect as a whole. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 How much longer can I argue with this smiling, carefree robot.
+대기
+효과음 thud1 thud1.mp3
+대사 I lie down on my bed while hugging my throbbing head.
+대기
+대사 Then I let out one of my trademark phrases.
+대기
+스크립트 이름.txt 주인공
+대사 “ This is why I hate robots. They’re all so stupid. ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 96
+딜레이 700
+스크립트 루시.txt 93
+딜레이 500
+대사 Lucy appears to be brooding over something. After a while, she finally speaks up
+대사새줄
+대사잇기 again.
+대기
+스크립트 루시.txt 65
+스크립트 이름.txt 루시
+보이스 lucy0164_{{$언어}}.mp3
+대사 “ Master. Lucy truly does believe that one side always needs to take the initiative in order to solve a problem. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Then why should I be the one apologizing? ”
+대기
+대사 “ I’m not the bad guy here. ”
+대기
+스크립트 루시.txt 70
+스크립트 이름.txt 루시
+보이스 lucy0165_{{$언어}}.mp3
+대사 “ Even if that’s not the case, Lucy still thinks that it’s important to do so. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Not gonna happen. ”
+대기
+대사 “ Shouldn’t the old guy be more mature and understanding? ”
+대기
+대사 “ I’m a high school student. ”
+대기
+대사 “ I do stuff on impulse.
+대기
+대사잇기  Do you get what I mean by that? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0166_{{$언어}}.mp3
+대사 “ Oh! ”
+대기
+보이스 lucy0167_{{$언어}}.mp3
+대사 “ Master is talking about the age when people go around smashing through
+대사새줄
+대사잇기 windows while riding motorbikes and such, yes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Kind of exaggerated… but as long as she gets my point.
+대기
+스크립트 이름.txt 주인공
+대사 “ Yeah. ”
+대기
+대사 “ I’m one of those ‘kids these days’ that the adults are always going on about. ”
+대기
+대사 “ It’s natural that I’d have trouble controlling my emotions. ”
+대기
+대사 “ So don’t expect much from me. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 To be honest, I do think that I’m way more mature than the other kids at my age.
+대기
+대사 This is all irrelevant, though.
+대기
+대사새줄
+대사잇기 I’m sure anyone would take their family matters very seriously.
+대기
+스크립트 루시.txt 93
+스크립트 이름.txt 루시
+보이스 lucy0168_{{$언어}}.mp3
+대사 “ But it won’t be easy for father to apologize. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ How do you know? ”
+대기
+스크립트 루시.txt 69
+스크립트 이름.txt 루시
+보이스 lucy0169_{{$언어}}.mp3
+대사 “ It’s because of his personality. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Haha. You’ve learned so much from meeting him for just a few minutes.
+대기
+대사잇기  You’re
+대사새줄
+대사잇기 really impressive, I tell you. ”
+대기
+스크립트 루시.txt 39
+스크립트 이름.txt 루시
+보이스 lucy0170_{{$언어}}.mp3
+대사 “ How long Lucy has known master and his family is not of concern. ”
+대기
+보이스 lucy0171_{{$언어}}.mp3
+대사 “ Lucy has all kinds of information available to her at her fingertips. ”
+대기
+보이스 lucy0172_{{$언어}}.mp3
+대사 “ And according to various sources… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Sources? ”
+대기
+대사 “ What kind of sources… Wikipedia? Reddit? 4chan? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Ignoring my outburst, Lucy continues.
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0173_{{$언어}}.mp3
+대사 “ Upon analyzing father’s actions in great detail… ”
+대기
+보이스 lucy0174_{{$언어}}.mp3
+대사 “ Lucy concludes that he possesses the typical characteristics of a male leader. ”
+대기
+보이스 lucy0175_{{$언어}}.mp3
+대사 “ He’s very stubborn, assertive, and prefers an aggressive approach. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Okay, and…? ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0176_{{$언어}}.mp3
+대사 “ It’s difficult to change the way a person lives his life. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 루시.txt 67
+스크립트 이름.txt 루시
+보이스 lucy0177_{{$언어}}.mp3
+대사 “ It would be better for master to reach out to him first. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ By the way… ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0178_{{$언어}}.mp3
+대사 “ Yes? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ If you want me to make up with my father, that means I’ll have to throw you
+대사새줄
+대사잇기 out. ”
+대기
+대사 “ He’s not the type of person to make any compromises. ”
+대기
+대사 “ Have you even realized this? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0179_{{$언어}}.mp3
+대사 “ ………
+딜레이 500
+대사잇기 ………
+딜레이 500
+대사잇기 ………
+딜레이 300
+스크립트 루시.txt 60 1
+대사잇기  Oh! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I guess not.
+대기
+스크립트 루시.txt 76
+스크립트 이름.txt 루시
+보이스 lucy0180_{{$언어}}.mp3
+대사 “ W-what should Lucy do? It’d be bad if that actually happened… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Don’t ask me. ”
+대기
+대사 “ Why don’t you think before you talk next time. ”
+대기
+//대사 “ 어이가 없어서 원. ”
+//대기
+스크립트 이름.txt 이름지우기
+대사 I shake my head.
+대기
+대사 The reason behind this mess of a conversation is the fact that I’m talking to a robot.
+대기
+대사 sometimes, I forget that she’s a robot in the first place.
+대기
+대사 And sometimes it’s reversed, where I end up deliberately pointing out her flaws as a robot.
+대기
+대사 And then everything in my head gets mixed up.
+대기
+//배경음악 반복 town.mp3
+대사 This robot really knows how to stress people out…
+대기
+보이스
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 루시.txt 지우기1000
+딜레이 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+페이드아웃 bg_room01_light 2500
+
+딜레이 3000
+
+변수 chapter = 7
+
+점프 로봇3원칙.txt 첫줄
+
+
+

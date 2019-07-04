@@ -1,0 +1,1095 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+
+효과음 alarmclock alarmclock.mp3
+딜레이 3500
+
+스크립트 대화창함수.txt
+딜레이 1500
+대사 Tap-!
+대기
+대사 I shut off the alarm by reflex.
+대기
+대사 I groggily get up to check the time.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+배경룰페이드인 룰_24.png 400
+배경 bg_room01_earlymorning bg_room01_earlymorning.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The clock reads…
+대기
+대사새줄
+대사잇기 6:30 AM.
+대기
+대사 School starts at 8 sharp.
+대기
+대사새줄
+대사잇기 It takes thirty minutes to get there.
+대기
+대사 So I have about…
+대기
+대사새줄
+대사잇기 One extra hour.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 There’s plenty of time left.
+대기
+대사 And I’m still feeling tired.
+대기
+
+페이드아웃 bg_room01_earlymorning 500
+효과음 THUDMovementBeforeandAfter THUDMovementBeforeandAfter.mp3
+딜레이 1500
+대사 Closing my eyes, I lie back down.
+대기
+대사 I decide to catch some more Zs.
+대기
+대사 ……
+딜레이 700
+대사잇기 ………
+딜레이 700
+대사잇기 …………
+딜레이 700
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+딜레이 1500
+효과음 thud1 thud1.mp3
+배경룰페이드인 룰_24.png 1000
+배경 bg_room01_earlymorning bg_room01_earlymorning.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 After a brief moment, I get back up.
+대기
+대사 I realize that I’d been forgetting something.
+대기
+스크립트 이름.txt 주인공
+대사 “ Come to think of it, wasn’t there a… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I look around for the android.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+
+변수 루시 = "l01"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 1000
+배경음악 반복 Wake_up.mp3
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 And there it was.
+대기
+대사 Dressed in provocative clothing…
+대기
+대사새줄
+대사잇기 With a tall nose, luscious lips…
+대기
+대사잇기  and hair glinting in silver.
+대기
+대사 The android named Lucy came into my view.
+대기
+스크립트 이름.txt 주인공
+대사 “ Lucy. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 300
+효과음 robot1 robot1.mp3 
+변수 루시 = "l02"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 800
+페이드아웃 l01 300
+딜레이 300
+효과음 system_boot system_boot.mp3
+쓰레드 l03
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+페이드아웃 l02 300
+쓰레드
+쓰레드시작
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 As I call out to her, I’m greeted by an immediate reaction.
+대기
+대사 It seems to be revving itself up.
+대기
+대사 It mutters something and starts to rise off the floor.
+대기
+
+스크립트 이름.txt 주인공
+대사 “ Hmm… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 A robot with looks no different to those of a real person…
+대기
+대사새줄
+대사잇기 Also with a pretty face to boot…
+대기
+대사 Umm, don’t get the wrong idea.
+대기
+대사새줄
+대사잇기 Just because it’s attractive doesn’t mean I’m interested…
+대기
+대사 Since it’s a robot.
+대기
+대사 In other words, it’s like checking out a girl from a magazine.
+대기
+대사새줄
+대사잇기 Except that feeling is amplified ten-fold in this case.
+대기
+대사 Although technology is improving, a huge gap remains between humans and
+대사새줄
+대사잇기 robots.
+대기
+대사 You can’t approach a person like you would with a robot.
+대기
+대사새줄
+대사잇기 No matter how close a robot could simulate a human being.
+대기
+대사 Machine and man will always be different.
+대기
+//대사새줄
+//대사잇기 여기에는 그것이 있다.
+//대기
+대사 As I continue staring at the android, I think to myself:
+대기
+대사 What kind of greeting should I be using here?
+대기
+대사 Good morning?
+대기
+대사잇기  Did you sleep well?
+대기
+대사새줄
+대사잇기 They all feel out of place.
+대기
+대사 I decide to ask about her condition instead.
+대기
+스크립트 이름.txt 주인공
+대사 “ How are your battery levels? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0030_1_{{$언어}}.mp3
+대사 “ 100%—fully charged. ”
+대기
+보이스 lucy0030_2_{{$언어}}.mp3
+대사 “ No issues have been recorded. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Good to know. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I let out a yawn as I make my way over to the bathroom.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+딜레이 300
+배경룰페이드아웃 룰_20.png 700
+딜레이 1000
+배경룰페이드인 룰_20.png 700
+배경 bg_toilet_day bg_toilet_day.jpg
+효과음 toilet toilet.mp3
+딜레이 3000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Finishing up my morning ablutions, I dry myself up with a towel as I head
+대사새줄
+대사잇기 downstairs.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_17.png 700
+딜레이 1000
+배경룰페이드인 룰_16.png 700
+배경 bg_table_dark bg_table_dark.jpg
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Entering the living room,
+대기
+대사 I spot a couple of plain sandwiches on the table.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 eating_a_toastie eating_a_toastie.mp3
+대사 Grabbing one, I start munching down.
+대기
+대사 …………
+대기
+대사 It’s always the same sandwich from the convenience store just across the street.
+대기
+대사 While chewing, I glance around the living room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드인 룰_20.png 700
+배경 bg_livingroom_dark bg_livingroom_dark.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 My father has already left for work.
+대기
+대사 He always leaves early and returns late at night.
+대기
+대사 Actually, he typically spends the night at work.
+대기
+대사 That’s how it is around here.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+배경룰페이드아웃 룰_22.png 700
+딜레이 1000
+배경룰페이드인 룰_22.png 700
+딜레이 500
+배경 bg_room01_earlymorning bg_room01_earlymorning.jpg
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 I head back to my room.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+배경룰페이드인
+효과음 e71006_curtain-open e71006_curtain-open.mp3
+배경 bg_room01_day bg_room01_day.jpg
+페이드인 bg_room01_day 1000
+페이드아웃 bg_room01_earlymorning
+딜레이 1500
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The android is waiting for me in the exact same spot.
+대기
+대사새줄
+대사잇기 Looks like it hasn't budged an inch.
+대기
+대사 As expected from a robot…
+대기
+대사 Putting that aside, I start to prepare for school.
+대기
+대사 While packing my bag, I start to wonder if the robot has any magical self-
+대사새줄
+대사잇기 regenerating abilities.
+대기
+스크립트 이름.txt 주인공
+대사 “ How do you feel? Now that you’re fully charged, are you able to walk? ”
+대기
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 04
+대사 Its head slowly turns to face me.
+대기
+스크립트 이름.txt 안드로이드
+보이스 lucy0031_1_{{$언어}}.mp3
+대사 “ Significant damage in the lower limbs.”
+대기
+보이스 lucy0031_2_{{$언어}}.mp3
+대사 “ Unable to carry out normal operation. ”
+대기
+보이스 lucy0031_3_{{$언어}}.mp3
+대사 “ Repairs are required. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Keep things simple, remember? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0032_{{$언어}}.mp3
+대사 “ Walking is not feasible in current state. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Still?
+대기
+대사잇기  Aren’t you a real pain… ”
+대기
+대사 “ Anyway, I understand. ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3 0
+스크립트 루시.txt 03
+딜레이 1000
+//여기 오토멈춤
+대사 I'm not even going to make the attempt to fix it myself.
+대기
+대사 I'm way out of my depth here.
+대기
+대사새줄
+대사잇기 I’ll see what happens once I take it to the repair shop.
+대기
+대사 Just about finished packing.
+대기
+대사 Only thing left, is the android itself.
+대기
+대사 So… How am I going to lug this thing?
+대기
+북마크 선택지_어떻게데리고갈까
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_어떻게데리고갈까_dark
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 468 152 255 255 255 255 {{책가방에넣어서가져간다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 책가방에넣어서가져간다 = "Place it in my backpack." 
+라벨 선택지2_2 497 290 255 255 255 255 {{업어서데리고간다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 업어서데리고간다 = "Carry it on my back."
+//라벨 선택지2_1 470 152 255 255 255 255 {{책가방에넣어서가져간다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 책가방에넣어서가져간다 = "책가방에 넣어서 가져간다." 
+//라벨 선택지2_2 511 290 255 255 255 255 {{업어서데리고간다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 업어서데리고간다 = "업어서 데리고 간다."
+//라벨 선택지2_1 441 154 255 255 255 255 {{책가방에넣어서가져간다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 책가방에넣어서가져간다 = "カバンに入れて持っていく。" 
+//라벨 선택지2_2 490 292 255 255 255 255 {{업어서데리고간다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 업어서데리고간다 = "背負って持っていく。" 
+
+
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 책가방에넣어서가져간다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter2.txt 책가방에넣어서가져간다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 업어서데리고간다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter2.txt 업어서데리고간다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_어떻게데리고갈까_dark
+
+북마크 책가방에넣어서가져간다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000 
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+
+조건 책가방에넣어서가져간다1 >= 1 여기 책가방에넣어서가져간다2
+변수 책가방에넣어서가져간다1 = 1 
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Sounds good.
+대기
+페이드아웃 {{루시}} 500
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+대사 Come on… Get in there…
+대기
+대사 ……
+딜레이 500
+대사잇기 ……
+딜레이 500
+대사잇기 ………
+대기
+딜레이 500
+대사 It’s too big to fit inside my backpack.
+대기
+대사 What was I expecting?
+대기
+대사 I should try to use my brain next time.
+대기
+조건 $무모한도전트로피 = 1 여기 루시가방꺼냄
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+ 
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 447 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "무모한 도전"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 583 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 382 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Achievement Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 675 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Reckless Challenge"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 440 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "無謀な挑戦"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 575 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $무모한도전트로피 = 1
+키처리 32 텅빈.txt 첫줄
+
+딜레이 1000
+북마크 루시가방꺼냄
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+점프 선택지_어떻게데리고갈까
+
+
+
+북마크 책가방에넣어서가져간다2
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Quit messing around.
+대기
+대사 It’s not going to fit inside my backpack.
+대기
+점프 선택지_업어서데리고간다_single
+
+
+
+북마크 선택지_업어서데리고간다_single
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_업어서데리고간다_single_dark
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline1_1 whiteline.png -1280 212 아니 0
+쓰레드 whiteline1_1페이드
+페이드인 whiteline1_1 500 
+쓰레드
+쓰레드 whiteline1_1 이동
+이동 whiteline1_1 0 212 3000 1000
+쓰레드
+쓰레드 whiteline1_2페이드
+딜레이 200
+CG whiteline1_2 whiteline.png 1280 266 아니 0
+페이드인 whiteline1_2 500 
+쓰레드
+쓰레드 whiteline1_2 이동
+딜레이 200
+이동 whiteline1_2 0 266 3000 1000
+쓰레드
+쓰레드 choice_bar1_1cg페이드인
+딜레이 500
+CG choice_bar1_1cg choice_bar.png 0 212 아니 3
+페이드인 choice_bar1_1cg 500
+쓰레드
+쓰레드시작
+딜레이 1000
+
+라벨 선택지1_1 497 222 255 255 255 255 {{업어서데리고간다}}
+출력순서 선택지1_1 2
+라벨속성 선택지1_1 36 응 NanumGothic
+변수 업어서데리고간다 = "Carry it on my back."
+//라벨 선택지1_1 511 222 255 255 255 255 {{업어서데리고간다}}
+//출력순서 선택지1_1 2
+//라벨속성 선택지1_1 36 응 NanumGothic
+//변수 업어서데리고간다 = "업어서 데리고 간다." 
+//라벨 선택지1_1 490 224 255 255 255 255 {{업어서데리고간다}}
+//출력순서 선택지1_1 2
+//라벨속성 선택지1_1 32 아니 Apple osaka_unicode
+//변수 업어서데리고간다 = "背負って持っていく。" 
+쓰레드 선택지1_1
+페이드인 선택지1_1 500
+쓰레드
+쓰레드 업어서데리고간다_single
+시스템버튼 업어서데리고간다_single 0 212 1280 55 점프 여기 업어서데리고간다_single choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 업어서데리고간다_single 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar1_1cg
+페이드아웃 whiteline1_1
+페이드아웃 whiteline1_2
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_업어서데리고간다_single_dark
+
+북마크 업어서데리고간다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 500
+점프 업어서데리고간다_내용
+
+
+북마크 업어서데리고간다_single
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice1_1_protect 0 212 1280 55 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice1_1 light.png -456 187 아니 -130
+쓰레드 light_choice1_1 이동 
+이동 light_choice1_1 1280 187 3000 2000
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar1_1cg choice_bar_push.png 0 212 아니 -130 
+페이드인 choice_bar1_1cg 200
+페이드아웃 선택지1_1
+페이드아웃 업어서데리고간다_single
+페이드아웃 choice_bar1_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice1_1
+딜레이 500
+
+
+
+북마크 업어서데리고간다_내용
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Guess there's no other choice… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I kneel down facing away from the robot.
+대기
+스크립트 이름.txt 주인공
+대사 “ All right. Hop onto my back. ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 04
+딜레이 500
+대사 It tilts its head to the side, looking confused.
+대기
+대사 After noticing that, I start to get a little irritated.
+대기
+대사 Top-of-the-line? Yeah, right.
+대기
+대사 Am I supposed to explain every little thing?
+대기
+스크립트 이름.txt 주인공
+대사 “ Listen up. ”
+대기
+대사 “ Put your arms around my neck and climb onto my back.
+대기
+대사잇기  Can you do that? ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+스크립트 루시.txt 03
+딜레이 500
+대사 It follows my instructions to the letter…
+대기
+페이드아웃 {{루시}} 500
+효과음 robot2 robot2.mp3 
+딜레이 2500
+스크립트 이름.txt 안드로이드
+보이스 lucy0033_{{$언어}}.mp3
+대사 “ Confirming request. Is this correct? ”
+대기
+효과음 neck_breaker neck_breaker.mp3
+쓰레드 플래시
+딜레이 1500
+CG bg_white bg_white.jpg
+페이드인 bg_white 100
+딜레이 300
+페이드아웃 bg_white 1000
+쓰레드
+쓰레드시작
+스크립트 이름.txt 주인공1
+대사크기 50
+대사 “ Ack…!
+딜레이 300
+//대사잇기  ack…!
+딜레이 200
+대사잇기  Augh!
+진동 bg_room01_day 4 1 1200 2000 
+딜레이 500
+대사크기 55
+대사잇기  S-
+딜레이 200
+대사잇기  STOP! I SURRENDER!!! ”
+대기
+대사크기 35
+딜레이 200
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+변수 루시 = "l03"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+딜레이 500
+
+//오토멈춤
+대사 The strangling grip loosens.
+대기
+대사 I collapse to my knees in a coughing fit. Think I nearly blacked-out there…
+대기
+스크립트 이름.txt 주인공
+//대사 “ 코, 콜록…! ”
+//대기
+대사크기 50
+대사 “ Are you trying to murder me?! ”
+대기
+대사크기 35
+대사 “ There’s no need to put that much force into it! Just do it enough not to fall off! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Honest to God, thought I was a goner…
+대기
+대사 That thing’s got a steel-vise chokehold.
+대기
+대사새줄
+대사잇기 This android should look to be a world wrestling champion.
+대기
+스크립트 이름.txt 주인공
+대사 “ Okay, let’s try that again. ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+
+스크립트 이름.txt 이름지우기
+페이드아웃 {{루시}} 1000
+효과음 thud1 thud1.mp3
+딜레이 500
+대사 Second time's the charm.
+대기
+대사 Rising off the floor,
+대기
+대사새줄
+대사잇기 I brace myself for the extra weight…
+대기
+스크립트 이름.txt 주인공
+대사 “ Huh…? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 But lo and behold,
+대기
+대사새줄
+대사잇기 It was deceptively-light.
+대기
+대사 Think I’m coming around to appreciating this ‘ first-class ’ product.
+대기
+//배경음악 반복 Wake_up.mp3
+스크립트 이름.txt 주인공
+대사 “ And lift-off… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_7.PNG 700
+딜레이 2500
+배경룰페이드인 룰_34.PNG 700
+배경 bg_sky_day bg_sky_day.jpg
+배경음악 반복 free0539.mp3
+페이드인 배경음악 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The weather's not too bad.
+대기
+대사 The brisk autumn breeze is cool against my skin.
+대기
+대사 I gladly inhale the crisp morning air,
+대기
+대사새줄
+대사잇기 Letting last night’s stress melt away.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+배경룰페이드인 룰_24.png 700
+배경 bg_street02_day bg_street02_day.jpg
+페이드아웃 bg_sky_day
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The streets are still quiet.
+대기
+대사 Which is good.
+대기
+대사 The less there are to see this, the better.
+대기
+대사 Especially with what I’m lugging on my back.
+대기
+스크립트 이름.txt 주인공
+대사 “ Let’s see here… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Where’s the repair shop…
+대기
+대사 If memory serves, it should be about 15 minutes away.
+대기
+대사 Which is a relief,
+대기
+대사새줄
+대사잇기 As I’m not really what you’d call a ‘ fit ’ guy.
+대기
+효과음 FOOTSTEPSWalkTrainersAsphaltSlower FOOTSTEPSWalkTrainersAsphaltSlower.mp3
+대사 Not sure I can schlep this thing much longer…
+대기
+대사 And now this robot’s fidgeting.
+대기
+스크립트 이름.txt 주인공
+대사 “ Hold on tighter so you don’t fall off. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It feels like I’m scolding a child.
+대기
+스크립트 이름.txt 안드로이드
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+진동 bg_street02_day 1 2 1000 1000
+딜레이 500
+스크립트 이름.txt 주인공
+대사 “ H-hey, stop moving around so much. ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+//ev02_1 출력
+CG ev02_1 ev02_1.jpg
+페이드인 ev02_1 2000
+페이드아웃 bg_street02_day
+////앨범에 ev2_1 추가
+오마케추가 ev02_1 ev02_1.jpg
+변수 $ev02_1획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 500
+대사 I could feel the android through my clothes.
+대기
+대사새줄
+대사잇기 Its texture feels surprisingly similar to a human’s.
+대기
+//대사잇기  감촉.
+//대기
+대사 I’d noticed it yesterday, yet it manages to surprise me again today.
+대기
+대사 And that's not the only thing.
+대기
+대사새줄
+대사잇기 It’s warm to the touch.
+대기
+대사 It feels as if I’m carrying an actual person.
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Probably just its heating system.
+대기
+대사 That would explain it.
+대기
+스크립트 이름.txt 주인공
+대사 “ Wow, feels just like a real person… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I mutter to myself absent-mindedly.
+대기
+효과음 UISCI-FIToneBrightDry27 UISCI-FIToneBrightDry27.mp3
+딜레이 200
+스크립트 이름.txt 안드로이드
+보이스 lucy0034_{{$언어}}.mp3
+대사 “ The thermometer is operating as normal. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Say what…? ”
+대기
+스크립트 이름.txt 안드로이드1
+보이스 lucy0035_{{$언어}}.mp3
+대사 “ A thermometer allows Lucy to simulate human temperatures. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Uh,
+대기
+대사잇기  good to know… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Motherboards and microprocessors consisting of various computer chips.
+대기
+대사 There must be thousands of those inside a single android.
+대기
+대사 The heat emanating from the machine,
+대기
+대사새줄
+대사잇기 It’s as warm as human skin. It feels just like us.
+대기
+대사 But it’s not a real person.
+대기
+대사 Just an elaborate fake.
+대기
+대사 Sometimes, I fear what progress in technology would bring to the future.
+대기
+스크립트 이름.txt 주인공
+대사 “ Do you know where we’re headed? ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+대사 With a whir, the robot shakes its head sideways.
+대기
+스크립트 이름.txt 주인공
+대사 “ We’re going to a place that’ll get you fixed up. ”
+대기
+대사 “ When they begin the repairs, you need to be still and quiet . ”
+대기
+대사 “ so they won’t be distracted. Do you understand? ”
+대기
+보이스
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Hey, I’m asking if you understood! Say something! ”
+대기
+스크립트 이름.txt 안드로이드1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Maybe it took my command literally…
+대기
+대사새줄
+대사잇기 I just hope it got my message.
+대기
+대사 Letting out a frustrated sigh, I resume walking.
+대기
+대사 It’ll be about time for my classmates to head in…
+대기
+대사 I begin to hurry, so as to avoid running into anyone that might recognize me.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 200
+쓰레드 효과음페이드아웃
+효과음 FOOTSTEPSRunTrainersCompactGravel FOOTSTEPSRunTrainersCompactGravel.mp3
+딜레이 500
+페이드아웃 FOOTSTEPSRunTrainersCompactGravel 2000
+쓰레드
+쓰레드시작
+배경룰페이드인
+배경 ev02_1 ev02_1.jpg
+배경룰페이드아웃 룰_20.PNG 500
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I arrive at the place in an aching and huffing mess.
+대기
+대사 Sure has the look of a small antiques shop.
+대기
+대사 Though mostly dealing in second-hand goods,
+대기
+대사 They do dabble in robot repairs.
+대기
+대사 Word is there's even a fixer who likes robotics,
+대기
+대사새줄
+대사잇기 And that he's half-decent.
+대기
+대사 Normally, I wouldn't be caught in a place like this.
+대기
+대사 But…
+대기
+대사새줄
+대사잇기 These are unusual circumstances.
+대기
+//배경음악 반복 free0539.mp3
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+페이드아웃 배경음악 2000
+딜레이 2000
+
+점프 chapter3.txt 첫줄

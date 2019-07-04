@@ -1,0 +1,1680 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 13, You"
+//변수 슬롯씬이름 = "10월 13일 주인공"
+//변수 슬롯씬이름 = "10月13日 主人公"
+
+효과음 door_bell door_bell.mp3
+배경룰페이드인 룰_29.png 500
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 1000
+스크립트 대화창함수.txt
+스크립트 이름.txt 여자목소리
+보이스 lucy0036_{{$언어}}.mp3
+대사 “ Welcome to the antique shop! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 As soon as I set my foot inside, I was immediately greeted by a female staff.
+대기
+대사새줄
+대사잇기 The voice had a sweet, vibrant texture.
+대기
+대사 It really caught me off guard.
+대기
+대사 I’d never expected a girl to be manning the store.
+대기
+대사 I guess she’s a part-timer.
+대기
+대사 I turn around to face the person calling out to me.
+대기
+대사 And my jaw drops to the floor.
+대기
+스크립트 이름.txt 주인공
+대사 “ You… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her face lights up when she finally recognizes me.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 700
+
+변수 루시 = "l17"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+배경음악 반복 hatsukoi_to_harukaze.mp3
+페이드인 배경음악 1000
+딜레이 400
+스크립트 루시.txt 34 1
+딜레이 800
+스크립트 루시.txt 32 1
+딜레이 800
+스크립트 루시.txt 53 1
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0037_{{$언어}}.mp3
+대사 “ Master is finally here!
+딜레이 2000
+스크립트 루시.txt 28 1
+대사잇기  Lucy has been waiting all day long! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 It was the android named Lucy Valentine who had greeted me at the door.
+대기
+대사 Are my eyes playing tricks on me?
+대기
+대사새줄
+대사잇기 There’s no way that useless thing could be standing there, talking to me.
+대기
+대사 And what's with that smile?
+대기
+대사 I double-check,
+대기
+스크립트 이름.txt 주인공
+대사 “ You’re…
+딜레이 800
+대사잇기  Lucy, right? ”
+대기
+스크립트 루시.txt 94
+스크립트 이름.txt 루시
+보이스 lucy0038_{{$언어}}.mp3
+대사 “ Yes!
+딜레이 1500
+대사잇기  None other than Lucy Valentine! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Well, guess that settles it.
+대기
+스크립트 이름.txt 주인공
+대사 “ How'd you… end up like this? ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0039_{{$언어}}.mp3
+대사 “ What about Lucy, master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That voice… And your face… ”
+대기
+대사 “ And… You’re standing on your own, right? ”
+대기
+스크립트 루시.txt 64
+스크립트 이름.txt 루시
+보이스 lucy0040_1_{{$언어}}.mp3
+대사 “ Yes, of course, master! ”
+대기
+스크립트 루시.txt 135
+스크립트 이름.txt 루시
+보이스 lucy0040_2_{{$언어}}.mp3
+대사 “ Lucy is standing on her own two feet. Ahem! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy puffs up her chest, looking proud.
+대기
+대사 I mean, that’s not really something to be proud of, but…
+대기
+대사 Thinking back to how she was before, it was damn well impressive.
+대기
+스크립트 이름.txt 주인공
+대사 “ You do look better now… So there’s nothing wrong with you anymore? ”
+대기
+스크립트 루시.txt 104
+스크립트 이름.txt 루시
+보이스 lucy0041_{{$언어}}.mp3
+대사 “ Yes, master. Lucy feels like she could soar through the skies! ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 thud1 thud1.mp3
+대사 For emphasis, she spins in place like an excited ballerina.
+대기
+대사 She had the appearance of a mature, well-pampered maiden, yet at the same time,
+대사새줄
+대사잇기 looked silly like a child.
+대기
+페이드아웃 {{루시}} 500
+효과음 fall_light fall_light.mp3
+진동 bg_antiqueshop 0 4 300 1000
+딜레이 500
+대사 But her spin abruptly ends as she crashes onto the floor.
+대기
+대사새줄
+대사잇기 And… there goes my peace of mind.
+대기
+스크립트 이름.txt 이름지우기
+변수 루시 = "l70"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+스크립트 이름.txt 루시
+보이스 lucy0042_{{$언어}}.mp3
+대사 “ Ahahaha! Still not back to normal, it seems. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy smiles sheepishly.
+대기
+대사 Well, I'm at a loss for words…
+대기
+대사 That deceptively-human voice,
+대기
+대사새줄
+대사잇기 Her vibrant personality full of such emotion,
+대기
+대사 Her face displaying all manner of expressions,
+대기
+대사새줄
+대사잇기 Each movement bursts with spirited passion.
+대기
+대사 To say that I'm amazed,
+대기
+대사 Would be a gross understatement.
+대기
+대사 My brain's turned to mush.
+대기
+대사 I can't utter a single word.
+대기
+대사 I won't show it on the outside…
+대기
+대사새줄
+대사잇기 It's weakness to lose control of your emotions.
+대기
+대사 Well, that… Plus,
+대기
+대사새줄
+대사잇기 I don't want to admit to her that I'm surprised.
+대기
+스크립트 이름.txt 주인공
+대사 “ That's one heckuva change in just a few hours. ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0043_{{$언어}}.mp3
+대사 “ Ahaha! Lucy’s first compliment from master!
+딜레이 2200
+스크립트 루시.txt 54 1
+대사잇기  That makes Lucy very happy! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m complimenting the guy who fixed you up, of course. ”
+대기
+스크립트 루시.txt 14
+스크립트 이름.txt 루시
+보이스 lucy0044_{{$언어}}.mp3
+대사 “ Noo—! Impossible! ”
+대기
+//스크립트 이름.txt 이름지우기
+스크립트 루시.txt 78
+대사 The look of disappointment on her face was quite surreal.
+대기
+대사 How can I possibly explain this?
+대기
+대사 Magic?
+대기
+대사새줄
+대사잇기 Had she been enchanted by a witch?
+대기
+스크립트 루시.txt 지우기
+대사 Old childhood stories spring to mind.
+대기
+대사 The nine-tailed fox who desired to become human.
+대기
+대사새줄
+대사잇기 The little mermaid who also wished to become human.
+대기
+대사새줄
+대사잇기 What happened to them?
+대기
+대사 Let's just say they didn't get a happy ending.
+대기
+대사 But this robot makes me think…
+대기
+대사 If that little mermaid’s wish ever came true, wouldn’t she be celebrating just like this?
+대기
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Enough of this claptrap…
+대기
+대사새줄
+대사잇기 Back to the matter at hand, which is…
+대기
+대사 Where's the repairman?
+대기
+스크립트 이름.txt 주인공
+대사 “ Say, what happened to that guy who put you in charge? ”
+대기
+변수 루시 = "l67"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+스크립트 이름.txt 루시1
+보이스 lucy0045_{{$언어}}.mp3
+대사 “ Ah, the owner left a while ago to go shop for parts. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ He’s not here? What about his store? ”
+대기
+스크립트 루시.txt 130
+스크립트 이름.txt 루시
+보이스 lucy0046_{{$언어}}.mp3
+대사 “ Ahem! An excellent assistant is currently on duty. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ An assistant? Where? ”
+대기
+스크립트 루시.txt 131
+딜레이 500
+스크립트 루시.txt 116
+딜레이 200
+스크립트 이름.txt 루시
+보이스 lucy0047_{{$언어}}.mp3
+대사 “ Ahem! Ahem! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ So where is this assistant…? ”
+대기
+스크립트 루시.txt 121
+딜레이 500
+스크립트 루시.txt 136
+스크립트 이름.txt 루시
+보이스 lucy0048_{{$언어}}.mp3
+대사 “ Ahem! Ahem… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I don’t see anyone… ”
+대기
+스크립트 루시.txt 137
+딜레이 500
+스크립트 루시.txt 141
+딜레이 200
+스크립트 이름.txt 루시
+보이스 lucy0049_{{$언어}}.mp3
+대사 “ Ahem… ”
+대기
+스크립트 루시.txt 11
+딜레이 300
+대사 Well, that sure took the wind out of her sails.
+대기
+대사 She's having more highs and lows than a bipolar patient…
+대기
+대사 Feeling bad for her, I decide to drop the act.
+대기
+스크립트 이름.txt 주인공
+대사 “ Okay, I get it…
+대기
+대사잇기  You’re the one in charge for the time being. ”
+대기
+스크립트 루시.txt 53
+딜레이 500
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0050_{{$언어}}.mp3
+대사 “ Yes! That is correct, master! Lucy is the one in charge! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She sure bounced back fast…
+대기
+대사 Moreover, what’s the deal with the repairman?
+대기
+대사새줄
+대사잇기 Leaving Lucy to take care of the store on the first day he’s met her?
+대기
+대사 To such a ditzy robot?
+대기
+대사 You’d have to be a few cards short of a full deck to think this was a smart idea…
+대기
+스크립트 루시.txt 51
+스크립트 이름.txt 루시
+보이스 lucy0051_{{$언어}}.mp3
+대사 “ Umm, hello? What could master be thinking about? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m not thinking about anything. ”
+대기
+대사 “ And can you stop calling me ‘ master ’ all the time? ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0052_{{$언어}}.mp3
+대사 “ But master is Lucy’s master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Use my name instead. ”
+대기
+스크립트 루시.txt 57
+스크립트 이름.txt 루시
+보이스 lucy0053_{{$언어}}.mp3
+대사 “ But Lucy doesn’t know what master’s name is.
+딜레이 2800
+스크립트 루시.txt 19 1
+대사잇기  Please take this opportunity to
+대사새줄
+대사잇기 teach her now. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 True, I botched it up last time.
+대기
+대사 Let’s run through the choices…
+대기
+스크립트 스킵메뉴창.txt 봉인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+CG %시스템_메세지박스배경 message_box.png 457 226 아니 100
+크기 %시스템_메세지박스배경 0 0
+효과음 UIAnimateHi-PitchAppear UIAnimateHi-PitchAppear.mp3
+쓰레드 메시지박스 크기확대
+크기 %시스템_메세지박스배경 1 1 200 
+쓰레드
+
+쓰레드 메시지박스 페이드인
+페이드인 %시스템_메세지박스배경 300
+쓰레드
+
+CG log_box log_box.png 483 298 아니 99
+크기 log_box 0 0 
+
+쓰레드 메시지박스 크기확대
+딜레이 200
+크기 log_box .3 .11 200 
+쓰레드
+
+쓰레드시작
+딜레이 300
+
+
+쓰레드 메시지박스 페이드인
+페이드인 log_box 300
+쓰레드
+라벨 이름 523 258 255 255 255 255 {{typename}}
+라벨속성 이름 30 아니 NanumGothic
+변수 typename = "Please enter a name" 
+//라벨 이름 543 258 255 255 255 255 {{typename}}
+//라벨속성 이름 30 아니 NanumGothic
+//변수 typename = "이름을 입력하세요" 
+//라벨 이름 501 258 255 255 255 255 {{typename}}
+//라벨속성 이름 26 아니 Apple osaka_unicode
+//변수 typename = "名前を入力してください" 
+페이드인 이름 200
+//라벨 이름2 479 378 255 255 255 255 {{typename2}}
+//라벨속성 이름2 20 아니 Apple osaka_unicode
+//변수 typename2 = "＊半角英数字のみ入力してください" 
+//페이드인 이름2 200
+
+// 입력창 버튼 필요.
+입력 $이름 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 NanumGothic
+//입력 $이름 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 Apple osaka_unicode
+//
+페이드아웃 이름
+//페이드아웃 이름2
+페이드아웃 log_box
+페이드아웃 %시스템_메세지박스배경 500
+페이드아웃 black_background_40 500
+ 
+조건 $이름 = "oppai" 여기 oppai 
+조건 $이름 = "Oppai" 여기 oppai 
+조건 $이름 = "OPPAI" 여기 oppai 
+조건 $이름 = "おっぱい" 여기 oppai 
+조건 $이름 = "옵빠이" 여기 oppai
+조건 $이름 = "변태" 여기 oppai 
+조건 $이름 = "hentai" 여기 oppai  
+조건 $이름 = "Hentai" 여기 oppai  
+조건 $이름 = "HENTAI" 여기 oppai  
+조건 $이름 = "pervert" 여기 oppai 
+조건 $이름 = "Pervert" 여기 oppai 
+조건 $이름 = "PERVERT" 여기 oppai 
+조건 $이름 = "変態" 여기 oppai 
+조건 $이름 = "すけべ" 여기 oppai 
+조건 $이름 = "エッチ" 여기 oppai 
+조건 $이름 = "가슴" 여기 oppai 
+조건 $이름 = "슴가" 여기 oppai 
+조건 $이름 = "거유" 여기 oppai 
+조건 $이름 = "폭유" 여기 oppai 
+조건 $이름 = "boobs" 여기 oppai
+조건 $이름 = "Boobs" 여기 oppai 
+조건 $이름 = "BOOBS" 여기 oppai
+조건 $이름 = "ass" 여기 oppai
+조건 $이름 = "Ass" 여기 oppai
+조건 $이름 = "ASS" 여기 oppai
+조건 $이름 = "boobs" 여기 oppai
+조건 $이름 = "고자" 여기 고자 
+조건 $이름 = "심영" 여기 고자 
+조건 $이름 = "goja" 여기 고자 
+조건 $이름 = "goza" 여기 고자 
+조건 $이름 = "심영" 여기 고자 
+조건 $이름 = "로리" 여기 oppai  
+조건 $이름 = "로리콘" 여기 oppai  
+조건 $이름 = "페도" 여기 oppai  
+조건 $이름 = "lolicon" 여기 oppai  
+조건 $이름 = "Lolicon" 여기 oppai  
+조건 $이름 = "LOLICON" 여기 oppai  
+조건 $이름 = "pedophilia" 여기 oppai  
+조건 $이름 = "Pedophilia" 여기 oppai  
+조건 $이름 = "PEDOPHILIA" 여기 oppai  
+조건 $이름 = "엘린" 여기 oppai  
+조건 $이름 = "elin" 여기 oppai
+조건 $이름 = "Elin" 여기 oppai
+조건 $이름 = "ELIN" 여기 oppai 
+조건 $이름 = "섹스" 여기 oppai  
+조건 $이름 = "젖꼭지" 여기 oppai  
+조건 $이름 = "nipple" 여기 oppai    
+조건 $이름 = "乳首" 여기 oppai   
+조건 $이름 = "류원" 여기 주인공
+조건 $이름 = "ryu" 여기 주인공
+조건 $이름 = "Ryu" 여기 주인공
+조건 $이름 = "RYU" 여기 주인공
+조건 $이름 = "一ノ瀬" 여기 주인공
+조건 $이름 = "한자와 나오키" 여기 한자와나오키
+조건 $이름 = "半沢 直樹" 여기 한자와나오키
+조건 $이름 = "直樹 半沢" 여기 한자와나오키
+조건 $이름 = "Hanzawa Naoki" 여기 한자와나오키
+조건 $이름 = "Naoki Hanzawa" 여기 한자와나오키
+조건 $이름 = "dio" 여기 dio
+조건 $이름 = "Dio" 여기 dio
+조건 $이름 = "DIO" 여기 dio
+조건 $이름 = "디오" 여기 dio
+조건 $이름 = "dio brando" 여기 dio
+조건 $이름 = "Dio Brando" 여기 dio
+조건 $이름 = "alex deras" 여기 킥스타터
+조건 $이름 = "Alex Deras" 여기 킥스타터
+조건 $이름 = "ALEX DERAS" 여기 킥스타터
+조건 $이름 = "andrew warner" 여기 킥스타터
+조건 $이름 = "Andrew Warner" 여기 킥스타터
+조건 $이름 = "ANDREW WARNER" 여기 킥스타터
+조건 $이름 = "flavio reis" 여기 킥스타터
+조건 $이름 = "Flavio Reis" 여기 킥스타터
+조건 $이름 = "FLAVIO REIS" 여기 킥스타터
+조건 $이름 = "임재연" 여기 킥스타터
+조건 $이름 = "제리얼" 여기 킥스타터
+조건 $이름 = "zerial" 여기 킥스타터
+조건 $이름 = "Zerial" 여기 킥스타터
+조건 $이름 = "jaeyoun lim" 여기 킥스타터
+조건 $이름 = "Jaeyoun Lim" 여기 킥스타터
+조건 $이름 = "JAEYOUN LIM" 여기 킥스타터
+조건 $이름 = "sekai project" 여기 킥스타터
+조건 $이름 = "Sekai Project" 여기 킥스타터
+조건 $이름 = "SEKAI PROJECT" 여기 킥스타터
+조건 $이름 = "dr. gears" 여기 기박사
+조건 $이름 = "Dr. Gears" 여기 기박사
+조건 $이름 = "dr.gears" 여기 기박사
+조건 $이름 = "Dr.Gears" 여기 기박사
+조건 $이름 = "機械博士" 여기 기박사
+조건 $이름 = "기박사" 여기 기박사
+조건 $이름 = "baek du-san" 여기 백두산
+조건 $이름 = "Baek Du-San" 여기 백두산
+조건 $이름 = "baekdusan" 여기 백두산
+조건 $이름 = "BaekDuSan" 여기 백두산
+조건 $이름 = "baek dusan" 여기 백두산
+조건 $이름 = "Baek Dusan" 여기 백두산
+조건 $이름 = "十時翔" 여기 백두산
+조건 $이름 = "トキ・カケル" 여기 백두산
+조건 $이름 = "백두산" 여기 백두산
+조건 $이름 = "주인님" 여기 주인님
+조건 $이름 = "master" 여기 주인님
+조건 $이름 = "Master" 여기 주인님
+조건 $이름 = "MASTER" 여기 주인님
+조건 $이름 = "マスター" 여기 주인님
+
+점프 정상진행
+
+북마크 기박사
+스크립트 스킵메뉴창.txt 해제
+대사 That's my friend's nickname.
+대기
+대사새줄
+대사잇기 I don't think it's a good idea to use it.
+대기
+점프 다음으로
+
+북마크 백두산
+스크립트 스킵메뉴창.txt 해제
+대사 Hmm… I think I've heard of that name somewhere before.
+대기
+점프 다음으로
+
+북마크 킥스타터
+스크립트 스킵메뉴창.txt 해제
+대사색깔 255 215 0 255
+대사 Hello, {{$이름}}!
+대기
+대사새줄
+대사잇기 With your kind support and help, we finally released this Visual Novel!
+대기
+대사새줄 
+대사잇기 We truly thank you! <Sincerely, M-Vizlab>
+대기
+대사색깔 255 255 255 255
+대사 ………
+대기
+대사 All of a sudden, I get this telepathic voice in my head.
+대기
+대사새줄
+대사잇기 I don't know why, but it just came to me in the first place.
+대기
+대사 Weird.
+대기
+대사새줄
+대사잇기 May be the force is strong with me or something.
+대기
+대사 Anyway…
+대기
+점프 다음으로
+
+북마크 oppai
+스크립트 스킵메뉴창.txt 해제
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Seriously…?
+대기
+대사 Why do I get this feeling that, I should report someone right now?
+대기
+대사 Whatever…
+대기
+점프 다음으로
+
+
+
+북마크 고자
+스크립트 스킵메뉴창.txt 해제
+대사 What are you talking about? I… am a eunuch?!
+대기
+대사크기 45
+대사새줄
+대사잇기 What the… How could I be a eunuch?!!!
+대기
+대사크기 35
+대사 …………
+대기
+대사 Enough with the jokes.
+대기
+점프 다음으로
+
+
+북마크 dio
+스크립트 스킵메뉴창.txt 해제
+대사크기 50
+대사 WRRRRYYYYYYYYYYY!!!
+대기
+대사크기 35
+대사 …………
+대기
+대사 Enough with the jokes.
+대기
+점프 다음으로
+
+
+북마크 한자와나오키
+스크립트 스킵메뉴창.txt 해제
+스크립트 이름.txt 주인공
+대사크기 45
+대사 “ If you screw with me, I'll screw you back!
+대기
+대사잇기  Double payback!!! ”
+대기
+대사크기 35
+대사 “ …And I'm the one who came up with that lines, you know? ”
+대기
+점프 한자와
+
+
+북마크 주인공
+스크립트 스킵메뉴창.txt 해제
+대사 …………
+대기
+대사 It wouldn't be a joke if I tell my real name.
+대기
+점프 다음으로
+
+
+북마크 정상진행
+스크립트 스킵메뉴창.txt 해제
+대사 {{$이름}}?
+대기
+북마크 다음으로
+대사 I have an even better name.
+대기
+스크립트 이름.txt 주인공
+대사 “ The name’s Mr. Handsome. ”
+대기
+북마크 한자와
+스크립트 루시.txt 97
+효과음 error error.mp3
+딜레이 1000
+스크립트 루시.txt 75 1
+스크립트 이름.txt 루시
+보이스 lucy0054_{{$언어}}.mp3
+대사 “ Master! Master mustn’t lie like that! ”
+대기
+스크립트 루시.txt 39 1
+보이스 lucy0055_{{$언어}}.mp3
+대사 “ It’s bad to trick other people! Lying is evil! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ So you’re telling me I’m ugly? ”
+대기
+스크립트 루시.txt 56
+스크립트 이름.txt 루시
+보이스 lucy0056_{{$언어}}.mp3
+대사 “ Wha—no, no!
+딜레이 300
+스크립트 루시.txt 86 1
+대사잇기  Lucy never meant it that way! It’s a mistake! A mistake! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She curls up instinctively, thinking she might be scolded for messing up.
+대기
+스크립트 루시.txt 73
+스크립트 이름.txt 루시
+보이스 lucy0057_1_{{$언어}}.mp3
+대사 “ Master shouldn’t lie about his name… ”
+대기
+스크립트 루시.txt 30 1
+보이스 lucy0057_2_{{$언어}}.mp3
+대사 “ Please tell Lucy master’s real name! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Really… ”
+대기
+대사 “ And why do you think I’m pulling your leg? ”
+대기
+스크립트 루시.txt 21
+스크립트 이름.txt 루시
+보이스 lucy0058_{{$언어}}.mp3
+대사 “ Lucy saw master put his name in a while ago. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Oh, come on. Even the game’s working against me.
+대기
+북마크 주인님
+스크립트 스킵메뉴창.txt 해제
+스크립트 이름.txt 주인공
+대사 “ Forget it.
+대기
+대사잇기  Just call me master. ”
+대기
+스크립트 루시.txt 54
+스크립트 이름.txt 루시
+보이스 lucy0059_{{$언어}}.mp3
+대사 “ Understood, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+스크립트 루시.txt 104
+딜레이 200
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0060_{{$언어}}.mp3
+대사 “ Master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What? ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+스크립트 루시.txt 64
+딜레이 200
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0061_{{$언어}}.mp3
+대사 “ Master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What do you want… ”
+대기
+//대사잇기  불렀으면 말을 해. ”
+//대기
+스크립트 루시.txt 67
+스크립트 이름.txt 루시
+보이스 lucy0062_{{$언어}}.mp3
+대사 “ Lucy just wanted to say it. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Are you messing with me? ”
+대기
+스크립트 루시.txt 56
+스크립트 이름.txt 루시
+보이스 lucy0063_{{$언어}}.mp3
+대사 “ No, no! Of course not. ”
+대기
+스크립트 루시.txt 69 1
+보이스 lucy0064_1_{{$언어}}.mp3
+대사 “ Lucy is just very happy to have someone to call ‘ master. ’  ”
+대기
+스크립트 루시.txt 54 1
+보이스 lucy0064_2_{{$언어}}.mp3
+대사 “ That’s why she wanted to say it. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She cracks a wide smile.
+대기
+대사 If she were human,
+대기
+대사새줄
+대사잇기 I’d think she was on drugs.
+대기
+대사 But for a robot?
+대기
+대사 Maybe she’s still got a screw loose,
+대기
+대사새줄
+대사잇기 Or her programming’s still corrupted,
+대기
+대사 Whatever the case,
+대기
+대사 I just can’t get a bead on her…
+대기
+대사 And where’s that stupid repairman?
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 1500
+쓰레드
+쓰레드시작
+
+배경룰페이드아웃 룰_10.PNG 700
+딜레이 2500
+배경룰페이드인 룰_9.png 700
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 500
+쓰레드 배경음악 페이드인
+배경음악 반복 free0257.mp3
+페이드인 배경음악 1500
+쓰레드
+쓰레드시작
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 10 minutes later,
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+변수 가게주인 = "s04"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 The man in question finally shows up.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+스크립트 가게주인.txt 09
+딜레이 500
+효과음 THUDMovementBeforeandAfter THUDMovementBeforeandAfter.mp3
+스크립트 가게주인.txt 지우기
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 As soon as we lock eyes, the guy makes a bee-line towards me.
+대기
+대사 And nearly bowls me over as he pleads.
+대기
+변수 가게주인 = "s09"
+CG {{가게주인}} {{가게주인}}.png -152 -30
+크기 {{가게주인}} 1.5 1.5 0
+페이드인 {{가게주인}} 200
+쓰레드 진동 방
+진동 bg_antiqueshop 0 7 300 1500 
+쓰레드
+쓰레드 진동 아저씨
+진동 {{가게주인}} 0 7 300 1500 
+쓰레드
+쓰레드시작
+효과음 THUDBright04Movement THUDBright04Movement.mp3
+스크립트 이름.txt 가게주인
+대사크기 55
+대사 “ Please let me have Lucy! ”
+대기
+대사크기 35
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 What kind of screwed-up situation is this?
+대기
+대사 It’s like he’s asking for my daughter’s hand in marriage.
+대기
+대사 I shoot back-
+대기
+스크립트 이름.txt 주인공
+대사 “ No, I will not let you marry her. ”
+대기
+스크립트 이름.txt 이름지우기
+변수 가게주인 = "s11"
+CG {{가게주인}} {{가게주인}}.png -152 -30
+크기 {{가게주인}} 1.5 1.5 0
+페이드인 {{가게주인}} 300
+페이드아웃 s09 300
+스크립트 이름.txt 가게주인
+대사 “ Eh? What are you on about?
+대기
+대사잇기  You high or something? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s my line! ”
+대기
+대사 “ What do you think you’re doing?! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The owner takes some time to collect himself.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기
+딜레이 300
+변수 가게주인 = "s20"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Maybe I got a bit carried away… ”
+대기
+스크립트 가게주인.txt 14 1
+대사 “ Kid,
+대기
+대사잇기  how about I pawn that android off you? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Now why am I not surprised…
+대기
+스크립트 이름.txt 주인공
+대사 “ You want me to sell her? ”
+대기
+스크립트 가게주인.txt 08
+스크립트 이름.txt 가게주인
+대사 “ Yeah! I can give you this much. ”
+대기
+효과음 buttons_calculator buttons_calculator.mp3
+스크립트 이름.txt 이름지우기
+대사 He takes out his calculator and shows me the figures.
+대기
+페이드아웃 buttons_calculator 200
+대사 …
+딜레이 500
+대사잇기 ……
+딜레이 500
+대사잇기 ………
+대기
+대사 My mind goes numb for five seconds.
+대기
+스크립트 이름.txt 주인공
+대사 “ Are you serious? ”
+대기
+스크립트 가게주인.txt 14
+스크립트 이름.txt 가게주인
+대사 “ Of course! ”
+대기
+대사 “ What do you think? Not a bad deal for a student, right? ”
+대기
+스크립트 가게주인.txt 15 1
+대사 “ This’s a ton’a dough even fer an adult! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 With the state this place is in, I don’t think he has that kind of capital…
+대기
+대사새줄
+대사잇기 He’s obviously desperate.
+대기
+대사 I stare at Lucy in silence.
+대기
+페이드아웃 {{가게주인}} 500
+딜레이 200
+변수 루시 = "l57"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+대사 The android’s frozen like a statue.
+대기
+대사 That face of hers almost looks… sad.
+대기
+대사 Like a slave about to be sold off at auction.
+대기
+대사 Well, maybe that’s a bit extreme…
+대기
+대사 He’s not about to eat you alive or anything.
+대기
+대사 I turn back to face the repairman.
+대기
+페이드아웃 l57 500
+변수 가게주인 = "s26"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+딜레이 500
+스크립트 이름.txt 주인공
+대사 “ You’d pay this much?
+대기
+대사잇기  Do you really think Lucy is worth that kind of money? ”
+대기
+스크립트 가게주인.txt 08
+대사크기 55
+쓰레드 진동
+진동 bg_antiqueshop 0 5 400 1500 
+쓰레드
+쓰레드시작
+스크립트 이름.txt 가게주인
+대사 “ OF COURSE!!! ”
+대기
+스크립트 이름.txt 이름지우기
+대사크기 35
+대사 He yells in excitement.
+대기
+대사 Geez,
+대기
+대사새줄
+대사잇기 Deafened, much?
+대기
+스크립트 가게주인.txt 01
+스크립트 이름.txt 가게주인
+대사 “ Listen carefully. ”
+대기
+대사 “ Any decently-priced robot model comes with an A.I. or a module that allows them to mimic human emotions.
+대기
+대사잇기  You know this much, right? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Sure… ”
+대기
+스크립트 가게주인.txt 28
+스크립트 이름.txt 가게주인
+대사 “ Well, creating such a module is an incredibly complex process. ”
+대기
+대사 “ Even then, do you know how well they perform? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Hmm.
+대기
+대사잇기  Compared to a real person, they’re still a long ways off. ”
+대기
+스크립트 가게주인.txt 15
+스크립트 이름.txt 가게주인
+대사 “ Right! ”
+대기
+대사 “ Even cutting-edge, their mimicking emotion is rudimentary at best. ”
+대기
+대사 “ We’re still not at that stage where it’s considered genuine. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Think I’m beginning to see the picture here… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Looking back at Lucy, I start to put together what he’s trying to tell me.
+대기
+스크립트 가게주인.txt 13
+스크립트 이름.txt 가게주인
+대사 “ Yer a sharp one! ”
+대기
+스크립트 가게주인.txt 14 1
+대사 “ Teaching kids pretty well these days…
+대기
+대사잇기  So, you savvy what I'm sayin'? ”
+대기
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_조기교육
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline3_1 whiteline.png -1280 73 아니 0
+쓰레드 whiteline3_1페이드
+페이드인 whiteline3_1 500 
+쓰레드
+쓰레드 whiteline3_1 이동
+이동 whiteline3_1 0 73 3000 1000
+쓰레드
+쓰레드 whiteline3_2페이드
+딜레이 200
+CG whiteline3_2 whiteline.png 1280 127 아니 0
+페이드인 whiteline3_2 500 
+쓰레드
+쓰레드 whiteline3_2 이동
+딜레이 200
+이동 whiteline3_2 0 127 3000 1000
+쓰레드
+쓰레드 choice_bar3_1cg페이드인
+딜레이 500
+CG choice_bar3_1cg choice_bar.png 0 73 아니 3
+페이드인 choice_bar3_1cg 500
+쓰레드
+쓰레드 whiteline3_3페이드
+딜레이 400
+CG whiteline3_3 whiteline.png -1280 212 아니 0
+페이드인 whiteline3_3 500 
+쓰레드
+쓰레드 whiteline3_3 이동
+딜레이 400
+이동 whiteline3_3 0 212 3000 1000
+쓰레드
+쓰레드 whiteline3_4페이드
+딜레이 600
+CG whiteline3_4 whiteline.png 1280 266 아니 0
+페이드인 whiteline3_4 500 
+쓰레드
+쓰레드 whiteline3_4 이동
+딜레이 600
+이동 whiteline3_4 0 266 3000 1000
+쓰레드
+쓰레드 choice_bar3_2cg페이드인
+딜레이 900
+CG choice_bar3_2cg choice_bar.png 0 212 아니 3
+페이드인 choice_bar3_2cg 500
+쓰레드
+쓰레드 whiteline3_5페이드
+딜레이 800
+CG whiteline3_5 whiteline.png -1280 350 아니 0
+페이드인 whiteline3_5 500 
+쓰레드
+쓰레드 whiteline3_5 이동
+딜레이 800
+이동 whiteline3_5 0 350 3000 1000
+쓰레드
+쓰레드 whiteline3_6페이드
+딜레이 1000
+CG whiteline3_6 whiteline.png 1280 404 아니 0
+페이드인 whiteline3_6 500 
+쓰레드
+쓰레드 whiteline3_6 이동
+딜레이 1000
+이동 whiteline3_6 0 404 3000 1000
+쓰레드
+쓰레드 choice_bar3_3cg페이드인
+딜레이 1300
+CG choice_bar3_3cg choice_bar.png 0 350 아니 3
+페이드인 choice_bar3_3cg 500
+쓰레드
+쓰레드시작
+딜레이 1800
+
+라벨 선택지3_1 315 83 255 255 255 255 {{루시는실은로봇으로변장한인간}}
+출력순서 선택지3_1 2
+라벨속성 선택지3_1 36 응 NanumGothic
+변수 루시는실은로봇으로변장한인간 = "Lucy is actually a person disguised as a robot." 
+라벨 선택지3_2 357 222 255 255 255 255 {{루시는실은저주에걸린공주님}}
+출력순서 선택지3_2 2
+라벨속성 선택지3_2 36 응 NanumGothic
+변수 루시는실은저주에걸린공주님 = "Lucy is actually a princess under a spell." 
+라벨 선택지3_3 345 360 255 255 255 255 {{루시는인간수준으로잘만들어진로봇}}
+출력순서 선택지3_3 2
+라벨속성 선택지3_3 36 응 NanumGothic
+변수 루시는인간수준으로잘만들어진로봇 = "Lucy is an exceptionally well-made robot." 
+//라벨 선택지3_1 414 83 255 255 255 255 {{루시는실은로봇으로변장한인간}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 36 응 NanumGothic
+//변수 루시는실은로봇으로변장한인간 = "루시는 실은 로봇으로 변장한 인간." 
+//라벨 선택지3_2 431 222 255 255 255 255 {{루시는실은저주에걸린공주님}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 36 응 NanumGothic
+//변수 루시는실은저주에걸린공주님 = "루시는 실은 저주에 걸린 공주님." 
+//라벨 선택지3_3 382 360 255 255 255 255 {{루시는인간수준으로잘만들어진로봇}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 36 응 NanumGothic
+//변수 루시는인간수준으로잘만들어진로봇 = "루시는 인간 수준으로 잘 만들어진 로봇." 
+//라벨 선택지3_1 330 85 255 255 255 255 {{루시는실은로봇으로변장한인간}}
+//출력순서 선택지3_1 2
+//라벨속성 선택지3_1 32 아니 Apple osaka_unicode
+//변수 루시는실은로봇으로변장한인간 = "ルーシィは本当はロボットに変装した人間。" 
+//라벨 선택지3_2 345 224 255 255 255 255 {{루시는실은저주에걸린공주님}}
+//출력순서 선택지3_2 2
+//라벨속성 선택지3_2 32 아니 Apple osaka_unicode
+//변수 루시는실은저주에걸린공주님 = "ルーシィは本当は呪いにかかったお姫様。" 
+//라벨 선택지3_3 250 362 255 255 255 255 {{루시는인간수준으로잘만들어진로봇}}
+//출력순서 선택지3_3 2
+//라벨속성 선택지3_3 32 아니 Apple osaka_unicode
+//변수 루시는인간수준으로잘만들어진로봇 = "ルーシィは本当は人間に近い水準で作られたロボット。" 
+쓰레드 선택지3_1
+페이드인 선택지3_1 500
+쓰레드
+쓰레드 선택지3_2
+페이드인 선택지3_2 500
+쓰레드
+쓰레드 선택지3_3
+페이드인 선택지3_3 500
+쓰레드
+쓰레드 루시는실은로봇으로변장한인간
+시스템버튼 choice_bar3_1 0 73 1280 55 점프 chapter5.txt 루시는실은로봇으로변장한인간 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_1 3
+쓰레드
+쓰레드 루시는실은저주에걸린공주님
+시스템버튼 choice_bar3_2 0 212 1280 55 점프 chapter5.txt 루시는실은저주에걸린공주님 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_2 3
+쓰레드
+쓰레드 루시는인간수준으로잘만들어진로봇
+시스템버튼 choice_bar3_3 0 350 1280 55 점프 chapter5.txt 루시는인간수준으로잘만들어진로봇 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar3_3 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar3_1cg
+페이드아웃 choice_bar3_2cg
+페이드아웃 choice_bar3_3cg
+페이드아웃 whiteline3_1
+페이드아웃 whiteline3_2
+페이드아웃 whiteline3_3
+페이드아웃 whiteline3_4
+페이드아웃 whiteline3_5
+페이드아웃 whiteline3_6
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_조기교육
+
+북마크 루시는실은로봇으로변장한인간
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_1 light.png -456 48 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice3_1 1280 48 3000 2000
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_1cg choice_bar_push.png 0 73 아니 -130 
+페이드인 choice_bar3_1cg 200
+페이드아웃 선택지3_1
+페이드아웃 choice_bar3_1
+페이드아웃 choice_bar3_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ In a nutshell, you’re telling me that Lucy is actually a person disguised as
+대사새줄
+대사잇기 a robot. ”
+대기
+대사 “ There’s someone inside controlling her, right? ”
+대기
+스크립트 가게주인.txt 11
+스크립트 이름.txt 가게주인
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He seems to be at a loss for words.
+대기
+대사 And it’s probably not because he was impressed.
+대기
+북마크 농담이에요
+스크립트 이름.txt 주인공
+대사 “ I’m joking, I’m joking. ”
+대기
+대사 “ You’re telling me that Lucy is an exceptional robot that’s about as close it gets to a real person, right? ”
+대기
+페이드아웃 {{가게주인}} 500
+스크립트 이름.txt 이름지우기
+점프 내심놀라다
+
+북마크 루시는실은저주에걸린공주님
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_2 light.png -456 187 아니 -130
+쓰레드 light_choice2 이동 
+이동 light_choice3_2 1280 187 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_3 페이드아웃
+페이드아웃 선택지3_3
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_3 페이드아웃
+페이드아웃 choice_bar3_3 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_2cg choice_bar_push.png 0 212 아니 -130 
+페이드인 choice_bar3_2cg 200
+페이드아웃 선택지3_2
+페이드아웃 choice_bar3_2
+페이드아웃 choice_bar3_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_2
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ Lucy’s really a princess magically-turned into a robot. The only way to lift the curse
+대사새줄
+대사잇기 is a kiss from a handsome knight, right? ”
+대기
+스크립트 가게주인.txt 19
+스크립트 이름.txt 가게주인
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Judging from the look he’s giving me,
+대기
+대사새줄
+대사잇기 I’d say he’s somewhat concerned about my mental well-being.
+대기
+대사 So in that case,
+대기
+대사잇기  think before you speak, alright?
+대기
+점프 농담이에요
+
+북마크 루시는인간수준으로잘만들어진로봇
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice3_3 light.png -456 325 아니 -130
+쓰레드 light_choice3 이동 
+이동 light_choice3_3 1280 325 3000 2000
+쓰레드
+쓰레드 선택지3_1 페이드아웃
+페이드아웃 선택지3_1
+쓰레드
+쓰레드 선택지3_2 페이드아웃
+페이드아웃 선택지3_2
+쓰레드
+쓰레드 choice_bar3_1 페이드아웃
+페이드아웃 choice_bar3_1 500
+쓰레드
+쓰레드 choice_bar3_2 페이드아웃
+페이드아웃 choice_bar3_2 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 1000
+CG choice_bar3_3cg choice_bar_push.png 0 350 아니 -130 
+페이드인 choice_bar3_3cg 200
+페이드아웃 선택지3_3
+페이드아웃 choice_bar3_3
+페이드아웃 choice_bar3_3cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice3_3
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ So, you’re telling me that Lucy is an exceptionally intelligent robot capable of
+대사새줄
+대사잇기 processing natural human emotions… ”
+대기
+페이드아웃 {{가게주인}} 500
+스크립트 이름.txt 이름지우기
+딜레이 500
+
+북마크 내심놀라다
+대사 Honestly, I was quite surprised about that as well.
+대기
+대사 I’ve never seen such a robot that could emulate a real person so well.
+대기
+대사 Even the new models nowadays reveal their flaws after a minute-long conversation.
+대기
+대사 But I couldn’t sense anything particularly out-of-place while chatting with Lucy.
+대기
+대사 It felt just like talking to a real person.
+대기
+스크립트 이름.txt 이름지우기
+변수 가게주인 = "s08"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+스크립트 이름.txt 가게주인
+대사 “ Yep.
+대기
+대사잇기  To put it simply, this is a person made out of metal.
+대기
+대사잇기  A human robot!
+대기
+대사크기 46
+대사새줄
+대사잇기  An iron ma—maiden!
+대기
+대사크기 48
+대사잇기  A revolution in the robotics industry! ”
+대기
+스크립트 가게주인.txt 13 1
+대사크기 35
+대사 “ The guy who created Lucy must be a true genius. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Uh-huh… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 That aside, good thing he caught himself before calling Lucy a certain power-armor-wearing super hero. Nobody likes patent infringement lawsuits…
+대기
+대사 Anyway, if she was such a spectacular robot, would she really be thrown away like
+대사새줄
+대사잇기 that...?
+대기
+스크립트 가게주인.txt 02
+스크립트 이름.txt 가게주인
+대사 “ I did run into something weird… ”
+대기
+대사 “ There's some sort of a built-in protection feature that was stopping the robot
+대사새줄
+대사잇기 from working properly. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ A protection feature? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Rings a bell. Something the junk version Lucy might’ve mentioned yesterday.
+대기
+대사 Whatever it was, she seems to be doing fine now.
+대기
+스크립트 이름.txt 주인공
+대사 “ And you removed it? ”
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ Yeah. It wasn’t too difficult,
+대기
+대사잇기  since it was just one of those you put on display
+대사새줄
+대사잇기 models. ”
+대기
+스크립트 가게주인.txt 17 1
+대사 “ I’m just curious as to why they would bother doing such a thing before throwing
+대사새줄
+대사잇기 it away. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He appears to be lost in thought.
+대기
+대사 Hmm…
+대기
+대사 It might mean that the inventor wanted to keep this new technology sealed away
+대사새줄
+대사잇기 from humanity.
+대기
+대사 If not, then maybe…
+대기
+스크립트 이름.txt 주인공
+대사 “ What if there was a serious bug? ”
+대기
+스크립트 가게주인.txt 28
+스크립트 이름.txt 가게주인
+대사 “ That’s what I thought too, so I ran some tests but found nothing. ”
+대기
+대사 “ It’s safe to say that she won’t be harming anyone. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why would she ever want to harm people? ”
+대기
+스크립트 가게주인.txt 15
+스크립트 이름.txt 가게주인
+대사 “ I’m just saying that she properly obeys the three laws of robotics. ”
+대기
+대사 “ At least she won’t be a threat. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Ah… ”
+대기
+스크립트 이름.txt 이름지우기
+페이드아웃 {{가게주인}} 500
+딜레이 500
+대사 The Three Laws of Robotics.
+대기
+대사 One—a robot may not injure a human being or, through inaction, allow a human
+대사새줄
+대사잇기 being to come to harm.
+대기
+대사 Two—a robot must obey the orders given it by human beings, except where such
+대사새줄
+대사잇기 orders would conflict with the First Law.
+대기
+대사 Three—a robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+대기
+대사 These laws enable humans to keep control of robots.
+대기
+대사새줄
+대사잇기 They make sure that humans will always have authority over robots.
+대기
+대사 That’s how we can avert any catastrophe.
+대기
+대사 I’ve heard that if a robot ever disobeys one of the laws… It would immediately shut
+대사새줄
+대사잇기 itself down under any circumstances.
+대기
+대사 That’s why there aren’t any glaring flaws to this system.
+대기
+스크립트 이름.txt 이름지우기
+변수 가게주인 = "s15"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+딜레이 500
+대사 I shift my focus back to the numbers displayed on the calculator.
+대기
+대사 Glancing at Lucy,
+대기
+페이드아웃 {{가게주인}} 500
+변수 루시 = "l33"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 800
+딜레이 500
+대사 I’m reminded of a forlorn puppy… and it’s really bothering me…
+대기
+스크립트 스킵메뉴창.txt 봉인
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+딜레이 500
+스크립트 루시.txt 37
+딜레이 1000
+스크립트 루시.txt 93
+딜레이 500
+페이드아웃 l93 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 스킵메뉴창.txt 해제
+대사 With sudden determination, she approaches me.
+대기
+딜레이 500
+변수 루시 = "l34"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0065_1_{{$언어}}.mp3
+대사 “ Umm… Master? ”
+대기
+보이스 lucy0065_2_{{$언어}}.mp3
+대사 “ Sorry to interrupt, but… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What’s wrong? ”
+대기
+스크립트 루시.txt 30
+스크립트 이름.txt 루시
+보이스 lucy0066_{{$언어}}.mp3
+대사 “ L-Lucy just wanted to say that she really is capable of doing anything! ”
+대기
+보이스 lucy0067_{{$언어}}.mp3
+대사 “ T-that’s why Lucy believes she could be a big help to master with any task! ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Yes, and…? ”
+대기
+스크립트 루시.txt 33
+딜레이 200
+스크립트 이름.txt 루시
+보이스 lucy0068_{{$언어}}.mp3
+대사 “ So… Umm… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ So what? ”
+대기
+스크립트 루시.txt 37
+딜레이 800
+스크립트 이름.txt 루시
+보이스 lucy0069_{{$언어}}.mp3
+대사 “ Umm… So that’s why, umm… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 800
+스크립트 루시.txt 78
+딜레이 200
+대사 I never get tired of seeing Lucy look so depressed.
+대기
+대사 It seems to satisfy the hidden sadist within me.
+대기
+대사 She’s really trying to put on a show for me.
+대기
+대사새줄
+대사잇기 Essentially, she’s a self-advertising product…
+대기
+대사 You don’t see that every day.
+대기
+대사 But willing to go this far for me… It’d be too cruel to let her go at this point.
+대기
+스크립트 이름.txt 주인공
+대사 “ I’m not gonna make the deal, so don’t worry. ”
+대기
+스크립트 이름.txt 이름지우기
+쓰레드 s21
+변수 가게주인 = "s21"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+쓰레드
+쓰레드시작
+스크립트 루시.txt 94
+딜레이 1000
+대사 As I finish my sentence, the looks on their faces were different as night and day.
+대기
+쓰레드 s17
+변수 가게주인 = "s17"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 500
+페이드아웃 s21 500
+쓰레드
+쓰레드시작
+스크립트 루시.txt 25
+딜레이 500
+대사 The repairman sulks while Lucy breathes a sigh of relief.
+대기
+스크립트 이름.txt 주인공
+대사 “ Anyway, she’s good to go now, right?
+대기
+대사잇기  Here you go… ”
+대기
+효과음 paper_double paper_double.mp3
+스크립트 이름.txt 이름지우기
+대사 I resignedly fork over the money.
+대기
+대사 All my hard-earned cash…
+대기
+스크립트 가게주인.txt 19
+대사 Bitterly, the repairman accepts the payment after a moment’s hesitation.
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ She’s better… ”
+대기
+스크립트 가게주인.txt 06 1
+대사 “ But be careful not to put any strain on her legs for a while. ”
+대기
+대사 “ Keep it light and cut down on the excursions. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Sure… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 So we gotta play piggy-back again?
+대기
+대사 Wonderful…
+대기
+대사 She’s not too heavy, so I can manage.
+대기
+스크립트 이름.txt 주인공
+대사 “ Thanks for all your help. ”
+대기
+스크립트 가게주인.txt 17
+스크립트 이름.txt 가게주인
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 This guy’s really got it bad,
+대기
+대사 Practically bleeding out over the android.
+대기
+대사 Maybe I’ll throw him a bone…
+대기
+스크립트 이름.txt 주인공
+대사 “ Look… we’ll do regular check-ups. Sound good? ”
+대기
+스크립트 가게주인.txt 21
+스크립트 이름.txt 가게주인
+대사 “ Okay, but make sure to treat her well. ”
+대기
+대사 “ And don’t overwork her too much, all right? ”
+대기
+스크립트 가게주인.txt 13 1
+대사 “ See you later too, Lucy! You can come visit any time! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The look on his face while waving goodbye to Lucy was truly a spectacle.
+대기
+대사 This time, he seemed to be the father seeing his daughter leave with another man.
+대기
+대사새줄
+대사잇기 Guy’s completely out of it.
+대기
+//배경음악 반복 free0257.mp3
+대사 I definitely made the right choice…
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+쓰레드 s13페이드아웃
+페이드아웃 {{가게주인}} 500
+쓰레드
+쓰레드 l25페이드아웃
+페이드아웃 {{루시}} 500
+쓰레드
+쓰레드시작
+딜레이 1000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 3000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_16.png 700
+딜레이 4000
+
+점프 chapter6.txt 첫줄
+
+

@@ -1,0 +1,653 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+// 저장하기 창에서 ESC키 혹은 마우스 오른쪽 버튼을
+// 누르면 북마크 '종료'으로 이동하여 끝내도록 합니다.
+
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+
+// 세이브 화면의 배경을 보여줍니다.
+시스템버튼제거
+버튼제거
+
+//전부 모으면 코멘트리 해금
+
+정변수 $시작의빛트로피 = 0
+정변수 $버려진로봇트로피 = 0
+정변수 $어드벤쳐게이머트로피 = 0
+정변수 $빛보다빠른트로피 = 0
+정변수 $무모한도전트로피 = 0
+정변수 $차가운도시남자트로피 = 0
+정변수 $인터넷으로배웠어요트로피 = 0
+정변수 $나비효과트로피 = 0
+정변수 $상드리용트로피 = 0
+정변수 $추억의장소트로피 = 0
+정변수 $전기양의꿈트로피 = 0
+정변수 $잊혀진기억트로피 = 0
+정변수 $진정한영원트로피 = 0
+정변수 $재회트로피 = 0
+정변수 $숨겨진일기트로피 = 0
+
+//변수 $시작의빛트로피 = 1
+//변수 $버려진로봇트로피 = 1
+//변수 $어드벤쳐게이머트로피 = 1
+//변수 $빛보다빠른트로피 = 1
+//변수 $무모한도전트로피 = 1
+//변수 $차가운도시남자트로피 = 1
+//변수 $인터넷으로배웠어요트로피 = 1
+//변수 $나비효과트로피 = 1
+//변수 $상드리용트로피 = 1
+//변수 $추억의장소트로피 = 1
+//변수 $전기양의꿈트로피 = 1
+//변수 $잊혀진기억트로피 = 1
+//변수 $진정한영원트로피 = 1
+//변수 $재회트로피 = 1
+//변수 $숨겨진일기트로피 = 1
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_achievement페이드인
+CG top_achievement top_achievement.png 108 0 아니 -130
+페이드인 top_achievement 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_extra페이드아웃
+페이드아웃 top_extra 300
+쓰레드
+
+쓰레드 trophy_stripe1
+CG trophy_stripe1 trophy_stripe.png 1280 97 아니 -125
+이동 trophy_stripe1 0 97 3000 -2000
+쓰레드
+쓰레드 trophy_stripe1페이드인
+페이드인 trophy_stripe1 800
+쓰레드
+쓰레드 trophy_stripe2
+CG trophy_stripe2 trophy_stripe.png 1280 339 아니 -125
+이동 trophy_stripe2 0 339 3000 -2000
+쓰레드
+쓰레드 trophy_stripe2페이드인
+페이드인 trophy_stripe2 800
+쓰레드
+쓰레드 trophy_stripe3
+CG trophy_stripe3 trophy_stripe.png 1280 581 아니 -125
+이동 trophy_stripe3 0 581 3000 -2000
+쓰레드
+쓰레드 trophy_stripe3페이드인
+페이드인 trophy_stripe3 800
+쓰레드
+
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+조건 $시작의빛트로피 = 1 여기 시작의빛 아니면 여기 시작의빛off
+북마크 시작의빛
+쓰레드 trophy_beginninglight
+CG trophy_beginninglight trophy_beginninglight.png 70 97 아니 -130 
+페이드인 trophy_beginninglight 500
+쓰레드
+점프 시작의빛다음
+북마크 시작의빛off
+쓰레드 trophy1
+CG trophy_encrypted1 trophy_encrypted.png 70 97 아니 -130 
+페이드인 trophy_encrypted1 500
+쓰레드
+북마크 시작의빛다음
+조건 $버려진로봇트로피 = 1 여기 버려진로봇 아니면 여기 버려진로봇off
+북마크 버려진로봇
+쓰레드 trophy_abandonedrobot
+CG trophy_abandonedrobot trophy_abandonedrobot.png 70 218 아니 -130 
+페이드인 trophy_abandonedrobot 500
+쓰레드
+점프 버려진로봇다음
+북마크 버려진로봇off
+쓰레드 trophy2
+CG trophy_encrypted2 trophy_encrypted.png 70 218 아니 -130 
+페이드인 trophy_encrypted2 500
+쓰레드
+북마크 버려진로봇다음
+조건 $어드벤쳐게이머트로피 = 1 여기 어드벤쳐게이머 아니면 여기 어드벤쳐게이머off
+북마크 어드벤쳐게이머
+쓰레드 trophy_adventuregamer
+CG trophy_adventuregamer trophy_adventuregamer.png 70 339 아니 -130 
+페이드인 trophy_adventuregamer 500
+쓰레드
+점프 어드벤쳐게이머다음
+북마크 어드벤쳐게이머off
+쓰레드 trophy3
+CG trophy_encrypted3 trophy_encrypted.png 70 339 아니 -130 
+페이드인 trophy_encrypted3 500
+쓰레드
+북마크 어드벤쳐게이머다음
+조건 $빛보다빠른트로피 = 1 여기 빛보다빠른 아니면 여기 빛보다빠른off
+북마크 빛보다빠른
+쓰레드 trophy_fasterthanlight
+CG trophy_fasterthanlight trophy_fasterthanlight.png 70 460 아니 -130 
+페이드인 trophy_fasterthanlight 500
+쓰레드
+점프 빛보다빠른다음
+북마크 빛보다빠른off
+쓰레드 trophy4
+CG trophy_encrypted4 trophy_encrypted.png 70 460 아니 -130 
+페이드인 trophy_encrypted4 500
+쓰레드
+북마크 빛보다빠른다음
+조건 $무모한도전트로피 = 1 여기 무모한도전 아니면 여기 무모한도전off
+북마크 무모한도전
+쓰레드 trophy_recklesschallenge
+CG trophy_recklesschallenge trophy_recklesschallenge.png 70 581 아니 -130 
+페이드인 trophy_recklesschallenge 500
+쓰레드
+점프 무모한도전다음
+북마크 무모한도전off
+쓰레드 trophy5
+CG trophy_encrypted5 trophy_encrypted.png 70 581 아니 -130 
+페이드인 trophy_encrypted5 500
+쓰레드
+북마크 무모한도전다음
+조건 $차가운도시남자트로피 = 1 여기 차가운도시남자 아니면 여기 차가운도시남자off
+북마크 차가운도시남자
+쓰레드 trophy_chivalrous
+CG trophy_chivalrous trophy_chivalrous.png 464 97 아니 -130 
+페이드인 trophy_chivalrous 500
+쓰레드
+점프 차가운도시남자다음
+북마크 차가운도시남자off
+쓰레드 trophy6
+CG trophy_encrypted6 trophy_encrypted.png 464 97 아니 -130 
+페이드인 trophy_encrypted6 500
+쓰레드
+북마크 차가운도시남자다음
+조건 $인터넷으로배웠어요트로피 = 1 여기 인터넷으로배웠어요 아니면 여기 인터넷으로배웠어요off
+북마크 인터넷으로배웠어요
+쓰레드 trophy_reliablesource
+CG trophy_reliablesource trophy_reliablesource.png 464 218 아니 -130 
+페이드인 trophy_reliablesource 500
+쓰레드
+점프 인터넷으로배웠어요다음
+북마크 인터넷으로배웠어요off
+쓰레드 trophy7
+CG trophy_encrypted7 trophy_encrypted.png 464 218 아니 -130 
+페이드인 trophy_encrypted7 500
+쓰레드
+북마크 인터넷으로배웠어요다음
+조건 $나비효과트로피 = 1 여기 나비효과 아니면 여기 나비효과off
+북마크 나비효과
+쓰레드 trophy_butterflyeffect
+CG trophy_butterflyeffect trophy_butterflyeffect.png 464 339 아니 -130 
+페이드인 trophy_butterflyeffect 500
+쓰레드
+점프 나비효과다음
+북마크 나비효과off
+쓰레드 trophy8
+CG trophy_encrypted8 trophy_encrypted.png 464 339 아니 -130 
+페이드인 trophy_encrypted8 500
+쓰레드
+북마크 나비효과다음
+조건 $상드리용트로피 = 1 여기 상드리용 아니면 여기 상드리용off
+북마크 상드리용
+쓰레드 trophy_cendrillon
+CG trophy_cendrillon trophy_cendrillon.png 464 460 아니 -130 
+페이드인 trophy_cendrillon 500
+쓰레드
+점프 상드리용다음
+북마크 상드리용off
+쓰레드 trophy9
+CG trophy_encrypted9 trophy_encrypted.png 464 460 아니 -130 
+페이드인 trophy_encrypted9 500
+쓰레드
+북마크 상드리용다음
+조건 $추억의장소트로피 = 1 여기 추억의장소 아니면 여기 추억의장소off
+북마크 추억의장소
+쓰레드 trophy_placeofrecollection
+CG trophy_placeofrecollection trophy_placeofrecollection.png 464 581 아니 -130 
+페이드인 trophy_placeofrecollection 500
+쓰레드
+점프 추억의장소다음
+북마크 추억의장소off
+쓰레드 trophy10
+CG trophy_encrypted10 trophy_encrypted.png 464 581 아니 -130 
+페이드인 trophy_encrypted10 500
+쓰레드
+북마크 추억의장소다음
+조건 $전기양의꿈트로피 = 1 여기 전기양의꿈 아니면 여기 전기양의꿈off
+북마크 전기양의꿈
+쓰레드 trophy_dreamofelectronicsheep
+CG trophy_dreamofelectronicsheep trophy_dreamofelectronicsheep.png 859 97 아니 -130 
+페이드인 trophy_dreamofelectronicsheep 500
+쓰레드
+점프 전기양의꿈다음
+북마크 전기양의꿈off
+쓰레드 trophy11
+CG trophy_encrypted11 trophy_encrypted.png 859 97 아니 -130 
+페이드인 trophy_encrypted11 500
+쓰레드
+북마크 전기양의꿈다음
+조건 $잊혀진기억트로피 = 1 여기 잊혀진기억 아니면 여기 잊혀진기억off
+북마크 잊혀진기억
+쓰레드 trophy_forgottenmemory
+CG trophy_forgottenmemory trophy_forgottenmemory.png 859 218 아니 -130 
+페이드인 trophy_forgottenmemory 500
+쓰레드
+점프 잊혀진기억다음
+북마크 잊혀진기억off
+쓰레드 trophy12
+CG trophy_encrypted12 trophy_encrypted.png 859 218 아니 -130 
+페이드인 trophy_encrypted12 500
+쓰레드
+북마크 잊혀진기억다음
+조건 $진정한영원트로피 = 1 여기 진정한영원 아니면 여기 진정한영원off
+북마크 진정한영원
+쓰레드 trophy_untoeternity
+CG trophy_untoeternity trophy_untoeternity.png 859 339 아니 -130 
+페이드인 trophy_untoeternity 500
+쓰레드
+점프 진정한영원다음
+북마크 진정한영원off
+쓰레드 trophy13
+CG trophy_encrypted13 trophy_encrypted.png 859 339 아니 -130 
+페이드인 trophy_encrypted13 500
+쓰레드
+북마크 진정한영원다음
+조건 $재회트로피 = 1 여기 재회 아니면 여기 재회off
+북마크 재회
+쓰레드 trophy_reunion
+CG trophy_reunion trophy_reunion.png 859 460 아니 -130 
+페이드인 trophy_reunion 500
+쓰레드
+점프 재회다음
+북마크 재회off
+쓰레드 trophy14
+CG trophy_encrypted14 trophy_encrypted.png 859 460 아니 -130 
+페이드인 trophy_encrypted14 500
+쓰레드
+북마크 재회다음
+조건 $숨겨진일기트로피 = 1 여기 숨겨진일기 아니면 여기 숨겨진일기off
+북마크 숨겨진일기
+쓰레드 trophy_hiddendiary
+CG trophy_hiddendiary trophy_hiddendiary.png 859 581 아니 -130 
+페이드인 trophy_hiddendiary 500
+쓰레드
+점프 숨겨진일기다음
+북마크 숨겨진일기off
+쓰레드 trophy15
+CG trophy_encrypted15 trophy_encrypted.png 859 581 아니 -130 
+페이드인 trophy_encrypted15 500
+쓰레드
+북마크 숨겨진일기다음
+
+쓰레드시작
+쓰레드대기
+
+
+
+조건 $시작의빛트로피 = 0 여기 모든업적달성스킵
+조건 $버려진로봇트로피 = 0 여기 모든업적달성스킵
+조건 $어드벤쳐게이머트로피 = 0 여기 모든업적달성스킵
+조건 $빛보다빠른트로피 = 0 여기 모든업적달성스킵
+조건 $무모한도전트로피 = 0 여기 모든업적달성스킵
+조건 $차가운도시남자트로피 = 0 여기 모든업적달성스킵
+조건 $인터넷으로배웠어요트로피 = 0 여기 모든업적달성스킵
+조건 $나비효과트로피 = 0 여기 모든업적달성스킵
+조건 $상드리용트로피 = 0 여기 모든업적달성스킵
+조건 $추억의장소트로피 = 0 여기 모든업적달성스킵
+조건 $전기양의꿈트로피 = 0 여기 모든업적달성스킵
+조건 $잊혀진기억트로피 = 0 여기 모든업적달성스킵
+조건 $진정한영원트로피 = 0 여기 모든업적달성스킵
+조건 $재회트로피 = 0 여기 모든업적달성스킵
+조건 $숨겨진일기트로피 = 0 여기 모든업적달성스킵
+
+
+북마크 모든업적달성확인완료
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+조건 $모든업적달성 = 1 여기 코멘터리
+효과음 se_maoudamashii_onepoint16 se_maoudamashii_onepoint16.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png 0 0 아니 -131
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -132
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 377 46 255 255 255 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "축하합니다!"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 514 46 255 215 0 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "루시의 모든 업적을 달성하였습니다!"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 331 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -132
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Congratulations!"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 539 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -132
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "All achievements 100% complete!"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 340 48 255 255 255 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "おめでとうございます。"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 620 48 255 215 0 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "100%実績をクリアしました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드시작
+변수 $모든업적달성 = 1
+딜레이 1000
+
+북마크 코멘터리
+조건 $코멘터리해금 = 1 여기 모든업적달성스킵
+효과음 decide11 decide11.mp3
+CG message_box_info message_box_info.png 159 24 아니 -132
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 477 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "제작 후일담"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 606 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "이 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 403 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -132
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "EXTRA Unlocked:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 621 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -132
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Developer Comments"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 482 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "製作の裏話"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 611 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $코멘터리해금 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 1000
+
+
+북마크 모든업적달성스킵
+
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+
+
+// '닫기' 버튼 선택까지 대기합니다.
+버튼대기
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+// CLOSE 버튼을 제거합니다.
+버튼제거
+
+// 세이브 화면의 배경을 페이드아웃 시킵니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 trophy_encrypted1페이드아웃
+페이드아웃 trophy_encrypted1 300
+쓰레드
+쓰레드 trophy_encrypted2페이드아웃
+페이드아웃 trophy_encrypted2 300
+쓰레드
+쓰레드 trophy_encrypted3페이드아웃
+페이드아웃 trophy_encrypted3 300
+쓰레드
+쓰레드 trophy_encrypted4페이드아웃
+페이드아웃 trophy_encrypted4 300
+쓰레드
+쓰레드 trophy_encrypted5페이드아웃
+페이드아웃 trophy_encrypted5 300
+쓰레드
+쓰레드 trophy_encrypted6페이드아웃
+페이드아웃 trophy_encrypted6 300
+쓰레드
+쓰레드 trophy_encrypted7페이드아웃
+페이드아웃 trophy_encrypted7 300
+쓰레드
+쓰레드 trophy_encrypted8페이드아웃
+페이드아웃 trophy_encrypted8 300
+쓰레드
+쓰레드 trophy_encrypted9페이드아웃
+페이드아웃 trophy_encrypted9 300
+쓰레드
+쓰레드 trophy_encrypted10페이드아웃
+페이드아웃 trophy_encrypted10 300
+쓰레드
+쓰레드 trophy_encrypted11페이드아웃
+페이드아웃 trophy_encrypted11 300
+쓰레드
+쓰레드 trophy_encrypted12페이드아웃
+페이드아웃 trophy_encrypted12 300
+쓰레드
+쓰레드 trophy_encrypted13페이드아웃
+페이드아웃 trophy_encrypted13 300
+쓰레드
+쓰레드 trophy_encrypted14페이드아웃
+페이드아웃 trophy_encrypted14 300
+쓰레드
+쓰레드 trophy_encrypted15페이드아웃
+페이드아웃 trophy_encrypted15 300
+쓰레드
+쓰레드 trophy_beginninglight페이드아웃
+페이드아웃 trophy_beginninglight 300
+쓰레드
+쓰레드 trophy_abandonedrobot페이드아웃
+페이드아웃 trophy_abandonedrobot 300
+쓰레드
+쓰레드 trophy_adventuregamer페이드아웃
+페이드아웃 trophy_adventuregamer 300
+쓰레드
+쓰레드 trophy_fasterthanlight페이드아웃
+페이드아웃 trophy_fasterthanlight 300
+쓰레드
+쓰레드 trophy_recklesschallenge페이드아웃
+페이드아웃 trophy_recklesschallenge 300
+쓰레드
+쓰레드 trophy_chivalrous페이드아웃
+페이드아웃 trophy_chivalrous 300
+쓰레드
+쓰레드 trophy_reliablesource페이드아웃
+페이드아웃 trophy_reliablesource 300
+쓰레드
+쓰레드 trophy_butterflyeffect페이드아웃
+페이드아웃 trophy_butterflyeffect 300
+쓰레드
+쓰레드 trophy_cendrillon페이드아웃
+페이드아웃 trophy_cendrillon 300
+쓰레드
+쓰레드 trophy_placeofrecollection페이드아웃
+페이드아웃 trophy_placeofrecollection 300
+쓰레드
+쓰레드 trophy_dreamofelectronicsheep페이드아웃
+페이드아웃 trophy_dreamofelectronicsheep 300
+쓰레드
+쓰레드 trophy_forgottenmemory페이드아웃
+페이드아웃 trophy_forgottenmemory 300
+쓰레드
+쓰레드 trophy_untoeternity페이드아웃
+페이드아웃 trophy_untoeternity 300
+쓰레드
+쓰레드 trophy_reunion페이드아웃
+페이드아웃 trophy_reunion 300
+쓰레드
+쓰레드 trophy_hiddendiary페이드아웃
+페이드아웃 trophy_hiddendiary 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_achievement페이드아웃
+페이드아웃 top_achievement 300
+쓰레드
+쓰레드 trophy_stripe1페이드아웃
+페이드아웃 trophy_stripe1 300
+쓰레드
+쓰레드 trophy_stripe2페이드아웃
+페이드아웃 trophy_stripe2 300
+쓰레드
+쓰레드 trophy_stripe3페이드아웃
+페이드아웃 trophy_stripe3 300
+쓰레드
+쓰레드시작
+
+점프 시스템_엑스트라.txt 엑스트라

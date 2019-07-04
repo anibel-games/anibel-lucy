@@ -1,0 +1,204 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "May 11, Doctor"
+//변수 슬롯씬이름 = "5월 11일 박사"
+//변수 슬롯씬이름 = "5月11日 博士"
+
+
+딜레이 2000
+배경음악 반복 c7.mp3
+페이드인 배경음악 1000
+딜레이 1000
+스크립트 대화창함수.txt
+스크립트 이름.txt 루시
+대사 “ ……… ”
+대기
+딜레이 500
+스크립트 이름.txt 박사1
+대사 “ Lucy. ”
+대기
+딜레이 100
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+딜레이 200
+
+//빠른 글리치 효과
+
+스크립트 이름.txt 박사1
+대사 “ Lucy. ”
+대기
+대사 “ Lucy Valentine. ”
+대기
+대사 “ Can you hear me…? ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+//빠른 글리치 효과
+
+배경룰페이드인 룰_47.png 700
+배경 bg_lab_day_blur bg_lab_day_blur.jpg
+딜레이 500
+배경룰페이드아웃 룰_47.png 500
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0181_{{$언어}}.mp3
+대사 “ Lu… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Can you hear me,
+대기
+대사잇기  Lucy Valentine? ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+배경룰페이드인 룰_47.png 300
+배경 bg_lab_day_blur bg_lab_day_blur.jpg
+딜레이 1000
+배경룰페이드인
+배경 bg_lab_day bg_lab_day.jpg
+페이드인 bg_lab_day 3000
+딜레이 1500
+변수 루시 = "l13"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 1000
+효과음 robot1 robot1.mp3
+변수 루시 = "l142"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 800
+페이드아웃 l13 300
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0182_{{$언어}}.mp3
+대사 “ Lu… ”
+대기
+보이스 lucy0183_{{$언어}}.mp3
+대사 “ Lucy…? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes. Lucy Valentine. ”
+대기
+대사 “ That is your name. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0184_{{$언어}}.mp3
+대사 “ Lucy… ”
+대기
+보이스 lucy0185_{{$언어}}.mp3
+대사 “ Lucy Valentine… ”
+대기
+스크립트 루시.txt 145 1
+보이스 lucy0186_{{$언어}}.mp3
+대사 “ And you are… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Do you recognize who I am? ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+효과음 robot1 robot1.mp3
+변수 루시 = "l144"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 500
+페이드아웃 l145 300
+딜레이 1000
+대사 Lucy slowly shakes her head.
+대기
+스크립트 이름.txt 박사
+대사 “ Is that so. ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I continue.
+대기
+스크립트 이름.txt 박사
+대사 “ I’m Dr. Ryu. ”
+대기
+대사 “ And this is the K-Robotics research lab. ”
+대기
+스크립트 루시.txt 143
+스크립트 이름.txt 루시
+보이스 lucy0187_{{$언어}}.mp3
+대사 “ D-Doctor Ryu… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes. Dr. Ryu. ”
+대기
+대사 “ I am your creator. ”
+대기
+스크립트 루시.txt 142
+스크립트 이름.txt 루시
+보이스 lucy0188_{{$언어}}.mp3
+대사 “ My… creator? ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0189_{{$언어}}.mp3
+대사 “ My… creator… Dr. Ryu… ”
+대기
+스크립트 루시.txt 05 1
+보이스 lucy0190_{{$언어}}.mp3
+대사 “ Doctor… Ryu… ”
+대기
+스크립트 이름.txt 박사1
+대사 “ Yes, Ryu. ”
+대기
+대사 “ That is my name. ”
+대기
+대사 “ It’s funny to be saying all of this now,
+대기
+대사잇기  but yes. ”
+대기
+대사 “ Ryu. That is my name.
+대기
+대사잇기  It’s a bit of a late introduction, but… ”
+대기
+대사 “ Be sure to cherish it and remember it. ”
+대기
+효과음 loading loading.mp3
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+//배경음악 반복 c7.mp3
+보이스 lucy0191_{{$언어}}.mp3
+대사 “ Yes… Dr. Ryu. ”
+대기
+딜레이 500
+게임상태
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 루시.txt 지우기1000
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+딜레이 500
+배경룰페이드아웃 룰_34.png 400
+딜레이 3000
+
+변수 chapter = 42
+
+점프 로봇3원칙.txt 첫줄
+
+

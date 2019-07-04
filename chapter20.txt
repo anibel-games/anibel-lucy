@@ -1,0 +1,746 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Epilogue"
+//변수 슬롯씬이름 = "에필로그"
+//변수 슬롯씬이름 = "エピローグ"
+
+
+// 날씨 없이 로봇 3원칙만 보여줌
+배경룰페이드인 룰_24.png 300
+배경 bg_krobotics_day bg_krobotics_day.jpg
+딜레이 500
+배경음악 반복 free60.mp3
+//배경음악 반복 fountain.mp3
+페이드인 배경음악 1500
+딜레이 1000
+
+
+
+변수 기박사 = "f06"
+CG {{기박사}} {{기박사}}.png
+페이드인 {{기박사}} 1000
+딜레이 500
+스크립트 대화창함수.txt
+스크립트 이름.txt 기박사
+대사 “ Hey. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 기박사1
+대사 “ You listening? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Cheer up. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 기박사.txt 63
+스크립트 이름.txt 기박사
+대사 “ Oh, come on. What’s wrong with you. ”
+대기
+대사 “ You’re even making me depressed. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 기박사.txt 50
+스크립트 이름.txt 기박사
+대사 “ This is why I warned you
+대기
+대사잇기  not to get attached to her so much. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 기박사.txt 54
+스크립트 이름.txt 기박사
+대사 “ Robots are robots. Humans are humans. ”
+대기
+대사 “ You were hurt because you couldn’t tell the two apart. ”
+대기
+스크립트 기박사.txt 55 1
+대사 “ You crossed the line. ”
+대기
+대사 “ The line that wasn’t meant to be crossed. ”
+대기
+대사 “ And I made it so clear for you, too. ”
+대기
+스크립트 기박사.txt 70 1
+대사 “ I warned you that you’ll be the only one hurt in the end. ”
+대기
+대사 “ Ah, really. How foolish of you. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I remain silent.
+대기
+대사 I have nothing to say.
+대기
+스크립트 기박사.txt 53
+스크립트 이름.txt 기박사
+대사 “ Well, now that I think about it… ”
+대기
+대사 “ Maybe this turned out to be a pretty good experience for you, after all? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I raise my head up to look at him.
+대기
+스크립트 기박사.txt 03
+스크립트 이름.txt 기박사
+대사 “ The fact that you’ve finally learned your lesson makes it all worth it, I think. ”
+대기
+//대사잇기  네가 이걸 알았다는 것만으로도 큰 수확이었다고 생각해. ”
+//대기
+대사 “ It may have been a harsh lesson, but wasn’t there some merit to it? ”
+대기
+대사 “ You should know this better than anyone else. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+대사 “ Well… I guess you’re right. ”
+대기
+스크립트 기박사.txt 31
+스크립트 이름.txt 기박사
+대사 “ Mhm. ”
+대기
+대사 “ Then let us start enjoying life properly. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …What do you mean? ”
+대기
+스크립트 기박사.txt 37
+스크립트 이름.txt 기박사
+대사 “ There are a lot more interesting things in life than androids. ”
+대기
+대사 “ So let’s go find out what’s in store for us. ”
+대기
+스크립트 기박사.txt 62 1
+대사 “ Because to be honest, we’ve devoted a huge chunk of our lives just to study,
+대사새줄
+대사잇기 right? ”
+대기
+대사 “ It’s time for us to catch up on all the fun stuff. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …How about you give me an example? ”
+대기
+스크립트 기박사.txt 06
+스크립트 이름.txt 기박사
+대사 “ Hmm, all right. ”
+대기
+스크립트 기박사.txt 87 1
+대사 “ First, we should try to get to know some girls. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You sound as if you haven’t been trying. ”
+대기
+스크립트 기박사.txt 19
+스크립트 이름.txt 기박사
+대사 “ That’s just mean. ”
+대기
+스크립트 기박사.txt 31 1
+대사 “ Anyway… ”
+대기
+대사 “ There are always women out there who are more attractive than Lucy. ”
+대기
+대사 “ And of course, women with better figures too. ”
+대기
+스크립트 기박사.txt 77 1
+대사 “ Although you won’t be dealing with a robot, there must be someone who’s as
+대사새줄
+대사잇기 nice as Lucy. ”
+대기
+대사 “ With a woman like that, you should try getting into a serious relationship. ”
+대기
+스크립트 기박사.txt 61 1
+대사 “ And go travelling to all kinds of different places together. ”
+대기
+대사 “ And make lots of special memories. ”
+대기
+대사 “ Let’s try all fun the things we’ve missed out on. ”
+대기
+스크립트 기박사.txt 51 1
+대사 “ And eventually, you’ll be able to move on from this incident. ”
+대기
+대사 “ Well? Doesn’t it sound exciting? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ It doesn’t sound like what a person with the SAT coming up in the next couple of
+대사새줄
+대사잇기 days would say. ”
+대기
+스크립트 기박사.txt 18
+스크립트 이름.txt 기박사
+대사 “ Haha, that’s true. ”
+대기
+스크립트 기박사.txt 62 1
+대사 “ But whatever. We’re both responsible people. ”
+대기
+대사 “ And on top of that… studying should not be your biggest concern right now. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 He gives me a poke on my chest.
+대기
+대사 I tilt my head in confusion.
+대기
+스크립트 기박사.txt 48
+스크립트 이름.txt 기박사
+대사 “ Curing this place right here is our top priority. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+대사 “ Yeah. ”
+대기
+대사 “ It might be good to go all out and enjoy myself from time to time. ”
+대기
+스크립트 기박사.txt 62
+스크립트 이름.txt 기박사
+대사 “ Yeah? You’re excited too, right? ”
+대기
+대사 “ I’m telling you, things will definitely pick up from now on. ”
+대기
+대사 “ Just trust me and look forward to it. ”
+대기
+스크립트 기박사.txt 48 1
+대사 “ So come on, cheer up. ”
+대기
+대사 “ Brush off the dust and get back up. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 To those words, I gave a small nod.
+대기
+대사 I genuinely appreciated him going this far to cheer me up.
+대기
+대사 And at the same time, I felt apologetic.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 기박사.txt 지우기
+딜레이 500
+
+배경룰페이드아웃 룰_16.png 500
+딜레이 3000
+배경룰페이드인 룰_12.png 500
+배경 bg_antiqueshop bg_antiqueshop.jpg
+딜레이 1000
+변수 가게주인 = "s18"
+CG {{가게주인}} {{가게주인}}.png
+페이드인 {{가게주인}} 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Man, you look like you’ve gone to hell and back. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m sorry. ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ About what? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I couldn’t keep my promise… ”
+대기
+대사 “ Even though I said I would take good care of her. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 700
+스크립트 가게주인.txt 20
+딜레이 300
+스크립트 이름.txt 가게주인
+대사 “ Huh. And I was wondering what you were going on about. ”
+대기
+대사 “ That’s not something you should be apologizing to me about, is it? ”
+대기
+대사 “ There’s no point. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 가게주인.txt 06
+스크립트 이름.txt 가게주인
+대사 “ And just in case there’s any hope left inside of ya, I’ll make it clear again. ”
+대기
+대사 “ Her body, her memory chips, and everything else… they were all completely
+대사새줄
+대사잇기 destroyed in the fire. ”
+대기
+스크립트 가게주인.txt 22 1
+대사 “ This isn’t something even I can handle. I’m waving the white flag. ”
+대기
+스크립트 가게주인.txt 23 1
+대사 “ She’s a goner. ”
+대기
+대사 “ Even if you went to the genius who made Lucy, he probably wouldn’t be able to
+대사새줄
+대사잇기 fix her up. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …I know. ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ All right. ”
+대기
+대사 “ As long as you understand. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+
+//변수 트루엔딩조건1 = 1
+//변수 트루엔딩조건2 = 1
+//변수 트루엔딩조건3 = 1
+
+조건 트루엔딩조건1 = 0 여기 잊혀질거야
+조건 트루엔딩조건2 = 0 여기 잊혀질거야
+조건 트루엔딩조건3 = 1 여기 이상한거하나
+점프 잊혀질거야
+
+북마크 이상한거하나
+대사 There is a moment of calm.
+대기
+대사새줄
+대사잇기 The atmosphere is heavy with silence.
+대기
+스크립트 가게주인.txt 28
+스크립트 이름.txt 가게주인
+대사 “ Can I… ask you something? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ What is it? ”
+대기
+스크립트 가게주인.txt 04
+스크립트 이름.txt 가게주인
+대사 “ Do you regret it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Regret it? ”
+대기
+스크립트 가게주인.txt 24
+스크립트 이름.txt 가게주인
+대사 “ Yeah.
+대기
+대사잇기  About finding out about Lucy. ”
+대기
+대사 “ Do you regret it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I ponder for a moment.
+대기
+대사 If I’d known that it would end like this, maybe it would’ve been better not to have
+대사새줄
+대사잇기 met Lucy at all?
+대기
+대사 If I had never found out about her existence…
+대기
+대사새줄 
+대사잇기 If I had never picked her up at the junkyard in the first place…
+대기
+대사 Maybe I could’ve been much happier?
+대기
+//배경음악 반복 free60.mp3
+대사 I try to place myself in a different scenario.
+대기
+
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+북마크 선택지_후회하고있어
+//여기서 왼쪽마우스 클릭 막아주지 않으면 선택지 또 생기는 버그 생김
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+키처리 32 텅빈.txt 첫줄
+스크립트 스킵메뉴창.txt 봉인
+
+CG whiteline2_1 whiteline.png -1280 142 아니 0
+쓰레드 whiteline2_1페이드
+페이드인 whiteline2_1 500 
+쓰레드
+쓰레드 whiteline2_1 이동
+이동 whiteline2_1 0 142 3000 1000
+쓰레드
+쓰레드 whiteline2_2페이드
+딜레이 200
+CG whiteline2_2 whiteline.png 1280 196 아니 0
+페이드인 whiteline2_2 500 
+쓰레드
+쓰레드 whiteline2_2 이동
+딜레이 200
+이동 whiteline2_2 0 196 3000 1000
+쓰레드
+쓰레드 choice_bar2_1cg페이드인
+딜레이 500
+CG choice_bar2_1cg choice_bar.png 0 142 아니 3
+페이드인 choice_bar2_1cg 500
+쓰레드
+쓰레드 whiteline2_3페이드
+딜레이 400
+CG whiteline2_3 whiteline.png -1280 281 아니 0
+페이드인 whiteline2_3 500 
+쓰레드
+쓰레드 whiteline2_3 이동
+딜레이 400
+이동 whiteline2_3 0 281 3000 1000
+쓰레드
+쓰레드 whiteline2_4페이드
+딜레이 600
+CG whiteline2_4 whiteline.png 1280 335 아니 0
+페이드인 whiteline2_4 500 
+쓰레드
+쓰레드 whiteline2_4 이동
+딜레이 600
+이동 whiteline2_4 0 335 3000 1000
+쓰레드
+쓰레드 choice_bar2_2cg페이드인
+딜레이 900
+CG choice_bar2_2cg choice_bar.png 0 281 아니 3
+페이드인 choice_bar2_2cg 500
+쓰레드
+쓰레드시작
+딜레이 1400
+
+라벨 선택지2_1 569 152 255 255 255 255 {{후회하고있다}}
+출력순서 선택지2_1 2
+라벨속성 선택지2_1 36 응 NanumGothic
+변수 후회하고있다 = "I regret it." 
+라벨 선택지2_2 528 290 255 255 255 255 {{후회하고있지않다}}
+출력순서 선택지2_2 2
+라벨속성 선택지2_2 36 응 NanumGothic
+변수 후회하고있지않다 = "I don’t regret it."
+//라벨 선택지2_1 544 152 255 255 255 255 {{후회하고있다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 36 응 NanumGothic
+//변수 후회하고있다 = "후회하고 있다." 
+//라벨 선택지2_2 511 290 255 255 255 255 {{후회하고있지않다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 36 응 NanumGothic
+//변수 후회하고있지않다 = "후회하고 있지 않다." 
+//라벨 선택지2_1 538 154 255 255 255 255 {{후회하고있다}}
+//출력순서 선택지2_1 2
+//라벨속성 선택지2_1 32 아니 Apple osaka_unicode
+//변수 후회하고있다 = "後悔している。" 
+//라벨 선택지2_2 522 292 255 255 255 255 {{후회하고있지않다}}
+//출력순서 선택지2_2 2
+//라벨속성 선택지2_2 32 아니 Apple osaka_unicode
+//변수 후회하고있지않다 = "後悔していない。"
+쓰레드 선택지2_1
+페이드인 선택지2_1 500
+쓰레드
+쓰레드 선택지2_2
+페이드인 선택지2_2 500
+쓰레드
+쓰레드 후회하고있다
+시스템버튼 choice_bar2_1 0 142 1280 55 점프 chapter20.txt 후회하고있다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_1 3
+쓰레드
+쓰레드 후회하고있지않다
+시스템버튼 choice_bar2_2 0 281 1280 55 점프 chapter20.txt 후회하고있지않다 choice_bar.png choice_bar_select.png choice_bar_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 choice_bar2_2 3
+쓰레드
+쓰레드시작
+페이드아웃 choice_bar2_1cg
+페이드아웃 choice_bar2_2cg
+페이드아웃 whiteline2_1
+페이드아웃 whiteline2_2
+페이드아웃 whiteline2_3
+페이드아웃 whiteline2_4
+스크립트 스킵메뉴창.txt 해제
+키처리 65
+키처리 90
+버튼대기
+점프 선택지_후회하고있어
+
+북마크 후회하고있다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_1 light.png -456 117 아니 -130
+쓰레드 light_choice1 이동 
+이동 light_choice2_1 1280 117 3000 2000
+쓰레드
+쓰레드 선택지2_2 페이드아웃
+페이드아웃 선택지2_2
+쓰레드
+쓰레드 choice_bar2_2 페이드아웃
+페이드아웃 choice_bar2_2 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_1cg choice_bar_push.png 0 142 아니 -130 
+페이드인 choice_bar2_1cg 200
+페이드아웃 선택지2_1
+페이드아웃 choice_bar2_1
+페이드아웃 choice_bar2_1cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_1
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+대사 “ I guess… I do regret it a little… ”
+대기
+스크립트 이름.txt 이름지우기
+북마크 잊혀질거야
+대사 I wouldn’t be suffering so much if I had never picked her up in the first place.
+대기
+대사 I don’t understand how I could be feeling so down when I’ve lived my childhood
+대사새줄
+대사잇기 practically alone.
+대기
+대사 It appears that I’ve changed quite a lot ever since Lucy entered my life.
+대기
+스크립트 가게주인.txt 04
+스크립트 이름.txt 가게주인
+대사 “ You’ll be able to move on some day. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Move on…? ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ Yeah.
+대기
+대사잇기  They say time heals all wounds, right? ”
+대기
+대사 “ It sounds clichéd but it’s true. ”
+대기
+대사 “ The pain you’re experiencing from your loss will eventually disappear without a
+대사새줄
+대사잇기 trace. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Do you really think so…? ”
+대기
+스크립트 이름.txt 가게주인1
+대사 “ Yeah. ”
+대기
+스크립트 가게주인.txt 20 1
+대사 “ You can’t possibly dwell on Lucy for the rest of your life, right? ”
+대기
+대사 “ So forget about her. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+대사 “ I guess you’re right… ”
+대기
+대사 “ That’s what I’ll need to do… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The repairman did not say anything else.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 가게주인.txt 지우기1000
+딜레이 1000
+배경룰페이드아웃 룰_12.png 400
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Just like that, I left the store.
+대기
+대사 I thought to myself that it’d be great if things happened as he said.
+대기
+대사 After my pain has subsided,
+대기
+대사새줄
+대사잇기 After I’ve put Lucy in the past, would I really be able to live on just like before?
+대기
+//배경음악 반복 free60.mp3
+대사 Would I really be able to live on without feeling any pain, I wondered.
+대기
+딜레이 1000
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+
+페이드아웃 배경음악 3000
+딜레이 2500
+
+변수 chapter = 2101
+점프 로봇3원칙.txt 첫줄
+
+
+북마크 후회하고있지않다
+키처리 32 텅빈.txt 첫줄
+효과음 decide11 decide11.mp3
+시스템버튼 light_choice_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+CG light_choice2_2 light.png -456 256 아니 -130
+쓰레드 light_choice2_2 이동 
+이동 light_choice2_2 1280 256 3000 2000
+쓰레드
+쓰레드 선택지2_1 페이드아웃
+페이드아웃 선택지2_1
+쓰레드
+쓰레드 choice_bar2_1 페이드아웃
+페이드아웃 choice_bar2_1 500
+쓰레드
+쓰레드시작
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+CG choice_bar2_2cg choice_bar_push.png 0 281 아니 -130 
+페이드인 choice_bar2_2cg 200
+페이드아웃 선택지2_2
+페이드아웃 choice_bar2_2
+페이드아웃 choice_bar2_2cg 200
+페이드아웃 light_choice_protect
+페이드아웃 light_choice2_2
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Laughter suddenly escapes my mouth.
+대기
+대사 Without hesitation, I reply to the repairman’s question.
+대기
+스크립트 이름.txt 주인공
+대사 “ I don’t particularly regret it. ”
+대기
+대사 “ And I don’t plan on doing so in the future. ”
+대기
+스크립트 가게주인.txt 23
+스크립트 이름.txt 가게주인
+대사 “ …I see. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 The repairman quietly stares at me for a good, long while.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1000
+스크립트 가게주인.txt 01
+딜레이 300
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 가게주인
+대사 “ Anyway… I’ve been short on hands around here lately. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Short on hands? ”
+대기
+스크립트 가게주인.txt 15
+스크립트 이름.txt 가게주인
+대사 “ Yeah. Would you ever consider working here? ”
+대기
+대사 “ I can’t afford to pay you that much, but if you’re all right with that, I’m willing to
+대사새줄
+대사잇기 take you in. ”
+대기
+대사 “ You can build up some work experience.
+대기
+대사잇기  I’ll teach you a lot of things. ”
+대기
+스크립트 가게주인.txt 26 1
+대사 “ It’ll be tough to find someone as skilled as I am, you know.
+대기
+대사잇기  So how about it? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I…… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Normally, I wouldn’t be inclined to take up such an offer.
+대기
+대사 But now… things were different.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well… ”
+대기
+대사 “ Working here doesn’t sound particularly bad. ”
+대기
+대사 “ I’ll be sure to think it over. ”
+대기
+스크립트 이름.txt 이름지우기
+//배경음악 반복 free60.mp3
+대사 With that said, I headed towards the exit.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+스크립트 가게주인.txt 지우기1000
+딜레이 1000
+배경룰페이드아웃 룰_12.png 400
+페이드아웃 배경음악 3000
+딜레이 1500
+효과음 door_bell door_bell.mp3
+배경룰페이드인 룰_25.png 400
+배경 bg_white bg_white.jpg
+딜레이 2000
+쓰레드 배경음악페이드인
+배경음악 반복 free0469.mp3
+//배경음악 반복 feelings.mp3
+//배경음악 반복 roman.mp3
+//배경음악 반복 namida.mp3
+페이드인 배경음악 2000
+쓰레드
+쓰레드시작
+배경룰페이드인
+배경 bg_sky_light bg_sky_light.jpg
+페이드인 bg_sky_light 4000
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I opened the door and stepped outside.
+대기
+대사 I was immediately greeted by the chilled wind of autumn.
+대기
+대사 While zipping up my jacket, I looked up towards the sky.
+대기
+대사 I spotted a glint of sunlight shining through the cracks between the clouds.
+대기
+대사 For some reason, I found the spectacle mesmerizing.
+대기
+대사새줄
+대사잇기 It was truly breathtaking.
+대기
+대사 Even on this cold day…
+대기
+대사새줄
+대사잇기 I’m sure Lucy would’ve loved to see this sight.
+대기
+대사 Just thinking about it made me laugh.
+대기
+변수 $트루엔딩 = 0
+변수 $10월12일 = 1 
+게임상태
+딜레이 1000
+스크립트 대화창함수.txt 페이드아웃 대사창 2000
+딜레이 1000
+배경룰페이드인
+배경 bg_white bg_white.jpg
+페이드인 bg_white 3000
+페이드아웃 bg_sky_light
+화면색깔 255 255 255
+페이드아웃 bg_white
+딜레이 2500
+
+
+점프 크레딧.txt 10월12일
+
+
+

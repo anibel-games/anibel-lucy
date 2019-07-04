@@ -1,0 +1,201 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+// 회상 창에서 ESC키를 누르면 북마크 '종료'으로 이동하여 끝내도록 합니다.
+
+게임상태
+
+//효과음 UIAnimateNoiseGlideAppear UIAnimateNoiseGlideAppear.mp3
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+
+// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+// 회상창에서 '마우스 휠 시'에 다시 이 스크립트가 불러지는 것을 방지합니다.
+
+
+
+// 회상 화면을 만듭니다.
+회상 회상 105 115 0 22 시스템_회상스킨.png
+
+// 쓰레드로 '회상'을 부드럽게 나타나도록 합니다.
+쓰레드 1
+페이드인 회상 500
+쓰레드
+
+// 회상 화면의 배경을 페이드인 합니다.
+페이드아웃 선택지1_1
+페이드아웃 선택지2_1
+페이드아웃 선택지2_2
+페이드아웃 선택지3_1
+페이드아웃 선택지3_2
+페이드아웃 선택지3_3
+시스템버튼제거
+버튼제거
+
+변수 name_{{캐릭명}} = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름안보임
+
+쓰레드 대사창페이드아웃
+페이드아웃 대사창 500
+쓰레드
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG log_box log_box.png 107 124 아니 -130
+크기 log_box 0 0 
+쓰레드 메시지박스 크기확대
+크기 log_box 1 1 200 
+쓰레드
+쓰레드 메시지박스 페이드인
+페이드인 log_box 300
+쓰레드
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_log페이드인
+CG top_log top_log.png 108 0 아니 -130
+페이드인 top_log 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_paused페이드아웃
+페이드아웃 top_paused 300
+쓰레드
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+쓰레드시작
+
+// 쓰레드 '1'이 끝날때 까지 대기합니다.
+//쓰레드대기
+딜레이 500
+
+// '닫기' 버튼 입니다.
+버튼 button_back 1184 12 85 85 점프 여기 회상종료 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+
+키처리 32 텅빈.txt 첫줄
+키처리 27 여기 회상종료
+키처리 201 여기 회상종료
+키처리 112
+
+
+// '회상후' 이벤트는 회상화면 맨 아래에서 마우스 휠을 아래쪽으로 굴릴 때 발생됩니다.
+이벤트 회상후 여기 회상종료 500
+
+
+// '닫기' 버튼이 선택될 때 까지 대기합니다.
+버튼대기
+
+// 버튼을 통해 종료하지 않고, ESC키나 오른쪽 마우스 버튼으로 
+// 종료하는 경우 이쪽으로 오게 됩니다.
+북마크 회상종료 500
+딜레이 500
+
+북마크 회상종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+// '회상'을 부드럽게 제거합니다.
+쓰레드 1
+페이드아웃 회상 500
+쓰레드
+쓰레드시작
+
+// CLOSE 버튼을 제거합니다.
+시스템버튼제거
+버튼제거
+
+// 회상의 배경을 부드럽게 제거합니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 log_box페이드아웃
+페이드아웃 log_box 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_log페이드아웃
+페이드아웃 top_log 300
+쓰레드
+
+
+쓰레드시작
+
+
+// 메뉴키를 다시 설정해둡니다.
+조건 대사창열림 = 1 여기 다다음
+페이드인 대사창
+정변수 이름스킵 = 1 
+조건 이름스킵 = 1 여기 다다음
+변수 이름_1 = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름2 아니면 여기 다다음
+딜레이 500
+북마크 다다음
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1
+키처리 202 시스템_회상.txt 첫줄
+키처리 32 대화창함수.txt 페이드아웃대사창스페이스
+//키처리 112 도움말.txt 첫줄

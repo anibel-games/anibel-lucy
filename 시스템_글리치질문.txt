@@ -1,0 +1,215 @@
+﻿// 타이틀로 돌아가기를 물어보는 메세지 박스를 만듭니다.
+이벤트 메세지박스 시스템_메세지박스.txt 첫줄
+메세지박스 .
+
+// 메세지 박스에서 '예' 라는 답이 왔을 때만 이동합니다.
+// 여기서 '여기 타이틀로' 대신 '타이틀.txt 첫줄'로 이동할 경우
+// '타이틀.txt' 가 끝난 뒤에 이 파일의 '조건' 다음 줄로 가버리므로
+// 주의 부탁드립니다!
+조건 %메세지박스응답 = 1 여기 타이틀로 아니면 여기 여기대기
+
+// 타이틀로 이동하는 북마크를 만든다.
+북마크 타이틀로
+페이드아웃 title_error 100
+배경룰페이드아웃 룰_18.png 500
+딜레이 1000
+//동영상 본편이펙트_glitch 0 0 1280 720 loading_glitch.avi -1
+CG loading_glitch_00 loading_glitch_00.jpg 0 0 아니 -150
+딜레이 25
+CG loading_glitch_01 loading_glitch_01.jpg 0 0 아니 -150
+CG loading_glitch_00
+딜레이 25
+CG loading_glitch_02 loading_glitch_02.jpg 0 0 아니 -150
+CG loading_glitch_01
+딜레이 25
+CG loading_glitch_03 loading_glitch_03.jpg 0 0 아니 -150
+CG loading_glitch_02
+딜레이 25
+CG loading_glitch_04 loading_glitch_04.jpg 0 0 아니 -150
+CG loading_glitch_03
+딜레이 25
+CG loading_glitch_05 loading_glitch_05.jpg 0 0 아니 -150
+CG loading_glitch_04
+딜레이 25
+CG loading_glitch_06 loading_glitch_06.jpg 0 0 아니 -150
+CG loading_glitch_05
+딜레이 25
+CG loading_glitch_07 loading_glitch_07.jpg 0 0 아니 -150
+CG loading_glitch_06
+딜레이 25
+CG loading_glitch_08 loading_glitch_08.jpg 0 0 아니 -150
+CG loading_glitch_07
+딜레이 25
+CG loading_glitch_09 loading_glitch_09.jpg 0 0 아니 -150
+CG loading_glitch_08
+딜레이 25
+CG loading_glitch_10 loading_glitch_10.jpg 0 0 아니 -150
+CG loading_glitch_09
+딜레이 25
+CG loading_glitch_11 loading_glitch_11.jpg 0 0 아니 -150
+CG loading_glitch_10
+딜레이 25
+CG loading_glitch_12 loading_glitch_12.jpg 0 0 아니 -150
+CG loading_glitch_11
+딜레이 25
+CG loading_glitch_13 loading_glitch_13.jpg 0 0 아니 -150
+CG loading_glitch_12
+딜레이 25
+CG loading_glitch_14 loading_glitch_14.jpg 0 0 아니 -150
+CG loading_glitch_13
+딜레이 25
+CG loading_glitch_15 loading_glitch_15.jpg 0 0 아니 -150
+CG loading_glitch_14
+딜레이 25
+CG loading_glitch_16 loading_glitch_16.jpg 0 0 아니 -150
+CG loading_glitch_15
+딜레이 25
+CG loading_glitch_17 loading_glitch_17.jpg 0 0 아니 -150
+CG loading_glitch_16
+딜레이 25
+CG loading_glitch_18 loading_glitch_18.jpg 0 0 아니 -150
+CG loading_glitch_17
+딜레이 25
+CG loading_glitch_19 loading_glitch_19.jpg 0 0 아니 -150
+CG loading_glitch_18
+딜레이 25
+CG loading_glitch_20 loading_glitch_20.jpg 0 0 아니 -150
+CG loading_glitch_19
+딜레이 25
+CG loading_glitch_21 loading_glitch_21.jpg 0 0 아니 -150
+CG loading_glitch_20
+딜레이 25
+CG loading_glitch_22 loading_glitch_22.jpg 0 0 아니 -150
+CG loading_glitch_21
+딜레이 25
+CG loading_glitch_23 loading_glitch_23.jpg 0 0 아니 -150
+CG loading_glitch_22
+딜레이 25
+CG loading_glitch_24 loading_glitch_24.jpg 0 0 아니 -150
+CG loading_glitch_23
+딜레이 25
+CG loading_glitch_25 loading_glitch_25.jpg 0 0 아니 -150
+CG loading_glitch_24
+딜레이 25
+CG loading_glitch_26 loading_glitch_26.jpg 0 0 아니 -150
+CG loading_glitch_25
+딜레이 25
+CG loading_glitch_27 loading_glitch_27.jpg 0 0 아니 -150
+CG loading_glitch_26
+딜레이 25
+CG loading_glitch_28 loading_glitch_28.jpg 0 0 아니 -150
+CG loading_glitch_27
+딜레이 25
+CG loading_glitch_29 loading_glitch_29.jpg 0 0 아니 -150
+CG loading_glitch_28
+딜레이 25
+CG loading_glitch_30 loading_glitch_30.jpg 0 0 아니 -150
+CG loading_glitch_29
+딜레이 25
+CG loading_glitch_31 loading_glitch_31.jpg 0 0 아니 -150
+CG loading_glitch_30
+딜레이 25
+CG loading_glitch_32 loading_glitch_32.jpg 0 0 아니 -150
+CG loading_glitch_31
+딜레이 25
+CG loading_glitch_33 loading_glitch_33.jpg 0 0 아니 -150
+CG loading_glitch_32
+딜레이 25
+CG loading_glitch_34 loading_glitch_34.jpg 0 0 아니 -150
+CG loading_glitch_33
+딜레이 25
+CG loading_glitch_35 loading_glitch_35.jpg 0 0 아니 -150
+CG loading_glitch_34
+딜레이 25
+CG loading_glitch_36 loading_glitch_36.jpg 0 0 아니 -150
+CG loading_glitch_35
+딜레이 25
+CG loading_glitch_37 loading_glitch_37.jpg 0 0 아니 -150
+CG loading_glitch_36
+딜레이 25
+CG loading_glitch_38 loading_glitch_38.jpg 0 0 아니 -150
+CG loading_glitch_37
+딜레이 25
+CG loading_glitch_39 loading_glitch_39.jpg 0 0 아니 -150
+CG loading_glitch_38
+딜레이 25
+CG loading_glitch_40 loading_glitch_40.jpg 0 0 아니 -150
+CG loading_glitch_39
+딜레이 25
+CG loading_glitch_41 loading_glitch_41.jpg 0 0 아니 -150
+CG loading_glitch_40
+딜레이 25
+CG loading_glitch_42 loading_glitch_42.jpg 0 0 아니 -150
+CG loading_glitch_41
+딜레이 25
+CG loading_glitch_43 loading_glitch_43.jpg 0 0 아니 -150
+CG loading_glitch_42
+딜레이 25
+CG loading_glitch_44 loading_glitch_44.jpg 0 0 아니 -150
+CG loading_glitch_43
+딜레이 25
+CG loading_glitch_45 loading_glitch_45.jpg 0 0 아니 -150
+CG loading_glitch_44
+딜레이 25
+CG loading_glitch_46 loading_glitch_46.jpg 0 0 아니 -150
+CG loading_glitch_45
+딜레이 25
+CG loading_glitch_47 loading_glitch_47.jpg 0 0 아니 -150
+CG loading_glitch_46
+딜레이 25
+CG loading_glitch_48 loading_glitch_48.jpg 0 0 아니 -150
+CG loading_glitch_47
+딜레이 25
+CG loading_glitch_49 loading_glitch_49.jpg 0 0 아니 -150
+CG loading_glitch_48
+딜레이 25
+CG loading_glitch_50 loading_glitch_50.jpg 0 0 아니 -150
+CG loading_glitch_49
+딜레이 25
+CG loading_glitch_51 loading_glitch_51.jpg 0 0 아니 -150
+CG loading_glitch_50
+딜레이 25
+CG loading_glitch_52 loading_glitch_52.jpg 0 0 아니 -150
+CG loading_glitch_51
+딜레이 25
+CG loading_glitch_53 loading_glitch_53.jpg 0 0 아니 -150
+CG loading_glitch_52
+딜레이 25
+CG loading_glitch_54 loading_glitch_54.jpg 0 0 아니 -150
+CG loading_glitch_53
+딜레이 25
+CG loading_glitch_55 loading_glitch_55.jpg 0 0 아니 -150
+CG loading_glitch_54
+딜레이 25
+CG loading_glitch_56 loading_glitch_56.jpg 0 0 아니 -150
+CG loading_glitch_55
+딜레이 25
+CG loading_glitch_57 loading_glitch_57.jpg 0 0 아니 -150
+CG loading_glitch_56
+딜레이 25
+CG loading_glitch_58 loading_glitch_58.jpg 0 0 아니 -150
+CG loading_glitch_57
+딜레이 25
+CG lt03 lt03.png 0 258 아니 -130
+CG loading_glitch_58
+딜레이 25
+CG lt04 lt04.png 0 258 아니 -130
+CG lt03
+딜레이 25
+CG lt05 lt05.png 0 258 아니 -130
+CG lt04
+딜레이 25
+CG lt06 lt06.png 0 258 아니 -130
+CG lt05
+딜레이 25
+CG lt07 lt07.png 0 258 아니 -130
+CG lt06
+딜레이 25
+CG lt07
+
+딜레이 500
+
+점프 타이틀.txt 오프닝스킵
+
+북마크 여기대기
+페이드아웃 title_error 100
