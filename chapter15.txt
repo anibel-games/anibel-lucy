@@ -1,0 +1,922 @@
+﻿// 회상을 사용하기 위한 첫 설정입니다.
+회상첫설정 1072 560 0 30 Open Sans
+//회상첫설정 1072 560 0 26 Apple osaka_unicode
+회상설정 0 170 40 0
+
+대사창감추기
+모두지우기
+회상초기화
+
+// 대사창을 표시합니다.
+스크립트 기본셋팅.txt 끝3
+
+변수 슬롯씬이름 = "Oct 22, You"
+//변수 슬롯씬이름 = "10월 22일 주인공"
+//변수 슬롯씬이름 = "10月22日 主人公"
+
+딜레이 1000
+효과음 alarmclock alarmclock.mp3
+딜레이 2000
+배경룰페이드인 룰_47.png 500
+배경 bg_room01_earlymorning bg_room01_earlymorning.jpg
+딜레이 1000
+스크립트 대화창함수.txt
+딜레이 500
+대사 The alarm clock is making a terrible racket.
+대기
+대사새줄
+대사잇기 I instinctively reach out and shut it off.
+대기
+효과음 rustle rustle.mp3
+대사 Then I try to get myself up.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+배경룰페이드인 룰_21.png 500
+CG bg_room01_earlymorning_blur bg_room01_earlymorning_blur.jpg
+페이드인 bg_room01_earlymorning_blur 300
+페이드아웃 bg_room01_earlymorning_blur 500
+딜레이 200
+CG bg_room01_earlymorning_blur bg_room01_earlymorning_blur.jpg
+페이드인 bg_room01_earlymorning_blur 500
+페이드아웃 bg_room01_earlymorning_blur 1500
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 But it ends in a failed attempt.
+대기
+스크립트 이름.txt 주인공
+대사 “ …Huh? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I become engulfed in dizziness half way up.
+대기
+효과음 THUDSmooth01 THUDSmooth01.mp3
+진동 bg_room01_earlymorning 1 4 300 1000
+딜레이 1000
+대사 I stumble and fall back down.
+대기
+대사지우기
+배경룰페이드인 룰_21.png 500
+배경 bg_room01_earlymorning_blur bg_room01_earlymorning_blur.jpg
+딜레이 500
+대사 My body feels heavy.
+대기
+대사새줄
+대사잇기 My vision is faltering.
+대기
+스크립트 이름.txt 주인공
+대사 “ I guess I need more sleep… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have no choice.
+대기
+대사새줄
+대사잇기 I’ll stay in bed for a little while longer.
+대기
+대사 Lucy will come wake me up anyway.
+대기
+대사 I’ll sleep a little more until it’s time to go to school.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 300
+페이드아웃 bg_room01_earlymorning_blur 2500
+딜레이 2000
+
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0535_{{$언어}}.mp3
+대사 “ Master…
+딜레이 2000
+대사잇기  Master… ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+배경룰페이드인 룰_47.png 300
+배경 ev03_3 ev03_3.jpg
+////앨범에 ev03_3 추가
+오마케추가 ev03_3 ev03_3.jpg
+변수 $ev03_3획득 = 1
+딜레이 1000
+
+//ev03_4 출력
+CG ev03_4 ev03_4.jpg
+페이드인 ev03_4 2000
+페이드아웃 ev03_3
+////앨범에 ev03_4 추가
+오마케추가 ev03_4 ev03_4.jpg
+변수 $ev03_4획득 = 1
+
+//음악선정?
+배경음악 반복 town.mp3
+//배경음악 반복 community.mp3
+페이드인 배경음악 1000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 1000
+대사 I open my eyes.
+대기
+대사새줄
+대사잇기 I let out a hastened breath.
+대기
+대사 Lucy is quietly sitting beside me.
+대기
+대사 She has a concerned look on her face.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0536_{{$언어}}.mp3
+대사 “ Is master awake? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Lucy… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy places a hand on my forehead.
+대기
+대사 It’s freezing.
+대기
+스크립트 이름.txt 주인공
+대사 “ Your hand feels cold… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0537_1_{{$언어}}.mp3
+대사 “ It’s not that Lucy’s hand is cold. ”
+대기
+보이스 lucy0537_2_{{$언어}}.mp3
+대사 “ It’s just that master’s head is warm. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ My head? ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0538_{{$언어}}.mp3
+대사 “ Master’s temperature is above-normal at 38.5 degrees Celsius. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ 38.5 degrees… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0539_{{$언어}}.mp3
+대사 “ Yes. 38.5 degrees. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Ah… That explains it… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I thought I just needed more sleep, but it appears that the fever was the culprit.
+대기
+대사 It’s true that I haven’t been feeling too well lately.
+대기
+대사 I must’ve caught a cold.
+대기
+대사 My venture outside in the freezing weather yesterday was probably the deciding
+대사새줄
+대사잇기 factor.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0540_{{$언어}}.mp3
+대사 “ Does master feel pain anywhere in particular? Please tell Lucy the details. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+페이드아웃 ev03_4 2000
+
+딜레이 1500
+
+배경룰페이드인
+배경 bg_room01_earlymorning bg_room01_earlymorning.jpg
+페이드인 bg_room01_earlymorning 2000
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+
+대사 I oblige and tell her the condition I’m in.
+대기
+대사 She opens my mouth and takes a peek inside.
+대기
+대사새줄
+대사잇기 Then she proceeds to check something near my stomach area.
+대기
+대사 It’s like she’s playing doctor or something.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+
+변수 루시 = "l63"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0541_{{$언어}}.mp3
+대사 “ Mm, it appears that master has caught a cold. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ A cold? ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0542_{{$언어}}.mp3
+대사 “ Yes. It should go away after a good rest. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …Can I really trust you on this. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I have my doubts.
+대기
+스크립트 루시.txt 33
+스크립트 이름.txt 루시
+보이스 lucy0543_{{$언어}}.mp3
+대사 “ Should Lucy call in a professional just in case? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wonder what kind of professional she could be talking about.
+대기
+대사새줄
+대사잇기 She probably means a doctor.
+대기
+스크립트 이름.txt 주인공
+대사 “ You don’t need to. ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0544_{{$언어}}.mp3
+대사 “ Very well. ”
+대기
+스크립트 루시.txt 61 1
+보이스 lucy0545_{{$언어}}.mp3
+대사 “ Then perhaps Lucy should give father a call? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 This time, I respond without a moment’s hesitation.
+대기
+대사새줄
+대사잇기 There’s no need to think it over.
+대기
+스크립트 이름.txt 주인공
+대사 “ No, don’t bother. ”
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0546_{{$언어}}.mp3
+대사 “ Ah… All right. ”
+대기
+보이스 lucy0547_1_{{$언어}}.mp3
+대사 “ Master should also take the day off from school. ”
+대기
+스크립트 루시.txt 67 1
+보이스 lucy0547_2_{{$언어}}.mp3
+대사 “ Lucy will give them a call. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Nonsense. I don’t need to take a day off just because of something like… ”
+대기
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+스크립트 이름.txt 이름지우기
+대사 I try to get up…
+대기
+효과음 thud1 thud1.mp3
+대사 Only to be immediately shot down.
+대기
+스크립트 루시.txt 122
+스크립트 이름.txt 루시
+보이스 lucy0548_{{$언어}}.mp3
+대사 “ Master! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her assertive tone showed that she meant business.
+대기
+대사 Without making a peep, I lie back down.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0549_{{$언어}}.mp3
+대사 “ Master should not be moving around in this state. Please stay in bed. ”
+대기
+스크립트 루시.txt 63 1
+보이스 lucy0550_{{$언어}}.mp3
+대사 “ Lucy will nurse master back to health. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You don’t need to. A minor cold like this is… ”
+대기
+스크립트 루시.txt 67
+스크립트 이름.txt 루시
+보이스 lucy0551_{{$언어}}.mp3
+대사 “ Please, stay in bed. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Her tone was gentle yet firm.
+대기
+대사 I don’t have the energy to argue anyway, so I decide to comply.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0552_{{$언어}}.mp3
+대사 “ Please rest for a little while longer. Lucy will go purchase some medicine. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+스크립트 루시.txt 지우기
+딜레이 500
+대사 The drowsiness slowly starts to settle in.
+대기
+대사 I was staring at Lucy who was leaving my room.
+대기
+대사 But before I knew it, everything had turned pitch black.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+
+페이드아웃 bg_room01_earlymorning 2000
+
+
+딜레이 3000
+배경룰페이드인 룰_47.PNG 400
+배경 bg_room01_light bg_room01_light.jpg
+딜레이 1500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 When I came to, there was a wet towel placed on my forehead.
+대기
+대사 It was a little warm.
+대기
+대사지우기
+딜레이 300
+변수 루시 = "l29"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1000
+딜레이 500
+스크립트 이름.txt 루시
+보이스 lucy0553_{{$언어}}.mp3
+대사 “ Is master awake? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …Yeah. ”
+대기
+대사 “ How long was I asleep for? ”
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0554_{{$언어}}.mp3
+대사 “ About thirty minutes. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Only thirty minutes?
+대기
+대사 …It feels like I’ve slept for quite a while, though.
+대기
+대사 Lucy switches out the towel on my forehead with another.
+대기
+대사새줄
+대사잇기 The coolness of the new towel feels refreshing.
+대기
+대사 For some reason, I suddenly grow embarrassed as I notice Lucy smiling at me.
+대기
+스크립트 이름.txt 주인공
+대사 “ …What were you doing while I was asleep? ”
+대기
+스크립트 루시.txt 62
+스크립트 이름.txt 루시
+보이스 lucy0555_{{$언어}}.mp3
+대사 “ Lucy was looking over master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ You didn’t do anything strange just because I was sleeping, did you…? ”
+대기
+스크립트 루시.txt 25
+스크립트 이름.txt 루시
+보이스 lucy0556_{{$언어}}.mp3
+대사 “ Of course not. ”
+대기
+보이스 lucy0557_{{$언어}}.mp3
+대사 “ Lucy certainly didn’t do anything like poking around under master’s bed out of
+대사새줄
+대사잇기 curiosity. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ …You won’t find anything there in the first place. ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0558_{{$언어}}.mp3
+대사 “ Is that so? ”
+대기
+스크립트 루시.txt 93 1
+보이스 lucy0559_{{$언어}}.mp3
+대사 “ Lucy was taught that any youthful teenager keeps treasures under their bed,
+대사새줄
+대사잇기 though. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I wonder if she had learned that from the lab…
+대기
+대사 But come on now.
+대기
+대사새줄
+대사잇기 There’s no way I would hide mine in such an obvious place.
+대기
+스크립트 루시.txt 53
+스크립트 이름.txt 루시
+보이스 lucy0560_{{$언어}}.mp3
+대사 “ Ah, but Lucy has already inspected all of the bookshelves filled with master’s
+대사새줄
+대사잇기 history books. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I begin to fear for the safety of my collection.
+대기
+스크립트 루시.txt 63
+스크립트 이름.txt 루시
+보이스 lucy0561_{{$언어}}.mp3
+대사 “ Master, Lucy has his medicine prepared. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Medicine? ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy points towards the table.
+대기
+대사 A bottle of medicine is lying on top.
+대기
+스크립트 루시.txt 68
+스크립트 이름.txt 루시
+보이스 lucy0562_{{$언어}}.mp3
+대사 “ Just in case master finds swallowing pills uncomfortable, Lucy has also prepared
+대사새줄
+대사잇기 some syrup made for children. ”
+대기
+스크립트 루시.txt 53 1
+보이스 lucy0563_{{$언어}}.mp3
+대사 “ It’s nothing bitter.
+딜레이 2000
+스크립트 루시.txt 95 1
+대사잇기  Now, say ah—! ”
+대기
+스크립트 이름.txt 이름지우기
+대사 She’s holding a spoon filled with an unknown substance.
+대기
+대사새줄
+대사잇기 It slowly approaches my mouth.
+대기
+스크립트 이름.txt 주인공
+대사 “ Just give me the pills. ”
+대기
+스크립트 루시.txt 75
+스크립트 이름.txt 루시
+보이스 lucy0564_{{$언어}}.mp3
+대사 “ But this syrup is so nice and sweet. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Give me the pills, or I won’t take any medicine at all. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy pouts like a little child.
+대기
+대사 But she finally hands me the pills with some water.
+대기
+대사 I swallow them down immediately in a single large gulp.
+대기
+대사 I lie back down.
+대기
+대사새줄
+대사잇기 I begin to feel drowsy again.
+대기
+스크립트 이름.txt 주인공
+대사 “ Well, I’m gonna get some more sleep now. ”
+대기
+//배경음악 반복 town.mp3
+스크립트 이름.txt 이름지우기
+대사 I close my eyes without waiting for a reply.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+스크립트 루시.txt 지우기1000
+딜레이 500
+배경룰페이드아웃 룰_21.png 400
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 I let the drowsiness carry me away.
+대기
+대사 I quickly fall asleep once more.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+페이드아웃 배경음악 2500
+딜레이 3000
+배경음악 free0354.mp3
+페이드인 배경음악 1000
+딜레이 2000
+배경룰페이드인 룰_KUMO.png 300
+배경 bg_dream01 bg_dream01.jpg
+딜레이 2000
+CG bg_dream02 bg_dream02.jpg
+페이드인 bg_dream02 2000
+딜레이 1500
+페이드아웃 bg_dream02 2000
+딜레이 1500
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 4000
+쓰레드
+쓰레드시작
+배경룰페이드아웃 룰_zigzag.PNG 300
+딜레이 4000
+배경룰페이드인 룰_47.png 400
+배경 bg_room01_night bg_room01_night.jpg
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 1000
+딜레이 300
+대사 I had a terrible dream.
+대기
+대사 I don’t quite remember the details, but it was something about my childhood.
+대기
+대사 My birth mother appeared in it, whose face I could only barely recall.
+대기
+대사 I awake to find myself out of breath.
+대기
+스크립트 이름.txt 주인공
+대사 “ Pant… Gasp… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 I’m drenched in cold sweat.
+대기
+대사새줄
+대사잇기 I try to move my hand in order to wipe it away.
+대기
+대사 At that moment…
+대기
+대사새줄
+대사잇기 I realize that my hand is intertwined with Lucy’s.
+대기
+대사 While I was sleeping, she must’ve been holding my hand the entire time.
+대기
+대사 Lucy speaks up while smiling politely.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0565_{{$언어}}.mp3
+대사 “ Did master have a bad dream? ”
+딜레이 1000
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 500
+변수 루시 = "l63"
+CG {{루시}} {{루시}}.png
+페이드인 {{루시}} 1500
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 주인공
+대사 “ ……… ”
+대기
+대사 “ …Yeah. ”
+대기
+스크립트 루시.txt 69
+스크립트 이름.txt 루시
+보이스 lucy0566_{{$언어}}.mp3
+대사 “ Was it about getting master’s teeth pulled out? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ No. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Although that would definitely make for a scary dream…
+대기
+대사새줄
+대사잇기 The one I had was something far worse… something I never wanted to see.
+대기
+대사 I grip onto her hand a little more tightly.
+대기
+스크립트 이름.txt 주인공
+대사 “ Your hand… ”
+대기
+스크립트 루시.txt 61
+스크립트 이름.txt 루시
+보이스 lucy0567_{{$언어}}.mp3
+대사 “ Master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Were you… holding my hand the entire time? ”
+대기
+스크립트 루시.txt 52
+스크립트 이름.txt 루시
+보이스 lucy0568_{{$언어}}.mp3
+대사 “ Master looked like he was in pain. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 500
+스크립트 루시.txt 지우기1000
+딜레이 500
+대사 Lucy wipes down my forehead with a towel.
+대기
+대사새줄
+대사잇기 Her tender display of kindness began to touch my heart.
+대기
+대사 They say that a strong body makes the mind strong.
+대기
+대사 With my body in such a weak state, followed by a weakened mind…
+대기
+대사새줄
+대사잇기 I couldn’t put up any resistance against her acts of kindness.
+대기
+대사 This was… truly unfair.
+대기
+대사 I could only see it as being unfair.
+대기
+//대사잇기  생각할 수 없다.
+//대기
+대사 That’s why, while Lucy was leaning over me, I pulled her in closer.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+
+효과음 thud1 thud1.mp3
+
+배경룰페이드아웃 룰_39.png 700
+딜레이 500
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0569_{{$언어}}.mp3
+대사 “ H-huh? ”
+대기
+스크립트 이름.txt 이름지우기대사창
+스크립트 대화창함수.txt 페이드아웃 대사창 500
+딜레이 1500
+쓰레드 배경음악페이드인
+딜레이 2000
+//음악선정?
+//배경음악 반복 free31.mp3
+배경음악 반복 Warmth_Of_Her.mp3
+페이드인 배경음악 1000
+쓰레드
+쓰레드시작
+//ev10_1 출력
+CG ev10_1 ev10_1.jpg
+페이드인 ev10_1 3500
+////앨범에 ev10_1 추가
+오마케추가 ev10_1 ev10_1.jpg
+변수 $ev10_1획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+딜레이 300
+대사 She resists slightly.
+대기
+대사새줄
+대사잇기 Just enough to make it clear that she felt uncomfortable about it.
+대기
+스크립트 이름.txt 루시
+보이스 lucy0570_{{$언어}}.mp3
+대사 “ M-master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Just for a moment. ”
+대기
+대사 “ It’s my request, so just for a moment like this… ”
+대기
+스크립트 이름.txt 루시1
+대사 “ ……… ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy stays silent.
+대기
+대사새줄
+대사잇기 She has stopped resisting.
+대기
+대사 I also remain silent.
+대기
+대사 Without a word, I continue to bask in Lucy’s warmth.
+대기
+대사 We stay like this for a while.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 1000
+//ev10_2 출력
+CG ev10_2 ev10_2.jpg
+페이드인 ev10_2 1000
+페이드아웃 ev10_1
+////앨범에 ev10_2 추가
+오마케추가 ev10_2 ev10_2.jpg
+변수 $ev10_2획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+스크립트 이름.txt 루시
+보이스 lucy0571_{{$언어}}.mp3
+대사 “ Umm… master. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Lucy breaks the silence.
+대기
+스크립트 이름.txt 주인공
+대사 “ What is it? ”
+대기
+스크립트 이름.txt 이름지우기
+//ev10_3 출력
+CG ev10_3 ev10_3.jpg
+페이드인 ev10_3 500
+페이드아웃 ev10_2
+////앨범에 ev10_3 추가
+오마케추가 ev10_3 ev10_3.jpg
+변수 $ev10_3획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0572_{{$언어}}.mp3
+대사 “ Uh… Um… With all due respect… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Just tell me. ”
+대기
+스크립트 이름.txt 이름지우기
+딜레이 300
+//ev10_4 출력
+CG ev10_4 ev10_4.jpg
+페이드인 ev10_4 800
+페이드아웃 ev10_3
+////앨범에 ev10_4 추가
+오마케추가 ev10_4 ev10_4.jpg
+변수 $ev10_4획득 = 1
+딜레이 200
+스크립트 이름.txt 루시
+보이스 lucy0573_{{$언어}}.mp3
+대사 “ To ensure safe sexual practice, Lucy wanted to let master know that an age
+대사새줄
+대사잇기 verification is required before any further physical intimacy is allowed… ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Don’t be ridiculous. You’re ruining the moment. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev10_5 출력
+CG ev10_5 ev10_5.jpg
+페이드인 ev10_5 500
+페이드아웃 ev10_4
+////앨범에 ev10_5 추가
+오마케추가 ev10_5 ev10_5.jpg
+변수 $ev10_5획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0574_{{$언어}}.mp3
+대사 “ M-my apologies, master. ”
+대기
+스크립트 이름.txt 이름지우기대사창1000
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 2000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 There’s another moment of silence.
+대기
+대사 This time, I speak up first.
+대기
+스크립트 이름.txt 주인공
+대사 “ It’s all because of you… ”
+대기
+스크립트 이름.txt 이름지우기
+//ev10_1 출력
+CG ev10_1 ev10_1.jpg
+페이드인 ev10_1 500
+페이드아웃 ev10_5
+////앨범에 ev10_1 추가
+오마케추가 ev10_1 ev10_1.jpg
+변수 $ev10_1획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0575_{{$언어}}.mp3
+대사 “ Master? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ I’m not the one at fault.
+대기
+대사잇기  You’re the one to blame. ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0576_{{$언어}}.mp3
+대사 “ Lucy… is the one to blame? ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ That’s right. It’s all your fault. ”
+대기
+대사 “ You’re the reason… why I’ve become so strange. ”
+대기
+스크립트 이름.txt 이름지우기
+//ev10_5 출력
+CG ev10_5 ev10_5.jpg
+페이드인 ev10_5 500
+페이드아웃 ev10_1
+////앨범에 ev10_5 추가
+오마케추가 ev10_5 ev10_5.jpg
+변수 $ev10_5획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0577_{{$언어}}.mp3
+대사 “ …Sorry, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why… Why is it that you talk just like a real person… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0578_{{$언어}}.mp3
+대사 “ …Sorry, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why is it that you act just like a real person… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0579_{{$언어}}.mp3
+대사 “ …Sorry, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why is it that you’re so kind… ”
+대기
+스크립트 이름.txt 이름지우기
+//ev10_2 출력
+CG ev10_2 ev10_2.jpg
+페이드인 ev10_2 500
+페이드아웃 ev10_5
+////앨범에 ev10_2 추가
+오마케추가 ev10_2 ev10_2.jpg
+변수 $ev10_2획득 = 1
+스크립트 이름.txt 루시
+보이스 lucy0580_{{$언어}}.mp3
+대사 “ Sorry, master. ”
+대기
+스크립트 이름.txt 주인공1
+대사 “ Why is it that…
+대기
+대사잇기  you’re so considerate… ”
+대기
+스크립트 이름.txt 루시1
+보이스 lucy0581_{{$언어}}.mp3
+대사 “ Sorry, master. ”
+대기
+스크립트 이름.txt 이름지우기
+대사 Like a parrot, Lucy continues to utter the same apology over and over again.
+대기
+대사새줄
+대사잇기 She doesn’t say anything else.
+대기
+대사 She doesn’t provide any words of consolation.
+대기
+스크립트 대화창함수.txt 페이드아웃 대사창 1000
+딜레이 700
+쓰레드 효과음페이드아웃
+효과음 FABRICMovementLong FABRICMovementLong.mp3
+페이드아웃 FABRICMovementLong 2000
+쓰레드
+쓰레드시작
+//ev10_6 출력
+CG ev10_6 ev10_6.jpg
+페이드인 ev10_6 2000
+페이드아웃 ev10_2
+////앨범에 ev10_6 추가
+오마케추가 ev10_6 ev10_6.jpg
+변수 $ev10_6획득 = 1
+딜레이 1000
+스크립트 대화창함수.txt 페이드인 대사창 500
+대사 Instead, I’m greeted by the sensation of her arms wrapping around me.
+대기
+대사 I feel her snuggling into my back.
+대기
+대사 Her movements are programmed.
+대기
+대사새줄
+대사잇기 And so is her warmth.
+대기
+대사 Even so, I could still feel the same warmth coming from a real person.
+대기
+대사 There’s no doubt that she’s an elaborate fake.
+대기
+대사새줄
+대사잇기 However…
+대기
+대사 I decide that this much is enough to satisfy my current self.
+대기
+//배경음악 반복 Sad #3cLucy's dead5#3ever5.mp3
+대사 I decide that I’m happy with the way things are.
+대기
+게임상태
+스크립트 대화창함수.txt 페이드아웃 대사창 1500
+딜레이 300
+쓰레드 배경음악페이드아웃
+페이드아웃 배경음악 5500
+쓰레드
+쓰레드시작
+페이드아웃 ev10_6 3500
+
+딜레이 3500
+
+
+변수 chapter = 15
+
+점프 로봇3원칙.txt 첫줄
+
+
+
+
+
+
+
+
+
+
+
+
+
