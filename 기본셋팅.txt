@@ -1,0 +1,418 @@
+﻿키처리 32 텅빈.txt 첫줄
+
+// 처음에 이 파일이 불러지자 마자 끝으로 갑니다.
+점프 끝
+
+// **메뉴시작1
+// 게임 진행중 ESC키나 마우스 오른쪽 버튼을
+// 누르면, 이곳부터 시작합니다.
+북마크 메뉴시작1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202 텅빈.txt 첫줄
+키처리 112
+키처리 65
+키처리 90
+
+게임상태
+변수 대사창열림 = 1
+
+// ESC키와 마우스 오른쪽 버튼을 작동하지 않도록 합니다.
+
+페이드아웃 선택지1_1
+페이드아웃 선택지2_1
+페이드아웃 선택지2_2
+페이드아웃 선택지3_1
+페이드아웃 선택지3_2
+페이드아웃 선택지3_3
+시스템버튼제거
+
+
+
+// 메뉴는 카메라 속성(확대, 이동)을 무시하게 합니다.
+카메라무시 응
+
+// 메뉴 배경을 보여줍니다.
+// 이때 출력순서를 1로 올리는 이유는, CG로 출력한 다른 캐릭터들에
+// 메뉴 배경이 묻힐 수 있기 때문입니다.
+
+// 쓰레드를 사용하여, 배경을 이동하면서
+// 동시에 페이드인이 되도록 합니다.
+
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+쓰레드 1
+CG lines_open lines_open.png 0 75 아니 2
+이동 lines_open 0 0 500 -1500
+쓰레드
+쓰레드시작
+
+변수 name_{{캐릭명}} = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름안보임
+
+페이드인 lines_open 50
+쓰레드 대사창페이드아웃
+페이드아웃 대사창 300
+쓰레드
+
+
+
+쓰레드시작
+딜레이 100
+
+
+// **메뉴시작2
+북마크 메뉴시작2
+키처리 32 텅빈.txt 첫줄
+// 게임이 로드된 다음에 시스템_저장하기.txt 파일의 북마크 '종료' 부분으로 이동하도록 합니다.
+// 왜냐하면, 게임이 불러진 다음에는 저장된 화면으로 불러지기 때문입니다.
+// 궁금하신 분은 아랫 명령어를 주석처리 하시고 살펴보세요 ^^
+//이벤트 로드후 시스템_저장하기.txt 종료
+이벤트 로드후 우회용.txt 로드후대사창
+
+// 메뉴가 불러진 상태에서 ESC키 혹은 
+// 마우스 오른쪽 버튼을 다시 누르면 메뉴를 종료하도록 합니다.
+키처리 27 
+키처리 201 
+
+//조건 대사창열림 = 0 여기 단축키로드후
+조건 로드완료 = 1 여기 끝4
+
+//북마크 단축키로드후
+
+CG light2 light.png -456 580 아니 -130
+
+쓰레드 light2 이동 
+이동 light2 1280 580 3000 2000
+쓰레드
+
+쓰레드 lines_open_shine
+딜레이 50
+CG lines_open_shine lines_open_shine.png 0 0 아니 -129
+페이드인 lines_open_shine 500
+페이드아웃 lines_open_shine 700
+쓰레드
+
+// 메뉴 버튼들을 만들어줍니다.
+CG top_layout_02p top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02p이동
+이동 top_layout_02p 7 15 700 -200
+쓰레드
+CG top_layout_01p top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01p이동
+이동 top_layout_01p 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03p페이드인
+CG top_layout_03p top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03p 300
+쓰레드
+딜레이 100
+CG top_layout_04p top_layout_04.png 0 0 아니 -125
+크기 top_layout_04p 0 1
+쓰레드 top_layout_04p크기확대
+크기 top_layout_04p 1 1 300
+쓰레드
+쓰레드 top_paused페이드인
+CG top_paused top_paused_ru.png 108 0 아니 -130
+페이드인 top_paused 300
+쓰레드
+
+
+
+
+
+
+
+// 닫기 버튼입니다.
+//시스템버튼 button_back 1174 3 97 102 스크립트 텅빈.txt button_back.png button_back_select.png button_back_push.png
+
+
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+
+//쓰레드 button_helpcg
+//CG button_helpcg button_help.png 1184 97 아니
+//페이드인 button_helpcg 300
+//쓰레드
+
+쓰레드 오토
+CG lines_auto_selectcg lines_auto_ru_select.png 64 639 아니 -130
+페이드인 lines_auto_selectcg 300
+쓰레드
+
+쓰레드 오토
+CG lines_autocg lines_auto_ru.png 64 639 아니 -129
+페이드인 lines_autocg 300
+쓰레드
+
+쓰레드 스킵
+딜레이 70
+CG lines_skip_selectcg lines_skip_ru_select.png 223 638 아니 -130
+페이드인 lines_skip_selectcg 300
+쓰레드
+
+쓰레드 스킵
+딜레이 70
+CG lines_skipcg lines_skip_ru.png 223 638 아니 -129
+페이드인 lines_skipcg 300
+쓰레드
+
+쓰레드 로그
+딜레이 140
+CG lines_log_selectcg lines_log_ru_select.png 389 635 아니 -130
+페이드인 lines_log_selectcg 300
+쓰레드
+
+쓰레드 로그
+딜레이 140
+CG lines_logcg lines_log_ru.png 389 635 아니 -129
+페이드인 lines_logcg 300
+쓰레드
+
+쓰레드 세이브
+딜레이 210
+CG lines_save_selectcg lines_save_ru_select.png 574 628 아니 -130
+페이드인 lines_save_selectcg 300
+쓰레드
+
+쓰레드 세이브
+딜레이 210
+CG lines_savecg lines_save_ru.png 574 628 아니 -129
+페이드인 lines_savecg 300
+쓰레드
+
+쓰레드 로드
+딜레이 280
+CG lines_load_selectcg lines_load_ru_select.png 748 632 아니 -130
+페이드인 lines_load_selectcg 300
+쓰레드
+
+쓰레드 로드
+딜레이 280
+CG lines_loadcg lines_load_ru.png 748 632 아니 -129
+페이드인 lines_loadcg 300
+쓰레드
+
+쓰레드 옵션
+딜레이 350
+CG lines_options_selectcg lines_options_ru_select.png 907 630 아니 -130
+페이드인 lines_options_selectcg 300
+쓰레드
+
+쓰레드 옵션
+딜레이 350
+CG lines_optionscg lines_options_ru.png 907 630 아니 -129
+페이드인 lines_optionscg 300
+쓰레드
+
+쓰레드 타이틀
+딜레이 420
+CG lines_title_selectcg lines_title_ru_select.png 1092 626 아니 -130
+페이드인 lines_title_selectcg 300
+쓰레드
+
+쓰레드 타이틀
+딜레이 420
+CG lines_titlecg lines_title_ru.png 1092 626 아니 -129
+페이드인 lines_titlecg 500
+쓰레드
+
+쓰레드 오토페이드아웃
+딜레이 400
+페이드아웃 lines_auto_selectcg 300
+쓰레드
+쓰레드 스킵페이드아웃
+딜레이 470
+페이드아웃 lines_skip_selectcg 300
+쓰레드
+쓰레드 로그페이드아웃
+딜레이 540
+페이드아웃 lines_log_selectcg 300
+쓰레드
+쓰레드 세이브페이드아웃
+딜레이 610
+페이드아웃 lines_save_selectcg 300
+쓰레드
+쓰레드 로드페이드아웃
+딜레이 680
+페이드아웃 lines_load_selectcg 300
+쓰레드
+쓰레드 옵션페이드아웃
+딜레이 750
+페이드아웃 lines_options_selectcg 300
+쓰레드
+쓰레드 타이틀페이드아웃
+딜레이 820
+페이드아웃 lines_title_selectcg 300
+쓰레드
+쓰레드시작
+
+딜레이 1120 
+//고쳐라
+
+
+시스템버튼 오토 64 639 105 90 스크립트 도움말.txt lines_auto_ru.png lines_auto_ru_select.png lines_auto_ru_push.png
+페이드아웃 lines_autocg
+시스템버튼 스킵 223 638 109 90 스크립트 빠른스킵.txt lines_skip_ru.png lines_skip_ru_select.png lines_skip_ru_push.png
+페이드아웃 lines_skipcg
+시스템버튼 로그 389 635 125 93 스크립트 시스템_회상.txt lines_log_ru.png lines_log_ru_select.png lines_log_ru_push.png
+페이드아웃 lines_logcg
+시스템버튼 세이브 574 628 117 100 스크립트 시스템_저장하기.txt lines_save_ru.png lines_save_ru_select.png lines_save_ru_push.png
+페이드아웃 lines_savecg
+시스템버튼 로드 748 632 109 96 스크립트 시스템_불러오기.txt lines_load_ru.png lines_load_ru_select.png lines_load_ru_push.png
+페이드아웃 lines_loadcg
+시스템버튼 옵션 907 630 153 98 스크립트 시스템_옵션.txt lines_options_ru.png lines_options_ru_select.png lines_options_ru_push.png
+페이드아웃 lines_optionscg
+시스템버튼 타이틀 1092 626 132 102 스크립트 시스템_타이틀로.txt lines_title_ru.png lines_title_ru_select.png lines_title_ru_push.png
+페이드아웃 lines_titlecg
+버튼 button_back 1184 12 85 85 점프 여기 끝 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+//시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+//CG button_helpcg
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27 여기 끝
+키처리 201 여기 끝
+키처리 202 시스템_회상.txt 첫줄
+키처리 65
+키처리 90
+//키처리 112 도움말.txt 첫줄
+
+// 메뉴가 선택되기를 기다립니다.
+버튼대기
+
+// 선택한 메뉴가 종료되면, 다시 전체 메뉴를 보여주기 위해 이동합니다.
+조건 자동넘기기 = 1 여기 끝5
+조건 빠른스킵 = 1 여기 끝5
+점프 메뉴시작2
+
+// 메뉴가 나와있는 도중 ESC키나 
+// 마우스 오른쪽 버튼을 누르면 이쪽으로 오게 됩니다.
+북마크 끝
+키처리 32 텅빈.txt 첫줄
+키처리 201
+키처리 202
+//키처리 112 도움말.txt 첫줄
+
+
+// 여기서 '버튼제거' 가 쓰이는 이유는 ESC키 눌러서 
+// 버튼이 제거되지 않을 수도 있기 때문입니다.
+버튼제거
+시스템버튼제거
+
+// 카메라 무시 기능을 다시 해제합니다.
+카메라무시 아니
+
+
+정변수 이름스킵 = 1 
+조건 이름스킵 = 1 여기 다다음
+변수 이름_1 = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름2 아니면 여기 다다음
+
+
+북마크 다다음
+쓰레드 lines_open 닫힘
+이동 lines_open 0 78 500 -1500
+쓰레드
+
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_paused페이드아웃
+페이드아웃 top_paused 300
+쓰레드
+
+쓰레드시작
+
+조건 대사창 = 0 여기 대사창80스킵
+페이드인 대사창 80
+북마크 대사창80스킵
+페이드아웃 lines_open 300
+변수 대사창 = 1
+
+//쓰레드 lines_open 닫힘
+//이동 lines_open 0 78 500 -1500
+//쓰레드
+
+//쓰레드시작
+
+//CG 대사창CG lines.png 0 0 아니 50
+//페이드인 대사창CG 80 
+//페이드아웃 lines_open 300
+//페이드아웃 대사창CG
+//페이드인 대사창
+
+
+북마크 끝3
+
+키처리 32 대화창함수.txt 페이드아웃대사창스페이스
+키처리 27 여기 메뉴시작1
+키처리 201 여기 메뉴시작1
+키처리 202 시스템_회상.txt 첫줄
+//키처리 65 자동넘기기단축키.txt 첫줄
+키처리 90 빠른스킵단축키.txt 첫줄
+//키처리 112 도움말.txt 첫줄
+//키처리 83 시스템_저장하기.txt 첫줄
+
+변수 대사창열림 = 0
+
+정변수 캐릭명 = "default"
+
+점프 끝5
+
+
+북마크 끝4
+키처리 32 대화창함수.txt 페이드아웃대사창스페이스
+키처리 27 여기 메뉴시작1
+키처리 201 여기 메뉴시작1
+키처리 202 시스템_회상.txt 첫줄
+//키처리 65 자동넘기기단축키.txt 첫줄
+키처리 90 빠른스킵단축키.txt 첫줄
+//키처리 112 도움말.txt 첫줄
+//키처리 83 시스템_저장하기.txt 첫줄
+
+
+//조건 로드완료 = 1 여기 끝5
+
+변수 로드완료 = 0
+
+변수 대사창열림 = 0
+
+조건 대사창 = 0 여기 대사창로드후스킵
+페이드인 대사창 
+북마크 대사창로드후스킵
+페이드아웃 lines_open
+
+//조건 빠른스킵 = 0 여기 끝5
+//스크립트 빠른스킵.txt 빠른스킵
+
+북마크 끝5
+
+변수 자동넘기기 = 0
+변수 빠른스킵 = 0
+
+북마크 끝6
+
+
+
+// 메세지박스를 등록합니다.
+// 이것이 등록되지 않으면,
+// 예를 들어 세이브에서 덮어쓰기가 될때 
+// 아무런 질문도 묻지 않습니다.
+이벤트 메세지박스 시스템_메세지박스.txt 첫줄
+
+

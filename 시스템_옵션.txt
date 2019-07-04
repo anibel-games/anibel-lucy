@@ -1,0 +1,413 @@
+﻿// 옵션 창에서 ESC키를 누르면 북마크 '종료'으로 이동하여 끝내도록 합니다.
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+정변수 $언어 = "kr"
+
+// 옵션 화면을 보여줍니다. 출력 순서를 1으로 한 것은 같은 CG 명령어 중에서
+// 제일 맨 앞으로 보여주기 위한 것 입니다.
+// 뭔지 잘 모르시겠다면 '출력순서' 명령어를 지우고, 실행해보세요 ^^
+시스템버튼제거
+버튼제거
+
+변수 name_{{캐릭명}} = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름안보임
+
+쓰레드 대사창페이드아웃
+페이드아웃 대사창 500
+쓰레드
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_options페이드인
+CG top_options top_options_ru.png 108 0 아니 -130
+페이드인 top_options 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_paused페이드아웃
+페이드아웃 top_paused 300
+쓰레드
+
+쓰레드 options_textspeed 페이드인
+CG options_textspeed options_textspeed_ru.png 125 124 아니 0
+페이드인 options_textspeed 500
+쓰레드
+쓰레드 options_textspeed 이동
+이동 options_textspeed 208 124 500 1000
+쓰레드
+쓰레드 options_bgm 페이드인
+딜레이 70
+CG options_bgm options_bgm_ru.png 129 208 아니 0
+페이드인 options_bgm 500
+쓰레드
+쓰레드 options_bgm 이동
+딜레이 70
+이동 options_bgm 229 208 500 1000
+쓰레드
+쓰레드  options_sfx 페이드인
+딜레이 140
+CG options_sfx options_sfx_ru.png 114 293 아니 0
+페이드인 options_sfx 500
+쓰레드
+쓰레드 options_sfx 이동
+딜레이 140
+이동 options_sfx 214 293 500 1000
+쓰레드
+쓰레드 options_voice 페이드인
+딜레이 210
+CG options_voice options_voice_ru.png 165 378 아니 0
+페이드인 options_voice 500
+쓰레드
+쓰레드 options_voice 이동
+딜레이 210
+이동 options_voice 265 378 500 1000
+쓰레드
+쓰레드 options_transparency 페이드인
+딜레이 280
+CG options_transparency options_transparency_ru.png 109 543 아니 0
+페이드인 options_transparency 500
+쓰레드
+쓰레드 options_transparency 이동
+딜레이 280
+이동 options_transparency 208 543 500 1000
+쓰레드
+쓰레드 options_fullscreen 페이드인
+딜레이 350
+CG options_fullscreen options_fullscreen_ru.png 111 638 아니 0
+페이드인 options_fullscreen 500
+쓰레드
+쓰레드 options_fullscreen 이동
+딜레이 350
+이동 options_fullscreen 211 638 500 1000
+쓰레드
+
+CG scroll_bar_options1 scroll_bar_textspeed_ru.png 257 116 아니 0
+쓰레드 scroll_bar_options1페이드
+페이드인 scroll_bar_options1 500 
+쓰레드
+쓰레드 scroll_bar_options1 이동
+이동 scroll_bar_options1 557 116 1000 1000
+쓰레드
+쓰레드 scroll_bar_options2페이드
+딜레이 70
+CG scroll_bar_options2 scroll_bar_options_ru.png 257 201 아니 0
+페이드인 scroll_bar_options2 500 
+쓰레드
+쓰레드 scroll_bar_options2 이동
+딜레이 70
+이동 scroll_bar_options2 557 201 1000 1000
+쓰레드
+쓰레드 scroll_bar_options3페이드
+딜레이 140
+CG scroll_bar_options3 scroll_bar_options_ru.png 257 286 아니 0
+페이드인 scroll_bar_options3 500 
+쓰레드
+쓰레드 scroll_bar_options3 이동
+딜레이 140
+이동 scroll_bar_options3 557 286 1000 1000
+쓰레드
+쓰레드 scroll_bar_options4페이드
+딜레이 210
+CG scroll_bar_options4 scroll_bar_options_ru.png 257 371 아니 0
+페이드인 scroll_bar_options4 500 
+쓰레드
+쓰레드 scroll_bar_options4 이동
+딜레이 210
+이동 scroll_bar_options4 557 371 1000 1000
+쓰레드
+쓰레드 scroll_bar_options5페이드
+딜레이 280
+CG scroll_bar_options5 scroll_bar_transparency_ru.png 257 536 아니 0
+페이드인 scroll_bar_options5 500 
+쓰레드
+쓰레드 scroll_bar_options5 이동
+딜레이 280
+이동 scroll_bar_options5 557 536 1000 1000
+쓰레드
+쓰레드 트랙바1cg페이드
+딜레이 70
+CG 트랙바1cg scroll_box_options.png 257 120 아니 0
+페이드인 트랙바1cg 500 
+쓰레드
+쓰레드 트랙바1cg 이동
+딜레이 70
+이동 트랙바1cg 1026 120 3000 -5600
+쓰레드
+쓰레드 트랙바2cg페이드
+딜레이 140
+CG 트랙바2cg scroll_box_options.png 257 205 아니 0
+페이드인 트랙바2cg 500 
+쓰레드
+쓰레드 트랙바2cg 이동
+딜레이 140
+이동 트랙바2cg 1026 205 3000 -5600
+쓰레드
+쓰레드 트랙바3cg페이드
+딜레이 210
+CG 트랙바3cg scroll_box_options.png 257 290 아니 0
+페이드인 트랙바3cg 500 
+쓰레드
+쓰레드 트랙바3cg 이동
+딜레이 210
+이동 트랙바3cg 1026 290 3000 -5600
+쓰레드
+쓰레드 트랙바4cg페이드
+딜레이 280
+CG 트랙바4cg scroll_box_options.png 257 375 아니 0
+페이드인 트랙바4cg 500 
+쓰레드
+쓰레드 트랙바4cg 이동
+딜레이 280
+이동 트랙바4cg 1026 375 3000 -5600
+쓰레드
+쓰레드 트랙바5cg페이드
+딜레이 350
+CG 트랙바5cg scroll_box_options.png 257 540 아니 0
+페이드인 트랙바5cg 500 
+쓰레드
+쓰레드 트랙바5cg 이동
+딜레이 350
+이동 트랙바5cg 1026 540 3000 -5600
+쓰레드
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+
+//보이스 언어를 변경합니다.
+쓰레드 button_kr페이드인
+딜레이 300
+//CG button_krcg button_kr.png 436 417 아니 -130
+시스템버튼 button_kr 436 427 251 92 변수 $언어 "kr" button_kr_ru.png button_kr_ru_select.png button_kr_ru_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 button_kr -199
+페이드인 button_kr 300
+쓰레드
+쓰레드 button_kr 이동
+딜레이 300
+이동 button_kr 536 427 500 1000
+쓰레드
+
+쓰레드 button_jp페이드인
+딜레이 350
+//CG button_jpcg button_jp.png 751 417 아니 -130
+시스템버튼 button_jp 752 427 251 92 변수 $언어 "jp" button_jp_ru.png button_jp_ru_select.png button_jp_ru_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 button_jp -199
+페이드인 button_jp 300
+쓰레드
+쓰레드 button_jp 이동
+딜레이 350
+이동 button_jp 852 427 500 1000
+쓰레드
+
+// 윈도우/풀스크린 모드를 변경할 수 있도록 버튼을 만들어 줍니다.
+쓰레드 button_on페이드인
+딜레이 400
+//CG button_oncg button_on.png 436 604 아니 -130
+시스템버튼 button_on 436 604 251 92 화면모드 풀스크린 button_on_ru.png button_on_ru_select.png button_on_ru_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 button_on -199
+페이드인 button_on 300
+쓰레드
+쓰레드 button_on 이동
+딜레이 400
+이동 button_on 536 604 500 1000
+쓰레드
+
+쓰레드 button_off페이드인
+딜레이 450
+//CG button_offcg button_off.png 751 604 아니 -130
+시스템버튼 button_off 752 604 251 92 화면모드 윈도우 button_off_ru.png button_off_ru_select.png button_off_ru_push.png 없음 UISCI-FIConfirmWet.mp3
+출력순서 button_off -199
+페이드인 button_off 300
+쓰레드
+쓰레드 button_off 이동
+딜레이 450
+이동 button_off 852 604 500 1000
+쓰레드
+
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+
+쓰레드시작
+
+효과음 option_open option_open.mp3
+
+딜레이 800
+키처리 27 여기 종료
+키처리 201 여기 종료
+
+페이드아웃 트랙바1cg
+페이드아웃 트랙바2cg
+페이드아웃 트랙바3cg
+페이드아웃 트랙바4cg
+페이드아웃 트랙바5cg
+//페이드아웃 button_krcg
+//페이드아웃 button_jpcg
+//페이드아웃 button_oncg
+//페이드아웃 button_offcg
+
+
+// 볼륨 및 대사창 투명도 등의 설정 들을 만들어줍니다.
+트랙바 581 120 478 32 대사속도 scroll_box_options.png
+트랙바 581 205 478 32 배경음 scroll_box_options.png
+트랙바 581 290 478 32 효과음 scroll_box_options.png
+트랙바 581 375 478 32 보이스 scroll_box_options.png
+트랙바 581 540 478 32 대사창투명도 scroll_box_options.png
+
+//시스템버튼 button_kr 536 417 252 93 변수 $언어 "kr" button_kr.png button_kr_select.png button_kr_push.png
+//시스템버튼 button_jp 851 417 252 93 변수 $언어 "jp" button_jp.png button_jp_select.png button_jp_push.png
+//시스템버튼 button_on 536 604 252 93 화면모드 풀스크린 button_on.png button_on_select.png button_on_push.png
+//시스템버튼 button_off 851 604 252 93 화면모드 윈도우 button_off.png button_off_select.png button_off_push.png
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+
+
+// '닫기' 버튼 선택까지 대기합니다.
+페이드아웃 메세지박스_protect
+버튼대기
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+// 깔끔하게 지워줍니다~
+시스템버튼제거
+
+// 여기서 다시 버튼 제거를 하는 것은 ESC 키를 누르면 한순간에 북마크 '종료'로 오기 때문입니다.
+// 그래서 '버튼대기' 부분을 지나지 않기 때문에 버튼은 삭제되지 않습니다.
+// 참고) '버튼'은 한번 선택 후에 지워지지만, '시스템버튼'은 '시스템버튼제거' 명령어가 
+// 있을 때 까지 사라지지 않습니다.
+버튼제거
+
+// 옵션 배경을 지웁니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_options페이드아웃
+페이드아웃 top_options 300
+쓰레드
+쓰레드 scroll_bar_options1페이드아웃
+페이드아웃 scroll_bar_options1 300
+쓰레드
+쓰레드 scroll_bar_options2페이드아웃
+페이드아웃 scroll_bar_options2 300
+쓰레드
+쓰레드 scroll_bar_options3페이드아웃
+페이드아웃 scroll_bar_options3 300
+쓰레드
+쓰레드 scroll_bar_options4페이드아웃
+페이드아웃 scroll_bar_options4 300
+쓰레드
+쓰레드 scroll_bar_options5페이드아웃
+페이드아웃 scroll_bar_options5 300
+쓰레드
+쓰레드 button_kr페이드아웃
+페이드아웃 button_kr 300
+쓰레드
+쓰레드 button_jp페이드아웃
+페이드아웃 button_jp 300
+쓰레드
+쓰레드 button_on페이드아웃
+페이드아웃 button_on 300
+쓰레드
+쓰레드 button_off페이드아웃
+페이드아웃 button_off 300
+쓰레드
+쓰레드 options_textspeed페이드아웃
+페이드아웃 options_textspeed 300
+쓰레드
+쓰레드 options_bgm페이드아웃
+페이드아웃 options_bgm 300
+쓰레드
+쓰레드 options_sfx페이드아웃
+페이드아웃 options_sfx 300
+쓰레드
+쓰레드 options_voice페이드아웃
+페이드아웃 options_voice 300
+쓰레드
+쓰레드 options_transparency페이드아웃
+페이드아웃 options_transparency 300
+쓰레드
+쓰레드 options_fullscreen페이드아웃
+페이드아웃 options_fullscreen 300
+쓰레드
+쓰레드시작
+조건 대사창열림 = 1 여기 다다음
+페이드인 대사창
+정변수 이름스킵 = 1 
+조건 이름스킵 = 1 여기 다다음
+변수 이름_1 = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름2 아니면 여기 다다음
+딜레이 500
+북마크 다다음
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1
+//키처리 112 도움말.txt 첫줄

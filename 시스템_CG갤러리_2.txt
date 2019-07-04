@@ -1,0 +1,266 @@
+﻿쓰레드 thumb_ev01 페이드아웃
+페이드아웃 thumb_ev01
+쓰레드
+쓰레드 thumb_ev02 페이드아웃
+페이드아웃 thumb_ev02
+쓰레드
+쓰레드 thumb_ev03 페이드아웃
+페이드아웃 thumb_ev03
+쓰레드
+쓰레드 thumb_ev04 페이드아웃
+페이드아웃 thumb_ev04
+쓰레드
+쓰레드 thumb_ev05 페이드아웃
+페이드아웃 thumb_ev05
+쓰레드
+쓰레드 thumb_ev06 페이드아웃
+페이드아웃 thumb_ev06
+쓰레드
+쓰레드 thumb_ev07 페이드아웃
+페이드아웃 thumb_ev07
+쓰레드
+쓰레드 thumb_ev08 페이드아웃
+페이드아웃 thumb_ev08
+쓰레드
+쓰레드 thumb_ev09 페이드아웃
+페이드아웃 thumb_ev09
+쓰레드
+쓰레드 thumb_ev10 페이드아웃
+페이드아웃 thumb_ev10
+쓰레드
+쓰레드 thumb_ev11 페이드아웃
+페이드아웃 thumb_ev11
+쓰레드
+쓰레드 thumb_ev12 페이드아웃
+페이드아웃 thumb_ev12
+쓰레드
+
+쓰레드 omake_empty1 페이드아웃
+CG omake_empty1 
+쓰레드
+쓰레드 omake_empty2 페이드아웃
+CG omake_empty2
+쓰레드 
+쓰레드 omake_empty3 페이드아웃
+CG omake_empty3
+쓰레드
+쓰레드 omake_empty4 페이드아웃
+CG omake_empty4
+쓰레드 
+쓰레드 omake_empty5 페이드아웃
+CG omake_empty5
+쓰레드 
+쓰레드 omake_empty6 페이드아웃
+CG omake_empty6
+쓰레드
+쓰레드 omake_empty7 페이드아웃
+CG omake_empty7
+쓰레드 
+쓰레드 omake_empty8 페이드아웃
+CG omake_empty8
+쓰레드 
+쓰레드 omake_empty9 페이드아웃
+CG omake_empty9
+쓰레드 
+쓰레드 omake_empty10 페이드아웃
+CG omake_empty10
+쓰레드 
+쓰레드 omake_empty11 페이드아웃
+CG omake_empty11
+쓰레드 
+쓰레드 omake_empty12 페이드아웃
+CG omake_empty12 
+쓰레드
+쓰레드시작
+
+라벨 페이지번호
+시스템버튼제거
+버튼제거
+
+
+북마크 CG리스트2
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+조건 $ev13_1획득 = 1 여기 ev13_1_on
+조건 $ev13_2획득 = 1 여기 ev13_1_on 아니면 여기 empty13
+북마크 ev13_1_on
+버튼 thumb_ev13 154 127 192 108 점프 앨범출력.txt ev13_1출력 thumb_ev13.jpg thumb_ev13_select.jpg thumb_ev13_push.jpg
+쓰레드 thumb_ev13
+페이드인 thumb_ev13 500
+쓰레드
+북마크 empty13
+쓰레드 omake_empty
+CG omake_empty13 gallery_slot_empty.png 154 127 아니 0
+페이드인 omake_empty13 500
+쓰레드
+조건 $ev14_1획득 = 1 여기 ev14_1_on
+조건 $ev14_2획득 = 1 여기 ev14_1_on
+조건 $ev14_3획득 = 1 여기 ev14_1_on
+조건 $ev14_4획득 = 1 여기 ev14_1_on
+조건 $ev14_5획득 = 1 여기 ev14_1_on
+조건 $ev14_6획득 = 1 여기 ev14_1_on
+조건 $ev14_7획득 = 1 여기 ev14_1_on
+조건 $ev14_8획득 = 1 여기 ev14_1_on 아니면 여기 empty14
+북마크 ev14_1_on
+버튼 thumb_ev14 414 127 192 108 점프 앨범출력.txt ev14_1출력 thumb_ev14.jpg thumb_ev14_select.jpg thumb_ev14_push.jpg
+쓰레드 thumb_ev14
+페이드인 thumb_ev14 500
+쓰레드
+북마크 empty14
+쓰레드 omake_empty
+CG omake_empty14 gallery_slot_empty.png 414 127 아니 0
+페이드인 omake_empty14 500
+쓰레드
+조건 $ev15획득 = 1 여기 ev15_1_on 아니면 여기 empty15
+북마크 ev15_1_on
+버튼 thumb_ev15 674 127 192 108 점프 앨범출력.txt ev15_1출력 thumb_ev15.jpg thumb_ev15_select.jpg thumb_ev15_push.jpg
+쓰레드 thumb_ev15
+페이드인 thumb_ev15 500
+쓰레드
+
+북마크 empty15
+쓰레드 omake_empty
+CG omake_empty15 gallery_slot_empty.png 674 127 아니 0
+페이드인 omake_empty15 500
+쓰레드
+
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+키처리 202
+
+// 이전/다음 버튼을 설정합니다.
+시스템버튼 button_previous 1007 639 58 54 점프 여기 CG갤러리1으로 button_previous.png button_previous_select.png button_previous_push.png
+시스템버튼 button_next 1078 639 58 54 다음페이지 button_next.png button_next_select.png button_next_push.png
+쓰레드 button_previous 
+페이드인 button_previous 500
+쓰레드
+쓰레드 button_next
+페이드인 button_next 500
+쓰레드
+
+// 페이지 번호를 표시합니다.
+라벨 페이지번호 938 658 255 255 255 255 2/2
+라벨속성 페이지번호 20 아니 venera500
+쓰레드 페이지번호
+페이드인 페이지번호 500
+쓰레드
+
+쓰레드시작
+쓰레드대기
+
+
+북마크 오마케안보임
+
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+// 힌트다! 시스템버튼 button_back 1174 3 97 102 점프 시스템_엑스트라.txt 엑스트라 button_back.png button_back_select.png button_back_push.png
+
+// '닫기' 버튼 선택까지 대기합니다.
+버튼대기
+
+
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+
+// 여기서 다시 버튼 제거를 하는 것은 ESC 키를 누르면 한순간에 북마크 '종료'로 오기 때문입니다.
+// 그래서 '버튼대기' 부분을 지나지 않기 때문에 버튼은 삭제되지 않습니다.
+// 참고) '버튼'은 한번 선택 후에 지워지지만, '시스템버튼'은 '시스템버튼제거' 명령어가 
+// 있을 때 까지 사라지지 않습니다.
+
+// 옵션 배경을 지웁니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_cggallery페이드아웃
+페이드아웃 top_cggallery 300
+쓰레드
+
+쓰레드 thumb_ev13 페이드아웃
+페이드아웃 thumb_ev13
+쓰레드
+쓰레드 thumb_ev14 페이드아웃
+페이드아웃 thumb_ev14
+쓰레드
+쓰레드 thumb_ev15 페이드아웃
+페이드아웃 thumb_ev15
+쓰레드
+
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드 
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+라벨 페이지번호
+시스템버튼제거
+버튼제거
+
+점프 시스템_엑스트라.txt 엑스트라
+
+
+
+북마크 CG갤러리1으로
+쓰레드 thumb_ev13 페이드아웃
+페이드아웃 thumb_ev13
+쓰레드
+쓰레드 thumb_ev14 페이드아웃
+페이드아웃 thumb_ev14
+쓰레드
+쓰레드 thumb_ev15 페이드아웃
+페이드아웃 thumb_ev15
+쓰레드
+쓰레드 thumb_ev16 페이드아웃
+페이드아웃 thumb_ev16
+쓰레드
+쓰레드 omake_empty13 페이드아웃
+CG omake_empty13
+쓰레드
+쓰레드 omake_empty14 페이드아웃
+CG omake_empty14
+쓰레드 
+쓰레드 omake_empty15 페이드아웃
+CG omake_empty15
+쓰레드
+쓰레드시작
+
+라벨 페이지번호
+시스템버튼제거
+버튼제거
+
+스크립트 시스템_CG갤러리.txt CG리스트
+
+

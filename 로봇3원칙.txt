@@ -1,0 +1,313 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202 텅빈.txt 첫줄
+키처리 112
+모두지우기
+//회상초기화
+
+카메라무시 응
+
+쓰레드 1
+페이드아웃 대사창 500
+쓰레드
+쓰레드시작
+쓰레드대기
+시스템버튼제거
+
+대사출력영역 140 70 1054 640
+대사창영역 0 0 1280 720
+
+대사크기 60
+대사속도 5
+대사그림자 1
+대사줄간격 9
+대사굵게 아니
+대사페이드 응
+대사정렬 왼쪽
+대사그림자색깔 0 0 0 255
+대사색깔 126 226 255 255
+대사폰트 Open Sans
+대사창스킨 bg_black.jpg
+
+대사                    Три Закона Робототехники
+//대사폰트 NanumGothic
+대사크기 35
+대사새줄
+//대사잇기                                           로봇 3원칙
+//대사폰트 Apple osaka_unicode
+//대사크기 36
+//대사새줄
+//대사잇기                      ロボット三原則
+대사폰트 Open Sans
+대사크기 35
+페이드인 대사창 1000
+대사새줄
+대사새줄
+대사속도 30
+효과음 data_stream data_stream.mp3 반복
+대사잇기 1. Робот не может причинить вред человеку или своим бездействием допустить,
+대사새줄
+대사잇기 чтобы человеку был причинен вред.
+//대사폰트 NanumGothic
+//대사크기 30
+대사새줄
+//대사잇기 제 1원칙. 로봇은 인간을 해치면 안될 뿐더러, 다치게 방치해서도 안 된다.
+//대사폰트 Apple osaka_unicode
+//대사크기 26
+//대사새줄
+//대사잇기 第1条、ロボットは人間に害を与えてはいけないだけでなく、怪我をさせてもならない。
+페이드아웃 data_stream
+대사폰트 Open Sans
+대사크기 35
+대사새줄
+딜레이 300
+효과음 data_stream data_stream.mp3 반복
+대사잇기 2. Робот должен повиноваться всем приказам, которые дает человек, кроме тех
+대사새줄
+대사잇기 случаев, когда эти приказы противоречат Первому Закону.
+//대사폰트 NanumGothic
+//대사크기 30
+대사새줄
+//대사잇기 제 2원칙. 제 1원칙에 위배되지 않는 한, 주인의 명령에 따라야 한다.
+//대사폰트 Apple osaka_unicode
+//대사크기 26
+//대사새줄
+//대사잇기 第2条、第1原則に反しない限り、主の命令に従う。
+페이드아웃 data_stream
+대사폰트 Open Sans
+대사크기 35
+대사새줄
+딜레이 300
+효과음 data_stream data_stream.mp3 반복
+대사잇기 3. Робот должен заботиться о своей безопасности в той мере, в которой это не
+대사새줄
+대사잇기 противоречит Первому или Второму Законам.
+//대사폰트 NanumGothic
+//대사크기 30
+//대사새줄
+//대사잇기 제 3원칙. 제 1원칙과 제 2원칙에 위배되지 않는 한, 로봇 자신을 보호해야 한다.
+//대사폰트 Apple osaka_unicode
+//대사크기 26
+//대사새줄
+//대사잇기 第3条、第1原則と第2原則に反しない限り、ロボット自身を保護しなければならない。
+페이드아웃 data_stream
+조건 chapter = 18 여기 불안조짐
+대기
+//변수 chapter = 후회하고있다
+조건 chapter = 2101 여기 메모리복구실패
+페이드아웃 대사창 1000
+딜레이 500
+//CG bg_black bg_black.jpg 0 0 아니 -200
+//페이드인 bg_black 1000
+조건 chapter = 1012 날짜.txt 박사5
+조건 chapter = 17 날짜.txt 10월30일루시
+조건 chapter = 44 날짜.txt 10월29일주인공
+조건 chapter = 16 날짜.txt 박사4
+조건 chapter = 15 날짜.txt 10월23일주인공
+조건 chapter = 14 날짜.txt 10월22일주인공
+조건 chapter = 13 날짜.txt 10월21일주인공
+조건 chapter = 12 날짜.txt 10월20일주인공
+조건 chapter = 11 날짜.txt 10월19일주인공
+조건 chapter = 43 날짜.txt 10월16일주인공
+조건 chapter = 10 날짜.txt 박사3
+조건 chapter = 9 날짜.txt 10월14일주인공
+조건 chapter = 8 날짜.txt 10월14일주인공
+조건 chapter = 42 날짜.txt 10월14일주인공
+조건 chapter = 7 날짜.txt 박사2
+조건 chapter = 60 날짜.txt 10월13일주인공
+조건 chapter = 41 날짜.txt 10월13일주인공
+조건 chapter = 01 날짜.txt 박사1 아니면 날짜.txt 10월12일주인공
+
+
+
+
+
+북마크 불안조짐
+딜레이 500
+페이드아웃 대사창
+CG 3laws_glitch00 3laws_glitch00.jpg
+딜레이 5
+CG 3laws_glitch01 3laws_glitch01.jpg
+CG 3laws_glitch00
+딜레이 5
+CG 3laws_glitch02 3laws_glitch02.jpg
+CG 3laws_glitch01
+딜레이 5
+CG 3laws_glitch00 3laws_glitch00.jpg
+CG 3laws_glitch02
+딜레이 5
+CG 3laws_glitch00
+페이드인 대사창
+딜레이 2000
+페이드아웃 대사창 2000
+딜레이 500
+점프 날짜.txt 10월30일주인공
+
+
+
+
+
+북마크 메모리복구실패
+효과음 glitch glitch.mp3
+페이드아웃 대사창
+CG 3laws_glitch00 3laws_glitch00.jpg
+딜레이 5
+CG 3laws_glitch01 3laws_glitch01.jpg
+CG 3laws_glitch00
+딜레이 5
+CG 3laws_glitch02 3laws_glitch02.jpg
+CG 3laws_glitch01
+딜레이 5
+CG title_oct12_glitch08 title_oct12_glitch08.jpg
+CG 3laws_glitch02
+딜레이 5
+CG title_oct12_glitch08
+페이드인 대사창
+딜레이 1500
+페이드아웃 대사창
+효과음 digitalaudioglitch digitalaudioglitch.mp3
+CG 3laws_glitch02 3laws_glitch02.jpg
+딜레이 5
+CG 3laws_glitch00 3laws_glitch00.jpg
+CG 3laws_glitch02
+딜레이 5
+CG 3laws_glitch01 3laws_glitch01.jpg
+CG 3laws_glitch00
+딜레이 5
+CG title_oct12_glitch07 title_oct12_glitch07.jpg
+CG 3laws_glitch01
+딜레이 5
+CG 3laws_glitch02 3laws_glitch02.jpg
+CG title_oct12_glitch07
+딜레이 5
+CG title_oct12_glitch08 title_oct12_glitch08.jpg
+CG 3laws_glitch02
+딜레이 5
+CG 3laws_glitch00 3laws_glitch00.jpg
+CG title_oct12_glitch08
+딜레이 5
+CG ev01_2 ev01_2.jpg 0 0 아니 -149
+CG 3laws_glitch00
+딜레이 5
+CG bg_street03_day bg_street03_day.jpg 0 0 아니 -149
+CG ev01_2
+딜레이 5
+CG title_oct12 title_oct12.jpg 0 0 아니 -149
+CG bg_street03_day
+딜레이 5
+CG bg_house_passage_day bg_house_passage_day.jpg 0 0 아니 -149
+CG title_oct12
+딜레이 5
+CG ev06_1 ev06_1.jpg 0 0 아니 -149 
+CG bg_house_passage_day
+딜레이 5
+CG bg_street02_day bg_street02_day.jpg 0 0 아니 -149
+CG ev06_1
+딜레이 5
+CG bg_lab_day_blur bg_lab_day_blur.jpg 0 0 아니 -149
+CG bg_street02_day
+딜레이 5
+CG ev02_1 ev02_1.jpg 0 0 아니 -149 
+CG bg_lab_day_blur
+딜레이 5
+CG bg_antiqueshop bg_antiqueshop.jpg 0 0 아니 -149
+CG ev02_1
+딜레이 5
+CG bg_downtown_evening bg_downtown_evening.jpg 0 0 아니 -149
+CG bg_antiqueshop
+딜레이 5
+CG ev04_1 ev04_1.jpg 0 0 아니 -149 
+CG bg_downtown_evening
+딜레이 5
+CG ev10_1 ev10_1.jpg 0 0 아니 -149 
+CG ev04_1
+딜레이 5
+CG bg_bathroom bg_bathroom.jpg 0 0 아니 -149
+CG ev10_1
+딜레이 5
+CG 3laws_glitch00 3laws_glitch00.jpg
+CG bg_bathroom
+딜레이 5
+CG ev08_1 ev08_1.jpg 0 0 아니 -149
+CG 3laws_glitch00
+딜레이 5
+CG bg_room01_earlymorning bg_room01_earlymorning.jpg 0 0 아니 -149
+CG ev08_1
+딜레이 5
+CG bg_dump02 bg_dump02.jpg 0 0 아니 -149
+CG bg_room01_earlymorning
+딜레이 5
+CG title_oct12_glitch05 title_oct12_glitch05.jpg 0 0 아니 -149
+CG bg_dump02
+딜레이 5
+CG ev05_3 ev05_3.jpg 0 0 아니 -149 
+CG title_oct12_glitch05
+딜레이 5
+CG bg_sky_day bg_sky_day.jpg 0 0 아니 -149
+CG ev05_3
+딜레이 5
+CG ev03_2 ev03_2.jpg 0 0 아니 -149 
+CG bg_sky_day
+딜레이 5
+CG bg_livingroom_day bg_livingroom_day.jpg 0 0 아니 -149
+CG ev03_2
+딜레이 5
+CG ev09_1 ev09_1.jpg 0 0 아니 -149 
+CG bg_livingroom_day
+딜레이 5
+CG bg_krobotics_evening bg_krobotics_evening.jpg 0 0 아니 -149
+CG ev09_1
+딜레이 5
+CG bg_table_day bg_table_day.jpg 0 0 아니 -149
+CG bg_krobotics_evening
+딜레이 5
+CG bg_house_day bg_house_day.jpg 0 0 아니 -149
+CG bg_table_day
+딜레이 5
+CG ev07_1 ev07_1.jpg 0 0 아니 -149
+CG bg_house_day
+딜레이 5
+CG title_oct12_glitch03 title_oct12_glitch03.jpg 0 0 아니 -149
+CG ev07_1
+딜레이 200
+CG 3laws_glitch03 3laws_glitch03.jpg
+CG title_oct12_glitch03 
+딜레이 5
+CG 3laws_glitch04 3laws_glitch04.jpg
+CG 3laws_glitch03
+딜레이 5
+CG lt01 lt01.png 0 231 아니 -130
+CG 3laws_glitch04
+딜레이 2
+CG lt02 lt02.png 0 231 아니 -130
+CG lt01
+딜레이 2
+CG lt03 lt03.png 0 231 아니 -130
+CG lt02
+딜레이 2
+CG lt04 lt04.png 0 231 아니 -130
+CG lt03
+딜레이 2
+CG lt05 lt05.png 0 231 아니 -130
+CG lt04
+딜레이 2
+CG lt06 lt06.png 0 231 아니 -130
+CG lt05
+딜레이 2
+CG lt07 lt07.png 0 231 아니 -130
+CG lt06
+딜레이 2
+CG lt07
+//시작위치 0 231
+//스프라이트 lt 30 lt01.png lt02.png lt03.png lt04.png lt05.png lt06.png lt07.png
+//출력순서 lt -130
+//CG 3laws_glitch04
+//딜레이 180
+//스프라이트 lt
+//시작위치 0 0
+딜레이 2000
+
+점프 날짜.txt 20년후
+
+

@@ -1,0 +1,157 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+// 저장하기 창에서 ESC키 혹은 마우스 오른쪽 버튼을
+// 누르면 북마크 '종료'으로 이동하여 끝내도록 합니다.
+
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+
+// 세이브 화면의 배경을 보여줍니다.
+시스템버튼제거
+버튼제거
+
+변수 name_{{캐릭명}} = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름안보임
+
+쓰레드 대사창페이드아웃
+페이드아웃 대사창 500
+쓰레드
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_help페이드인
+CG top_help top_help_ru.png 108 0 아니 -130
+페이드인 top_help 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_paused페이드아웃
+페이드아웃 top_paused 300
+쓰레드
+쓰레드 title_help페이드인
+CG title_help title_help_ru.png 0 0 아니 0
+페이드인 title_help 500
+쓰레드
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+
+쓰레드시작
+쓰레드대기
+
+
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+//키처리 112 여기 종료
+
+//변수 로드완료 = 1
+// '닫기' 버튼 선택까지 대기합니다
+페이드아웃 메세지박스_protect
+버튼대기
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+
+// 로드 슬롯에 쓰인 시스템버튼도 없애줍니다.
+시스템버튼제거
+
+// 여기서 다시 버튼 제거를 하는 것은 ESC 키를 누르면 한순간에 북마크 '종료'으로 오기 때문입니다.
+// 참고) '버튼'은 한번 선택 후에 지워지지만, '시스템버튼'은 '시스템버튼제거' 명령어가 
+// 있을 때 까지 사라지지 않습니다.
+버튼제거
+
+// 로드화면의 배경을 페이드아웃 시킵니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_help페이드아웃
+페이드아웃 top_help 300
+쓰레드
+쓰레드 title_help페이드아웃
+페이드아웃 title_help 300
+쓰레드
+쓰레드시작
+//조건 대사창열림 = 1 여기 다다음
+//페이드인 대사창
+//정변수 이름스킵 = 1 
+//조건 이름스킵 = 1 여기 다다음
+//변수 이름_1 = 0
+//조건 name_{{캐릭명}} = 0 이름.txt 이름2 아니면 여기 다다음
+//딜레이 500
+//북마크 다다음
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1

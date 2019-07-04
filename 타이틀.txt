@@ -1,0 +1,1996 @@
+﻿변수 $CG갤러리버튼처음생성 = 1
+변수 $CG갤러리 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+// ESC(27)키와 스페이스(32) 마우스 오른쪽(201) 휠위(202) 휠아래(203) 버튼을 작동하지 않도록 합니다.
+// CG는 버튼계열과 달리 스페이스의 영향으로 사라지지 않는다.
+//대기하는 버튼을 눌러 점프하는 경우 스페이스의 영향으로 사라지지 않는다.
+게임상태
+스크립트 기본셋팅.txt 끝3
+// 모두 지웁니다. 굳이 아무것도 없는데 모두 지우는 것은
+// '메뉴'에서 '타이틀로' 선택시에 화면에 있는 모든 것을 지워줘야 하기 때문입니다.
+
+변수 대사창열림 = 1
+변수 이름스킵 = 1 
+
+배경룰페이드인
+모두지우기
+회상초기화
+
+카메라무시 응
+
+페이드아웃 대사창
+
+시스템버튼제거
+
+
+조건 로고봤음 = 1 여기 로고스킵
+
+딜레이 1000
+
+CG title_logo title_logo.jpg 0 0 아니 -198
+페이드인 title_logo 1000
+딜레이 1000
+//CG title_nekonovel title_nekonovel.jpg 0 0 아니 -199
+//페이드인 title_nekonovel 2000
+//페이드아웃 title_logo
+//딜레이 1000
+CG bg_white bg_white.jpg 0 0 아니 -200
+페이드인 bg_white 1000
+CG title_notice title_notice_ru.jpg 0 0 아니 -199
+페이드아웃 title_logo
+//페이드아웃 title_nekonovel
+딜레이 200
+페이드아웃 bg_white 1500
+딜레이 2000
+페이드아웃 title_notice 2000
+
+변수 로고봤음 = 1
+
+
+북마크 로고스킵
+
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112 
+정변수 $노멀엔딩 = 0
+정변수 $트루엔딩 = 0
+정변수 $10월12일 = 0
+정변수 $초로의기억 = 0
+정변수 $일기 = 0
+정변수 $REUNION = 0
+정변수 트루엔딩조건1 = 0 
+정변수 트루엔딩조건2 = 0 
+정변수 트루엔딩조건3 = 0 
+정변수 $EXTRA해금 = 0
+정변수 $언어 = "kr"
+
+변수 chapter = 0
+변수 title_light1 = 0
+변수 title_light2 = 0
+변수 시크릿버튼제거 = 0
+변수 노멀글리치 = 0
+
+딜레이 1000
+
+// ESC 키를 누르면 나타날 메뉴를 초기화 해줍니다.
+//변수 $트루엔딩 = 1
+//변수 $10월12일 = 1 
+//변수 $노멀엔딩 = 1
+조건 $트루엔딩 = 1 타이틀.txt 트루엔딩완료
+조건 $10월12일 = 1 타이틀.txt 10월12일
+조건 $노멀엔딩 = 1 타이틀.txt 노멀엔딩
+
+//조건 오프닝 = 1 타이틀.txt 오프닝스킵
+//동영상 Lucy_Oening 0 0 1280 720 Lucy_Opening.avi 1
+//플래시 영상 Lucy_Opening.swf 0 0 1280 720
+//변수 오프닝 = 1
+//동영상 본편이펙트_glitch 0 0 1280 720 loading_glitch.avi -1 
+딜레이 500
+
+
+북마크 오프닝스킵
+조건 $트루엔딩 = 1 타이틀.txt 트루엔딩완료
+조건 $10월12일 = 1 타이틀.txt 10월12일
+조건 $노멀엔딩 = 1 타이틀.txt 노멀엔딩
+변수 chapter = 0
+변수 title_light1 = 0
+변수 title_light2 = 0
+변수 시크릿버튼제거 = 0
+변수 노멀글리치 = 0
+CG dateline dateline.png -1280 238 아니 -200
+이동 dateline 0 238 3000 2000
+딜레이 500
+쓰레드 dateline페이드아웃
+페이드아웃 dateline 2000
+쓰레드
+쓰레드시작
+
+//타이틀배경등장
+배경룰페이드인 룰_18.png 500
+//모두지우기
+배경 title title.jpg
+배경룰페이드인
+//페이드인 title 2000
+
+쓰레드 배경음악페이드인
+배경음악 반복 c5.mp3
+페이드인 배경음악 1000
+쓰레드
+쓰레드시작
+
+
+북마크 title_return
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+변수 시크릿버튼제거 = 0
+//쓰레드 top_layout_01p페이드아웃
+//페이드아웃 top_layout_01p 300
+//쓰레드
+//쓰레드 top_layout_02p페이드아웃
+//페이드아웃 top_layout_02p 300
+//쓰레드
+//쓰레드 top_layout_03p페이드아웃
+//페이드아웃 top_layout_03p 300
+//쓰레드
+//쓰레드 top_layout_04p페이드아웃
+//페이드아웃 top_layout_04p 300
+//쓰레드
+//쓰레드 top_extra페이드아웃
+//페이드아웃 top_extra 300
+//쓰레드
+//쓰레드시작
+
+
+
+조건 $트루엔딩 = 1 타이틀.txt title_return_true
+조건 $10월12일 = 1 타이틀.txt title_return_1012
+조건 $노멀엔딩 = 1 타이틀.txt title_return_normalend
+
+
+시스템버튼제거
+페이드아웃 대사창
+
+쓰레드 titleoct12_glitch07 페이드아웃
+페이드아웃 titleoct12_glitch07 500
+쓰레드
+쓰레드 title_oct12_black 페이드아웃
+페이드아웃 title_oct12_black 500
+쓰레드
+
+//쓰레드 top_layout_01p페이드아웃
+//페이드아웃 top_layout_01p 300
+//쓰레드
+//쓰레드 top_layout_02p페이드아웃
+//페이드아웃 top_layout_02p 300
+//쓰레드
+//쓰레드 top_layout_03p페이드아웃
+//페이드아웃 top_layout_03p 300
+//쓰레드
+//쓰레드 top_layout_04p페이드아웃
+//페이드아웃 top_layout_04p 300
+//쓰레드
+//쓰레드 top_extra페이드아웃
+//페이드아웃 top_extra 300
+//쓰레드
+
+쓰레드시작
+쓰레드대기
+
+
+
+//부제목
+CG title_eternity_01 title_eternity_01_ru.png 468 49
+
+쓰레드 부제목 페이드
+페이드인 title_eternity_01 1500
+쓰레드
+
+//제목
+CG title_oct12_lucy title_oct12_lucy.png 42 0
+
+쓰레드 제목 페이드
+페이드인 title_oct12_lucy 1000
+쓰레드
+
+
+북마크 타이틀1
+
+페이드아웃 대사창
+
+조건 title_light2 = 1 여기 지나가는빛
+조건 title_light1 = 1 여기 지나가는빛
+
+조건 title_light2 = 0 여기 지나가는빛스킵
+조건 title_light1 = 0 여기 지나가는빛스킵
+
+
+
+
+북마크 지나가는빛
+
+
+CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push 600
+쓰레드
+쓰레드 제목 페이드아웃
+딜레이 700
+페이드아웃 title_oct12_lucy_push 800
+쓰레드
+
+//CG light light.png -456 188
+버튼 light -456 188 456 104 스크립트 시크릿.txt light.png 없음 없음
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드시작
+//스크립트 지나가는빛.txt
+점프 지나가는빛2
+
+북마크 지나가는빛스킵
+//CG light light.png -456 188
+버튼 light -456 188 456 104 스크립트 시크릿.txt light.png 없음 없음 
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드시작
+
+북마크 지나가는빛2
+
+//파티클 파티클1 빛.nkparticle
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+페이드아웃 대사창
+
+
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_startcg 페이드
+CG title_startcg title_start_ru.png 963 379 아니
+페이드인 title_startcg 1000
+쓰레드
+쓰레드 title_extracg 페이드
+딜레이 150
+CG title_extracg title_extra_ru.png 973 463 아니
+페이드인 title_extracg 1000
+쓰레드
+쓰레드 title_loadcg 페이드
+딜레이 250
+CG title_loadcg title_load_ru.png 891 545 아니
+페이드인 title_loadcg 1000
+쓰레드
+쓰레드 title_optionscg 페이드
+딜레이 350
+CG title_optionscg title_options_ru.png 867 620 아니
+페이드인 title_optionscg 1000
+쓰레드
+쓰레드시작
+딜레이 1400
+조건 title_light1 = 1 여기 title_light스킵1
+CG title_light title_light_ru.jpg 0 0 아니 99
+페이드인 title_light 1000
+딜레이 100
+페이드아웃 title_light 1300
+변수 title_light1 = 1
+
+북마크 title_light스킵1
+
+시스템버튼 title_lucy_button 42 0 485 322 스크립트 지나가는빛.txt 없음 없음 없음
+시스템버튼 title_start 963 379 208 67 점프 여기 start title_start_ru.png title_start_ru_select.png title_start_ru_push.png
+CG title_startcg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg 
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png 없음
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+북마크 버튼대기1
+//키처리 112 도움말.txt 첫줄
+버튼대기
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+
+//시크릿.txt에서 이쪽으로 돌아옴
+북마크 타이틀2
+페이드아웃 대사창
+
+CG titleoct12_glitch03 title_oct12_glitch03.jpg
+딜레이 1
+CG titleoct12_glitch05 title_oct12_glitch05.jpg
+딜레이 1
+CG titleoct12_glitch03
+CG titleoct12_glitch05
+딜레이 1
+CG titleoct12_glitch04 title_oct12_glitch04.jpg
+딜레이 1
+CG titleoct12_glitch05 title_oct12_glitch05.jpg
+딜레이 1
+CG titleoct12_glitch01 title_oct12_glitch01.jpg
+딜레이 1
+CG title_oct12_black title_oct12_black.jpg
+CG titleoct12_glitch04
+CG titleoct12_glitch05
+CG titleoct12_glitch01
+//CG title
+
+시스템버튼제거
+CG title_startcg
+CG title_loadcg
+CG title_extracg
+CG title_optionscg 
+CG title_optionscg 
+CG button_exitcg
+CG button_helpcg
+
+북마크 타이틀3
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+페이드아웃 대사창
+//부제목
+//CG title_eternity_01 title_eternity_01_kr.png 468 49
+
+//나가기 버튼
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+
+//타이틀버튼
+
+CG title_october12_glitchcg title_october12_glitch_ru.png 991 371
+CG title_loadcg title_load_ru.png 891 545
+CG title_extracg title_extra_ru.png 973 463
+CG title_optionscg title_options_ru.png 867 620
+
+//시스템버튼 title_october12_glitch 991 371 201 84 스크립트 텅빈.txt title_october12_glitch.png 없음 없음
+//시스템버튼 title_load 891 545 281 67 스크립트 텅빈.txt title_load.png 없음 없음
+//시스템버튼 title_extra 973 463 198 67 스크립트 텅빈.txt title_extra.png 없음 없음
+//시스템버튼 title_options 867 620 301 75 스크립트 텅빈.txt title_options.png 없음 없음
+딜레이 500
+//CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+//쓰레드 제목 번쩍
+//페이드인 title_oct12_lucy_push 600
+//쓰레드
+//쓰레드 제목 페이드아웃
+//딜레이 700
+//페이드아웃 title_oct12_lucy_push 800
+//쓰레드
+//쓰레드 light 이동
+//CG light light.png -456 188 
+//이동 light 1280 188 3000 2000
+//쓰레드
+//쓰레드 배경음악 페이드아웃
+//페이드아웃 배경음악 1000
+//쓰레드
+//쓰레드시작
+//딜레이 200
+시스템버튼 title_october12_glitch 991 371 201 84 점프 타이틀.txt 메세지출력_패스워드 title_october12_glitch_ru.png 없음 없음
+CG title_october12_glitchcg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg
+
+조건 $빛보다빠른트로피 = 1 여기 빛보다스킵
+키처리 32 텅빈.txt 첫줄
+키처리 202 
+키처리 27 
+키처리 201
+키처리 112
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+딜레이 500
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png 0 0 아니 -130
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 447 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "빛보다 빠른"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 581 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 392 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Открыто Достижение:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 692 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Быстрее света"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 442 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "光より速く"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 573 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "業績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $빛보다빠른트로피 = 1
+변수 $EXTRA해금 = 1
+쓰레드대기
+페이드아웃 메세지박스_protect
+
+키처리 27
+키처리 201
+
+북마크 빛보다스킵
+
+페이드아웃 메세지박스_protect
+
+버튼대기
+
+조건 $노멀엔딩 = 0 타이틀.txt 타이틀3
+조건 $노멀엔딩 = 1 타이틀.txt 타이틀3
+
+북마크 메세지출력_패스워드
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+CG %시스템_메세지박스배경 message_box.png 457 226 아니 100
+크기 %시스템_메세지박스배경 0 0
+효과음 UIAnimateHi-PitchAppear UIAnimateHi-PitchAppear.mp3
+쓰레드 메시지박스 크기확대
+크기 %시스템_메세지박스배경 1 1 200 
+쓰레드
+
+쓰레드 메시지박스 페이드인
+페이드인 %시스템_메세지박스배경 300
+쓰레드
+
+CG log_box log_box.png 483 298 아니 99
+크기 log_box 0 0 
+
+쓰레드 메시지박스 크기확대
+딜레이 200
+크기 log_box .3 .11 200 
+쓰레드
+
+//CG deletecg button_delete.png 793 231 아니 -130
+//크기 deletecg 0 0 
+//쓰레드 deletecg 크기확대
+//딜레이 220
+//크기 deletecg 1 1 100 
+//쓰레드
+
+쓰레드시작
+딜레이 300
+
+
+쓰레드 메시지박스 페이드인
+페이드인 log_box 300
+쓰레드
+라벨 패스워드 478 258 255 255 255 255 {{typename}}
+라벨속성 패스워드 25 아니 NanumGothic
+변수 typename = "Пожалуйста, введите пароль" 
+//라벨 이름 543 258 255 255 255 255 {{typename}}
+//라벨속성 패스워드 30 아니 NanumGothic
+//변수 typename = "이름을 입력하세요" 
+//라벨 패스워드 501 258 255 255 255 255 {{typename}}
+//라벨속성 패스워드 26 아니 Apple osaka_unicode
+//변수 typename = "名前を入力してください" 
+페이드인 패스워드 200
+//라벨 패스워드2 479 378 255 255 255 255 {{typename2}}
+//라벨속성 패스워드2 20 아니 Apple osaka_unicode
+//변수 typename2 = "＊半角英数字のみ入力してください" 
+//페이드인 패스워드2 200
+
+//버튼 delete 793 231 22 22 점프 여기 입력창닫기 button_delete.png button_delete_select.png button_delete_push.png
+//출력순서 delete -200
+//페이드아웃 deletecg
+
+
+// 입력창 버튼 필요.
+입력 $패스워드 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 NanumGothic
+//입력 $패스워드 500 300 286 60 18 none.png 없음 없음 255 255 255 32 0 Apple osaka_unicode
+//
+
+
+북마크 입력창닫기
+
+페이드아웃 패스워드
+//페이드아웃 패스워드2
+페이드아웃 log_box
+페이드아웃 %시스템_메세지박스배경 500
+페이드아웃 black_background_40 500
+조건 $패스워드 = "noregret" 여기 oct12open
+조건 $패스워드 = "no regret" 여기 oct12open
+조건 $패스워드 = "No regret" 여기 oct12open
+조건 $패스워드 = "No Regret" 여기 oct12open
+조건 $패스워드 = "oct12" 여기 oct12open
+조건 $패스워드 = "Oct12" 여기 oct12open
+조건 $패스워드 = "OCT12" 여기 oct12open
+조건 $패스워드 = "october12" 여기 oct12open
+조건 $패스워드 = "October12" 여기 oct12open
+조건 $패스워드 = "OCTOBER12" 여기 oct12open
+조건 $패스워드 = "oct 12" 여기 oct12open
+조건 $패스워드 = "Oct 12" 여기 oct12open
+조건 $패스워드 = "OCT 12" 여기 oct12open
+조건 $패스워드 = "10월12일" 여기 oct12open
+조건 $패스워드 = "10月12日" 여기 oct12open
+조건 $패스워드 = "ahem" 여기 trueendopen
+조건 $패스워드 = "Ahem" 여기 trueendopen
+조건 $패스워드 = "AHEM" 여기 trueendopen
+조건 $패스워드 = "에헴" 여기 trueendopen
+조건 $패스워드 = "엣헴" 여기 trueendopen 
+조건 $패스워드 = "えっへん" 여기 oct12open 아니면 시크릿.txt 글리치
+
+페이드아웃 메세지박스_protect
+
+
+북마크 oct12open
+점프 타이틀.txt 봉인해제2
+
+북마크 trueendopen
+변수 $트루엔딩 = 1
+변수 $10월12일 = 1
+변수 $노멀엔딩 = 1
+변수 $CG갤러리버튼처음생성 = 1
+변수 $CG갤러리 = 1
+변수 $초로의기억버튼처음생성 = 1
+변수 $초로의기억해금 = 1
+변수 $초로의기억 = 1
+변수 $REUNION버튼처음생성 = 1
+변수 $REUNION해금 = 1
+변수 $REUNION = 1
+변수 $백정필박사의일기해금 = 1
+변수 $일기 = 1
+변수 $모든업적달성 = 1
+변수 $제작후일담해금 = 1
+변수 $코멘터리해금 = 1
+변수 $당신은빛을잡을수있나요봤음 = 1
+변수 $ev01_1획득 = 1
+변수 $ev01_2획득 = 1
+오마케추가 ev01_1 ev01_1.jpg
+오마케추가 ev01_2 ev01_2.jpg
+변수 $ev02_1획득 = 1
+변수 $ev02_2획득 = 1
+변수 $ev02_3획득 = 1
+변수 $ev02_4획득 = 1
+변수 $ev02_5획득 = 1
+변수 $ev02_6획득 = 1
+변수 $ev02_7획득 = 1
+변수 $ev02_8획득 = 1
+변수 $ev02_9획득 = 1
+변수 $ev02_10획득 = 1
+변수 $ev02_11획득 = 1
+변수 $ev02_12획득 = 1
+변수 $ev02_13획득 = 1
+오마케추가 ev02_1 ev02_1.jpg
+오마케추가 ev02_2 ev02_2.jpg
+오마케추가 ev02_3 ev02_3.jpg
+오마케추가 ev02_4 ev02_4.jpg
+오마케추가 ev02_5 ev02_5.jpg
+오마케추가 ev02_6 ev02_6.jpg
+오마케추가 ev02_7 ev02_7.jpg
+오마케추가 ev02_8 ev02_8.jpg
+오마케추가 ev02_9 ev02_9.jpg
+오마케추가 ev02_10 ev02_10.jpg
+오마케추가 ev02_11 ev02_11.jpg
+오마케추가 ev02_12 ev02_12.jpg
+오마케추가 ev02_13 ev02_13.jpg
+변수 $ev03_1획득 = 1
+변수 $ev03_2획득 = 1
+변수 $ev03_3획득 = 1
+변수 $ev03_4획득 = 1
+오마케추가 ev03_1 ev03_1.jpg
+오마케추가 ev03_2 ev03_2.jpg
+오마케추가 ev03_3 ev03_3.jpg
+오마케추가 ev03_4 ev03_4.jpg
+변수 $ev04_1획득 = 1
+변수 $ev04_2획득 = 1
+변수 $ev04_3획득 = 1
+오마케추가 ev04_1 ev04_1.jpg
+오마케추가 ev04_2 ev04_2.jpg
+오마케추가 ev04_3 ev04_3.jpg
+변수 $ev05_1획득 = 1
+변수 $ev05_2획득 = 1
+변수 $ev05_3획득 = 1
+변수 $ev05_4획득 = 1
+변수 $ev05_5획득 = 1
+오마케추가 ev05_1 ev05_1.jpg
+오마케추가 ev05_2 ev05_2.jpg
+오마케추가 ev05_3 ev05_3.jpg
+오마케추가 ev05_4 ev05_4.jpg
+오마케추가 ev05_5 ev05_5.jpg
+변수 $ev06_1획득 = 1
+변수 $ev06_2획득 = 1
+변수 $ev06_3획득 = 1
+오마케추가 ev06_1 ev06_1.jpg
+오마케추가 ev06_2 ev06_2.jpg
+오마케추가 ev06_3 ev06_3.jpg
+변수 $ev07_1획득 = 1
+변수 $ev07_2획득 = 1
+오마케추가 ev07_1 ev07_1.jpg
+오마케추가 ev07_2 ev07_2.jpg
+변수 $ev08_1획득 = 1
+변수 $ev08_2획득 = 1
+오마케추가 ev08_1 ev08_1.jpg
+오마케추가 ev08_2 ev08_2.jpg
+변수 $ev09_1획득 = 1
+변수 $ev09_2획득 = 1
+변수 $ev09_3획득 = 1
+변수 $ev09_4획득 = 1
+변수 $ev09_5획득 = 1
+변수 $ev09_6획득 = 1
+변수 $ev09_7획득 = 1
+변수 $ev09_8획득 = 1
+변수 $ev09_9획득 = 1
+변수 $ev09_10획득 = 1
+오마케추가 ev09_1 ev09_1.jpg
+오마케추가 ev09_2 ev09_2.jpg
+오마케추가 ev09_3 ev09_3.jpg
+오마케추가 ev09_4 ev09_4.jpg
+오마케추가 ev09_5 ev09_5.jpg
+오마케추가 ev09_6 ev09_6.jpg
+오마케추가 ev09_7 ev09_7.jpg
+오마케추가 ev09_8 ev09_8.jpg
+오마케추가 ev09_9 ev09_9.jpg
+오마케추가 ev09_10 ev09_10.jpg
+변수 $ev10_1획득 = 1
+변수 $ev10_2획득 = 1
+변수 $ev10_3획득 = 1
+변수 $ev10_4획득 = 1
+변수 $ev10_5획득 = 1
+변수 $ev10_6획득 = 1
+오마케추가 ev10_1 ev10_1.jpg
+오마케추가 ev10_2 ev10_2.jpg
+오마케추가 ev10_3 ev10_3.jpg
+오마케추가 ev10_4 ev10_4.jpg
+오마케추가 ev10_5 ev10_5.jpg
+오마케추가 ev10_6 ev10_6.jpg
+변수 $ev11_1획득 = 1
+변수 $ev11_2획득 = 1
+변수 $ev11_3획득 = 1
+오마케추가 ev11_1 ev11_1.jpg
+오마케추가 ev11_2 ev11_2.jpg
+오마케추가 ev11_3 ev11_3.jpg
+변수 $ev12_1획득 = 1
+변수 $ev12_2획득 = 1
+변수 $ev12_3획득 = 1
+변수 $ev12_4획득 = 1
+오마케추가 ev12_1 ev12_1.jpg
+오마케추가 ev12_2 ev12_2.jpg
+오마케추가 ev12_3 ev12_3.jpg
+오마케추가 ev12_4 ev12_4.jpg
+변수 $ev13_1획득 = 1
+변수 $ev13_2획득 = 1
+오마케추가 ev13_1 ev13_1.jpg
+오마케추가 ev13_2 ev13_2.jpg
+변수 $ev14_1획득 = 1
+변수 $ev14_2획득 = 1
+변수 $ev14_3획득 = 1
+변수 $ev14_4획득 = 1
+변수 $ev14_5획득 = 1
+변수 $ev14_6획득 = 1
+변수 $ev14_7획득 = 1
+변수 $ev14_8획득 = 1
+오마케추가 ev14_1 ev14_1.jpg
+오마케추가 ev14_2 ev14_2.jpg
+오마케추가 ev14_3 ev14_3.jpg
+오마케추가 ev14_4 ev14_4.jpg
+오마케추가 ev14_5 ev14_5.jpg
+오마케추가 ev14_6 ev14_6.jpg
+오마케추가 ev14_7 ev14_7.jpg
+오마케추가 ev14_8 ev14_8.jpg
+변수 $ev15획득 = 1
+//오마케추가 ev15 ev15_ru.jpg
+변수 $시작의빛트로피 = 1
+변수 $버려진로봇트로피 = 1
+변수 $어드벤쳐게이머트로피 = 1
+변수 $빛보다빠른트로피 = 1
+변수 $무모한도전트로피 = 1
+변수 $차가운도시남자트로피 = 1
+변수 $인터넷으로배웠어요트로피 = 1
+변수 $나비효과트로피 = 1
+변수 $상드리용트로피 = 1
+변수 $추억의장소트로피 = 1
+변수 $전기양의꿈트로피 = 1
+변수 $잊혀진기억트로피 = 1
+변수 $진정한영원트로피 = 1
+변수 $재회트로피 = 1
+변수 $숨겨진일기트로피 = 1
+점프 타이틀.txt 첫줄
+
+
+점프 타이틀3
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+북마크 타이틀4
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+페이드아웃 대사창
+
+CG titleoct12_glitch08 title_oct12_glitch08.jpg
+딜레이 10
+CG titleoct12_glitch05 title_oct12_glitch05.jpg
+딜레이 10
+CG titleoct12_glitch08
+CG titleoct12_glitch05
+
+딜레이 100
+
+CG titleoct12_glitch04 title_oct12_glitch04.jpg
+딜레이 5
+CG titleoct12_glitch05 title_oct12_glitch05.jpg
+CG titleoct12_glitch04
+딜레이 10
+CG titleoct12_glitch01 title_oct12_glitch01.jpg
+CG titleoct12_glitch05
+딜레이 10
+CG titleoct12_glitch04 title_oct12_glitch04.jpg
+CG titleoct12_glitch01
+딜레이 5
+CG title_glitch03 title_glitch03.jpg 0 0 아니 -149
+CG titleoct12_glitch04
+딜레이 10
+CG title_oct12_glitch05 title_oct12_glitch05.jpg 0 0 아니 -149
+CG title_glitch03
+딜레이 5
+CG bg_lab_day_blur bg_lab_day_blur.jpg 0 0 아니 -149 
+CG title_oct12_glitch05
+딜레이 5
+CG title_glitch02 title_glitch02.jpg 0 0 아니 -149
+CG bg_lab_day_blur
+딜레이 10
+CG title_oct12_glitch08 title_oct12_glitch08.jpg 0 0 아니 -149
+CG title_glitch02
+딜레이 5
+CG titleoct12_glitch02 title_oct12_glitch02.jpg
+CG title_oct12_glitch08
+딜레이 10
+CG titleoct12_glitch08 title_oct12_glitch08.jpg
+CG titleoct12_glitch02
+딜레이 800
+CG titleoct12_glitch06 title_oct12_glitch06.jpg
+CG titleoct12_glitch08
+딜레이 10
+배경 titleoct12_glitch07 title_oct12_glitch07.jpg
+CG titleoct12_glitch06
+
+딜레이 300
+
+시스템버튼제거
+
+
+효과음 UIErrorSubtleDeep UIErrorSubtleDeep.mp3
+CG title_error title_error_ru.png 487 254 아니 -131
+쓰레드 메시지
+페이드인 title_error 700
+쓰레드
+스크립트 시스템_글리치질문.txt 
+쓰레드시작
+
+북마크 타이틀5
+키처리 27
+키처리 201
+페이드아웃 대사창
+
+//나가기 버튼
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+
+//타이틀버튼
+시스템버튼 title_october12_glitch 991 371 201 84 점프 시크릿.txt 글리치 title_october12_glitch_ru.png 없음 없음
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+//시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+
+버튼대기
+
+
+점프 타이틀5
+
+
+
+
+
+//노멀엔딩 이후
+북마크 노멀엔딩
+배경 title title.jpg
+페이드인 title 2000
+북마크 title_return_normalend
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+
+딜레이 500
+
+//부제목
+쓰레드 부제목 페이드
+CG title_eternity_01 title_eternity_01_ru.png 468 49
+페이드인 title_eternity_01 3000
+쓰레드
+//제목
+쓰레드 제목 페이드
+CG title_oct12_lucy title_oct12_lucy.png 42 0
+페이드인 title_oct12_lucy 3000
+쓰레드
+쓰레드시작
+딜레이 1000
+
+
+북마크 타이틀_normalend
+
+//CG title_lucy_push title_lucy_push.png 36 -19
+//쓰레드 제목 번쩍
+//페이드인 title_lucy_push 800
+//쓰레드
+//쓰레드 제목 페이드아웃
+//딜레이 700
+//페이드아웃 title_lucy_push 800
+//쓰레드
+
+//CG light light.png -456 188
+//버튼 light -456 188 456 104 스크립트 시크릿.txt light.png 없음 없음
+//쓰레드 light 이동 
+//이동 light 2220 188 3000 2000
+//쓰레드 
+//쓰레드시작
+
+
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+
+
+
+
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_startcg 페이드
+CG title_startcg title_start_ru.png 963 379 아니
+페이드인 title_startcg 1500
+쓰레드
+쓰레드 title_extracg 페이드
+딜레이 150
+CG title_extracg title_extra_ru.png 973 463 아니
+페이드인 title_extracg 1500
+쓰레드
+쓰레드 title_loadcg 페이드
+딜레이 250
+CG title_loadcg title_load_ru.png 891 545 아니
+페이드인 title_loadcg 1500
+쓰레드
+쓰레드 title_optionscg 페이드
+딜레이 350
+CG title_optionscg title_options_ru.png 867 620 아니
+페이드인 title_optionscg 1500
+쓰레드
+쓰레드시작
+
+딜레이 2000
+조건 노멀글리치 = 1 여기 노멀글리치스킵
+
+CG title_oct12_glitch01 title_oct12_glitch01.jpg
+딜레이 10
+CG title_oct12_glitch02 title_oct12_glitch02.jpg
+CG title_oct12_glitch01
+딜레이 10
+CG title_oct12_glitch04 title_oct12_glitch04.jpg
+CG title_oct12_glitch02
+딜레이 10
+CG title_oct12_glitch05 title_oct12_glitch05.jpg
+CG title_oct12_glitch04
+딜레이 10
+CG title_oct12_glitch05
+변수 노멀글리치 = 1
+
+북마크 노멀글리치스킵
+시스템버튼 title_lucy_button 42 0 485 322 스크립트 지나가는빛.txt 없음 없음 없음
+시스템버튼 title_start 963 379 208 67 점프 여기 start title_start_ru.png title_start_ru_select.png title_start_ru_push.png
+CG title_startcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg   
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+
+북마크 버튼대기2
+//키처리 112 도움말.txt 첫줄
+버튼대기
+
+
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀_normalend
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+
+
+
+//트루엔딩조건갖춰진후
+북마크 10월12일
+배경 title_oct12_black title_oct12_black.jpg
+페이드인 title_oct12_black 2000
+//북마크 title_return_1012
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+시스템버튼제거
+
+딜레이 500
+
+배경룰페이드인 룰_45.png 400
+배경 title_oct12 title_oct12.jpg
+배경룰페이드인
+페이드아웃 title_oct12_black
+
+
+북마크 title_return_1012
+시스템버튼제거
+
+
+
+조건 $봉인해제 = 1 여기 부제목02
+쓰레드 title_oct12_lucy페이드인
+CG title_oct12_lucy title_oct12_lucy.png 42 0
+페이드인 title_oct12_lucy 3000
+쓰레드
+조건 $봉인해제 = 1 여기 title_eternity_02
+쓰레드 title_eternity_01페이드인
+CG title_eternity_01 title_eternity_01_ru.png 468 49
+페이드인 title_eternity_01 3000
+쓰레드
+쓰레드시작
+점프 title_oct12다음시퀀스
+
+
+북마크 부제목02
+쓰레드 title_oct12_lucy페이드인
+CG title_oct12_lucy title_oct12_lucy.png 42 0
+페이드인 title_oct12_lucy 3000
+쓰레드
+쓰레드 title_eternity_02페이드인
+CG title_eternity_02 title_eternity_02_ru.png 468 49
+페이드인 title_eternity_02 3000
+쓰레드
+쓰레드시작
+
+
+북마크 title_oct12다음시퀀스
+딜레이 1500
+조건 $봉인해제 = 1 여기 타이틀_1012_2
+
+북마크 타이틀_1012
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+//나가기 버튼
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_october12_glitchcg 페이드
+CG title_october12_glitchcg title_october12_glitch_ru.png 991 371 아니
+페이드인 title_october12_glitchcg 1500
+쓰레드
+쓰레드 title_extracg 페이드
+딜레이 150
+CG title_extracg title_extra_ru.png 973 463 아니
+페이드인 title_extracg 1500
+쓰레드
+쓰레드 title_loadcg 페이드
+딜레이 250
+CG title_loadcg title_load_ru.png 891 545 아니
+페이드인 title_loadcg 1500
+쓰레드
+쓰레드 title_optionscg 페이드
+딜레이 350
+CG title_optionscg title_options_ru.png 867 620 아니
+페이드인 title_optionscg 1500
+쓰레드
+쓰레드시작
+
+딜레이 2000
+시스템버튼 title_october12_glitch 991 371 201 84 점프 여기 봉인해제 title_october12_glitch_ru.png 없음 없음
+CG title_october12_glitchcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg   
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+키처리 112 도움말.txt 첫줄
+버튼대기
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀_1012
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+북마크 봉인해제
+변수 $봉인해제 = 1
+쓰레드대기
+북마크 봉인해제2
+변수 $봉인해제 = 1
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+스크립트 시크릿.txt 메모리복구성공
+//부제목
+CG title_eternity_02 title_eternity_02_ru.png 468 49
+쓰레드 부제목 페이드
+페이드인 title_eternity_02 1500
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 2000
+쓰레드
+쓰레드 title_october12_glitch페이드아웃
+페이드아웃 title_october12_glitch 1500
+쓰레드
+쓰레드 title_october12cg페이드인
+CG title_october12cg title_october12_ru.png 1002 379 
+페이드인 title_october12cg 1500
+쓰레드
+쓰레드시작
+딜레이 2000
+
+
+북마크 메모리를복구하였습니다
+조건 $메모리를복구하였습니다 = 1 여기 메모리를복구하였습니다스킵
+효과음 decide11 decide11.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png 0 0 아니 -131
+페이드인 black_background_40 500
+쓰레드
+CG message_box_info message_box_info.png 159 24 아니 -132
+크기 message_box_info 0 0
+쓰레드 message_box_info 크기확대
+크기 message_box_info 1 1 200 
+쓰레드
+쓰레드 message_box_info 페이드인
+페이드인 message_box_info 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 441 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "10월12일의 기억"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 633 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "이 해금되었습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 388 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -132
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Память Восстановлена:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 713 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -132
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "12ое Октября"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 452 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -132
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "10月12日の記憶"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 637 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -132
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "を解禁しました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_info 페이드아웃
+페이드아웃 message_box_info 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $메모리를복구하였습니다 = 1
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+딜레이 1000
+북마크 메모리를복구하였습니다스킵
+페이드아웃 메세지박스_protect
+시스템버튼 title_october12 1002 379 171 67 점프 여기 start_10월12일 title_october12_ru.png title_october12_ru_select.png title_october12_ru_push.png
+CG title_october12cg
+버튼대기
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+
+북마크 타이틀_1012_2
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+//나가기 버튼
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_october12cg 페이드
+CG title_october12cg title_october12_ru.png 1002 379 아니
+페이드인 title_october12cg 1500
+쓰레드
+쓰레드 title_extracg 페이드
+딜레이 150
+CG title_extracg title_extra_ru.png 973 463 아니
+페이드인 title_extracg 1500
+쓰레드
+쓰레드 title_loadcg 페이드
+딜레이 250
+CG title_loadcg title_load_ru.png 891 545 아니
+페이드인 title_loadcg 1500
+쓰레드
+쓰레드 title_optionscg 페이드
+딜레이 350
+CG title_optionscg title_options_ru.png 867 620 아니
+페이드인 title_optionscg 1500
+쓰레드
+쓰레드시작
+
+딜레이 2000
+시스템버튼 title_october12 1002 379 171 67 점프 여기 start_10월12일 title_october12_ru.png title_october12_ru_select.png title_october12_ru_push.png
+CG title_october12cg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg   
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+키처리 112 도움말.txt 첫줄
+버튼대기
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀_1012_2
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+
+
+
+
+//트루엔딩이후
+북마크 트루엔딩완료
+배경음악 반복 Light.mp3
+쓰레드 배경음악페이드인
+페이드인 배경음악 3000
+쓰레드
+쓰레드시작
+배경룰페이드인 룰_25.png 500
+배경 title_shine title_shine.jpg
+배경룰페이드인
+//페이드인 title 2000
+
+
+북마크 title_return_true
+//조건 $10월12일 = 1 타이틀.txt 타이틀_1012
+//조건 $노멀엔딩 = 1 타이틀.txt title_return_normalend
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+
+//부제목
+CG title_eternity_02 title_eternity_02_ru.png 468 49
+
+쓰레드 부제목 페이드
+페이드인 title_eternity_02 2000
+쓰레드
+
+
+//제목
+//CG title_oct12_lucy title_oct12_lucy_ru.png 42 0
+//쓰레드 제목 페이드
+//페이드인 title_oct12_lucy 600
+//쓰레드
+
+
+북마크 타이틀1트루
+
+//CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+//쓰레드 제목 번쩍
+//페이드인 title_oct12_lucy_push 600
+//쓰레드
+//쓰레드 제목 페이드아웃
+//딜레이 700
+//페이드아웃 title_oct12_lucy_push 800
+//쓰레드
+
+CG light light.png -456 188
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드시작
+//쓰레드대기
+//CG title_eternity_03 title_eternity_03_ru.png 452 65
+//쓰레드 title_eternity_03페이드인
+//페이드인 title_eternity_03 2000
+//쓰레드
+//쓰레드 title_eternity_02페이드아웃
+//페이드아웃 title_eternity_02 2000
+//쓰레드
+//쓰레드시작
+
+//딜레이 200
+
+북마크 타이틀_트루
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+//나가기 버튼
+
+딜레이 2000
+CG title_shine_light title_shine_light_ru.jpg 0 0 아니 99
+페이드인 title_shine_light 1600
+CG title_eternity_03 title_eternity_03_ru.png 468 49
+페이드인 title_eternity_03
+페이드아웃 title_eternity_02
+CG title_oct12_lucy title_oct12_lucy.png 42 0
+페이드인 title_oct12_lucy 
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_startcg 페이드
+CG title_startcg title_start_ru.png 963 379 아니
+쓰레드
+쓰레드 title_extracg 페이드
+CG title_extracg title_extra_ru.png 973 463 아니
+쓰레드
+쓰레드 title_loadcg 페이드
+CG title_loadcg title_load_ru.png 891 545 아니
+쓰레드
+쓰레드 title_optionscg 페이드
+CG title_optionscg title_options_ru.png 867 620 아니
+쓰레드
+쓰레드시작
+딜레이 100
+페이드아웃 title_shine_light 2000
+
+시스템버튼 title_lucy_button 42 0 485 322 스크립트 지나가는빛트루엔딩.txt 없음 없음 없음
+시스템버튼 title_start 963 379 208 67 점프 여기 start title_start_ru.png title_start_ru_select.png title_start_ru_push.png
+CG title_startcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg   
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+북마크 버튼대기3
+//키처리 112 도움말.txt 첫줄
+버튼대기
+
+
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀1트루2
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+북마크 타이틀1트루2
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+페이드아웃 대사창
+//나가기 버튼
+쓰레드 button_exitcg
+CG button_exitcg button_exit.png 1184 12 아니
+페이드인 button_exitcg 500
+쓰레드
+쓰레드 button_helpcg
+CG button_helpcg button_help.png 1184 97 아니
+페이드인 button_helpcg 500
+쓰레드
+쓰레드 title_startcg 페이드
+CG title_startcg title_start_ru.png 963 379 아니
+페이드인 title_startcg 1500
+쓰레드
+쓰레드 title_extracg 페이드
+딜레이 150
+CG title_extracg title_extra_ru.png 973 463 아니
+페이드인 title_extracg 1500
+쓰레드
+쓰레드 title_loadcg 페이드
+딜레이 250
+CG title_loadcg title_load_ru.png 891 545 아니
+페이드인 title_loadcg 1500
+쓰레드
+쓰레드 title_optionscg 페이드
+딜레이 350
+CG title_optionscg title_options_ru.png 867 620 아니
+페이드인 title_optionscg 1500
+쓰레드
+쓰레드시작
+딜레이 2000
+시스템버튼 title_lucy_button 42 0 485 322 스크립트 지나가는빛트루엔딩.txt 없음 없음 없음
+시스템버튼 title_start 963 379 208 67 점프 여기 start title_start_ru.png title_start_ru_select.png title_start_ru_push.png
+CG title_startcg
+시스템버튼 title_extra 973 463 198 67 스크립트 시스템_엑스트라.txt title_extra_ru.png title_extra_ru_select.png title_extra_ru_push.png
+CG title_extracg
+시스템버튼 title_load 891 545 281 67 스크립트 시스템_불러오기.txt title_load_ru.png title_load_ru_select.png title_load_ru_push.png
+CG title_loadcg
+시스템버튼 title_options 867 620 301 75 스크립트 시스템_옵션.txt title_options_ru.png title_options_ru_select.png title_options_ru_push.png
+CG title_optionscg   
+시스템버튼 button_exit 1184 12 85 85 종료 button_exit.png button_exit_select.png button_exit_push.png
+CG button_exitcg
+시스템버튼 button_help 1184 97 85 85 스크립트 도움말.txt button_help.png button_help_select.png button_help_push.png
+CG button_helpcg
+//키처리 112 도움말.txt 첫줄
+버튼대기
+
+//로드창이나 옵션창이 열렸을때 닫았을 경우
+점프 타이틀1트루2
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+
+
+북마크 start
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+
+//쓰레드 효과음페이드인
+효과음 decide10 decide10.mp3
+//쓰레드
+
+CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push 1000
+쓰레드
+쓰레드 title_oct12_lucy_push페이드아웃
+딜레이 1200
+페이드아웃 title_oct12_lucy_push 2500
+쓰레드
+CG light light.png -456 188
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드 title페이드아웃
+페이드아웃 title 1500
+쓰레드
+쓰레드 title_shine페이드아웃
+페이드아웃 title_shine 1500
+쓰레드
+쓰레드 titleoct12_glitch07페이드아웃
+페이드아웃 titleoct12_glitch07 1500
+쓰레드
+쓰레드 title_oct12_black페이드아웃
+페이드아웃 title_oct12_black 1500
+쓰레드
+쓰레드 title_oct12페이드아웃
+페이드아웃 title_oct12 1500
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 1500
+쓰레드
+쓰레드 title_eternity_02페이드아웃
+페이드아웃 title_eternity_02 1500
+쓰레드
+쓰레드 title_eternity_03페이드아웃
+페이드아웃 title_eternity_03 1500
+쓰레드
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 5000
+쓰레드
+쓰레드시작
+딜레이 1500
+쓰레드 title_lucy페이드아웃
+페이드아웃 title_lucy 2500
+쓰레드
+쓰레드 title_oct12_lucy페이드아웃
+페이드아웃 title_oct12_lucy 2500
+쓰레드
+쓰레드시작
+쓰레드대기
+//동영상 Lucy_Opening 0 0 1280 720 Lucy_Opening.avi 1 
+
+
+조건 $시작의빛트로피 = 1 여기 시작의빛스킵
+딜레이 1500
+
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 112
+효과음 decide12 decide12.mp3
+쓰레드 black_background_40페이드인
+CG black_background_40 black_background_40.png
+페이드인 black_background_40 500
+쓰레드
+CG message_box_achievement message_box_achievement.png 159 24 아니 -130
+크기 message_box_achievement 0 0
+쓰레드 message_box_achievement 크기확대
+크기 message_box_achievement 1 1 200 
+쓰레드
+쓰레드 message_box_achievement 페이드인
+페이드인 message_box_achievement 300
+쓰레드
+쓰레드시작
+딜레이 200
+//라벨 CG갤러리해금 459 46 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 30 아니 NanumGothic
+//변수 업적을달성하였습니다 = "시작의 빛"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 572 46 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 30 아니 NanumGothic
+//변수 업적을달성하였습니다2 = "업적을 달성하였습니다."
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+라벨 CG갤러리해금 389 46 255 255 255 255 {{업적을달성하였습니다}}
+출력순서 CG갤러리해금 -131
+라벨속성 CG갤러리해금 30 아니 NanumGothic
+변수 업적을달성하였습니다 = "Открыто Достижение:"
+쓰레드 CG갤러리해금
+페이드인 CG갤러리해금 300
+쓰레드
+라벨 CG갤러리해금2 689 46 255 215 0 255 {{업적을달성하였습니다2}}
+출력순서 CG갤러리해금2 -131
+라벨속성 CG갤러리해금2 30 아니 NanumGothic
+변수 업적을달성하였습니다2 = "Да будет свет!"
+쓰레드 CG갤러리해금2
+페이드인 CG갤러리해금2 300
+쓰레드
+//라벨 CG갤러리해금 440 48 255 215 0 255 {{업적을달성하였습니다}}
+//출력순서 CG갤러리해금 -131
+//라벨속성 CG갤러리해금 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다 = "始まりの光"
+//쓰레드 CG갤러리해금
+//페이드인 CG갤러리해금 300
+//쓰레드
+//라벨 CG갤러리해금2 575 48 255 255 255 255 {{업적을달성하였습니다2}}
+//출력순서 CG갤러리해금2 -131
+//라벨속성 CG갤러리해금2 26 아니 Apple osaka_unicode
+//변수 업적을달성하였습니다2 = "実績を手に入れました。"
+//쓰레드 CG갤러리해금2
+//페이드인 CG갤러리해금2 300
+//쓰레드
+쓰레드시작
+딜레이 3000
+쓰레드 message_box_achievement 페이드아웃
+페이드아웃 message_box_achievement 500
+쓰레드
+쓰레드 CG갤러리해금 페이드아웃
+페이드아웃 CG갤러리해금 500
+쓰레드
+쓰레드 CG갤러리해금2 페이드아웃
+페이드아웃 CG갤러리해금2 500
+쓰레드
+쓰레드 black_background_40페이드아웃
+페이드아웃 black_background_40 500
+쓰레드
+쓰레드시작
+변수 $EXTRA해금 = 1
+변수 $시작의빛트로피 = 1
+
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+
+북마크 시작의빛스킵
+딜레이 1500
+점프 로봇3원칙.txt 첫줄
+
+
+
+북마크 start_10월12일
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push 1000
+쓰레드
+쓰레드 title_oct12_lucy_push페이드아웃
+딜레이 1200
+페이드아웃 title_oct12_lucy_push 2500
+쓰레드
+CG light light.png -456 188
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드 title페이드아웃
+페이드아웃 title 2000
+쓰레드
+쓰레드 title_oct12_black페이드아웃
+페이드아웃 title_oct12_black 2000
+쓰레드
+쓰레드 title_oct12페이드아웃
+페이드아웃 title_oct12 2000
+쓰레드
+쓰레드 titleoct12_glitch07 페이드아웃
+페이드아웃 titleoct12_glitch07  2000
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 2000
+쓰레드
+쓰레드 title_eternity_02페이드아웃
+페이드아웃 title_eternity_02 2000
+쓰레드
+쓰레드 title_eternity_03페이드아웃
+페이드아웃 title_eternity_03 2000
+쓰레드
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 5000
+쓰레드
+쓰레드시작
+딜레이 2000
+쓰레드 title_lucy페이드아웃
+페이드아웃 title_lucy 2500
+쓰레드
+쓰레드 title_oct12_lucy페이드아웃
+페이드아웃 title_oct12_lucy 2500
+쓰레드
+쓰레드시작
+
+딜레이 4000
+변수 chapter = 1012
+점프 로봇3원칙.txt 첫줄
+
+
+
+북마크 start_초로의기억
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+조건 $트루엔딩 = 0 여기 로고빛안보임 아니면 여기 로고빛보임
+북마크 로고빛보임
+CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push 1000
+쓰레드
+쓰레드 title_oct12_lucy_push페이드아웃
+딜레이 1200
+페이드아웃 title_oct12_lucy_push 2500
+쓰레드
+북마크 로고빛안보임
+CG light light.png -456 188
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드 title페이드아웃
+페이드아웃 title 2000
+쓰레드
+쓰레드 title_oct12_black페이드아웃
+페이드아웃 title_oct12_black 2000
+쓰레드
+쓰레드 title_oct12페이드아웃
+페이드아웃 title_oct12 2000
+쓰레드
+쓰레드 title_shine페이드아웃
+페이드아웃 title_shine 2000
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 2000
+쓰레드
+쓰레드 title_eternity_02페이드아웃
+페이드아웃 title_eternity_02 2000
+쓰레드
+쓰레드 title_eternity_03페이드아웃
+페이드아웃 title_eternity_03 2000
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_extra페이드아웃
+페이드아웃 top_extra 300
+쓰레드
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 5000
+쓰레드
+쓰레드시작
+딜레이 2000
+쓰레드 title_lucy페이드아웃
+페이드아웃 title_lucy 2500
+쓰레드
+쓰레드 title_oct12_lucy페이드아웃
+페이드아웃 title_oct12_lucy 2500
+쓰레드
+쓰레드시작
+
+딜레이 4000
+
+점프 초로의기억.txt 첫줄
+
+
+북마크 start_박사의일기
+키처리 32 텅빈.txt 첫줄
+키처리 27
+키처리 201
+키처리 202
+키처리 112
+키처리 65
+키처리 90
+시스템버튼제거
+CG title_oct12_lucy_push title_oct12_lucy_push.png 42 0
+쓰레드 제목 번쩍
+페이드인 title_oct12_lucy_push 1000
+쓰레드
+쓰레드 title_oct12_lucy_push페이드아웃
+딜레이 1200
+페이드아웃 title_oct12_lucy_push 2500
+쓰레드
+CG light light.png -456 188
+쓰레드 light 이동 
+이동 light 1280 188 3000 2000
+쓰레드 
+쓰레드 title페이드아웃
+페이드아웃 title 1500
+쓰레드
+쓰레드 title_oct12_black페이드아웃
+페이드아웃 title_oct12_black 1500
+쓰레드
+쓰레드 title_oct12페이드아웃
+페이드아웃 title_oct12 1500
+쓰레드
+쓰레드 title_shine페이드아웃
+페이드아웃 title_shine 1500
+쓰레드
+쓰레드 title_eternity_01페이드아웃
+페이드아웃 title_eternity_01 1500
+쓰레드
+쓰레드 title_eternity_02페이드아웃
+페이드아웃 title_eternity_02 1500
+쓰레드
+쓰레드 title_eternity_03페이드아웃
+페이드아웃 title_eternity_03 1500
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_extra페이드아웃
+페이드아웃 top_extra 300
+쓰레드
+쓰레드 배경음악 페이드아웃
+페이드아웃 배경음악 5000
+쓰레드
+쓰레드시작
+딜레이 1500
+쓰레드 title_lucy페이드아웃
+페이드아웃 title_lucy 2500
+쓰레드
+쓰레드 title_oct12_lucy페이드아웃
+페이드아웃 title_oct12_lucy 2500
+쓰레드
+쓰레드시작
+쓰레드대기
+딜레이 2000
+
+점프 일기.txt 첫줄
+
+
+
+
+
+
+
+
+
+북마크 엑스트라메세지
+북마크 메세지출력_아직접근할수없습니다
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+시스템버튼제거
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+CG 메세지박스 message_box.png 457 226 아니 -130
+크기 메세지박스 0 0 
+쓰레드 메시지박스 크기확대
+크기 메세지박스 1 1 200 
+쓰레드
+쓰레드 메시지박스 페이드인
+페이드인 메세지박스 300
+쓰레드
+쓰레드시작
+딜레이 300
+라벨 메세지 527 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+라벨속성 메세지 30 아니 NanumGothic
+출력순서 메세지 -130
+변수 해금조건을달성하지못했습니다 = "Пароль неверный" 
+//라벨 메세지 511 305 255 255 255 255 {{아직접근할수없습니다}}
+//라벨속성 메세지 28 아니 NanumGothic
+//출력순서 메세지 -130
+//변수 아직접근할수없습니다 = "아직 접근할 수 없습니다." 
+//라벨 메세지 484 305 255 255 255 255 {{해금조건을달성하지못했습니다}}
+//라벨속성 메세지 26 아니 Apple osaka_unicode
+//출력순서 메세지 -130
+//변수 해금조건을달성하지못했습니다 = "パスワードが一致しません。" 
+페이드인 메세지 500
+버튼 메세지박스투명 0 0 1280 720 없음 없음 없음 없음
+출력순서 메세지박스투명 -200
+키처리 32 텅빈.txt 첫줄
+키처리 27 여기 메세지종료_당신은빛을잡을수있나요?
+키처리 201 여기 메세지종료_당신은빛을잡을수있나요?
+버튼대기
+북마크 메세지종료_당신은빛을잡을수있나요?
+페이드아웃 메세지박스투명
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+쓰레드 메시지박스페이드아웃
+페이드아웃 메세지박스 
+쓰레드
+쓰레드 메세지페이드아웃
+페이드아웃 메세지
+쓰레드
+쓰레드시작
+
+
+페이드아웃 메세지박스_protect
+점프 타이틀1
+

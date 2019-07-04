@@ -1,0 +1,6 @@
+﻿게임상태 자동넘기기
+효과음 UISCI-FIConfirmWet UISCI-FIConfirmWet.mp3
+북마크 끝5
+키처리 65 스킵멈춤.txt 첫줄
+버튼 스킵멈춤 0 0 1280 720 스크립트 스킵멈춤.txt 없음 없음 없음
+

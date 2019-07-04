@@ -11,16 +11,16 @@
     
     <String Key="MsgQuickLoad">%s\n%s\n게임을 정말 퀵로드 하시겠습니까?</String>
     <String Key="MsgQuickSaveOverwrite">이전 퀵 세이브 게임\n%s\n%s\n에 덮어쓰시겠습니까?</String>
-    <String Key="MsgLoad">%s\n%s\nЗагрузіць гэтыя даныя?</String>
+    <String Key="MsgLoad">%s\n%s\nЗагрузить файл Сохр.?</String>
     <String Key="MsgSave">%s\n%s\n여기에 저장하시겠습니까?</String>
-    <String Key="MsgSaveOverwrite">%s\n%s\nПеразапісаць захаваныя даныя?</String>
-    <String Key="MsgDeleteGame">%s\n%s\nВы ўпэўнены, што хачаце выдаліць?</String>
-    <String Key="MsgExitGame">'%s'\nСкончыць гульню?</String>
-    %s\n%s\nЗагрузіць гэтыя даныя?
+    <String Key="MsgSaveOverwrite">%s\n%s\nПерезаписать Файл Сохр.?</String>
+    <String Key="MsgDeleteGame">%s\n%s\nВы точно хотите его удалить?</String>
+    <String Key="MsgExitGame">'%s'\nЗавершить Игру?</String>
+    %s\n%s\nЗагрузить Файл Сохр.?
     %s\n%s\n여기에 저장하시겠습니까?
-    %s\n%s\nПеразапісаць захаваныя даныя?
-    %s\n%s\nВы ўпэўнены, што хачаце выдаліць?
-    Скончыць гульню?
+    %s\n%s\nПерезаписать Файл Сохр.?
+    %s\n%s\nВы точно хотите его удалить?
+    Завершить Игру?
     %s\n%s\nロードしますか？
     %s\n%s\n여기에 저장하시겠습니까?
     %s\n%s\n上書きしますか？

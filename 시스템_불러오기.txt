@@ -1,0 +1,507 @@
+﻿키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+효과음 UIBeepTripleDirty UIBeepTripleDirty.mp3
+
+// 불러오기 창에서 ESC키 혹은 마우스 오른쪽 버튼을
+// 누르면 북마크 '종료'으로 이동하여 끝내도록 합니다.
+
+// 로드 화면의 배경을 보여줍니다.
+시스템버튼제거
+버튼제거
+
+변수 name_{{캐릭명}} = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름안보임
+
+쓰레드 대사창페이드아웃
+페이드아웃 대사창 500
+쓰레드
+
+조건 $트루엔딩 = 1 여기 title_shine_blur
+
+CG title_blur title_blur.png 0 0 아니 2
+쓰레드 title_blur페이드인
+페이드인 title_blur 500
+쓰레드
+점프 다음시퀀스
+북마크 title_shine_blur
+CG title_shine_blur title_shine_blur.png 0 0 아니 2
+쓰레드 title_shine_blur페이드인
+페이드인 title_shine_blur 500
+쓰레드
+북마크 다음시퀀스
+CG top_layout_02 top_layout_02.png 7 -52 아니 -130
+쓰레드 top_layout_02이동
+이동 top_layout_02 7 15 700 -200
+쓰레드
+CG top_layout_01 top_layout_01.png -360 19 아니 -130
+쓰레드 top_layout_01이동
+이동 top_layout_01 0 19 1200 -200
+쓰레드
+쓰레드시작
+쓰레드 top_layout_03페이드인
+CG top_layout_03 top_layout_03.png 376 6 아니 -130
+페이드인 top_layout_03 300
+쓰레드
+딜레이 100
+CG top_layout_04 top_layout_04.png 0 0 아니 -125
+크기 top_layout_04 0 1
+쓰레드 top_layout_04크기확대
+크기 top_layout_04 1 1 300
+쓰레드
+쓰레드 top_load페이드인
+CG top_load top_load_ru.png 108 0 아니 -130
+페이드인 top_load 300
+쓰레드
+쓰레드 top_layout_01p페이드아웃
+페이드아웃 top_layout_01p 300
+쓰레드
+쓰레드 top_layout_02p페이드아웃
+페이드아웃 top_layout_02p 300
+쓰레드
+쓰레드 top_layout_03p페이드아웃
+페이드아웃 top_layout_03p 300
+쓰레드
+쓰레드 top_layout_04p페이드아웃
+페이드아웃 top_layout_04p 300
+쓰레드
+쓰레드 top_paused페이드아웃
+페이드아웃 top_paused 300
+쓰레드
+
+쓰레드 button_backcg
+CG button_backcg button_back.png 1184 12 아니 -130
+페이드인 button_backcg 300
+쓰레드
+시스템버튼 save_load_slot1 154 127 192 108 로드슬롯 1 save_load_slot.png 없음 없음
+크기 save_load_slot1 0 0 
+쓰레드 save_load_slot1 크기확대
+크기 save_load_slot1 1 1 100 
+쓰레드
+시스템버튼 save_load_slot2 414 127 192 108 로드슬롯 2 save_load_slot.png 없음 없음 
+크기 save_load_slot2 0 0 
+쓰레드 save_load_slot2 크기확대
+딜레이 20
+크기 save_load_slot2 1 1 100 
+쓰레드
+시스템버튼 save_load_slot3 674 127 192 108 로드슬롯 3 save_load_slot.png 없음 없음
+크기 save_load_slot3 0 0 
+쓰레드 save_load_slot3 크기확대
+딜레이 40
+크기 save_load_slot3 1 1 100 
+쓰레드
+시스템버튼 save_load_slot4 934 127 192 108 로드슬롯 4 save_load_slot.png 없음 없음
+크기 save_load_slot4 0 0 
+쓰레드 save_load_slot4 크기확대
+딜레이 60
+크기 save_load_slot4 1 1 100 
+쓰레드
+시스템버튼 save_load_slot5 154 302 192 108 로드슬롯 5 save_load_slot.png 없음 없음
+크기 save_load_slot5 0 0 
+쓰레드 save_load_slot5 크기확대
+딜레이 80
+크기 save_load_slot5 1 1 100 
+쓰레드
+시스템버튼 save_load_slot6 414 302 192 108 로드슬롯 6 save_load_slot.png 없음 없음
+크기 save_load_slot6 0 0 
+쓰레드 save_load_slot6 크기확대
+딜레이 100
+크기 save_load_slot6 1 1 100 
+쓰레드
+시스템버튼 save_load_slot7 674 302 192 108 로드슬롯 7 save_load_slot.png 없음 없음
+크기 save_load_slot7 0 0 
+쓰레드 save_load_slot7 크기확대
+딜레이 120
+크기 save_load_slot7 1 1 100 
+쓰레드
+시스템버튼 save_load_slot8 934 302 192 108 로드슬롯 8 save_load_slot.png 없음 없음
+크기 save_load_slot8 0 0 
+쓰레드 save_load_slot8 크기확대
+딜레이 140
+크기 save_load_slot8 1 1 100 
+쓰레드
+시스템버튼 save_load_slot9 154 477 192 108 로드슬롯 9 save_load_slot.png 없음 없음
+크기 save_load_slot9 0 0 
+쓰레드 save_load_slot9 크기확대
+딜레이 160
+크기 save_load_slot9 1 1 100 
+쓰레드
+시스템버튼 save_load_slot10 414 477 192 108 로드슬롯 10 save_load_slot.png 없음 없음
+크기 save_load_slot10 0 0 
+쓰레드 save_load_slot10 크기확대
+딜레이 180
+크기 save_load_slot10 1 1 100 
+쓰레드
+시스템버튼 save_load_slot11 674 477 192 108 로드슬롯 11 save_load_slot.png 없음 없음
+크기 save_load_slot11 0 0 
+쓰레드 save_load_slot11 크기확대
+딜레이 200
+크기 save_load_slot11 1 1 100 
+쓰레드
+시스템버튼 save_load_slot12 934 477 192 108 로드슬롯 12 save_load_slot.png 없음 없음
+크기 save_load_slot12 0 0 
+쓰레드 save_load_slot12 크기확대
+딜레이 220
+크기 save_load_slot12 1 1 100 
+쓰레드
+시스템버튼 delete1 324 127 22 22 슬롯삭제 1 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete1 0 0 
+쓰레드 delete1 크기확대
+딜레이 220
+크기 delete1 1 1 100 
+쓰레드
+시스템버튼 delete2 584 127 22 22 슬롯삭제 2 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete2 0 0 
+쓰레드 delete2 크기확대
+딜레이 220
+크기 delete2 1 1 100 
+쓰레드
+시스템버튼 delete3 844 127 22 22 슬롯삭제 3 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete3 0 0 
+쓰레드 delete3 크기확대
+딜레이 220
+크기 delete3 1 1 100 
+쓰레드
+시스템버튼 delete4 1104 127 22 22 슬롯삭제 4 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete4 0 0 
+쓰레드 delete4 크기확대
+딜레이 220
+크기 delete4 1 1 100 
+쓰레드
+시스템버튼 delete5 324 302 22 22 슬롯삭제 5 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete5 0 0 
+쓰레드 delete5 크기확대
+딜레이 220
+크기 delete5 1 1 100 
+쓰레드
+시스템버튼 delete6 584 302 22 22 슬롯삭제 6 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete6 0 0 
+쓰레드 delete6 크기확대
+딜레이 220
+크기 delete6 1 1 100 
+쓰레드
+시스템버튼 delete7 844 302 22 22 슬롯삭제 7 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete7 0 0 
+쓰레드 delete7 크기확대
+딜레이 220
+크기 delete7 1 1 100 
+쓰레드
+시스템버튼 delete8 1104 302 22 22 슬롯삭제 8 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete8 0 0 
+쓰레드 delete8 크기확대
+딜레이 220
+크기 delete8 1 1 100 
+쓰레드
+시스템버튼 delete9 324 477 22 22 슬롯삭제 9 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete9 0 0 
+쓰레드 delete9 크기확대
+딜레이 220
+크기 delete9 1 1 100 
+쓰레드
+시스템버튼 delete10 584 477 22 22 슬롯삭제 10 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete10 0 0 
+쓰레드 delete10 크기확대
+딜레이 220
+크기 delete10 1 1 100 
+쓰레드
+시스템버튼 delete11 844 477 22 22 슬롯삭제 11 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete11 0 0 
+쓰레드 delete11 크기확대
+딜레이 220
+크기 delete11 1 1 100 
+쓰레드
+시스템버튼 delete12 1104 477 22 22 슬롯삭제 12 button_delete.png button_delete_select.png button_delete_push.png
+크기 delete12 0 0 
+쓰레드 delete12 크기확대
+딜레이 220
+크기 delete12 1 1 100 
+쓰레드
+
+// 이전/다음 버튼을 설정합니다.
+시스템버튼 button_previous 1007 639 58 54 이전페이지 button_previous.png button_previous_select.png button_previous_push.png
+시스템버튼 button_next 1078 639 58 54 다음페이지 button_next.png button_next_select.png button_next_push.png
+쓰레드 button_previous 
+페이드인 button_previous 500
+쓰레드
+쓰레드 button_next
+페이드인 button_next 500
+쓰레드
+
+// 페이지 번호를 표시합니다.
+라벨 페이지번호 938 658 255 255 255 255 {{%페이지}}/10
+라벨속성 페이지번호 20 아니 venera500
+쓰레드 페이지번호
+페이드인 페이지번호 500
+쓰레드
+
+// 씬 번호 및 날짜 표시
+라벨 날짜1 165 240 255 255 255 255 {{%슬롯날짜1}}
+라벨속성 날짜1 20 아니 NanumGothic
+쓰레드 날짜1
+페이드인 날짜1 500
+쓰레드
+라벨 씬1 165 265 255 215 0 255 {{%슬롯씬이름1}}
+라벨속성 씬1 20 아니 NanumGothic
+쓰레드 씬1
+페이드인 씬1 500
+쓰레드
+라벨 날짜2 425 240 255 255 255 255 {{%슬롯날짜2}}
+라벨속성 날짜2 20 아니 NanumGothic
+쓰레드 날짜2
+페이드인 날짜2 500
+쓰레드
+라벨 씬2 425 265 255 215 0 255 {{%슬롯씬이름2}}
+라벨속성 씬2 20 아니 NanumGothic
+쓰레드 씬2
+페이드인 씬2 500
+쓰레드
+라벨 날짜3 685 240 255 255 255 255 {{%슬롯날짜3}}
+라벨속성 날짜3 20 아니 NanumGothic
+쓰레드 날짜3
+페이드인 날짜3 500
+쓰레드
+라벨 씬3 685 265 255 215 0 255 {{%슬롯씬이름3}}
+라벨속성 씬3 20 아니 NanumGothic
+쓰레드 씬3
+페이드인 씬3 500
+쓰레드
+라벨 날짜4 945 240 255 255 255 255 {{%슬롯날짜4}}
+라벨속성 날짜4 20 아니 NanumGothic
+쓰레드 날짜4
+페이드인 날짜4 500
+쓰레드
+라벨 씬4 945 265 255 215 0 255 {{%슬롯씬이름4}}
+라벨속성 씬4 20 아니 NanumGothic
+쓰레드 씬4
+페이드인 씬4 500
+쓰레드
+라벨 날짜5 165 415 255 255 255 255 {{%슬롯날짜5}}
+라벨속성 날짜5 20 아니 NanumGothic
+쓰레드 날짜5
+페이드인 날짜5 500
+쓰레드
+라벨 씬5 165 440 255 215 0 255 {{%슬롯씬이름5}}
+라벨속성 씬5 20 아니 NanumGothic
+쓰레드 씬5
+페이드인 씬5 500
+쓰레드
+라벨 날짜6 425 415 255 255 255 255 {{%슬롯날짜6}}
+라벨속성 날짜6 20 아니 NanumGothic
+쓰레드 날짜6
+페이드인 날짜6 500
+쓰레드
+라벨 씬6 425 440 255 215 0 255 {{%슬롯씬이름6}}
+라벨속성 씬6 20 아니 NanumGothic
+쓰레드 씬6
+페이드인 씬6 500
+쓰레드
+라벨 날짜7 685 415 255 255 255 255 {{%슬롯날짜7}}
+라벨속성 날짜7 20 아니 NanumGothic
+쓰레드 날짜7
+페이드인 날짜7 500
+쓰레드
+라벨 씬7 685 440 255 215 0 255 {{%슬롯씬이름7}}
+라벨속성 씬7 20 아니 NanumGothic
+쓰레드 씬7
+페이드인 씬7 500
+쓰레드
+라벨 날짜8 945 415 255 255 255 255 {{%슬롯날짜8}}
+라벨속성 날짜8 20 아니 NanumGothic
+쓰레드 날짜8
+페이드인 날짜8 500
+쓰레드
+라벨 씬8 945 440 255 215 0 255 {{%슬롯씬이름8}}
+라벨속성 씬8 20 아니 NanumGothic
+쓰레드 씬8
+페이드인 씬8 500
+쓰레드
+라벨 날짜9 165 590 255 255 255 255 {{%슬롯날짜9}}
+라벨속성 날짜9 20 아니 NanumGothic
+쓰레드 날짜9
+페이드인 날짜9 500
+쓰레드
+라벨 씬9 165 615 255 215 0 255 {{%슬롯씬이름9}}
+라벨속성 씬9 20 아니 NanumGothic
+쓰레드 씬9
+페이드인 씬9 500
+쓰레드
+라벨 날짜10 425 590 255 255 255 255 {{%슬롯날짜10}}
+라벨속성 날짜10 20 아니 NanumGothic
+쓰레드 날짜10
+페이드인 날짜10 500
+쓰레드
+라벨 씬10 425 615 255 215 0 255 {{%슬롯씬이름10}}
+라벨속성 씬10 20 아니 NanumGothic
+쓰레드 씬10
+페이드인 씬10 500
+쓰레드
+라벨 날짜11 685 590 255 255 255 255 {{%슬롯날짜11}}
+라벨속성 날짜11 20 아니 NanumGothic
+쓰레드 날짜11
+페이드인 날짜11 500
+쓰레드
+라벨 씬11 685 615 255 215 0 255 {{%슬롯씬이름11}}
+라벨속성 씬11 20 아니 NanumGothic
+쓰레드 씬11
+페이드인 씬11 500
+쓰레드
+라벨 날짜12 945 590 255 255 255 255 {{%슬롯날짜12}}
+라벨속성 날짜12 20 아니 NanumGothic
+쓰레드 날짜12
+페이드인 날짜12 500
+쓰레드
+라벨 씬12 945 615 255 215 0 255 {{%슬롯씬이름12}}
+라벨속성 씬12 20 아니 NanumGothic
+쓰레드 씬12
+페이드인 씬12 500
+쓰레드
+시스템버튼 메세지박스_protect 0 0 1280 720 스크립트 텅빈.txt 없음 없음 없음
+출력순서 메세지박스_protect -200
+쓰레드시작
+쓰레드대기
+
+// 닫기 버튼입니다.
+버튼 button_back 1184 12 85 85 없음 button_back.png button_back_select.png button_back_push.png 없음 없음
+페이드아웃 button_backcg
+
+키처리 27 여기 종료
+키처리 201 여기 종료
+
+
+
+//변수 로드완료 = 1
+// '닫기' 버튼 선택까지 대기합니다.
+페이드아웃 메세지박스_protect
+버튼대기
+
+// ** 끝
+북마크 종료
+키처리 32 텅빈.txt 첫줄
+키처리 27 
+키처리 201 
+키처리 202
+키처리 112
+
+// 로드 슬롯에 쓰인 시스템버튼도 없애줍니다.
+시스템버튼제거
+
+// 여기서 다시 버튼 제거를 하는 것은 ESC 키를 누르면 한순간에 북마크 '종료'으로 오기 때문입니다.
+// 참고) '버튼'은 한번 선택 후에 지워지지만, '시스템버튼'은 '시스템버튼제거' 명령어가 
+// 있을 때 까지 사라지지 않습니다.
+버튼제거
+
+// 로드화면의 배경을 페이드아웃 시킵니다.
+쓰레드 title_blur페이드아웃
+페이드아웃 title_blur 300
+쓰레드
+쓰레드 title_oct12_blur페이드아웃
+페이드아웃 title_oct12_blur 300
+쓰레드
+쓰레드 title_shine_blur페이드아웃
+페이드아웃 title_shine_blur 300
+쓰레드
+쓰레드 top_layout_01페이드아웃
+페이드아웃 top_layout_01 300
+쓰레드
+쓰레드 top_layout_02페이드아웃
+페이드아웃 top_layout_02 300
+쓰레드
+쓰레드 top_layout_03페이드아웃
+페이드아웃 top_layout_03 300
+쓰레드
+쓰레드 top_layout_04페이드아웃
+페이드아웃 top_layout_04 300
+쓰레드
+쓰레드 top_load페이드아웃
+페이드아웃 top_load 300
+쓰레드
+쓰레드 씬1
+페이드아웃 씬1
+쓰레드
+쓰레드 씬2
+페이드아웃 씬2
+쓰레드
+쓰레드 씬3
+페이드아웃 씬3
+쓰레드
+쓰레드 씬4
+페이드아웃 씬4
+쓰레드
+쓰레드 씬5
+페이드아웃 씬5
+쓰레드
+쓰레드 씬6
+페이드아웃 씬6
+쓰레드
+쓰레드 씬7
+페이드아웃 씬7
+쓰레드
+쓰레드 씬8
+페이드아웃 씬8
+쓰레드
+쓰레드 씬9
+페이드아웃 씬9
+쓰레드
+쓰레드 씬10
+페이드아웃 씬10
+쓰레드
+쓰레드 씬11
+페이드아웃 씬11
+쓰레드
+쓰레드 씬12
+페이드아웃 씬12
+쓰레드
+쓰레드 날짜1
+페이드아웃 날짜1
+쓰레드
+쓰레드 날짜2
+페이드아웃 날짜2
+쓰레드
+쓰레드 날짜3
+페이드아웃 날짜3
+쓰레드
+쓰레드 날짜4
+페이드아웃 날짜4
+쓰레드
+쓰레드 날짜5
+페이드아웃 날짜5
+쓰레드
+쓰레드 날짜6
+페이드아웃 날짜6
+쓰레드
+쓰레드 날짜7
+페이드아웃 날짜7
+쓰레드
+쓰레드 날짜8
+페이드아웃 날짜8
+쓰레드
+쓰레드 날짜9
+페이드아웃 날짜9
+쓰레드
+쓰레드 날짜10
+페이드아웃 날짜10
+쓰레드
+쓰레드 날짜11
+페이드아웃 날짜11
+쓰레드
+쓰레드 날짜12
+페이드아웃 날짜12
+쓰레드
+쓰레드 페이지번호
+페이드아웃 페이지번호
+쓰레드
+쓰레드시작
+조건 대사창열림 = 1 여기 다다음
+페이드인 대사창
+정변수 이름스킵 = 1 
+조건 이름스킵 = 1 여기 다다음
+변수 이름_1 = 0
+조건 name_{{캐릭명}} = 0 이름.txt 이름2 아니면 여기 다다음
+딜레이 500
+북마크 다다음
+키처리 27 기본셋팅.txt 메뉴시작1
+키처리 201 기본셋팅.txt 메뉴시작1
+//키처리 112 도움말.txt 첫줄
