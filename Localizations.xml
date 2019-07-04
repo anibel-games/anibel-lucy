@@ -1,0 +1,29 @@
+﻿<NekoNovel_Localizations>
+    <String Key="SystemDefaultFont">NanumGothic</String>
+    <String Key="ErrorCannotLoadScriptFile">'%s' 스크립트 파일을 로드할 수 없습니다.</String>
+    
+    <String Key="ErrorFailedInitDirect3D9">Direct3D9를 초기화 할 수 없습니다.</String>
+    <String Key="ErrorFailedGetDisplayInfo">모니터 정보를 얻을 수 없습니다.</String>
+    <String Key="ErrorFailedInitDirect3D9Device">Direct3D9 장치를 초기화 할 수 없습니다.(오류 번호 : %u)</String>
+    <String Key="ErrorFailedInitDirect3D9Sprite">Direct3D9 스프라이트를 초기화 할 수 없습니다.(오류 번호 : %u)</String>
+    <String Key="ErrorFailedLoadFont">'%s' 폰트 로드 실패</String>
+    <String Key="ErrorFailedCreateRenderTarget">렌더 타겟 생성 실패, 세이브 화면이 표시되지 않을 수 있습니다.</String>
+    
+    <String Key="MsgQuickLoad">%s\n%s\n게임을 정말 퀵로드 하시겠습니까?</String>
+    <String Key="MsgQuickSaveOverwrite">이전 퀵 세이브 게임\n%s\n%s\n에 덮어쓰시겠습니까?</String>
+    <String Key="MsgLoad">%s\n%s\nЗагрузіць гэтыя даныя?</String>
+    <String Key="MsgSave">%s\n%s\n여기에 저장하시겠습니까?</String>
+    <String Key="MsgSaveOverwrite">%s\n%s\nПеразапісаць захаваныя даныя?</String>
+    <String Key="MsgDeleteGame">%s\n%s\nВы ўпэўнены, што хачаце выдаліць?</String>
+    <String Key="MsgExitGame">'%s'\nСкончыць гульню?</String>
+    %s\n%s\nЗагрузіць гэтыя даныя?
+    %s\n%s\n여기에 저장하시겠습니까?
+    %s\n%s\nПеразапісаць захаваныя даныя?
+    %s\n%s\nВы ўпэўнены, што хачаце выдаліць?
+    Скончыць гульню?
+    %s\n%s\nロードしますか？
+    %s\n%s\n여기에 저장하시겠습니까?
+    %s\n%s\n上書きしますか？
+    %s\n%s\n削除しますか？
+    終了しますか？
+</NekoNovel_Localizations>
